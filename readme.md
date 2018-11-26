@@ -1,4 +1,5 @@
 goodbye
 blabla bla
 nicely done
-hi
+hi 
+how are you
