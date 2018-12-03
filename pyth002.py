@@ -29,4 +29,13 @@ print(check)
 print(x.find("e"))
 #15
 print(x.rfind("e"))
+#17 
+a_variable = "234 4329 7654 8923"
+#18
+a = "234 4329 7654 8923"
+b = a.replace(" ", "")
+c = [int(x) for x in b]
+for y in c:
+ print(y + 3)
+
                       
