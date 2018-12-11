@@ -1,0 +1,8 @@
+x = 7
+print x
+y = 3.14
+if x%2=0 then it is even
+u = (x + y)/2
+v1 = y - u v2 = x - u
+
+
