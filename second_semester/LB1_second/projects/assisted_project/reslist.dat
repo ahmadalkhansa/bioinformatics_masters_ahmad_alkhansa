@@ -1,0 +1,447 @@
+
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+             More info: h5bp.com/b/378 -->
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> --> <!-- Not yet implemented -->
+
+        <title>PDBe &lt; Fold &lt; EMBL-EBI</title>
+        <meta name="description" content="EMBL-EBI"><!-- Describe what this page is about -->
+        <meta name="keywords" content="bioinformatics, europe, institute"><!-- A few keywords that relate to the content of THIS PAGE (not the whol project) -->
+        <meta name="author" content="EMBL-EBI"><!-- Your [project-name] here -->
+
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+<!--MSDMETA-->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+        <!-- CSS: implied media=all -->
+        <!-- CSS concatenated and minified via ant build script-->
+        <link rel="stylesheet" href="/web_guidelines/css/compliance/develop/boilerplate-style.css">
+        <link rel="stylesheet" href="/web_guidelines/css/compliance/develop/ebi-global.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/web_guidelines/css/compliance/develop/ebi-visual.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/web_guidelines/css/compliance/develop/984-24-col-fluid.css" type="text/css" media="screen">
+
+        <!-- you can replace this with [projectname]-colours.css. See http://frontier.ebi.ac.uk/web/style/colour for details of how to do this -->
+        <!-- also inform ES so we can host your colour palette file -->
+
+        <link type="text/css" rel="stylesheet" href="/web_guidelines/css/mitigation/develop/ebi-mitigation.css"/>
+        <link rel="stylesheet" href="/pdbe/static/frontier/css/pdbe-green-colours.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/pdbe/static/frontier/css/local-service.css" type="text/css" media="screen">
+
+        <!-- for production the above can be replaced with -->
+        <!--
+        <link rel="stylesheet" href="//www.ebi.ac.uk/web_guidelines/css/compliance/mini/ebi-fluid-embl.css">
+        -->
+        <style type="text/css">
+            /* You have the option of setting a maximum width for your page, and making sure everything is centered */
+            /* body { max-width: 1600px; margin: 0 auto; } */
+        </style>
+
+ <style type="text/css">
+ 
+table * > table {
+	border: none;
+ }
+
+table.tablewide {
+	width: 75%;
+}
+
+table * > table td {
+	border: none;
+ }
+
+table.tborder {
+		border: 1px solid #AFD9A2;			
+}
+table.noborder {
+	border: 0px solid #ffffff;	
+	padding: 0px, 5px;
+}
+table.inputtable {
+	margin: 0 auto;			
+}
+div.dhead {
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+}
+div.dbody {
+	text-align: center;
+	font-size: medium;
+	font-weight: normal;
+}
+div.dbutton {
+	text-align: center;
+	font-weight: bold;
+}
+div.dsection {
+	text-align: left;
+	font-size: large;
+	font-weight: bold;
+}
+div.phead {
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+}
+td, code  {
+	background: none;
+}
+td, th {
+	text-align: center;
+}
+th {
+	background: #F0FAED;
+}
+td.theader, th.theader {
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
+}
+td.data-left, th.data-left {
+	text-align: left;
+}
+td.data-center, th.data-center {
+	text-align: center;
+}
+td.data-right, th.data-right {
+	text-align: right;
+}
+td.data-bold {
+	font-weight: bold;
+}
+td.data-italic {
+	font-style: italic;
+}
+td.data-small {
+	padding: 1px 0px 1px 0px;
+	border: 0px solid #ffffff;
+	font-size: small;
+}
+
+.residueAlignment {
+	width: 0;
+}
+.standard {
+	width: 0;
+}
+.standard75 {
+	width: 75%;
+}
+.submission {
+	font-size: 90%;
+}
+.form-90 {
+	font-size: 90%;
+}
+.thintable {
+	border: none none;
+	border: 0px solid #ffffff;
+	width: 0;
+	margin: 0px auto;
+}
+		.data-gray {
+		    background-color: #aaa;
+		    color: white;
+		}
+
+		.data-black {
+		    background-color: #666;
+		    color: white;
+		}
+		.data-red {
+		    background-color: #C96C79;
+		    color: white;
+		}
+		.data-green {
+		    background-color: #638658;
+		    color: black;
+		}
+		.data-cyan {
+		    background-color: #9BA3C7;
+		    color: black;
+		}
+		.data-fred {
+		    background-color: #ffffff;
+		    color: red;
+		}
+		.data-fblue {
+		    background-color: #ffffff;
+		    color: blue;
+		}
+		.data-fblack {
+		    background-color: #ffffff;
+		    color: black;
+		}
+
+pre.plain {
+	font-size: small;
+	text-align: center; 
+	padding:0; 
+	background-color:white; 
+	border-width:0;
+}
+
+
+ </style>
+
+<!--MSDSTYLE-->
+
+        <!-- end CSS-->
+
+        <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+             Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+             For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+<!--MSDSCRIPT-->
+        <!-- Full build -->
+        <!-- <script src="//www.ebi.ac.uk/web_guidelines/js/libs/modernizr.minified.2.1.6.js"></script> -->
+
+        <!-- custom build (lacks most of the "advanced" HTML5 support -->
+        <script src="/web_guidelines/js/libs/modernizr.custom.49274.js"></script>
+
+    </head>
+
+    <body class="level2 section-pdbe" onload="loadStartPage()"  > <!-- add any of your classes or IDs -->
+        <div id="skip-to">
+            <ul>
+                <li><a href="#content">Skip to main content</a></li>
+                <li><a href="#local-nav">Skip to local navigation</a></li>
+                <li><a href="#global-nav">Skip to EBI global navigation menu</a></li>
+
+                <li><a href="#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a></li>
+            </ul>
+        </div>
+
+        <div id="wrapper" class="container_24">
+        <div class="headerdiv" id="headerdiv">
+            <div class="header">
+               <div id="global-masthead" class="masthead grid_24">
+                    <!--This has to be one line and no newline characters-->
+                    <a href="//www.ebi.ac.uk/" title="Go to the EMBL-EBI homepage"><img src="//www.ebi.ac.uk/web_guidelines/images/logos/EMBL-EBI/EMBL_EBI_Logo_white.png" alt="EMBL European Bioinformatics Institute"></a>
+
+                    <nav>
+                        <ul id="global-nav">
+                            <!-- set active class as appropriate -->
+                            <li class="first active" id="services"><a href="//www.ebi.ac.uk/services">Services</a></li>
+                            <li id="research"><a href="//www.ebi.ac.uk/research">Research</a></li>
+                            <li id="training"><a href="//www.ebi.ac.uk/training">Training</a></li>
+                            <li id="industry"><a href="//www.ebi.ac.uk/industry">Industry</a></li>
+
+                            <li id="about" class="last"><a href="//www.ebi.ac.uk/about">About us</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+		<div id="local-masthead" class="masthead grid_24">
+
+                    <!-- CHOOSE -->
+                    <div id="local-logo" class="grid_8 alpha">
+                        <div class="grid_24">
+                            <h1 class="float-l heading">
+                                <a href="/pdbe" style="border-bottom-width: 0px;">
+
+                                    <img alt="Protein Data Bank in Europe" title="Go to the Protein Data Bank in Europe homepage" class="logo" src="/pdbe/static/frontier/images/logos/PDBe/logo.png"/>
+                                </a>
+                                <span>Protein Data Bank <br/>in Europe</span>
+
+                            </h1>
+                        </div>
+                        <div class="grid_24">
+                            <h1 class="float-l strapline">Bringing Structure to Biology</h1>
+
+                        </div>
+                    </div>
+                    <div id="local-service" class="grid_16 alpha omega">
+                        <div class="grid_12 omega" style="margin-top: 1em; text-align: center;">
+                            <h1 class="heading">PDBeFold</h1>
+                            <a class="tinyURL" href="http://pdbe.org/ssm">pdbe.org/ssm</a>
+                        </div>
+                        <div class="grid_12 omega" style="float: right; text-align: center;">
+
+                            <div class="affiliate-list omega" style="float: right">
+                                <div class="affiliate" style="background: none;">
+                                    <a href="http://www.wwpdb.org" title="Go to the wwPDB homepage" target="_wwpdb">
+                                        <img alt="wwPDB" src="/pdbe/static/frontier/images/logos/wwPDB/wwpdb.png"/>
+                                    </a>
+                                </div>
+                                <div class="affiliate" style="background: none;">
+                                    <a href="http://emdatabank.org/" title="Go to EMDataBank homepage" target="_empdb">
+                                        <img style="padding-top: 0;" alt="EMDataBank" src="/pdbe/static/frontier/images/logos/EMDataBank/EMDataBank.png"/>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav>
+                        <ul id="local-nav" class="grid_24">
+                            <li class="action last">
+
+                                <div>
+                                    <a onclick="window.open('/pdbe/resources/popups/feedback.html',
+                                        'mywindow',
+                                        'width=600,height=400,toolbar=no,location=no,\n\
+                                                 directories=no,status=no,menubar=no,scrollbars=no, \n\
+                                                 copyhistory=no,resizable=no');return false;" href="">
+                                        <img height="16" style="border:none; text-decoration: none;" alt="" src="/pdbe/static/frontier/images/icons/feedback_w_16.png"/>
+                                        <span>Feedback</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="action">
+
+                                <div>
+                                    <!-- AddThis Button BEGIN -->
+                                    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-5017dfbd59a8b9f0" class="addthis_button">
+                                        <img height="16" style="border:0" alt="" src="/pdbe/static/frontier/images/icons/share_w_16.png"/>
+                                        <span>Share</span>
+                                    </a>
+                                    <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5017dfbd59a8b9f0"></script>
+                                    <!-- AddThis Button END -->
+
+                                </div><!-- do not delete this --><!-- it fixes the IE duplicate characters -->
+                            </li>
+                        </ul>
+                    </nav>
+
+                   <!-- /local-nav -->
+
+                </div>
+            </div>
+        </div>
+
+            <div id="content" role="main" class="grid_24">
+
+                <!-- If you require a breadcrumb trail, its root should be your service.
+                       You don't need a breadcrumb trail on the homepage of your service... -->
+
+                <!--
+                <nav id="breadcrumb">
+                    <p>
+                        <a href="#/link_1">Link 1</a> &gt;
+                        <a href="#/link_2">Link 2</a> &gt;
+                        Link 3
+                    </p>
+                </nav>
+                -->
+
+                <!-- Example layout containers -->
+                <div class="pdbe-content">
+  <!--MSDSSM-->
+                    <!-- End example layout containers -->
+
+                </div><!--<div class="pdbe-content">-->
+            </div>
+
+
+            <footer>
+
+                <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
+                <div id="local-footer" class="grid_24 clearfix"></div>
+                <script type="text/javascript" src="/pdbe/js/pdbe-script.js"></script>
+                <!-- End optional local footer -->
+
+                <div id="global-footer" class="grid_24">
+
+                    <nav id="global-nav-expanded">
+
+                        <div class="grid_4 alpha">
+                            <h3 class="embl-ebi"><a href="//www.ebi.ac.uk/" title="EMBL-EBI">EMBL-EBI</a></h3>
+
+                        </div>
+
+                        <div class="grid_4">
+                            <h3 class="services"><a href="//www.ebi.ac.uk/services">Services</a></h3>
+                        </div>
+
+                        <div class="grid_4">
+                            <h3 class="research"><a href="//www.ebi.ac.uk/research">Research</a></h3>
+                        </div>
+
+                        <div class="grid_4">
+                            <h3 class="training"><a href="//www.ebi.ac.uk/training">Training</a></h3>
+                        </div>
+
+                        <div class="grid_4">
+                            <h3 class="industry"><a href="//www.ebi.ac.uk/industry">Industry</a></h3>
+                        </div>
+
+                        <div class="grid_4 omega">
+                            <h3 class="about"><a href="//www.ebi.ac.uk/about">About us</a></h3>
+                        </div>
+
+                    </nav>
+
+                    <section id="ebi-footer-meta">
+                        <p class="address">EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK &nbsp; &nbsp; +44 (0)1223 49 44 44</p>
+
+                        <p class="legal">Copyright &copy; EMBL-EBI 2012 | EBI is an Outstation of the <a href="http://www.embl.org">European Molecular Biology Laboratory</a> | <a href="/about/privacy">Privacy</a> | <a href="/about/cookies">Cookies</a> | <a href="/about/terms-of-use">Terms of use</a></p>
+                    </section>
+
+                </div>
+
+            </footer>
+        </div> <!--! end of #wrapper -->
+
+
+        <!-- JavaScript at the bottom for fast page loading -->
+
+        <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+
+        <script>window.jQuery || document.write('<script src="./js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+
+
+        <!-- Your custom JavaScript file scan go here... change names accordingly -->
+        <!--
+        <script defer="defer" src="//www.ebi.ac.uk/web_guidelines/js/plugins.js"></script>
+        <script defer="defer" src="//www.ebi.ac.uk/web_guidelines/js/script.js"></script>
+        -->
+        <script defer="defer" src="./js/pdbe-script.js"></script>
+
+
+        <!--<script defer="defer" src="//www.ebi.ac.uk/web_guidelines/js/cookiebanner.js"></script>-->
+
+        <script defer="defer" src="//www.ebi.ac.uk/web_guidelines/js/foot.js"></script>
+        <!-- end scripts-->
+
+        <!-- Google Analytics details... -->
+        <!-- Change UA-XXXXX-X to be your site's ID -->
+        <!--
+        <script>
+          window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+          Modernizr.load({
+            load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+          });
+        </script>
+        -->
+
+
+        <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+             chromium.org/developers/how-tos/chrome-frame-getting-started -->
+
+        <!--[if lt IE 7 ]>
+          <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+          <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+
+    </body>
+</html>
+
+
+
+
+
