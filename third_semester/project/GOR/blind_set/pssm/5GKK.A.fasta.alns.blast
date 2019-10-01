@@ -1,0 +1,2469 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 5GKK.A
+
+Length=170
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P15563|YMN3_PODAN Uncharacterized 49.1 kDa protein in ND3 in...  98.2    2e-23
+  sp|P15564|YMN4_PODAN Uncharacterized 50.9 kDa protein in ND4 in...  83.6    4e-18
+  sp|Q35134|IEND2_NEUCR Probable intron-encoded endonuclease 2 OS...  73.9    1e-14
+  sp|P22191|YMC1_SCHPO Uncharacterized cox1 intron-1 45.6 kDa pro...  68.9    5e-13
+  sp|Q35135|IEND3_NEUCR Probable intron-encoded endonuclease 3 OS...  65.1    1e-11
+  sp|Q35136|IEND4_NEUCR Probable intron-encoded endonuclease 4 OS...  55.1    4e-08
+  sp|P03880|ANI1_EMEND Intron-encoded DNA endonuclease I-AniI OS=...  54.7    5e-08
+  sp|P32761|DNE1_CHLMO DNA endonuclease I-CeuI OS=Chlamydomonas m...  52.4    2e-07
+  sp|Q0H8X8|AI2_USTMA Probable intron-encoded endonuclease aI2 OS...  53.1    2e-07
+  sp|P56347|DNE1_CHLVU DNA endonuclease I-CvuI OS=Chlorella vulga...  47.8    4e-06
+  sp|P22190|YMC2_SCHPO Uncharacterized cox1 intron-2 37.2 kDa pro...  48.1    7e-06
+  sp|Q0H8Y0|AI4_USTMA Probable intron-encoded endonuclease aI4 OS...  47.8    1e-05
+  sp|O73943|APE2_AERPE Homing endonuclease I-ApeII OS=Aeropyrum p...  45.4    3e-05
+  sp|Q0H8Z3|IEND1_USTMA Probable intron-encoded DNA endonuclease ...  46.2    3e-05
+  sp|Q9ZZW7|MBI3_YEAST Cytochrome b mRNA maturase bI3 OS=Saccharo...  44.3    2e-04
+  sp|A9RAH6|AI3_DEBHA Probable intron-encoded endonuclease aI3 OS...  43.1    4e-04
+  sp|Q2LCQ5|AI3_DICCI Probable intron-encoded endonuclease aI3 OS...  42.4    6e-04
+  sp|Q0H8Y1|AI5_USTMA Probable intron-encoded endonuclease aI5 OS...  41.2    0.002
+  sp|O21045|AI3_DICDI Probable intron-encoded endonuclease aI3 OS...  40.8    0.002
+  sp|Q9ZZX0|AI5B_YEAST Intron-encoded DNA endonuclease aI5 beta O...  40.8    0.002
+
+
+> sp|P15563|YMN3_PODAN Uncharacterized 49.1 kDa protein in ND3 
+intron OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 
+980 / FGSC 10383) OX=515849 PE=1 SV=1
+Length=433
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 53/132 (40%), Positives = 76/132 (58%), Gaps = 1/132 (1%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P W+ GFVD EGCF V V +++T K G  V   F + Q  RD  ++ +L ++ GCG  
+Sbjct  299  LNPFWLSGFVDAEGCFSVVVFKSKTSKLGEAVKLSFILTQSNRDEYLIKSLIEYLGCGNT  358
+
+Query  63   RKNHDDRYELRIRKRSCLKK-VVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+              +     + ++   S +K  +V FF K+PLK  KN+DF  F  ++ +ME   HLTKEGL
+Sbjct  359  SLDPRGTIDFKVTNFSSIKDIIVPFFIKYPLKGNKNLDFTDFCEVVRLMENKSHLTKEGL  418
+
+Query  122  IKILEIAMEMNT  133
+             +I +I   MNT
+Sbjct  419  DQIKKIRNRMNT  430
+
+
+ Score = 95.1 bits (235),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 52/156 (33%), Positives = 84/156 (54%), Gaps = 1/156 (1%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P ++ GFVDGEG F + + ++   K G++V+  F I  HK+D+ +L  +++FF  G V
+Sbjct  142  LNPSYISGFVDGEGSFMLTIIKDNKYKLGWRVVCRFVISLHKKDLSLLNKIKEFFDVGNV  201
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLI  122
+                 D  + R+     L  ++  F+K+PL TKK  D+K F+    +++   HLTKEGL+
+Sbjct  202  FLMTKDSAQYRVESLKGLDLIINHFDKYPLITKKQADYKLFKMAHNLIKNKSHLTKEGLL  261
+
+Query  123  KILEIAMEMNTGNHERLKRTLEEIRG-LDEDTVHPH  157
+            +++ I   +N G +  L      I   L  DT  P 
+Sbjct  262  ELVAIKAVINNGLNNDLSIAFPGINTILRPDTSLPQ  297
+
+
+> sp|P15564|YMN4_PODAN Uncharacterized 50.9 kDa protein in ND4 
+intron 1 OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 
+980 / FGSC 10383) OX=515849 PE=4 SV=1
+Length=449
+
+ Score = 83.6 bits (205),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 37/118 (31%), Positives = 73/118 (62%), Gaps = 2/118 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIV--QHKRDIQVLYALRKFFGCG  60
+            L P ++ GFVD EGCF +G++++   ++GYQV   F+I   + ++D  +L  +R +FG G
+Sbjct  332  LDPWFITGFVDAEGCFMIGLTKSELYRSGYQVTAIFKISLRRTRKDYTLLCQIRDYFGIG  391
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTK  118
+            ++ K+ +   +  +R    L  ++  F+ +PL ++K  D+  F++ +++++  EHLTK
+Sbjct  392  IITKHGETTLQYMVRSIKDLNVILSHFDAYPLFSQKRSDYILFKQAIVLIKNKEHLTK  449
+
+
+> sp|Q35134|IEND2_NEUCR Probable intron-encoded endonuclease 2 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16009 PE=3 SV=2
+Length=452
+
+ Score = 73.9 bits (180),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 47/147 (32%), Positives = 76/147 (52%), Gaps = 3/147 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-GCGV  61
+            L P ++ GF D EG F V + +N   K G+ V   F+I  +++D  +L  ++ +F   G 
+Sbjct  145  LNPSFITGFSDAEGSFVVTILKNPRYKIGWNVQARFQIKLNEKDRALLLLIQNYFDNIGY  204
+
+Query  62   VRKNHD-DRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKE  119
+            + K +D    E R+   + L  ++   FEK+ L T K  D   F++I+ +M   +H T E
+Sbjct  205  ISKINDRSTVEFRVSDITSLNNIIIPHFEKYQLITNKYGDLVIFKQIVSLMLENKHTTLE  264
+
+Query  120  GLIKILEIAMEMNTGNHERLKRTLEEI  146
+            GL +ILE    +N G  + LK +   I
+Sbjct  265  GLKEILEHRASLNWGLSKTLKESFPSI  291
+
+
+ Score = 69.7 bits (169),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 41/124 (33%), Positives = 68/124 (55%), Gaps = 9/124 (7%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVR--  63
+            +WV GF  GE  F++ +S       G +V   F I Q  RDI +L +L KFF CG +   
+Sbjct  318  NWVAGFSSGEANFFITMS-------GTKVWLRFSIAQDSRDILLLKSLVKFFNCGYIAQY  370
+
+Query  64   KNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIK  123
+            KN      +  +    +  ++ FF+++ ++  K  D+ KF+   I+++  EHLT++GL K
+Sbjct  371  KNRKVCEFIVTKINDIIIYIIPFFDQYKIEGSKYNDYVKFKEAAILIKNKEHLTEKGLNK  430
+
+Query  124  ILEI  127
+            I+E+
+Sbjct  431  IIEL  434
+
+
+> sp|P22191|YMC1_SCHPO Uncharacterized cox1 intron-1 45.6 kDa protein 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPMIT.02 PE=4 SV=3
+Length=384
+
+ Score = 68.9 bits (167),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 37/126 (29%), Positives = 71/126 (56%), Gaps = 3/126 (2%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+             W+VGF DG+GCF +   + +  K  + +   F++ Q+  + ++LY +++  G G + K 
+Sbjct  109  QWLVGFTDGDGCFSISKQKIKNGKNKWSL--TFKLTQNLYNYRILYFIKRNLGIGSLYKE  166
+
+Query  66   HDDRYEL-RIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKI  124
+                  + R+R+R  LKK+++ F++ PL TKK  D+  F++  +++E     + E   K+
+Sbjct  167  SSTNTVIYRLRRREHLKKIIDIFDQFPLLTKKYWDYYLFKKAFLILEDANLNSFEKNSKL  226
+
+Query  125  LEIAME  130
+             EI +E
+Sbjct  227  EEIRIE  232
+
+
+> sp|Q35135|IEND3_NEUCR Probable intron-encoded endonuclease 3 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16010 PE=3 SV=2
+Length=533
+
+ Score = 65.1 bits (157),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 46/137 (34%), Positives = 75/137 (55%), Gaps = 3/137 (2%)
+
+Query  7    WV-VGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-GCGVVR-  63
+            WV  G +DGEG F + V RN++ K G++   +F++  H +D+ +LY L+++  G G +  
+Sbjct  246  WVWSGLIDGEGSFNIIVDRNKSRKLGWRAQLKFQLSLHTKDLNLLYLLQQYLGGIGSIHL  305
+
+Query  64   KNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIK  123
+              + D     I     L K++   E +PL T+K  DF  F++ + ++    HLT EGL +
+Sbjct  306  ARNRDIVNYSIDSIEDLNKLIIHLENYPLLTQKAADFFLFKQAVKLVNNKAHLTVEGLNQ  365
+
+Query  124  ILEIAMEMNTGNHERLK  140
+            I+ I   MN G  + LK
+Sbjct  366  IVNIKASMNLGLSDTLK  382
+
+
+ Score = 55.5 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 62/124 (50%), Gaps = 3/124 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P W+ GFV  EG F V +    + K GY+V   FRI   + DI+++  + ++FG G +
+Sbjct  403  LDPYWISGFVSAEGNFDVRMPSTNS-KLGYRVQLRFRISTLRVDIRLMEKIVEYFGSGKI  461
+
+Query  63   RK-NHDDRYELRIRKRSCLKKV-VEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEG  120
+             K        L I   + +  + V FF K+P+   K  D+  + +I  +M    HLT EG
+Sbjct  462  YKYGGKSAVSLTIVDFTDITNILVPFFNKYPIIGIKLYDYLDWCKIHSLMINRSHLTVEG  521
+
+Query  121  LIKI  124
+            +  I
+Sbjct  522  INSI  525
+
+
+> sp|Q35136|IEND4_NEUCR Probable intron-encoded endonuclease 4 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16011 PE=3 SV=2
+Length=545
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 33/97 (34%), Positives = 49/97 (51%), Gaps = 12/97 (12%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            W +GFV+G+G F +        K GY    EFRI Q   D Q+L+ ++K  G GVVRK  
+Sbjct  302  WFIGFVEGDGSFIIN-------KDGYL---EFRITQSSPDAQILFMIKKELGFGVVRKQD  351
+
+Query  67   DDR--YELRIRKRSCLKKVVEFFEKHPLKTKKNVDFK  101
+              R  +  R+R ++ L K++  F  +     +   FK
+Sbjct  352  SVRNTHCYRVRDKNNLIKLISIFNGNIFLDTRKEQFK  388
+
+
+ Score = 45.1 bits (105),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 34/138 (25%), Positives = 62/138 (45%), Gaps = 5/138 (4%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFR-IVQHKRDIQVLYALRKFFGCG  60
+            +L   W+ GF D EGCF   V  N   K+    L   R I+  K +   +  L +  G  
+Sbjct  412  NLDNAWLSGFTDAEGCFTCSVYDN---KSNTAKLVRLRYILSQKGNSSCMEYLAEILGGK  468
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEG  120
+                   + Y + +     L  +V++F  +PLKTKK + +  + +I  ++   +H   E 
+Sbjct  469  KHLLKSYEGYNVTVNTTK-LSPIVQYFNLYPLKTKKYITYFNWIKIYKLVIDKKHNDPEN  527
+
+Query  121  LIKILEIAMEMNTGNHER  138
+            L+ I++    +N  ++ +
+Sbjct  528  LLLIMKYKNNINKSDYNK  545
+
+
+> sp|P03880|ANI1_EMEND Intron-encoded DNA endonuclease I-AniI OS=Emericella 
+nidulans OX=162425 GN=I-AniI PE=1 SV=3
+Length=488
+
+ Score = 54.7 bits (130),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 59/111 (53%), Gaps = 11/111 (10%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+            DL   ++VG  +G+G F +        K G  +  E  I    +D+Q++Y ++K  G G+
+Sbjct  237  DLTYAYLVGLFEGDGYFSI-------TKKGKYLTYELGIELSIKDVQLIYKIKKILGIGI  289
+
+Query  62   V---RKNHDDRYELRIRKRSCLKK-VVEFFEKHPLKTKKNVDFKKFRRILI  108
+            V   + N  +   LRIR ++ LK  ++  FEK+P+ + K  D+ +FR  L+
+Sbjct  290  VSFRKINEIEMVALRIRDKNHLKSFILPIFEKYPMFSNKQYDYLRFRNALL  340
+
+
+ Score = 40.0 bits (92),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 52/104 (50%), Gaps = 9/104 (9%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV-VRKN  65
+            W+VGF++ EGCF    S  +  K    ++  F I Q   DI ++ A+RK+      V  +
+Sbjct  374  WLVGFIEAEGCF----SVYKLNKDDDYLIASFDIAQRDGDI-LISAIRKYLSFTTKVYLD  428
+
+Query  66   HDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIM  109
+              +  +L++     ++ +++F +  P+K   N   KK + +L +
+Sbjct  429  KTNCSKLKVTSVRSVENIIKFLQNAPVKLLGN---KKLQYLLWL  469
+
+
+> sp|P32761|DNE1_CHLMO DNA endonuclease I-CeuI OS=Chlamydomonas 
+moewusii OX=3054 PE=1 SV=1
+Length=218
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 41/135 (30%), Positives = 64/135 (47%), Gaps = 13/135 (10%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVR--K  64
+            ++ GF++GE    +   +  T K G  V PEF + QH   ++VLY   + F  G +R   
+Sbjct  58   FLAGFLEGEASLNISTKKLATSKFGLVVDPEFNVTQHVNGVKVLYLALEVFKTGRIRHKS  117
+
+Query  65   NHDDRYELRIRKRSCL-KKVVEFFEKH------PLKTKKNVDFKKFRRILIMMERGEHLT  117
+              +    L I  R  L +KV+ F+E++      P K K+  +FK    +L +     H  
+Sbjct  118  GSNATLVLTIDNRQSLEEKVIPFYEQYVVAFSSPEKVKRVANFKA---LLELFNNDAHQD  174
+
+Query  118  KEGLI-KILEIAMEM  131
+             E L+ KIL I  +M
+Sbjct  175  LEQLVNKILPIWDQM  189
+
+
+> sp|Q0H8X8|AI2_USTMA Probable intron-encoded endonuclease aI2 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI2 
+PE=3 SV=2
+Length=533
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 30/108 (28%), Positives = 57/108 (53%), Gaps = 9/108 (8%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+            +W+VG  DG+G FY      +T K  +     F+I Q   +I++LY ++   G G V   
+Sbjct  257  EWLVGITDGDGTFYFA----KTKKGIWSF--SFQIGQSNYNIRLLYYIKSMLGIGSVSVT  310
+
+Query  66   H--DDRYELRIRK-RSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMM  110
+            H  D+    R+R  +  ++ ++  F+ +PL T K  ++  F++ +++M
+Sbjct  311  HAKDNTAHYRVRNIQHIIQYILPIFDTYPLLTSKYFNYDLFKKAILIM  358
+
+
+> sp|P56347|DNE1_CHLVU DNA endonuclease I-CvuI OS=Chlorella vulgaris 
+OX=3077 PE=1 SV=1
+Length=161
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 37/83 (45%), Gaps = 0/83 (0%)
+
+Query  3   LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+           LK  W+ GFVD +GC    +         YQV     + Q      +L  ++K  GCG V
+Sbjct  10  LKFAWLAGFVDADGCINAQIVSREDYLLKYQVRVSLTVFQSTTRHFILLDIQKILGCGTV  69
+
+Query  63  RKNHDDRYELRIRKRSCLKKVVE  85
+           RK +D   E  +   + L+  +E
+Sbjct  70  RKRNDGMSEFCVVGGTSLQTTLE  92
+
+
+> sp|P22190|YMC2_SCHPO Uncharacterized cox1 intron-2 37.2 kDa protein 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPMIT.03 PE=4 SV=1
+Length=323
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 30/118 (25%), Positives = 58/118 (49%), Gaps = 5/118 (4%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            W+ GF D +  F + +  NR  K   +V   ++I Q K    +L  ++   G  +  +  
+Sbjct  200  WLAGFSDADASFQIKI-LNRDKKI--EVRLNYQIDQKKE--YLLSLIKDNLGGNIGYRKS  254
+
+Query  67   DDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKI  124
+             D Y          KKV+ +F+ + L + K + + K+R+  ++++  +HLT+ GL +I
+Sbjct  255  QDTYYYGSTSFGSAKKVINYFDNYHLLSSKYISYLKWRKAYLIIQENKHLTESGLSQI  312
+
+
+> sp|Q0H8Y0|AI4_USTMA Probable intron-encoded endonuclease aI4 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI4 
+PE=3 SV=2
+Length=530
+
+ Score = 47.8 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 38/138 (28%), Positives = 64/138 (46%), Gaps = 20/138 (14%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLP-EFRIVQHKRD------IQVLYALRKFFGC  59
+            W+ GF++ +G F V  S    + + Y  L   F +VQ +          ++  +  F   
+Sbjct  389  WLSGFIEADGSFQVRTS----LSSKYPRLSLSFELVQSRITHYGFTMFTIMQEIAIFLET  444
+
+Query  60   GV-----VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGE  114
+             V      RKN   +Y LR       K + ++  K+PLK  K +DFK + ++L   E+G 
+Sbjct  445  NVNEIRSERKN--PQYRLRTSSLKTNKNIRDYLVKYPLKGTKYLDFKDWCKVLSYFEQGT  502
+
+Query  115  HLTKEGLIKILEIAMEMN  132
+            H+  +   +I+EI  +MN
+Sbjct  503  HM--DNTARIVEIKSQMN  518
+
+
+> sp|O73943|APE2_AERPE Homing endonuclease I-ApeII OS=Aeropyrum 
+pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 
+/ K1) OX=272557 GN=apeII PE=3 SV=2
+Length=167
+
+ Score = 45.4 bits (106),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 74/165 (45%), Gaps = 17/165 (10%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG-VVRKN  65
+            +V G +D E    V +     ++   +V P F I Q  +D  VL  ++ +FGCG ++ K 
+Sbjct  9    YVAGIIDAEASLSVSIKIQEDLRCRVRVDPVFSITQDSKD--VLNVVKNYFGCGRLMPKP  66
+
+Query  66   HDDRYELRIRKR-----SCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEG  120
+              +   L +  R      CL   +   ++ PL  KK   F+ FR I++ + R ++   E 
+Sbjct  67   GQEHLTLYVVDRLEALADCL---IPKLDRLPLIVKKR-GFEMFREIVLTLTRMKYRRVEC  122
+
+Query  121  LI---KILEIAMEMNTGNHERLKRTLEEIRGL--DEDTVHPHSER  160
+             +    +L+     +     + KR+LEEI  +   +  V P  ER
+Sbjct  123  CVIRDLVLKSYSLSSLNKKSKRKRSLEEILKIIPCDKAVEPPGER  167
+
+
+> sp|Q0H8Z3|IEND1_USTMA Probable intron-encoded DNA endonuclease 
+1 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=hegI1 
+PE=3 SV=1
+Length=268
+
+ Score = 46.2 bits (108),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 34/129 (26%), Positives = 59/129 (46%), Gaps = 11/129 (9%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            W+ GF   +G F V     +     Y   P F + Q+ R+ Q++  L    G G   K +
+Sbjct  12   WLTGFTQADGGFVVNFDARKQGNLPYYPRPSFVLTQNIREEQMMIELH---GVG---KLY  65
+
+Query  67   DDRYELRIRKRS---CLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIK  123
+              R E+ I  RS       ++  F+ + L+  K   +  F+ +++MM  G+HL+    ++
+Sbjct  66   YSRNEINIVVRSQDDITNVIIPHFDNYSLRGHKLSSYFLFKEVVLMMNNGKHLSP--FLQ  123
+
+Query  124  ILEIAMEMN  132
+            ILE+    N
+Sbjct  124  ILELCYFTN  132
+
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 47/93 (51%), Gaps = 8/93 (9%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVR--  63
+            D++VG VDG+G F  G    R      +++P F IVQ   D  VL  ++ +  CG V   
+Sbjct  177  DYMVGLVDGDGSFNFGFKSTRR-----RIVPNFTIVQGVEDRSVLEDVQSYLDCGKVYDL  231
+
+Query  64   KNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKK  96
+            ++   RY++       ++KV+  F+++   T K
+Sbjct  232  QSQTSRYQVE-NVTDLVEKVLPEFKENKFNTTK  263
+
+
+> sp|Q9ZZW7|MBI3_YEAST Cytochrome b mRNA maturase bI3 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BI3 
+PE=1 SV=1
+Length=517
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 32/111 (29%), Positives = 57/111 (51%), Gaps = 16/111 (14%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVR---  63
+            ++ G  +G+G  ++ +S     K G  +L E  I  H RDIQ+LY ++   G G V    
+Sbjct  267  YIGGLFEGDG--WITIS-----KKGKYLLYELGIEMHIRDIQLLYKIKNILGIGKVTIKK  319
+
+Query  64   -KNHD----DRYELRIRKRSCLKK-VVEFFEKHPLKTKKNVDFKKFRRILI  108
+             K  D    +  +  +R ++ LK  ++  F+K+P+ T K+ D+  F+  L+
+Sbjct  320  LKMKDGTIKEMCKFNVRNKNHLKNIIIPIFDKYPMLTNKHYDYLYFKDNLL  370
+
+
+ Score = 39.7 bits (91),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 24/108 (22%), Positives = 54/108 (50%), Gaps = 14/108 (13%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            W++GF + E CF +    N+ MKT       F + Q+   ++V+ A++ +    + +  +
+Sbjct  404  WLIGFFEAESCFSIYKPMNKKMKTA-----SFEVSQNN-SMEVMLAIKSYL--KITQNIY  455
+
+Query  67   DDRY---ELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMME  111
+             D++    +  +  + +K VV F   +P+K    + +KK + +L + +
+Sbjct  456  TDKFNNSRMTTKSINGIKNVVMFINNNPIKL---LGYKKLQYLLFLKD  500
+
+
+> sp|A9RAH6|AI3_DEBHA Probable intron-encoded endonuclease aI3 
+OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 
+1990 / NBRC 0083 / IGC 2968) OX=284592 GN=aI3 PE=3 SV=1
+Length=687
+
+ Score = 43.1 bits (100),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 24/98 (24%), Positives = 45/98 (46%), Gaps = 12/98 (12%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-GCGVVRKN  65
+            W+ GF++ EGCF + ++++ +   G              D  ++  +++FF     VR +
+Sbjct  599  WLSGFMEAEGCFSIRLNKSNSFSMG-----------QNDDFYLMEEIKQFFNATNSVRNS  647
+
+Query  66   HDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKF  103
+            + + Y L I KR  L  ++     +PL  +K     KF
+Sbjct  648  YKNFYCLEIYKRIMLNNIITHCSNYPLLGEKKESLMKF  685
+
+
+> sp|Q2LCQ5|AI3_DICCI Probable intron-encoded endonuclease aI3 
+OS=Dictyostelium citrinum OX=361072 GN=aI3 PE=3 SV=1
+Length=243
+
+ Score = 42.4 bits (98),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 24/103 (23%), Positives = 52/103 (50%), Gaps = 12/103 (12%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV-VRK  64
+            +W+ GFV+ EGCF +  S   +             +  K +  +L  +++FF     +++
+Sbjct  152  EWLSGFVEAEGCFCIRTSTYHSFS-----------ISQKYEKVLLSQIKEFFNITTQIKE  200
+
+Query  65   NHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRIL  107
+            +  + + L + K+  L+K++  F ++PL  +KN  F++F+   
+Sbjct  201  SKKNIFLLEVYKKVILQKLIHHFIEYPLLGEKNKSFERFKNFF  243
+
+
+> sp|Q0H8Y1|AI5_USTMA Probable intron-encoded endonuclease aI5 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI5 
+PE=3 SV=2
+Length=536
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 29/118 (25%), Positives = 55/118 (47%), Gaps = 9/118 (8%)
+
+Query  6    DWVVGFVDGE---GCFYVGVSRNRTMKTGYQVLPEFRIVQH-KRDIQVLYALRKFFGCGV  61
+            +W  GF D     GCF   +  N    T Y+    F + Q  + + +VL ++       V
+Sbjct  410  NWFCGFTDARHPRGCFTCSLLGN---STAYRF--RFLLTQKGEMNKEVLISIANLMKGTV  464
+
+Query  62   VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKE  119
+               +  D YE+ +     ++K++++F  H L +KK   ++ +  I   ++ GEHL+ +
+Sbjct  465  RSHSVKDVYEITVNGIRNMEKIIDYFTNHKLYSKKAKSYQIWLEIYESIKNGEHLSPD  522
+
+
+> sp|O21045|AI3_DICDI Probable intron-encoded endonuclease aI3 
+OS=Dictyostelium discoideum OX=44689 GN=aI3 PE=3 SV=1
+Length=232
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 30/100 (30%), Positives = 50/100 (50%), Gaps = 12/100 (12%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALR-KFFGCGVVRK  64
+            +W  GFV+  G F +     R  K  Y     FRI  H+ D+ +L  L  KF     +R+
+Sbjct  142  EWFSGFVEATGSFCI-----RAQKEKY-----FRIA-HRYDMPLLLNLIIKFNITTKLRE  190
+
+Query  65   NHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFR  104
+              +++Y + I K++ L+ ++  FEK+PL   K    + F+
+Sbjct  191  QKNEQYAIEIYKKTLLEVLITHFEKYPLLGDKKNSLETFK  230
+
+
+> sp|Q9ZZX0|AI5B_YEAST Intron-encoded DNA endonuclease aI5 beta 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=AI5_BETA PE=3 SV=1
+Length=354
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 26/101 (26%), Positives = 50/101 (50%), Gaps = 11/101 (11%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            + L P W+ GF D +G FY G  +++      Q L +F +   ++D  +L  ++K+F  G
+Sbjct  195  LTLNP-WLTGFNDADGYFYTGFQKHKNS----QWL-KFHLELSQKDSYILDIIKKYFKTG  248
+
+Query  61   VV----RKNHDDRYELRIRKRSCLKKVVEFFEKH-PLKTKK  96
+             +     K+    Y  + +    +K  +E+F  + PL T++
+Sbjct  249  GILKRDYKSGATAYIYKAQSSKAMKPFIEYFNNYQPLSTRR  289
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.142    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8562461542
+Results from round 2
+
+
+Query= 5GKK.A
+
+Length=170
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q35134|IEND2_NEUCR Probable intron-encoded endonuclease 2 OS...  154     2e-44
+  sp|P15563|YMN3_PODAN Uncharacterized 49.1 kDa protein in ND3 in...  150     7e-43
+  sp|O73943|APE2_AERPE Homing endonuclease I-ApeII OS=Aeropyrum p...  129     2e-37
+  sp|P15564|YMN4_PODAN Uncharacterized 50.9 kDa protein in ND4 in...  135     4e-37
+  sp|Q35135|IEND3_NEUCR Probable intron-encoded endonuclease 3 OS...  135     1e-36
+  sp|P22191|YMC1_SCHPO Uncharacterized cox1 intron-1 45.6 kDa pro...  120     5e-32
+  sp|Q0H8Z3|IEND1_USTMA Probable intron-encoded DNA endonuclease ...  118     5e-32
+  sp|Q0H8Y0|AI4_USTMA Probable intron-encoded endonuclease aI4 OS...  107     2e-26
+  sp|Q0H8X8|AI2_USTMA Probable intron-encoded endonuclease aI2 OS...  107     2e-26
+  sp|Q35136|IEND4_NEUCR Probable intron-encoded endonuclease 4 OS...  107     3e-26
+  sp|P22190|YMC2_SCHPO Uncharacterized cox1 intron-2 37.2 kDa pro...  103     8e-26
+  sp|P56347|DNE1_CHLVU DNA endonuclease I-CvuI OS=Chlorella vulga...  94.7    7e-24
+  sp|P03880|ANI1_EMEND Intron-encoded DNA endonuclease I-AniI OS=...  99.0    2e-23
+  sp|P32761|DNE1_CHLMO DNA endonuclease I-CeuI OS=Chlamydomonas m...  94.4    3e-23
+  sp|Q0H8Y1|AI5_USTMA Probable intron-encoded endonuclease aI5 OS...  98.6    3e-23
+  sp|A9RAH6|AI3_DEBHA Probable intron-encoded endonuclease aI3 OS...  97.4    9e-23
+  sp|Q9ZZW7|MBI3_YEAST Cytochrome b mRNA maturase bI3 OS=Saccharo...  87.0    3e-19
+  sp|Q2LCQ5|AI3_DICCI Probable intron-encoded endonuclease aI3 OS...  83.2    1e-18
+  sp|O21045|AI3_DICDI Probable intron-encoded endonuclease aI3 OS...  76.3    3e-16
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P03881|YMRF1_YEAST Uncharacterized mitochondrial protein RF1...  62.8    9e-11
+  sp|Q9ZZX0|AI5B_YEAST Intron-encoded DNA endonuclease aI5 beta O...  62.0    1e-10
+  sp|P03877|SCE3_YEAST Intron-encoded DNA endonuclease aI3 OS=Sac...  61.2    3e-10
+  sp|P05725|DNE1_CHLRE DNA endonuclease I-CreI OS=Chlamydomonas r...  58.9    3e-10
+  sp|Q0H8X7|AI1_USTMA Probable intron-encoded DNA endonuclease aI...  53.5    1e-08
+  sp|A9RAG7|MBI3_DEBHA Cytochrome b mRNA maturase bI3 OS=Debaryom...  53.9    8e-08
+  sp|P12294|ENS2_YEASX Endonuclease SceI small subunit OS=Sacchar...  51.6    6e-07
+  sp|O21044|AI2B_DICDI Intron-encoded DNA endonuclease ai2b OS=Di...  51.2    7e-07
+  sp|Q6DN58|AI3_KLULA Probable intron-encoded endonuclease aI3 OS...  49.7    3e-06
+  sp|P0CY43|MBI3_NEUCR Cytochrome b mRNA maturase bI3 OS=Neurospo...  47.7    1e-05
+  sp|P03879|MBI4_YEAST Intron-encoded RNA maturase bI4 OS=Sacchar...  47.4    2e-05
+  sp|P03878|SCE2_YEAST Intron-encoded DNA endonuclease aI4 OS=Sac...  47.4    2e-05
+  sp|Q0H8Y3|AI8_USTMA Probable intron-encoded endonuclease aI8 OS...  46.6    3e-05
+  sp|A9RAH7|AI2_DEBHA Probable intron-encoded endonuclease aI2 OS...  45.0    1e-04
+
+
+> sp|Q35134|IEND2_NEUCR Probable intron-encoded endonuclease 2 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16009 PE=3 SV=2
+Length=452
+
+ Score = 154 bits (390),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 47/147 (32%), Positives = 76/147 (52%), Gaps = 3/147 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-GCGV  61
+            L P ++ GF D EG F V + +N   K G+ V   F+I  +++D  +L  ++ +F   G 
+Sbjct  145  LNPSFITGFSDAEGSFVVTILKNPRYKIGWNVQARFQIKLNEKDRALLLLIQNYFDNIGY  204
+
+Query  62   VRKNHD-DRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKE  119
+            + K +D    E R+   + L  ++   FEK+ L T K  D   F++I+ +M   +H T E
+Sbjct  205  ISKINDRSTVEFRVSDITSLNNIIIPHFEKYQLITNKYGDLVIFKQIVSLMLENKHTTLE  264
+
+Query  120  GLIKILEIAMEMNTGNHERLKRTLEEI  146
+            GL +ILE    +N G  + LK +   I
+Sbjct  265  GLKEILEHRASLNWGLSKTLKESFPSI  291
+
+
+ Score = 87.4 bits (215),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 40/128 (31%), Positives = 69/128 (54%), Gaps = 9/128 (7%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRK-  64
+            +WV GF  GE  F++ +S  +       V   F I Q  RDI +L +L KFF CG + + 
+Sbjct  318  NWVAGFSSGEANFFITMSGTK-------VWLRFSIAQDSRDILLLKSLVKFFNCGYIAQY  370
+
+Query  65   NHDDRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIK  123
+             +    E  + K + +   +  FF+++ ++  K  D+ KF+   I+++  EHLT++GL K
+Sbjct  371  KNRKVCEFIVTKINDIIIYIIPFFDQYKIEGSKYNDYVKFKEAAILIKNKEHLTEKGLNK  430
+
+Query  124  ILEIAMEM  131
+            I+E+   +
+Sbjct  431  IIELKNSL  438
+
+
+> sp|P15563|YMN3_PODAN Uncharacterized 49.1 kDa protein in ND3 
+intron OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 
+980 / FGSC 10383) OX=515849 PE=1 SV=1
+Length=433
+
+ Score = 150 bits (379),  Expect = 7e-43, Method: Composition-based stats.
+ Identities = 52/156 (33%), Positives = 84/156 (54%), Gaps = 1/156 (1%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P ++ GFVDGEG F + + ++   K G++V+  F I  HK+D+ +L  +++FF  G V
+Sbjct  142  LNPSYISGFVDGEGSFMLTIIKDNKYKLGWRVVCRFVISLHKKDLSLLNKIKEFFDVGNV  201
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLI  122
+                 D  + R+     L  ++  F+K+PL TKK  D+K F+    +++   HLTKEGL+
+Sbjct  202  FLMTKDSAQYRVESLKGLDLIINHFDKYPLITKKQADYKLFKMAHNLIKNKSHLTKEGLL  261
+
+Query  123  KILEIAMEMNTGNHERLKRTLEEIRG-LDEDTVHPH  157
+            +++ I   +N G +  L      I   L  DT  P 
+Sbjct  262  ELVAIKAVINNGLNNDLSIAFPGINTILRPDTSLPQ  297
+
+
+ Score = 148 bits (374),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 52/135 (39%), Positives = 76/135 (56%), Gaps = 1/135 (1%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P W+ GFVD EGCF V V +++T K G  V   F + Q  RD  ++ +L ++ GCG  
+Sbjct  299  LNPFWLSGFVDAEGCFSVVVFKSKTSKLGEAVKLSFILTQSNRDEYLIKSLIEYLGCGNT  358
+
+Query  63   RKNHDDRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+              +     + ++   S +K ++  FF K+PLK  KN+DF  F  ++ +ME   HLTKEGL
+Sbjct  359  SLDPRGTIDFKVTNFSSIKDIIVPFFIKYPLKGNKNLDFTDFCEVVRLMENKSHLTKEGL  418
+
+Query  122  IKILEIAMEMNTGNH  136
+             +I +I   MNT   
+Sbjct  419  DQIKKIRNRMNTNRK  433
+
+
+> sp|O73943|APE2_AERPE Homing endonuclease I-ApeII OS=Aeropyrum 
+pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 
+/ K1) OX=272557 GN=apeII PE=3 SV=2
+Length=167
+
+ Score = 129 bits (325),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 41/162 (25%), Positives = 73/162 (45%), Gaps = 11/162 (7%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV-VRKN  65
+            +V G +D E    V +     ++   +V P F I Q  +D  VL  ++ +FGCG  + K 
+Sbjct  9    YVAGIIDAEASLSVSIKIQEDLRCRVRVDPVFSITQDSKD--VLNVVKNYFGCGRLMPKP  66
+
+Query  66   HDDRYELRIRKR--SCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLI-  122
+              +   L +  R  +    ++   ++ PL  KK   F+ FR I++ + R ++   E  + 
+Sbjct  67   GQEHLTLYVVDRLEALADCLIPKLDRLPLIVKKR-GFEMFREIVLTLTRMKYRRVECCVI  125
+
+Query  123  --KILEIAMEMNTGNHERLKRTLEEIRGL--DEDTVHPHSER  160
+               +L+     +     + KR+LEEI  +   +  V P  ER
+Sbjct  126  RDLVLKSYSLSSLNKKSKRKRSLEEILKIIPCDKAVEPPGER  167
+
+
+> sp|P15564|YMN4_PODAN Uncharacterized 50.9 kDa protein in ND4 
+intron 1 OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 
+980 / FGSC 10383) OX=515849 PE=4 SV=1
+Length=449
+
+ Score = 135 bits (340),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 37/118 (31%), Positives = 73/118 (62%), Gaps = 2/118 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIV--QHKRDIQVLYALRKFFGCG  60
+            L P ++ GFVD EGCF +G++++   ++GYQV   F+I   + ++D  +L  +R +FG G
+Sbjct  332  LDPWFITGFVDAEGCFMIGLTKSELYRSGYQVTAIFKISLRRTRKDYTLLCQIRDYFGIG  391
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTK  118
+            ++ K+ +   +  +R    L  ++  F+ +PL ++K  D+  F++ +++++  EHLTK
+Sbjct  392  IITKHGETTLQYMVRSIKDLNVILSHFDAYPLFSQKRSDYILFKQAIVLIKNKEHLTK  449
+
+
+> sp|Q35135|IEND3_NEUCR Probable intron-encoded endonuclease 3 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16010 PE=3 SV=2
+Length=533
+
+ Score = 135 bits (340),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 45/147 (31%), Positives = 76/147 (52%), Gaps = 2/147 (1%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFG-C  59
+            + + P    G +DGEG F + V RN++ K G++   +F++  H +D+ +LY L+++ G  
+Sbjct  241  LRVNPWVWSGLIDGEGSFNIIVDRNKSRKLGWRAQLKFQLSLHTKDLNLLYLLQQYLGGI  300
+
+Query  60   GVVR-KNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTK  118
+            G +    + D     I     L K++   E +PL T+K  DF  F++ + ++    HLT 
+Sbjct  301  GSIHLARNRDIVNYSIDSIEDLNKLIIHLENYPLLTQKAADFFLFKQAVKLVNNKAHLTV  360
+
+Query  119  EGLIKILEIAMEMNTGNHERLKRTLEE  145
+            EGL +I+ I   MN G  + LK     
+Sbjct  361  EGLNQIVNIKASMNLGLSDTLKSEFAG  387
+
+
+ Score = 107 bits (266),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 39/124 (31%), Positives = 62/124 (50%), Gaps = 3/124 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P W+ GFV  EG F V +    + K GY+V   FRI   + DI+++  + ++FG G +
+Sbjct  403  LDPYWISGFVSAEGNFDVRMPSTNS-KLGYRVQLRFRISTLRVDIRLMEKIVEYFGSGKI  461
+
+Query  63   RK-NHDDRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEG  120
+             K        L I   + +  ++  FF K+P+   K  D+  + +I  +M    HLT EG
+Sbjct  462  YKYGGKSAVSLTIVDFTDITNILVPFFNKYPIIGIKLYDYLDWCKIHSLMINRSHLTVEG  521
+
+Query  121  LIKI  124
+            +  I
+Sbjct  522  INSI  525
+
+
+> sp|P22191|YMC1_SCHPO Uncharacterized cox1 intron-1 45.6 kDa protein 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPMIT.02 PE=4 SV=3
+Length=384
+
+ Score = 120 bits (302),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 37/126 (29%), Positives = 71/126 (56%), Gaps = 3/126 (2%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+             W+VGF DG+GCF +   + +  K  + +   F++ Q+  + ++LY +++  G G + K 
+Sbjct  109  QWLVGFTDGDGCFSISKQKIKNGKNKWSLT--FKLTQNLYNYRILYFIKRNLGIGSLYKE  166
+
+Query  66   HD-DRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKI  124
+               +    R+R+R  LKK+++ F++ PL TKK  D+  F++  +++E     + E   K+
+Sbjct  167  SSTNTVIYRLRRREHLKKIIDIFDQFPLLTKKYWDYYLFKKAFLILEDANLNSFEKNSKL  226
+
+Query  125  LEIAME  130
+             EI +E
+Sbjct  227  EEIRIE  232
+
+
+ Score = 42.4 bits (98),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 24/113 (21%), Positives = 48/113 (42%), Gaps = 15/113 (13%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-----  57
+            L   W++GF++ EG FY+        K+  +++  F I Q+  +  +L  + +F      
+Sbjct  248  LTKSWLIGFIEAEGSFYL------LQKSPVRIIHGFEITQN-YEQPLLAQISEFLFNSQI  300
+
+Query  58   --GCGVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILI  108
+                   + +    Y L    +  +  +  +FE    K  K+++FK + R L 
+Sbjct  301  SPKIKSKKNSLITNYSLSTSSKERMLFLSSYFENC-FKGVKSLEFKIWSRSLR  352
+
+
+> sp|Q0H8Z3|IEND1_USTMA Probable intron-encoded DNA endonuclease 
+1 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=hegI1 
+PE=3 SV=1
+Length=268
+
+ Score = 118 bits (296),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 29/138 (21%), Positives = 59/138 (43%), Gaps = 5/138 (4%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+            +    W+ GF   +G F V     +     Y   P F + Q+ R+ Q++  L    G G 
+Sbjct  7    NFTKWWLTGFTQADGGFVVNFDARKQGNLPYYPRPSFVLTQNIREEQMMIELH---GVGK  63
+
+Query  62   VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+            +  + ++   +   +      ++  F+ + L+  K   +  F+ +++MM  G+HL+    
+Sbjct  64   LYYSRNEINIVVRSQDDITNVIIPHFDNYSLRGHKLSSYFLFKEVVLMMNNGKHLSP--F  121
+
+Query  122  IKILEIAMEMNTGNHERL  139
+            ++ILE+    N      L
+Sbjct  122  LQILELCYFTNHTTRRTL  139
+
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/96 (28%), Positives = 45/96 (47%), Gaps = 6/96 (6%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            +  D++VG VDG+G F  G    R      +++P F IVQ   D  VL  ++ +  CG V
+Sbjct  174  INNDYMVGLVDGDGSFNFGFKSTRR-----RIVPNFTIVQGVEDRSVLEDVQSYLDCGKV  228
+
+Query  63   RKNHDDRYELRIRKRSCL-KKVVEFFEKHPLKTKKN  97
+                      ++   + L +KV+  F+++   T K 
+Sbjct  229  YDLQSQTSRYQVENVTDLVEKVLPEFKENKFNTTKK  264
+
+
+> sp|Q0H8Y0|AI4_USTMA Probable intron-encoded endonuclease aI4 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI4 
+PE=3 SV=2
+Length=530
+
+ Score = 107 bits (268),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 33/136 (24%), Positives = 62/136 (46%), Gaps = 14/136 (10%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQ------VLYALRKFFGC  59
+             W+ GF++ +G F V  S +       ++   F +VQ +          ++  +  F   
+Sbjct  388  SWLSGFIEADGSFQVRTSLSSKYP---RLSLSFELVQSRITHYGFTMFTIMQEIAIFLET  444
+
+Query  60   GV---VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHL  116
+             V     +  + +Y LR       K + ++  K+PLK  K +DFK + ++L   E+G H+
+Sbjct  445  NVNEIRSERKNPQYRLRTSSLKTNKNIRDYLVKYPLKGTKYLDFKDWCKVLSYFEQGTHM  504
+
+Query  117  TKEGLIKILEIAMEMN  132
+              +   +I+EI  +MN
+Sbjct  505  --DNTARIVEIKSQMN  518
+
+
+ Score = 47.7 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 23/119 (19%), Positives = 42/119 (35%), Gaps = 4/119 (3%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+             ++ G ++G+G   + V +      G +  P  +IV   +D  +   ++K  G G + K 
+Sbjct  266  SYLAGLIEGDG--TIVVPKQERSAKGKRNYPSVQIVFQLKDFPLCQIVQKLIGHGTISKK  323
+
+Query  66   HD-DRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIK  123
+                 Y L I     L + +       ++  K   F      L       +L   G  K
+Sbjct  324  KQAAAYILTINNIQGLIE-LSNLINGKIRGPKYYQFVLLVEYLNKKCPNLNLKPAGFNK  381
+
+
+> sp|Q0H8X8|AI2_USTMA Probable intron-encoded endonuclease aI2 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI2 
+PE=3 SV=2
+Length=533
+
+ Score = 107 bits (267),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 32/129 (25%), Positives = 61/129 (47%), Gaps = 9/129 (7%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVR--  63
+            +W+VG  DG+G FY      +T K  +     F+I Q   +I++LY ++   G G V   
+Sbjct  257  EWLVGITDGDGTFYFA----KTKKGIWSF--SFQIGQSNYNIRLLYYIKSMLGIGSVSVT  310
+
+Query  64   KNHDDRYELRIRKRSCL-KKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLI  122
+               D+    R+R    + + ++  F+ +PL T K  ++  F++ +++M       +E   
+Sbjct  311  HAKDNTAHYRVRNIQHIIQYILPIFDTYPLLTSKYFNYDLFKKAILIMNDSSLSNQEKDE  370
+
+Query  123  KILEIAMEM  131
+            KI  +  + 
+Sbjct  371  KISYLKSQS  379
+
+
+ Score = 53.9 bits (128),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 22/105 (21%), Positives = 42/105 (40%), Gaps = 10/105 (10%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            +   W++GF + EG FY+        K   +++  F I Q   D  VL A+       V 
+Sbjct  406  MTKSWLIGFTEAEGSFYIV------KKGPLRLVHAFEISQKL-DHIVLEAIALILDIKVT  458
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRIL  107
+             K               ++ ++ +F K  +K  K ++++ + R  
+Sbjct  459  TKKTYMTVV--TTNYKSIENIISYFFK-TMKGMKALEYRIWARSF  500
+
+
+> sp|Q35136|IEND4_NEUCR Probable intron-encoded endonuclease 4 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16011 PE=3 SV=2
+Length=545
+
+ Score = 107 bits (266),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 32/137 (23%), Positives = 63/137 (46%), Gaps = 3/137 (2%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+            +L   W+ GF D EGCF   V  N++  T   V   + + Q   +   +  L +  G   
+Sbjct  412  NLDNAWLSGFTDAEGCFTCSVYDNKS-NTAKLVRLRYILSQKG-NSSCMEYLAEILGGKK  469
+
+Query  62   VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+                  + Y + +   + L  +V++F  +PLKTKK + +  + +I  ++   +H   E L
+Sbjct  470  HLLKSYEGYNVTV-NTTKLSPIVQYFNLYPLKTKKYITYFNWIKIYKLVIDKKHNDPENL  528
+
+Query  122  IKILEIAMEMNTGNHER  138
+            + I++    +N  ++ +
+Sbjct  529  LLIMKYKNNINKSDYNK  545
+
+
+ Score = 89.7 bits (221),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 32/106 (30%), Positives = 51/106 (48%), Gaps = 12/106 (11%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+             W +GFV+G+G F +        K GY    EFRI Q   D Q+L+ ++K  G GVVRK 
+Sbjct  301  WWFIGFVEGDGSFIIN-------KDGY---LEFRITQSSPDAQILFMIKKELGFGVVRKQ  350
+
+Query  66   H--DDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIM  109
+                + +  R+R ++ L K++  F  +     +   FK +     +
+Sbjct  351  DSVRNTHCYRVRDKNNLIKLISIFNGNIFLDTRKEQFKLWLNAFNL  396
+
+
+> sp|P22190|YMC2_SCHPO Uncharacterized cox1 intron-2 37.2 kDa protein 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPMIT.03 PE=4 SV=1
+Length=323
+
+ Score = 103 bits (257),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 30/120 (25%), Positives = 59/120 (49%), Gaps = 5/120 (4%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            W+ GF D +  F + +  NR  K   +V   ++I Q K    +L  ++   G  +  +  
+Sbjct  200  WLAGFSDADASFQIKIL-NRDKKI--EVRLNYQIDQKK--EYLLSLIKDNLGGNIGYRKS  254
+
+Query  67   DDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKILE  126
+             D Y          KKV+ +F+ + L + K + + K+R+  ++++  +HLT+ GL +I +
+Sbjct  255  QDTYYYGSTSFGSAKKVINYFDNYHLLSSKYISYLKWRKAYLIIQENKHLTESGLSQIKK  314
+
+
+> sp|P56347|DNE1_CHLVU DNA endonuclease I-CvuI OS=Chlorella vulgaris 
+OX=3077 PE=1 SV=1
+Length=161
+
+ Score = 94.7 bits (234),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 45/112 (40%), Gaps = 2/112 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            LK  W+ GFVD +GC    +         YQV     + Q      +L  ++K  GCG V
+Sbjct  10   LKFAWLAGFVDADGCINAQIVSREDYLLKYQVRVSLTVFQSTTRHFILLDIQKILGCGTV  69
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGE  114
+            RK +D   E  +   + L+  +E     P    K    K   +I+  +   +
+Sbjct  70   RKRNDGMSEFCVVGGTSLQTTLEKL--LPYLQLKRAQAKLVLQIIKKLPNTK  119
+
+
+> sp|P03880|ANI1_EMEND Intron-encoded DNA endonuclease I-AniI OS=Emericella 
+nidulans OX=162425 GN=I-AniI PE=1 SV=3
+Length=488
+
+ Score = 99.0 bits (245),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 58/111 (52%), Gaps = 11/111 (10%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+            DL   ++VG  +G+G F +        K G  +  E  I    +D+Q++Y ++K  G G+
+Sbjct  237  DLTYAYLVGLFEGDGYFSIT-------KKGKYLTYELGIELSIKDVQLIYKIKKILGIGI  289
+
+Query  62   VR---KNHDDRYELRIRKRSCLKK-VVEFFEKHPLKTKKNVDFKKFRRILI  108
+            V     N  +   LRIR ++ LK  ++  FEK+P+ + K  D+ +FR  L+
+Sbjct  290  VSFRKINEIEMVALRIRDKNHLKSFILPIFEKYPMFSNKQYDYLRFRNALL  340
+
+
+ Score = 65.9 bits (159),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 52/110 (47%), Gaps = 8/110 (7%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFG-CGVVRK  64
+             W+VGF++ EGCF V     +  K    ++  F I Q   DI ++ A+RK+      V  
+Sbjct  373  AWLVGFIEAEGCFSV----YKLNKDDDYLIASFDIAQRDGDI-LISAIRKYLSFTTKVYL  427
+
+Query  65   NHDDRYELRIRKRSCLKKVVEFFEKHP--LKTKKNVDFKKFRRILIMMER  112
+            +  +  +L++     ++ +++F +  P  L   K + +  + + L  + R
+Sbjct  428  DKTNCSKLKVTSVRSVENIIKFLQNAPVKLLGNKKLQYLLWLKQLRKISR  477
+
+
+> sp|P32761|DNE1_CHLMO DNA endonuclease I-CeuI OS=Chlamydomonas 
+moewusii OX=3054 PE=1 SV=1
+Length=218
+
+ Score = 94.4 bits (233),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 40/137 (29%), Positives = 64/137 (47%), Gaps = 13/137 (9%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN-  65
+            ++ GF++GE    +   +  T K G  V PEF + QH   ++VLY   + F  G +R   
+Sbjct  58   FLAGFLEGEASLNISTKKLATSKFGLVVDPEFNVTQHVNGVKVLYLALEVFKTGRIRHKS  117
+
+Query  66   -HDDRYELRIRKRSCL-KKVVEFFEKH------PLKTKKNVDFKKFRRILIMMERGEHLT  117
+              +    L I  R  L +KV+ F+E++      P K K+  +   F+ +L +     H  
+Sbjct  118  GSNATLVLTIDNRQSLEEKVIPFYEQYVVAFSSPEKVKRVAN---FKALLELFNNDAHQD  174
+
+Query  118  KEGLI-KILEIAMEMNT  133
+             E L+ KIL I  +M  
+Sbjct  175  LEQLVNKILPIWDQMRK  191
+
+
+> sp|Q0H8Y1|AI5_USTMA Probable intron-encoded endonuclease aI5 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI5 
+PE=3 SV=2
+Length=536
+
+ Score = 98.6 bits (244),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 30/132 (23%), Positives = 59/132 (45%), Gaps = 9/132 (7%)
+
+Query  6    DWVVGFVDGE---GCFYVGVSRNRTMKTGYQVLPEFRIVQH-KRDIQVLYALRKFFGCGV  61
+            +W  GF D     GCF   +  N    T Y+    F + Q  + + +VL ++       V
+Sbjct  410  NWFCGFTDARHPRGCFTCSLLGN---STAYRFR--FLLTQKGEMNKEVLISIANLMKGTV  464
+
+Query  62   VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+               +  D YE+ +     ++K++++F  H L +KK   ++ +  I   ++ GEHL+ +  
+Sbjct  465  RSHSVKDVYEITVNGIRNMEKIIDYFTNHKLYSKKAKSYQIWLEIYESIKNGEHLSPDSR  524
+
+Query  122  IKILEIAMEMNT  133
+              +     ++N 
+Sbjct  525  NYLKMKTQQINK  536
+
+
+ Score = 70.5 bits (171),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 41/98 (42%), Gaps = 10/98 (10%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+            +W VGF +G+G F V    N            F I Q   DIQVL+ + +  G G V K 
+Sbjct  296  EWFVGFTEGDGSFIVSTRGN----------LMFVITQSTMDIQVLHYIEQELGFGRVIKQ  345
+
+Query  66   HDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKF  103
+                    ++  + L  +++ F  + +   K   F KF
+Sbjct  346  GHKTSRFIVQDMNNLYILIQLFNGNIVFPSKQNSFFKF  383
+
+
+> sp|A9RAH6|AI3_DEBHA Probable intron-encoded endonuclease aI3 
+OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 
+1990 / NBRC 0083 / IGC 2968) OX=284592 GN=aI3 PE=3 SV=1
+Length=687
+
+ Score = 97.4 bits (241),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 24/100 (24%), Positives = 46/100 (46%), Gaps = 12/100 (12%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFG-CGVVRKN  65
+            W+ GF++ EGCF + ++++ +   G              D  ++  +++FF     VR +
+Sbjct  599  WLSGFMEAEGCFSIRLNKSNSFSMG-----------QNDDFYLMEEIKQFFNATNSVRNS  647
+
+Query  66   HDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRR  105
+            + + Y L I KR  L  ++     +PL  +K     KF +
+Sbjct  648  YKNFYCLEIYKRIMLNNIITHCSNYPLLGEKKESLMKFLK  687
+
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 42/103 (41%), Gaps = 5/103 (5%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            +K  WV G +DG+G   V    N   K   Q     +    + +  +L  + K  G  V 
+Sbjct  429  IKMFWV-GLMDGDGSMQV----NHWRKKNLQYRLIMKTSNLESNYNMLMLMAKVMGGTVR  483
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRR  105
+                 D     +  +  +K +++ F+K+PL T + +    F +
+Sbjct  484  ISKKKDNVMWVVDSKESIKDMMKMFDKYPLLTSRKMCQINFMK  526
+
+
+> sp|Q9ZZW7|MBI3_YEAST Cytochrome b mRNA maturase bI3 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BI3 
+PE=1 SV=1
+Length=517
+
+ Score = 87.0 bits (214),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 29/113 (26%), Positives = 52/113 (46%), Gaps = 16/113 (14%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRK  64
+              ++ G  +G+G   +        K G  +L E  I  H RDIQ+LY ++   G G V  
+Sbjct  265  YAYIGGLFEGDGWITIS-------KKGKYLLYELGIEMHIRDIQLLYKIKNILGIGKVTI  317
+
+Query  65   NH--------DDRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILI  108
+                       +  +  +R ++ LK ++   F+K+P+ T K+ D+  F+  L+
+Sbjct  318  KKLKMKDGTIKEMCKFNVRNKNHLKNIIIPIFDKYPMLTNKHYDYLYFKDNLL  370
+
+
+ Score = 56.6 bits (135),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 22/109 (20%), Positives = 47/109 (43%), Gaps = 9/109 (8%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG-VVRK  64
+             W++GF + E CF +    N+ MK        F + Q+   ++V+ A++ +      +  
+Sbjct  403  SWLIGFFEAESCFSIYKPMNKKMK-----TASFEVSQNN-SMEVMLAIKSYLKITQNIYT  456
+
+Query  65   NHDDRYELRIRKRSCLKKVVEFFEKHP--LKTKKNVDFKKFRRILIMME  111
+            +  +   +  +  + +K VV F   +P  L   K + +  F + L  + 
+Sbjct  457  DKFNNSRMTTKSINGIKNVVMFINNNPIKLLGYKKLQYLLFLKDLRTIT  505
+
+
+> sp|Q2LCQ5|AI3_DICCI Probable intron-encoded endonuclease aI3 
+OS=Dictyostelium citrinum OX=361072 GN=aI3 PE=3 SV=1
+Length=243
+
+ Score = 83.2 bits (204),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 27/104 (26%), Positives = 53/104 (51%), Gaps = 12/104 (12%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV-VR  63
+             +W+ GFV+ EGCF +  S              F I Q K +  +L  +++FF     ++
+Sbjct  151  NEWLSGFVEAEGCFCIRTSTYH----------SFSISQ-KYEKVLLSQIKEFFNITTQIK  199
+
+Query  64   KNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRIL  107
+            ++  + + L + K+  L+K++  F ++PL  +KN  F++F+   
+Sbjct  200  ESKKNIFLLEVYKKVILQKLIHHFIEYPLLGEKNKSFERFKNFF  243
+
+
+ Score = 42.0 bits (97),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 19/103 (18%), Positives = 46/103 (45%), Gaps = 8/103 (8%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV----  62
+            + VG ++G G   V    N   K   Q   E ++     +  +   ++K  G  +     
+Sbjct  16   FWVGLLEGSGSIQV----NHWKKKNLQFRLEIKLKNCNENFLMFKDIQKAIGGYIRFETS  71
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRR  105
+            +K   D+    + +++ ++++++ F+++ L TK+  D   F +
+Sbjct  72   KKKERDQVVWIVDQKTEIERIIKIFDQYALLTKQKQDQLNFLK  114
+
+
+> sp|O21045|AI3_DICDI Probable intron-encoded endonuclease aI3 
+OS=Dictyostelium discoideum OX=44689 GN=aI3 PE=3 SV=1
+Length=232
+
+ Score = 76.3 bits (186),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 23/101 (23%), Positives = 47/101 (47%), Gaps = 12/101 (12%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLY-ALRKFFGCGVVR  63
+             +W  GFV+  G F +   + +  +             H+ D+ +L   + KF     +R
+Sbjct  141  NEWFSGFVEATGSFCIRAQKEKYFRIA-----------HRYDMPLLLNLIIKFNITTKLR  189
+
+Query  64   KNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFR  104
+            +  +++Y + I K++ L+ ++  FEK+PL   K    + F+
+Sbjct  190  EQKNEQYAIEIYKKTLLEVLITHFEKYPLLGDKKNSLETFK  230
+
+
+> sp|P03881|YMRF1_YEAST Uncharacterized mitochondrial protein RF1 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=Q0255 PE=4 SV=3
+Length=472
+
+ Score = 62.8 bits (151),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 28/133 (21%), Positives = 52/133 (39%), Gaps = 10/133 (8%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGC-  59
+            MD    W+VGF DG+G FY+ ++  + ++  Y          H  D   L  +R      
+Sbjct  82   MDNFYKWLVGFTDGDGSFYIKLNDKKYLRFFYGFR------MHIDDKACLEKIRNMLNMP  135
+
+Query  60   GVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKE  119
+                +       +  +K+     +V  F+K+P  T K   + K++    M+     ++  
+Sbjct  136  SNFEETTKTIMLVNSQKKWLYSNIVTIFDKYPCLTIKYYSYYKWKMA--MINNLNGMSY-  192
+
+Query  120  GLIKILEIAMEMN  132
+                +L I   +N
+Sbjct  193  NNKDLLNIKNTIN  205
+
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 29/159 (18%), Positives = 59/159 (37%), Gaps = 34/159 (21%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKF------  56
+            +   W++GF++ EG F     RN            F + QHKR I  L A++ +      
+Sbjct  220  MNDYWILGFIEAEGSFDTSPKRNICG---------FNVSQHKRSINTLKAIKSYVLNNWK  270
+
+Query  57   -------FGCGVVRKNHDDRYELRIRKRSCLKK------------VVEFFEKHPLKTKKN  97
+                        + K+ D   +L    ++ + K            ++         ++K 
+Sbjct  271  PIDNTPLLIKNKLLKDWDSSIKLTKPDKNGVIKLEFNRMDFLYYVILPKLYSLKWYSRKE  330
+
+Query  98   VDFKKFRRILIMMERGEHLTKEGLIKILEIAMEMNTGNH  136
+            +DF+ ++  + +  +G H T +G   +  I   +N   +
+Sbjct  331  IDFQLWKTTMEIYMKGLHNTTKGSNLLKLINNNINKKRY  369
+
+
+> sp|Q9ZZX0|AI5B_YEAST Intron-encoded DNA endonuclease aI5 beta 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=AI5_BETA PE=3 SV=1
+Length=354
+
+ Score = 62.0 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 25/121 (21%), Positives = 54/121 (45%), Gaps = 11/121 (9%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            + L P W+ GF D +G FY G  +++  +       +F +   ++D  +L  ++K+F  G
+Sbjct  195  LTLNP-WLTGFNDADGYFYTGFQKHKNSQ-----WLKFHLELSQKDSYILDIIKKYFKTG  248
+
+Query  61   VV----RKNHDDRYELRIRKRSCLKKVVEFFEKH-PLKTKKNVDFKKFRRILIMMERGEH  115
+             +     K+    Y  + +    +K  +E+F  + PL T++   +       ++     H
+Sbjct  249  GILKRDYKSGATAYIYKAQSSKAMKPFIEYFNNYQPLSTRRYKQYLLLNIAYLLKLNKLH  308
+
+Query  116  L  116
+            +
+Sbjct  309  M  309
+
+
+> sp|P03877|SCE3_YEAST Intron-encoded DNA endonuclease aI3 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=AI3 PE=1 SV=3
+Length=415
+
+ Score = 61.2 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 18/133 (14%), Positives = 50/133 (38%), Gaps = 25/133 (19%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRD-----------IQVLYAL  53
+              W+ G  D +G F + +   +   +         + Q+ +              ++ A+
+Sbjct  242  NAWLAGMTDADGNFSINLMNGKNRSSRAMPYYCLELRQNYQKNSNNNNINFSYFYIMSAI  301
+
+Query  54   RKFFGCGVVRKN------------HDDRYELRIRKRSCLKKV--VEFFEKHPLKTKKNVD  99
+              +F   +  +             +   Y  ++   +  K +  +E+F K+ L + K++D
+Sbjct  302  ATYFNVNLYSRERNLNLLVSTNNTYKTYYSYKVMVANTYKNIKVMEYFNKYSLLSSKHLD  361
+
+Query  100  FKKFRRILIMMER  112
+            F  + +++I++  
+Sbjct  362  FLDWSKLVILINN  374
+
+
+ Score = 40.4 bits (93),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 24/122 (20%), Positives = 46/122 (38%), Gaps = 8/122 (7%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            ++ G ++G+G   V  + +   K+ Y   P   +V    D+++   L     CG V K  
+Sbjct  112  YLAGLIEGDGTITVQ-NSSSMKKSKY--RPLIVVVFKLEDLELANYLCNLTKCGKVYKKI  168
+
+Query  67   DDRYEL-RIRKRSCLKKVVEFFEKHPLKTKKNVDFKK---FRRILIMMERGEHLTKEGLI  122
+            +  Y L  I     +  ++     + ++T K   F +   F    I      H   + + 
+Sbjct  169  NRNYVLWTIHDLKGVYTLLNIINGY-MRTPKYEAFVRGAEFMNNYINSTTITHNKLKNMD  227
+
+Query  123  KI  124
+             I
+Sbjct  228  NI  229
+
+
+> sp|P05725|DNE1_CHLRE DNA endonuclease I-CreI OS=Chlamydomonas 
+reinhardtii OX=3055 PE=1 SV=2
+Length=163
+
+ Score = 58.9 bits (141),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 25/150 (17%), Positives = 57/150 (38%), Gaps = 5/150 (3%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            ++ GFVDG+G     +  N++ K  +Q+   F++ Q  +    L  L    G G VR   
+Sbjct  12   YLAGFVDGDGSIIAQIKPNQSYKFKHQLSLTFQVTQKTQRRWFLDKLVDEIGVGYVRDRG  71
+
+Query  67   DDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKILE  126
+                +  + +   L   +   +  P    K        +I+  +   +  + +  +++  
+Sbjct  72   -SVSDYILSEIKPLHNFLTQLQ--PFLKLKQKQANLVLKIIEQLPSAKE-SPDKFLEVCT  127
+
+Query  127  IAMEM-NTGNHERLKRTLEEIRGLDEDTVH  155
+               ++    + +  K T E +R + +    
+Sbjct  128  WVDQIAALNDSKTRKTTSETVRAVLDSLSE  157
+
+
+> sp|Q0H8X7|AI1_USTMA Probable intron-encoded DNA endonuclease 
+aI1 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI1 
+PE=3 SV=1
+Length=121
+
+ Score = 53.5 bits (127),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 22/89 (25%), Positives = 39/89 (44%), Gaps = 3/89 (3%)
+
+Query  47   IQVLYALRKFFG---CGVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKF  103
+              +L  + + FG      +   +   Y + I   + L  ++ +  ++ L T K ++F+ F
+Sbjct  25   ESILKLIAETFGVQLTTTIHNRNISYYLIAITSPAKLAILINYLNEYSLFTSKYLNFQDF  84
+
+Query  104  RRILIMMERGEHLTKEGLIKILEIAMEMN  132
+               + MM   EHLT  G  KI  +   MN
+Sbjct  85   SNCVNMMLNKEHLTISGREKITILKESMN  113
+
+
+> sp|A9RAG7|MBI3_DEBHA Cytochrome b mRNA maturase bI3 OS=Debaryomyces 
+hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 
+0083 / IGC 2968) OX=284592 GN=bI3 PE=3 SV=1
+Length=522
+
+ Score = 53.9 bits (128),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 20/107 (19%), Positives = 47/107 (44%), Gaps = 15/107 (14%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            +D   +W+VGF   EG F +  ++             F++ Q K ++++   +  FF   
+Sbjct  402  LDYFNNWLVGFTMAEGSFLIKKNK----------DICFQLKQ-KYNLELFNNMTLFFNTT  450
+
+Query  61   VVRKNHDDRY-ELRIRKRSCLKKVVEFF---EKHPLKTKKNVDFKKF  103
+                 + ++Y +  +  ++ ++ ++ FF      PL   K + + K+
+Sbjct  451  RKLNINKNKYMQFNVSSKNDIQNMINFFSFSNNQPLLGNKLISYNKW  497
+
+
+> sp|P12294|ENS2_YEASX Endonuclease SceI small subunit OS=Saccharomyces 
+cerevisiae OX=4932 GN=ENS2 PE=1 SV=2
+Length=476
+
+ Score = 51.6 bits (122),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 43/107 (40%), Gaps = 6/107 (6%)
+
+Query  4    KPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-----G  58
+               W+ GF   +G F   +   +       + P + I Q +   +++Y +++ F      
+Sbjct  317  NNYWLAGFTAADGSFLSSMYNPKDTLLFKNMRPSYVISQVETRKELIYLIQESFDLSISN  376
+
+Query  59   CGVVRKNHDDRYELRIRKRSCLKKVVEFFEKH-PLKTKKNVDFKKFR  104
+               V       ++L  R    L K + +F+K  PL   K  ++ KFR
+Sbjct  377  VKKVGNRKLKDFKLFTRTTDELMKFIYYFDKFLPLHDNKQFNYIKFR  423
+
+
+> sp|O21044|AI2B_DICDI Intron-encoded DNA endonuclease ai2b OS=Dictyostelium 
+discoideum OX=44689 GN=ai2b PE=3 SV=1
+Length=262
+
+ Score = 51.2 bits (121),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 24/152 (16%), Positives = 55/152 (36%), Gaps = 11/152 (7%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFG--  58
+            + L   W+ GF DG G   +  +     K       +  +  ++++ Q+L  +++  G  
+Sbjct  112  LSLDTAWLSGFFDGVGSIVINQTTLENKK-------QLVLTFNQKNNQILIKIQRIVGGN  164
+
+Query  59   --CGVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHL  116
+                   ++   +Y L    +  + ++ E+F+K+P +  KN       +   +      +
+Sbjct  165  FYINTNTQSGKYKYALYFTSKEEILQLYEYFKKYPSRAYKNKRIGLIPQYYELQTLMTSI  224
+
+Query  117  TKEGLIKILEIAMEMNTGNHERLKRTLEEIRG  148
+                L + L     +     E  +    EI  
+Sbjct  225  HDNQLQETLWKKFMIQWDYKEIDEIQSGEILK  256
+
+
+> sp|Q6DN58|AI3_KLULA Probable intron-encoded endonuclease aI3 
+OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 
+/ NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=aI3 PE=3 
+SV=1
+Length=396
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 18/100 (18%), Positives = 45/100 (45%), Gaps = 12/100 (12%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            W +GF++ +G F +  + N +               +  D  ++  L+ +F         
+Sbjct  307  WFLGFIENKGKFIIRKNNNNSFLF------------YINDKHLIEFLKNYFNIKNKLIYK  354
+
+Query  67   DDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRI  106
+            ++ Y L +  +  +   ++FF K+ L+  K +++ K+++I
+Sbjct  355  NNIYILEVYNKYYINIFIKFFNKYNLQGYKYIEYIKWKKI  394
+
+
+> sp|P0CY43|MBI3_NEUCR Cytochrome b mRNA maturase bI3 OS=Neurospora 
+crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 
+1257 / FGSC 987) OX=367110 GN=bI3 PE=3 SV=1
+Length=477
+
+ Score = 47.7 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/106 (21%), Positives = 42/106 (40%), Gaps = 14/106 (13%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+            +W+VGF   EG F++  +              F++ Q      +  A +  F        
+Sbjct  369  NWIVGFTCSEGSFFIKSNN----------DGCFQLKQRIHT-NLFEAFKLMFNTNRKIDT  417
+
+Query  66   HDDRYELRIRKRSCLKKVVEFFE---KHPLKTKKNVDFKKFRRILI  108
+             ++  +  +  +S ++KV+ FF     HPL   K + + K+   L 
+Sbjct  418  TNNFNQFGVSSKSDIQKVINFFSFSGLHPLVGLKYIQYIKWLNNLR  463
+
+
+ Score = 40.4 bits (93),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 20/123 (16%), Positives = 42/123 (34%), Gaps = 16/123 (13%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV--VR  63
+             ++ G VDG+G   V      T  +   +  +  I  H  D+ +L  +      G   + 
+Sbjct  233  AFLAGLVDGDGYIQV------TKTSKGFIAIKLVISLHLEDLSILEYIHSVLKIGKINIY  286
+
+Query  64   KNHDDRYELRIRKRSCLKKV---VEFFEKHPLKTKKNVD-----FKKFRRILIMMERGEH  115
+            K+        +  ++ L+++   +  + K    T    D        F+  + M  +   
+Sbjct  287  KDLRSPTCKLVINKTDLQEILFPLLMYNKIFFLTNTRADQFNLAMYIFKNDIKMYNQIPD  346
+
+Query  116  LTK  118
+             T 
+Sbjct  347  NTP  349
+
+
+> sp|P03879|MBI4_YEAST Intron-encoded RNA maturase bI4 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BI4 
+PE=1 SV=2
+Length=638
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/118 (15%), Positives = 44/118 (37%), Gaps = 18/118 (15%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRK  64
+              W+ G +DG+G F +  ++               I    +D ++L  ++  FG  V  +
+Sbjct  405  NQWLAGLIDGDGYFCITKNKY----------ASCEITVELKDEKMLRQIQDKFGGSVKLR  454
+
+Query  65   NHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDF--------KKFRRILIMMERGE  114
+            +       R++ +  + K++     +   +K+ V F          F+  + + +   
+Sbjct  455  SGVKAIRYRLQNKEGMIKLINAVNGNIRNSKRLVQFNKVCILLNIDFKEPIKLTKDNA  512
+
+
+> sp|P03878|SCE2_YEAST Intron-encoded DNA endonuclease aI4 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=AI4 PE=1 SV=3
+Length=556
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/136 (15%), Positives = 44/136 (32%), Gaps = 11/136 (8%)
+
+Query  4    KPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV-V  62
+               W VGF D +G        N          P+  I    + +Q +   +   G  +  
+Sbjct  430  DNSWFVGFFDADGTINYSFKNNH---------PQLTISVTNKYLQDVQEYKNILGGNIYF  480
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEK-HPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+             K+ +  Y+  I+ +  +   +  + K +P +T K       +    + E   +      
+Sbjct  481  DKSQNGYYKWSIQSKDMVLNFINDYIKMNPSRTTKMNKLYLSKEFYNLKELKAYNKSSDS  540
+
+Query  122  IKILEIAMEMNTGNHE  137
+            ++        N   ++
+Sbjct  541  MQYKAWLNFENKWKNK  556
+
+
+ Score = 45.4 bits (106),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 18/100 (18%), Positives = 36/100 (36%), Gaps = 10/100 (10%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRK  64
+              W+ G +DG+G F +   +               I     D   L  ++  FG  +  +
+Sbjct  325  NQWLAGLIDGDGYFGIVSKKY----------VSLEITVALEDEMALKEIQNKFGGSIKLR  374
+
+Query  65   NHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFR  104
+            +       R+  ++ + K++     +   TK+ V F K  
+Sbjct  375  SGVKAIRYRLTNKTGMIKLINAVNGNIRNTKRLVQFNKVC  414
+
+
+> sp|Q0H8Y3|AI8_USTMA Probable intron-encoded endonuclease aI8 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI8 
+PE=3 SV=2
+Length=645
+
+ Score = 46.6 bits (109),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 20/132 (15%), Positives = 52/132 (39%), Gaps = 15/132 (11%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+             +VVG +DG+G   V   R + +    Q     ++     + ++L  +   +G  V R  
+Sbjct  400  AFVVGLIDGDGSLQVNHWRYKIL----QFRLVVKLADKPINYEMLCIIASIYGGNVRRVQ  455
+
+Query  66   HDDRYELRIRK--RSCLKKVVEFFEK-HPLKTKKNVDFKKFR--------RILIMMERGE  114
+             +  Y +      ++  + ++  F K  PL ++ ++  + F          +   +   +
+Sbjct  456  KEGGYVIWTVNDKKTFTRTILPLFSKCAPLTSRMHLQLQFFLVFFNDPNVDLYFKLRDSK  515
+
+Query  115  HLTKEGLIKILE  126
+            ++ +E +  +  
+Sbjct  516  YIDREKVSPLFN  527
+
+
+ Score = 43.1 bits (100),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 24/108 (22%), Positives = 40/108 (37%), Gaps = 21/108 (19%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+            DW+ GF++ EG F    S              F I Q+  D  ++ A+R F+G   +  +
+Sbjct  535  DWLGGFIESEGSFVNRSSGG----------SSFSIAQN-HDYYLIEAIRDFYGVSHLTIS  583
+
+Query  66   HD-------DRYELRIRKRSCLKKVVEFFEKHPLK-TKKNVDFKKFRR  105
+            +          YE+ I   + +  V+      PL    K     +F  
+Sbjct  584  NKFGKVSGYPLYEVSIASLAGVTHVIYHCV--PLLQGYKYHQLVEFIN  629
+
+
+> sp|A9RAH7|AI2_DEBHA Probable intron-encoded endonuclease aI2 
+OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 
+1990 / NBRC 0083 / IGC 2968) OX=284592 GN=aI2 PE=3 SV=1
+Length=657
+
+ Score = 45.0 bits (105),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/126 (15%), Positives = 45/126 (36%), Gaps = 13/126 (10%)
+
+Query  4    KPDWVVGFVDGEGCFYVGVSRN------RTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF  57
+               W+ GF D +G        +       T K      P+  I    + +Q +   ++  
+Sbjct  515  NNSWLTGFFDADGTMNFSFKSSCHSAGGYTSKGKVSNHPQLTISVTNKYLQDVLPFKEML  574
+
+Query  58   GCGV-VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVD------FKKFRRILIMM  110
+            G  +   K+ +  Y+  ++ +  +   V++ + +P KT K         +   + +   M
+Sbjct  575  GGNIYFDKSQNGYYKWSMQSKKDILNFVDYIKLNPSKTVKLNRMLLCNLYYDLKDLKSYM  634
+
+Query  111  ERGEHL  116
+                ++
+Sbjct  635  LNDNNM  640
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0414    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8562461542
+Results from round 3
+
+
+Query= 5GKK.A
+
+Length=170
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P15563|YMN3_PODAN Uncharacterized 49.1 kDa protein in ND3 in...  150     5e-43
+  sp|Q35134|IEND2_NEUCR Probable intron-encoded endonuclease 2 OS...  137     1e-37
+  sp|Q35135|IEND3_NEUCR Probable intron-encoded endonuclease 3 OS...  130     8e-35
+  sp|O73943|APE2_AERPE Homing endonuclease I-ApeII OS=Aeropyrum p...  119     2e-33
+  sp|P15564|YMN4_PODAN Uncharacterized 50.9 kDa protein in ND4 in...  125     3e-33
+  sp|Q35136|IEND4_NEUCR Probable intron-encoded endonuclease 4 OS...  124     2e-32
+  sp|Q0H8Z3|IEND1_USTMA Probable intron-encoded DNA endonuclease ...  119     2e-32
+  sp|P05725|DNE1_CHLRE DNA endonuclease I-CreI OS=Chlamydomonas r...  106     2e-28
+  sp|P56347|DNE1_CHLVU DNA endonuclease I-CvuI OS=Chlorella vulga...  102     8e-27
+  sp|P22191|YMC1_SCHPO Uncharacterized cox1 intron-1 45.6 kDa pro...  105     2e-26
+  sp|O21044|AI2B_DICDI Intron-encoded DNA endonuclease ai2b OS=Di...  100     3e-25
+  sp|Q0H8Y1|AI5_USTMA Probable intron-encoded endonuclease aI5 OS...  103     5e-25
+  sp|Q0H8Y0|AI4_USTMA Probable intron-encoded endonuclease aI4 OS...  103     5e-25
+  sp|Q0H8X8|AI2_USTMA Probable intron-encoded endonuclease aI2 OS...  102     1e-24
+  sp|P03878|SCE2_YEAST Intron-encoded DNA endonuclease aI4 OS=Sac...  99.8    1e-23
+  sp|P22190|YMC2_SCHPO Uncharacterized cox1 intron-2 37.2 kDa pro...  94.0    3e-22
+  sp|A9RAH7|AI2_DEBHA Probable intron-encoded endonuclease aI2 OS...  92.8    4e-21
+  sp|A9RAH6|AI3_DEBHA Probable intron-encoded endonuclease aI3 OS...  90.9    1e-20
+  sp|P03880|ANI1_EMEND Intron-encoded DNA endonuclease I-AniI OS=...  89.7    3e-20
+  sp|P03881|YMRF1_YEAST Uncharacterized mitochondrial protein RF1...  85.9    6e-19
+  sp|P32761|DNE1_CHLMO DNA endonuclease I-CeuI OS=Chlamydomonas m...  82.8    1e-18
+  sp|Q0H8Y3|AI8_USTMA Probable intron-encoded endonuclease aI8 OS...  82.8    1e-17
+  sp|P03877|SCE3_YEAST Intron-encoded DNA endonuclease aI3 OS=Sac...  78.9    2e-16
+  sp|Q2LCQ5|AI3_DICCI Probable intron-encoded endonuclease aI3 OS...  75.9    5e-16
+  sp|Q9ZZW7|MBI3_YEAST Cytochrome b mRNA maturase bI3 OS=Saccharo...  77.0    9e-16
+  sp|Q9ZZX0|AI5B_YEAST Intron-encoded DNA endonuclease aI5 beta O...  76.6    1e-15
+  sp|P0CY43|MBI3_NEUCR Cytochrome b mRNA maturase bI3 OS=Neurospo...  75.5    3e-15
+  sp|O21045|AI3_DICDI Probable intron-encoded endonuclease aI3 OS...  72.8    6e-15
+  sp|A9RAG7|MBI3_DEBHA Cytochrome b mRNA maturase bI3 OS=Debaryom...  73.9    1e-14
+  sp|P03879|MBI4_YEAST Intron-encoded RNA maturase bI4 OS=Sacchar...  71.2    9e-14
+  sp|Q0H8X7|AI1_USTMA Probable intron-encoded DNA endonuclease aI...  65.9    3e-13
+  sp|P12294|ENS2_YEASX Endonuclease SceI small subunit OS=Sacchar...  66.2    5e-12
+  sp|Q6DN58|AI3_KLULA Probable intron-encoded endonuclease aI3 OS...  61.6    2e-10
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O21043|AI2A_DICDI Intron-encoded DNA endonuclease ai2a OS=Di...  42.0    9e-04
+  sp|Q8U0H4|RTCB_PYRFU tRNA-splicing ligase RtcB OS=Pyrococcus fu...  39.3    0.009
+
+
+> sp|P15563|YMN3_PODAN Uncharacterized 49.1 kDa protein in ND3 
+intron OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 
+980 / FGSC 10383) OX=515849 PE=1 SV=1
+Length=433
+
+ Score = 150 bits (380),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 52/156 (33%), Positives = 84/156 (54%), Gaps = 1/156 (1%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P ++ GFVDGEG F + + ++   K G++V+  F I  HK+D+ +L  +++FF  G V
+Sbjct  142  LNPSYISGFVDGEGSFMLTIIKDNKYKLGWRVVCRFVISLHKKDLSLLNKIKEFFDVGNV  201
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLI  122
+                 D  + R+     L  ++  F+K+PL TKK  D+K F+    +++   HLTKEGL+
+Sbjct  202  FLMTKDSAQYRVESLKGLDLIINHFDKYPLITKKQADYKLFKMAHNLIKNKSHLTKEGLL  261
+
+Query  123  KILEIAMEMNTGNHERLKRTLEEIRG-LDEDTVHPH  157
+            +++ I   +N G +  L      I   L  DT  P 
+Sbjct  262  ELVAIKAVINNGLNNDLSIAFPGINTILRPDTSLPQ  297
+
+
+ Score = 117 bits (293),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 52/135 (39%), Positives = 76/135 (56%), Gaps = 1/135 (1%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P W+ GFVD EGCF V V +++T K G  V   F + Q  RD  ++ +L ++ GCG  
+Sbjct  299  LNPFWLSGFVDAEGCFSVVVFKSKTSKLGEAVKLSFILTQSNRDEYLIKSLIEYLGCGNT  358
+
+Query  63   RKNHDDRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+              +     + ++   S +K ++  FF K+PLK  KN+DF  F  ++ +ME   HLTKEGL
+Sbjct  359  SLDPRGTIDFKVTNFSSIKDIIVPFFIKYPLKGNKNLDFTDFCEVVRLMENKSHLTKEGL  418
+
+Query  122  IKILEIAMEMNTGNH  136
+             +I +I   MNT   
+Sbjct  419  DQIKKIRNRMNTNRK  433
+
+
+> sp|Q35134|IEND2_NEUCR Probable intron-encoded endonuclease 2 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16009 PE=3 SV=2
+Length=452
+
+ Score = 137 bits (344),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 47/150 (31%), Positives = 77/150 (51%), Gaps = 3/150 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-GCGV  61
+            L P ++ GF D EG F V + +N   K G+ V   F+I  +++D  +L  ++ +F   G 
+Sbjct  145  LNPSFITGFSDAEGSFVVTILKNPRYKIGWNVQARFQIKLNEKDRALLLLIQNYFDNIGY  204
+
+Query  62   VRKNHD-DRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKE  119
+            + K +D    E R+   + L  ++   FEK+ L T K  D   F++I+ +M   +H T E
+Sbjct  205  ISKINDRSTVEFRVSDITSLNNIIIPHFEKYQLITNKYGDLVIFKQIVSLMLENKHTTLE  264
+
+Query  120  GLIKILEIAMEMNTGNHERLKRTLEEIRGL  149
+            GL +ILE    +N G  + LK +   I  +
+Sbjct  265  GLKEILEHRASLNWGLSKTLKESFPSIIPV  294
+
+
+ Score = 81.3 bits (199),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 39/128 (30%), Positives = 67/128 (52%), Gaps = 9/128 (7%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+            +WV GF  GE  F++ +S  +       V   F I Q  RDI +L +L KFF CG + + 
+Sbjct  318  NWVAGFSSGEANFFITMSGTK-------VWLRFSIAQDSRDILLLKSLVKFFNCGYIAQY  370
+
+Query  66   HDDRYELRIRKRSCLKKVV--EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIK  123
+             + +    I  +     +    FF+++ ++  K  D+ KF+   I+++  EHLT++GL K
+Sbjct  371  KNRKVCEFIVTKINDIIIYIIPFFDQYKIEGSKYNDYVKFKEAAILIKNKEHLTEKGLNK  430
+
+Query  124  ILEIAMEM  131
+            I+E+   +
+Sbjct  431  IIELKNSL  438
+
+
+> sp|Q35135|IEND3_NEUCR Probable intron-encoded endonuclease 3 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16010 PE=3 SV=2
+Length=533
+
+ Score = 130 bits (327),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 44/147 (30%), Positives = 75/147 (51%), Gaps = 2/147 (1%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGC-  59
+            + + P    G +DGEG F + V RN++ K G++   +F++  H +D+ +LY L+++ G  
+Sbjct  241  LRVNPWVWSGLIDGEGSFNIIVDRNKSRKLGWRAQLKFQLSLHTKDLNLLYLLQQYLGGI  300
+
+Query  60   -GVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTK  118
+              +    + D     I     L K++   E +PL T+K  DF  F++ + ++    HLT 
+Sbjct  301  GSIHLARNRDIVNYSIDSIEDLNKLIIHLENYPLLTQKAADFFLFKQAVKLVNNKAHLTV  360
+
+Query  119  EGLIKILEIAMEMNTGNHERLKRTLEE  145
+            EGL +I+ I   MN G  + LK     
+Sbjct  361  EGLNQIVNIKASMNLGLSDTLKSEFAG  387
+
+
+ Score = 100 bits (248),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 39/124 (31%), Positives = 62/124 (50%), Gaps = 3/124 (2%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            L P W+ GFV  EG F V +  +   K GY+V   FRI   + DI+++  + ++FG G +
+Sbjct  403  LDPYWISGFVSAEGNFDVRM-PSTNSKLGYRVQLRFRISTLRVDIRLMEKIVEYFGSGKI  461
+
+Query  63   RKNH-DDRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEG  120
+             K        L I   + +  ++  FF K+P+   K  D+  + +I  +M    HLT EG
+Sbjct  462  YKYGGKSAVSLTIVDFTDITNILVPFFNKYPIIGIKLYDYLDWCKIHSLMINRSHLTVEG  521
+
+Query  121  LIKI  124
+            +  I
+Sbjct  522  INSI  525
+
+
+> sp|O73943|APE2_AERPE Homing endonuclease I-ApeII OS=Aeropyrum 
+pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 
+/ K1) OX=272557 GN=apeII PE=3 SV=2
+Length=167
+
+ Score = 119 bits (298),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 41/162 (25%), Positives = 73/162 (45%), Gaps = 11/162 (7%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV-VRKN  65
+            +V G +D E    V +     ++   +V P F I Q  +D  VL  ++ +FGCG  + K 
+Sbjct  9    YVAGIIDAEASLSVSIKIQEDLRCRVRVDPVFSITQDSKD--VLNVVKNYFGCGRLMPKP  66
+
+Query  66   HDDRYELRIRKR--SCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLI-  122
+              +   L +  R  +    ++   ++ PL  KK   F+ FR I++ + R ++   E  + 
+Sbjct  67   GQEHLTLYVVDRLEALADCLIPKLDRLPLIVKKR-GFEMFREIVLTLTRMKYRRVECCVI  125
+
+Query  123  --KILEIAMEMNTGNHERLKRTLEEIRGL--DEDTVHPHSER  160
+               +L+     +     + KR+LEEI  +   +  V P  ER
+Sbjct  126  RDLVLKSYSLSSLNKKSKRKRSLEEILKIIPCDKAVEPPGER  167
+
+
+> sp|P15564|YMN4_PODAN Uncharacterized 50.9 kDa protein in ND4 
+intron 1 OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 
+980 / FGSC 10383) OX=515849 PE=4 SV=1
+Length=449
+
+ Score = 125 bits (313),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 72/119 (61%), Gaps = 2/119 (2%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQ--HKRDIQVLYALRKFFGC  59
+             L P ++ GFVD EGCF +G++++   ++GYQV   F+I     ++D  +L  +R +FG 
+Sbjct  331  TLDPWFITGFVDAEGCFMIGLTKSELYRSGYQVTAIFKISLRRTRKDYTLLCQIRDYFGI  390
+
+Query  60   GVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTK  118
+            G++ K+ +   +  +R    L  ++  F+ +PL ++K  D+  F++ +++++  EHLTK
+Sbjct  391  GIITKHGETTLQYMVRSIKDLNVILSHFDAYPLFSQKRSDYILFKQAIVLIKNKEHLTK  449
+
+
+> sp|Q35136|IEND4_NEUCR Probable intron-encoded endonuclease 4 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 
+/ DSM 1257 / FGSC 987) OX=367110 GN=NCU16011 PE=3 SV=2
+Length=545
+
+ Score = 124 bits (310),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 32/137 (23%), Positives = 63/137 (46%), Gaps = 3/137 (2%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+            +L   W+ GF D EGCF   V  N++  T   V   + + Q   +   +  L +  G   
+Sbjct  412  NLDNAWLSGFTDAEGCFTCSVYDNKS-NTAKLVRLRYILSQKG-NSSCMEYLAEILGGKK  469
+
+Query  62   VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+                  + Y + +   + L  +V++F  +PLKTKK + +  + +I  ++   +H   E L
+Sbjct  470  HLLKSYEGYNVTV-NTTKLSPIVQYFNLYPLKTKKYITYFNWIKIYKLVIDKKHNDPENL  528
+
+Query  122  IKILEIAMEMNTGNHER  138
+            + I++    +N  ++ +
+Sbjct  529  LLIMKYKNNINKSDYNK  545
+
+
+ Score = 77.0 bits (188),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 31/120 (26%), Positives = 52/120 (43%), Gaps = 14/120 (12%)
+
+Query  4    KPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVR  63
+               W +GFV+G+G F +                EFRI Q   D Q+L+ ++K  G GVVR
+Sbjct  299  FKWWFIGFVEGDGSFIINKDGY----------LEFRITQSSPDAQILFMIKKELGFGVVR  348
+
+Query  64   K--NHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIM--MERGEHLTKE  119
+            K  +  + +  R+R ++ L K++  F  +     +   FK +     +   E   H+   
+Sbjct  349  KQDSVRNTHCYRVRDKNNLIKLISIFNGNIFLDTRKEQFKLWLNAFNLKYKENIPHIDSS  408
+
+
+> sp|Q0H8Z3|IEND1_USTMA Probable intron-encoded DNA endonuclease 
+1 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=hegI1 
+PE=3 SV=1
+Length=268
+
+ Score = 119 bits (298),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 29/152 (19%), Positives = 61/152 (40%), Gaps = 5/152 (3%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+             +    W+ GF   +G F V     +     Y   P F + Q+ R+ Q++  L    G G
+Sbjct  6    FNFTKWWLTGFTQADGGFVVNFDARKQGNLPYYPRPSFVLTQNIREEQMMIELH---GVG  62
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEG  120
+             +  + ++   +   +      ++  F+ + L+  K   +  F+ +++MM  G+HL+   
+Sbjct  63   KLYYSRNEINIVVRSQDDITNVIIPHFDNYSLRGHKLSSYFLFKEVVLMMNNGKHLSP--  120
+
+Query  121  LIKILEIAMEMNTGNHERLKRTLEEIRGLDED  152
+             ++ILE+    N      L      +  +   
+Sbjct  121  FLQILELCYFTNHTTRRTLDTKKAILDKIYNK  152
+
+
+ Score = 57.8 bits (138),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/96 (28%), Positives = 45/96 (47%), Gaps = 6/96 (6%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            +  D++VG VDG+G F  G        T  +++P F IVQ   D  VL  ++ +  CG V
+Sbjct  174  INNDYMVGLVDGDGSFNFGFK-----STRRRIVPNFTIVQGVEDRSVLEDVQSYLDCGKV  228
+
+Query  63   RKNHDDRYELRIRKRSCL-KKVVEFFEKHPLKTKKN  97
+                      ++   + L +KV+  F+++   T K 
+Sbjct  229  YDLQSQTSRYQVENVTDLVEKVLPEFKENKFNTTKK  264
+
+
+> sp|P05725|DNE1_CHLRE DNA endonuclease I-CreI OS=Chlamydomonas 
+reinhardtii OX=3055 PE=1 SV=2
+Length=163
+
+ Score = 106 bits (265),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 25/150 (17%), Positives = 57/150 (38%), Gaps = 5/150 (3%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            ++ GFVDG+G     +  N++ K  +Q+   F++ Q  +    L  L    G G VR   
+Sbjct  12   YLAGFVDGDGSIIAQIKPNQSYKFKHQLSLTFQVTQKTQRRWFLDKLVDEIGVGYVRDRG  71
+
+Query  67   DDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKILE  126
+                +  + +   L   +   +  P    K        +I+  +   +  + +  +++  
+Sbjct  72   -SVSDYILSEIKPLHNFLTQLQ--PFLKLKQKQANLVLKIIEQLPSAKE-SPDKFLEVCT  127
+
+Query  127  IAMEM-NTGNHERLKRTLEEIRGLDEDTVH  155
+               ++    + +  K T E +R + +    
+Sbjct  128  WVDQIAALNDSKTRKTTSETVRAVLDSLSE  157
+
+
+> sp|P56347|DNE1_CHLVU DNA endonuclease I-CvuI OS=Chlorella vulgaris 
+OX=3077 PE=1 SV=1
+Length=161
+
+ Score = 102 bits (253),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 34/154 (22%), Positives = 60/154 (39%), Gaps = 5/154 (3%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            LK  W+ GFVD +GC    +         YQV     + Q      +L  ++K  GCG V
+Sbjct  10   LKFAWLAGFVDADGCINAQIVSREDYLLKYQVRVSLTVFQSTTRHFILLDIQKILGCGTV  69
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLI  122
+            RK +D   E  +   + L+  +E     P    K    K   +I+  +   +      L+
+Sbjct  70   RKRNDGMSEFCVVGGTSLQTTLEKL--LPYLQLKRAQAKLVLQIIKKLPNTK--DPSVLM  125
+
+Query  123  KILEIAMEMN-TGNHERLKRTLEEIRGLDEDTVH  155
+            +   +A ++    + ++     E +R   +   H
+Sbjct  126  EAALLADKVGLLTDGKKRTILAENVRECLKKLGH  159
+
+
+> sp|P22191|YMC1_SCHPO Uncharacterized cox1 intron-1 45.6 kDa protein 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPMIT.02 PE=4 SV=3
+Length=384
+
+ Score = 105 bits (263),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 37/126 (29%), Positives = 71/126 (56%), Gaps = 3/126 (2%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRK-  64
+             W+VGF DG+GCF +   + +  K  +     F++ Q+  + ++LY +++  G G + K 
+Sbjct  109  QWLVGFTDGDGCFSISKQKIKNGKNKWS--LTFKLTQNLYNYRILYFIKRNLGIGSLYKE  166
+
+Query  65   NHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKI  124
+            +  +    R+R+R  LKK+++ F++ PL TKK  D+  F++  +++E     + E   K+
+Sbjct  167  SSTNTVIYRLRRREHLKKIIDIFDQFPLLTKKYWDYYLFKKAFLILEDANLNSFEKNSKL  226
+
+Query  125  LEIAME  130
+             EI +E
+Sbjct  227  EEIRIE  232
+
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 25/142 (18%), Positives = 54/142 (38%), Gaps = 23/142 (16%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-----  57
+            L   W++GF++ EG FY+        K+  +++  F I Q+  +  +L  + +F      
+Sbjct  248  LTKSWLIGFIEAEGSFYL------LQKSPVRIIHGFEITQN-YEQPLLAQISEFLFNSQI  300
+
+Query  58   --GCGVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEH  115
+                   + +    Y L    +  +  +  +FE    K  K+++FK + R L        
+Sbjct  301  SPKIKSKKNSLITNYSLSTSSKERMLFLSSYFENC-FKGVKSLEFKIWSRSLRKNYN---  356
+
+Query  116  LTKEGLIKILEIAMEMNTGNHE  137
+                   ++L     +    ++
+Sbjct  357  -----FEQLLRARDLIRKLKNK  373
+
+
+> sp|O21044|AI2B_DICDI Intron-encoded DNA endonuclease ai2b OS=Dictyostelium 
+discoideum OX=44689 GN=ai2b PE=3 SV=1
+Length=262
+
+ Score = 100 bits (249),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 24/152 (16%), Positives = 55/152 (36%), Gaps = 11/152 (7%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFG--  58
+            + L   W+ GF DG G   +  +     K       +  +  ++++ Q+L  +++  G  
+Sbjct  112  LSLDTAWLSGFFDGVGSIVINQTTLENKK-------QLVLTFNQKNNQILIKIQRIVGGN  164
+
+Query  59   --CGVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHL  116
+                   ++   +Y L    +  + ++ E+F+K+P +  KN       +   +      +
+Sbjct  165  FYINTNTQSGKYKYALYFTSKEEILQLYEYFKKYPSRAYKNKRIGLIPQYYELQTLMTSI  224
+
+Query  117  TKEGLIKILEIAMEMNTGNHERLKRTLEEIRG  148
+                L + L     +     E  +    EI  
+Sbjct  225  HDNQLQETLWKKFMIQWDYKEIDEIQSGEILK  256
+
+
+> sp|Q0H8Y1|AI5_USTMA Probable intron-encoded endonuclease aI5 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI5 
+PE=3 SV=2
+Length=536
+
+ Score = 103 bits (257),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 29/132 (22%), Positives = 57/132 (43%), Gaps = 9/132 (7%)
+
+Query  6    DWVVGFVDGE---GCFYVGVSRNRTMKTGYQVLPEFRIVQH-KRDIQVLYALRKFFGCGV  61
+            +W  GF D     GCF   +  N T          F + Q  + + +VL ++       V
+Sbjct  410  NWFCGFTDARHPRGCFTCSLLGNST-----AYRFRFLLTQKGEMNKEVLISIANLMKGTV  464
+
+Query  62   VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGL  121
+               +  D YE+ +     ++K++++F  H L +KK   ++ +  I   ++ GEHL+ +  
+Sbjct  465  RSHSVKDVYEITVNGIRNMEKIIDYFTNHKLYSKKAKSYQIWLEIYESIKNGEHLSPDSR  524
+
+Query  122  IKILEIAMEMNT  133
+              +     ++N 
+Sbjct  525  NYLKMKTQQINK  536
+
+
+ Score = 70.5 bits (171),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 27/107 (25%), Positives = 42/107 (39%), Gaps = 10/107 (9%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+            +W VGF +G+G F V    N            F I Q   DIQVL+ + +  G G V K 
+Sbjct  296  EWFVGFTEGDGSFIVSTRGN----------LMFVITQSTMDIQVLHYIEQELGFGRVIKQ  345
+
+Query  66   HDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMER  112
+                    ++  + L  +++ F  + +   K   F KF      +  
+Sbjct  346  GHKTSRFIVQDMNNLYILIQLFNGNIVFPSKQNSFFKFVHHFNKLSN  392
+
+
+> sp|Q0H8Y0|AI4_USTMA Probable intron-encoded endonuclease aI4 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI4 
+PE=3 SV=2
+Length=530
+
+ Score = 103 bits (256),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 33/138 (24%), Positives = 62/138 (45%), Gaps = 14/138 (10%)
+
+Query  4    KPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQ------VLYALRKFF  57
+               W+ GF++ +G F V  S +       ++   F +VQ +          ++  +  F 
+Sbjct  386  FDSWLSGFIEADGSFQVRTSLSSKYP---RLSLSFELVQSRITHYGFTMFTIMQEIAIFL  442
+
+Query  58   GCGV---VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGE  114
+               V     +  + +Y LR       K + ++  K+PLK  K +DFK + ++L   E+G 
+Sbjct  443  ETNVNEIRSERKNPQYRLRTSSLKTNKNIRDYLVKYPLKGTKYLDFKDWCKVLSYFEQGT  502
+
+Query  115  HLTKEGLIKILEIAMEMN  132
+            H+  +   +I+EI  +MN
+Sbjct  503  HM--DNTARIVEIKSQMN  518
+
+
+ Score = 55.5 bits (132),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 23/125 (18%), Positives = 42/125 (34%), Gaps = 4/125 (3%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            +     ++ G ++G+G   V   +      G +  P  +IV   +D  +   ++K  G G
+Sbjct  261  LLFFGSYLAGLIEGDGTIVV--PKQERSAKGKRNYPSVQIVFQLKDFPLCQIVQKLIGHG  318
+
+Query  61   VVRKNHD-DRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKE  119
+             + K      Y L I     L ++        ++  K   F      L       +L   
+Sbjct  319  TISKKKQAAAYILTINNIQGLIELSNLING-KIRGPKYYQFVLLVEYLNKKCPNLNLKPA  377
+
+Query  120  GLIKI  124
+            G  K 
+Sbjct  378  GFNKT  382
+
+
+> sp|Q0H8X8|AI2_USTMA Probable intron-encoded endonuclease aI2 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI2 
+PE=3 SV=2
+Length=533
+
+ Score = 102 bits (254),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 32/133 (24%), Positives = 61/133 (46%), Gaps = 9/133 (7%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+                +W+VG  DG+G FY      +T K  +     F+I Q   +I++LY ++   G G 
+Sbjct  253  TNFKEWLVGITDGDGTFYFA----KTKKGIWSF--SFQIGQSNYNIRLLYYIKSMLGIGS  306
+
+Query  62   VR--KNHDDRYELRIRKRSCL-KKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTK  118
+            V      D+    R+R    + + ++  F+ +PL T K  ++  F++ +++M       +
+Sbjct  307  VSVTHAKDNTAHYRVRNIQHIIQYILPIFDTYPLLTSKYFNYDLFKKAILIMNDSSLSNQ  366
+
+Query  119  EGLIKILEIAMEM  131
+            E   KI  +  + 
+Sbjct  367  EKDEKISYLKSQS  379
+
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 24/138 (17%), Positives = 50/138 (36%), Gaps = 10/138 (7%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV  62
+            +   W++GF + EG FY+        K   +++  F I Q   D  VL A+       V 
+Sbjct  406  MTKSWLIGFTEAEGSFYI------VKKGPLRLVHAFEISQKL-DHIVLEAIALILDIKVT  458
+
+Query  63   RKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLI  122
+             K       +       ++ ++ +F K  +K  K ++++ + R       G       + 
+Sbjct  459  TK--KTYMTVVTTNYKSIENIISYFFK-TMKGMKALEYRIWARSFNKKGSGRFEYMTKIQ  515
+
+Query  123  KILEIAMEMNTGNHERLK  140
+             ++     +    +   K
+Sbjct  516  NLMRNIRSIRLDKNFTKK  533
+
+
+> sp|P03878|SCE2_YEAST Intron-encoded DNA endonuclease aI4 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=AI4 PE=1 SV=3
+Length=556
+
+ Score = 99.8 bits (247),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 20/139 (14%), Positives = 45/139 (32%), Gaps = 11/139 (8%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            +     W VGF D +G        N          P+  I    + +Q +   +   G  
+Sbjct  427  LTKDNSWFVGFFDADGTINYSFKNNH---------PQLTISVTNKYLQDVQEYKNILGGN  477
+
+Query  61   V-VRKNHDDRYELRIRKRSCLKKVVEFFEK-HPLKTKKNVDFKKFRRILIMMERGEHLTK  118
+            +   K+ +  Y+  I+ +  +   +  + K +P +T K       +    + E   +   
+Sbjct  478  IYFDKSQNGYYKWSIQSKDMVLNFINDYIKMNPSRTTKMNKLYLSKEFYNLKELKAYNKS  537
+
+Query  119  EGLIKILEIAMEMNTGNHE  137
+               ++        N   ++
+Sbjct  538  SDSMQYKAWLNFENKWKNK  556
+
+
+ Score = 63.9 bits (154),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 19/104 (18%), Positives = 38/104 (37%), Gaps = 10/104 (10%)
+
+Query  4    KPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVR  63
+               W+ G +DG+G F +   +               I     D   L  ++  FG  +  
+Sbjct  324  FNQWLAGLIDGDGYFGIVSKKY----------VSLEITVALEDEMALKEIQNKFGGSIKL  373
+
+Query  64   KNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRIL  107
+            ++       R+  ++ + K++     +   TK+ V F K   +L
+Sbjct  374  RSGVKAIRYRLTNKTGMIKLINAVNGNIRNTKRLVQFNKVCILL  417
+
+
+> sp|P22190|YMC2_SCHPO Uncharacterized cox1 intron-2 37.2 kDa protein 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=SPMIT.03 PE=4 SV=1
+Length=323
+
+ Score = 94.0 bits (232),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 26/120 (22%), Positives = 56/120 (47%), Gaps = 5/120 (4%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            W+ GF D +  F + +          +V   ++I Q  +   +L  ++   G  +  +  
+Sbjct  200  WLAGFSDADASFQIKILNRDK---KIEVRLNYQIDQ--KKEYLLSLIKDNLGGNIGYRKS  254
+
+Query  67   DDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKILE  126
+             D Y          KKV+ +F+ + L + K + + K+R+  ++++  +HLT+ GL +I +
+Sbjct  255  QDTYYYGSTSFGSAKKVINYFDNYHLLSSKYISYLKWRKAYLIIQENKHLTESGLSQIKK  314
+
+
+> sp|A9RAH7|AI2_DEBHA Probable intron-encoded endonuclease aI2 
+OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 
+1990 / NBRC 0083 / IGC 2968) OX=284592 GN=aI2 PE=3 SV=1
+Length=657
+
+ Score = 92.8 bits (229),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 20/145 (14%), Positives = 50/145 (34%), Gaps = 8/145 (6%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRN------RTMKTGYQVLPEFRIVQHKRDIQVLYALR  54
+            +     W+ GF D +G        +       T K      P+  I    + +Q +   +
+Sbjct  512  LTKNNSWLTGFFDADGTMNFSFKSSCHSAGGYTSKGKVSNHPQLTISVTNKYLQDVLPFK  571
+
+Query  55   KFFGCGV-VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERG  113
+            +  G  +   K+ +  Y+  ++ +  +   V++ + +P KT K            + +  
+Sbjct  572  EMLGGNIYFDKSQNGYYKWSMQSKKDILNFVDYIKLNPSKTVKLNRMLLCNLYYDLKDLK  631
+
+Query  114  EHL-TKEGLIKILEIAMEMNTGNHE  137
+             ++     +++        N  N +
+Sbjct  632  SYMLNDNNMLQNKAWIKFENKWNKK  656
+
+
+ Score = 60.5 bits (145),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 17/108 (16%), Positives = 39/108 (36%), Gaps = 10/108 (9%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+            +    W+ G +DG+GCF +  ++               +     D + L  ++  FG  +
+Sbjct  407  NSFNQWLAGLMDGDGCFGITQNKYTN----------CEMTVALEDEKTLRIIQNKFGGSM  456
+
+Query  62   VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIM  109
+              ++       R+  +  +   +     +   +K+ V   K   +L M
+Sbjct  457  KLRSGAKAIRYRLHNQKGMINTMNAINGNMRHSKRLVQLHKVCSLLNM  504
+
+
+> sp|A9RAH6|AI3_DEBHA Probable intron-encoded endonuclease aI3 
+OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 
+1990 / NBRC 0083 / IGC 2968) OX=284592 GN=aI3 PE=3 SV=1
+Length=687
+
+ Score = 90.9 bits (224),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 24/105 (23%), Positives = 47/105 (45%), Gaps = 12/105 (11%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFG-CG  60
+            +    W+ GF++ EGCF + ++++ +   G              D  ++  +++FF    
+Sbjct  594  EYFKCWLSGFMEAEGCFSIRLNKSNSFSMG-----------QNDDFYLMEEIKQFFNATN  642
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRR  105
+             VR ++ + Y L I KR  L  ++     +PL  +K     KF +
+Sbjct  643  SVRNSYKNFYCLEIYKRIMLNNIITHCSNYPLLGEKKESLMKFLK  687
+
+
+ Score = 64.3 bits (155),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 20/104 (19%), Positives = 43/104 (41%), Gaps = 5/104 (5%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            + VG +DG+G   V   R + +    Q     +    + +  +L  + K  G  V     
+Sbjct  432  FWVGLMDGDGSMQVNHWRKKNL----QYRLIMKTSNLESNYNMLMLMAKVMGGTVRISKK  487
+
+Query  67   DDRYELRIRKRSCLKKVVEFFEKHPLKT-KKNVDFKKFRRILIM  109
+             D     +  +  +K +++ F+K+PL T +K       ++ + +
+Sbjct  488  KDNVMWVVDSKESIKDMMKMFDKYPLLTSRKMCQINFMKKCMKL  531
+
+
+> sp|P03880|ANI1_EMEND Intron-encoded DNA endonuclease I-AniI OS=Emericella 
+nidulans OX=162425 GN=I-AniI PE=1 SV=3
+Length=488
+
+ Score = 89.7 bits (221),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 33/111 (30%), Positives = 56/111 (50%), Gaps = 11/111 (10%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+            DL   ++VG  +G+G F +        K G  +  E  I    +D+Q++Y ++K  G G+
+Sbjct  237  DLTYAYLVGLFEGDGYFSIT-------KKGKYLTYELGIELSIKDVQLIYKIKKILGIGI  289
+
+Query  62   VRKNHDD---RYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILI  108
+            V     +      LRIR ++ LK  +   FEK+P+ + K  D+ +FR  L+
+Sbjct  290  VSFRKINEIEMVALRIRDKNHLKSFILPIFEKYPMFSNKQYDYLRFRNALL  340
+
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 26/114 (23%), Positives = 52/114 (46%), Gaps = 8/114 (7%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFG-CG  60
+                 W+VGF++ EGCF V     +  K    ++  F I Q   DI ++ A+RK+     
+Sbjct  369  SYFSAWLVGFIEAEGCFSV----YKLNKDDDYLIASFDIAQRDGDI-LISAIRKYLSFTT  423
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFEKHP--LKTKKNVDFKKFRRILIMMER  112
+             V  +  +  +L++     ++ +++F +  P  L   K + +  + + L  + R
+Sbjct  424  KVYLDKTNCSKLKVTSVRSVENIIKFLQNAPVKLLGNKKLQYLLWLKQLRKISR  477
+
+
+> sp|P03881|YMRF1_YEAST Uncharacterized mitochondrial protein RF1 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=Q0255 PE=4 SV=3
+Length=472
+
+ Score = 85.9 bits (211),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 28/134 (21%), Positives = 52/134 (39%), Gaps = 10/134 (7%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGC-  59
+            MD    W+VGF DG+G FY+ ++  + ++  Y          H  D   L  +R      
+Sbjct  82   MDNFYKWLVGFTDGDGSFYIKLNDKKYLRFFYGFR------MHIDDKACLEKIRNMLNMP  135
+
+Query  60   GVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKE  119
+                +       +  +K+     +V  F+K+P  T K   + K++    M+     ++  
+Sbjct  136  SNFEETTKTIMLVNSQKKWLYSNIVTIFDKYPCLTIKYYSYYKWKMA--MINNLNGMSYN  193
+
+Query  120  GLIKILEIAMEMNT  133
+                +L I   +N 
+Sbjct  194  N-KDLLNIKNTINN  206
+
+
+> sp|P32761|DNE1_CHLMO DNA endonuclease I-CeuI OS=Chlamydomonas 
+moewusii OX=3054 PE=1 SV=1
+Length=218
+
+ Score = 82.8 bits (203),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 38/134 (28%), Positives = 60/134 (45%), Gaps = 7/134 (5%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN-  65
+            ++ GF++GE    +   +  T K G  V PEF + QH   ++VLY   + F  G +R   
+Sbjct  58   FLAGFLEGEASLNISTKKLATSKFGLVVDPEFNVTQHVNGVKVLYLALEVFKTGRIRHKS  117
+
+Query  66   -HDDRYELRIRKRSCL-KKVVEFFEKHP---LKTKKNVDFKKFRRILIMMERGEHLTKEG  120
+              +    L I  R  L +KV+ F+E++       +K      F+ +L +     H   E 
+Sbjct  118  GSNATLVLTIDNRQSLEEKVIPFYEQYVVAFSSPEKVKRVANFKALLELFNNDAHQDLEQ  177
+
+Query  121  L-IKILEIAMEMNT  133
+            L  KIL I  +M  
+Sbjct  178  LVNKILPIWDQMRK  191
+
+
+> sp|Q0H8Y3|AI8_USTMA Probable intron-encoded endonuclease aI8 
+OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI8 
+PE=3 SV=2
+Length=645
+
+ Score = 82.8 bits (203),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 20/133 (15%), Positives = 52/133 (39%), Gaps = 15/133 (11%)
+
+Query  6    DWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN  65
+             +VVG +DG+G   V   R + +    Q     ++     + ++L  +   +G  V R  
+Sbjct  400  AFVVGLIDGDGSLQVNHWRYKIL----QFRLVVKLADKPINYEMLCIIASIYGGNVRRVQ  455
+
+Query  66   HDDRYELRIRK--RSCLKKVVEFFEK-HPLKTKKNVDFKKFR--------RILIMMERGE  114
+             +  Y +      ++  + ++  F K  PL ++ ++  + F          +   +   +
+Sbjct  456  KEGGYVIWTVNDKKTFTRTILPLFSKCAPLTSRMHLQLQFFLVFFNDPNVDLYFKLRDSK  515
+
+Query  115  HLTKEGLIKILEI  127
+            ++ +E +  +   
+Sbjct  516  YIDREKVSPLFNK  528
+
+
+ Score = 48.5 bits (114),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 24/112 (21%), Positives = 40/112 (36%), Gaps = 21/112 (19%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGV  61
+                DW+ GF++ EG F    S              F I Q+  D  ++ A+R F+G   
+Sbjct  531  SYFSDWLGGFIESEGSFVNRSSGGS----------SFSIAQN-HDYYLIEAIRDFYGVSH  579
+
+Query  62   VRKNHD-------DRYELRIRKRSCLKKVVEFFEKHPLK-TKKNVDFKKFRR  105
+            +  ++          YE+ I   + +  V+      PL    K     +F  
+Sbjct  580  LTISNKFGKVSGYPLYEVSIASLAGVTHVIYHCV--PLLQGYKYHQLVEFIN  629
+
+
+> sp|P03877|SCE3_YEAST Intron-encoded DNA endonuclease aI3 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=AI3 PE=1 SV=3
+Length=415
+
+ Score = 78.9 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 18/133 (14%), Positives = 50/133 (38%), Gaps = 25/133 (19%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKR-----------DIQVLYAL  53
+              W+ G  D +G F + +   +   +         + Q+ +              ++ A+
+Sbjct  242  NAWLAGMTDADGNFSINLMNGKNRSSRAMPYYCLELRQNYQKNSNNNNINFSYFYIMSAI  301
+
+Query  54   RKFFGCGVVRKNHD------------DRYELRIRKRSCLKKV--VEFFEKHPLKTKKNVD  99
+              +F   +  +  +              Y  ++   +  K +  +E+F K+ L + K++D
+Sbjct  302  ATYFNVNLYSRERNLNLLVSTNNTYKTYYSYKVMVANTYKNIKVMEYFNKYSLLSSKHLD  361
+
+Query  100  FKKFRRILIMMER  112
+            F  + +++I++  
+Sbjct  362  FLDWSKLVILINN  374
+
+
+ Score = 43.9 bits (102),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/123 (16%), Positives = 43/123 (35%), Gaps = 5/123 (4%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKN-  65
+            ++ G ++G+G   V    N +     +  P   +V    D+++   L     CG V K  
+Sbjct  112  YLAGLIEGDGTITVQ---NSSSMKKSKYRPLIVVVFKLEDLELANYLCNLTKCGKVYKKI  168
+
+Query  66   HDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKIL  125
+            + +     I     +  ++     + ++T K   F +    +        +T   L  + 
+Sbjct  169  NRNYVLWTIHDLKGVYTLLNIINGY-MRTPKYEAFVRGAEFMNNYINSTTITHNKLKNMD  227
+
+Query  126  EIA  128
+             I 
+Sbjct  228  NIK  230
+
+
+> sp|Q2LCQ5|AI3_DICCI Probable intron-encoded endonuclease aI3 
+OS=Dictyostelium citrinum OX=361072 GN=aI3 PE=3 SV=1
+Length=243
+
+ Score = 75.9 bits (185),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 26/108 (24%), Positives = 53/108 (49%), Gaps = 12/108 (11%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            +    +W+ GFV+ EGCF +  S              F I Q   +  +L  +++FF   
+Sbjct  147  ITYFNEWLSGFVEAEGCFCIRTSTYH----------SFSISQK-YEKVLLSQIKEFFNIT  195
+
+Query  61   V-VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRIL  107
+              ++++  + + L + K+  L+K++  F ++PL  +KN  F++F+   
+Sbjct  196  TQIKESKKNIFLLEVYKKVILQKLIHHFIEYPLLGEKNKSFERFKNFF  243
+
+
+ Score = 45.1 bits (105),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 16/105 (15%), Positives = 46/105 (44%), Gaps = 8/105 (8%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRK  64
+              + VG ++G G   V   + + +    Q   E ++     +  +   ++K  G  +  +
+Sbjct  14   KKFWVGLLEGSGSIQVNHWKKKNL----QFRLEIKLKNCNENFLMFKDIQKAIGGYIRFE  69
+
+Query  65   NHD----DRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRR  105
+                   D+    + +++ ++++++ F+++ L TK+  D   F +
+Sbjct  70   TSKKKERDQVVWIVDQKTEIERIIKIFDQYALLTKQKQDQLNFLK  114
+
+
+> sp|Q9ZZW7|MBI3_YEAST Cytochrome b mRNA maturase bI3 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BI3 
+PE=1 SV=1
+Length=517
+
+ Score = 77.0 bits (188),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 29/114 (25%), Positives = 52/114 (46%), Gaps = 16/114 (14%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRK  64
+              ++ G  +G+G   +        K G  +L E  I  H RDIQ+LY ++   G G V  
+Sbjct  265  YAYIGGLFEGDGWITIS-------KKGKYLLYELGIEMHIRDIQLLYKIKNILGIGKVTI  317
+
+Query  65   NH--------DDRYELRIRKRSCLKKVV-EFFEKHPLKTKKNVDFKKFRRILIM  109
+                       +  +  +R ++ LK ++   F+K+P+ T K+ D+  F+  L+ 
+Sbjct  318  KKLKMKDGTIKEMCKFNVRNKNHLKNIIIPIFDKYPMLTNKHYDYLYFKDNLLK  371
+
+
+ Score = 55.5 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/113 (20%), Positives = 49/113 (43%), Gaps = 9/113 (8%)
+
+Query  2    DLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG-  60
+            +    W++GF + E CF +    N+ MKT       F + Q+   ++V+ A++ +     
+Sbjct  399  NYFSSWLIGFFEAESCFSIYKPMNKKMKTA-----SFEVSQNN-SMEVMLAIKSYLKITQ  452
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFEKHP--LKTKKNVDFKKFRRILIMME  111
+             +  +  +   +  +  + +K VV F   +P  L   K + +  F + L  + 
+Sbjct  453  NIYTDKFNNSRMTTKSINGIKNVVMFINNNPIKLLGYKKLQYLLFLKDLRTIT  505
+
+
+> sp|Q9ZZX0|AI5B_YEAST Intron-encoded DNA endonuclease aI5 beta 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=AI5_BETA PE=3 SV=1
+Length=354
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 23/117 (20%), Positives = 51/117 (44%), Gaps = 10/117 (9%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVV--  62
+              W+ GF D +G FY G  +++  +       +F +   ++D  +L  ++K+F  G +  
+Sbjct  198  NPWLTGFNDADGYFYTGFQKHKNSQ-----WLKFHLELSQKDSYILDIIKKYFKTGGILK  252
+
+Query  63   --RKNHDDRYELRIRKRSCLKKVVEFFEKH-PLKTKKNVDFKKFRRILIMMERGEHL  116
+               K+    Y  + +    +K  +E+F  + PL T++   +       ++     H+
+Sbjct  253  RDYKSGATAYIYKAQSSKAMKPFIEYFNNYQPLSTRRYKQYLLLNIAYLLKLNKLHM  309
+
+
+> sp|P0CY43|MBI3_NEUCR Cytochrome b mRNA maturase bI3 OS=Neurospora 
+crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 
+1257 / FGSC 987) OX=367110 GN=bI3 PE=3 SV=1
+Length=477
+
+ Score = 75.5 bits (184),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 43/111 (39%), Gaps = 14/111 (13%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            +    +W+VGF   EG F++  +              F++ Q      +  A +  F   
+Sbjct  364  LPFFKNWIVGFTCSEGSFFIKSNN----------DGCFQLKQRIHT-NLFEAFKLMFNTN  412
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFE---KHPLKTKKNVDFKKFRRILI  108
+                  ++  +  +  +S ++KV+ FF     HPL   K + + K+   L 
+Sbjct  413  RKIDTTNNFNQFGVSSKSDIQKVINFFSFSGLHPLVGLKYIQYIKWLNNLR  463
+
+
+> sp|O21045|AI3_DICDI Probable intron-encoded endonuclease aI3 
+OS=Dictyostelium discoideum OX=44689 GN=aI3 PE=3 SV=1
+Length=232
+
+ Score = 72.8 bits (177),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 21/104 (20%), Positives = 46/104 (44%), Gaps = 10/104 (10%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            +    +W  GFV+  G F +   + +  +  ++               +L  + KF    
+Sbjct  137  ISYFNEWFSGFVEATGSFCIRAQKEKYFRIAHRYDMPL----------LLNLIIKFNITT  186
+
+Query  61   VVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFR  104
+             +R+  +++Y + I K++ L+ ++  FEK+PL   K    + F+
+Sbjct  187  KLREQKNEQYAIEIYKKTLLEVLITHFEKYPLLGDKKNSLETFK  230
+
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 20/128 (16%), Positives = 48/128 (38%), Gaps = 4/128 (3%)
+
+Query  5    PDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRK  64
+              + VG +DG G   V   R + +    Q      +     ++ +L  +++  G  ++++
+Sbjct  10   KKYWVGLMDGVGSIEVNHYRMKNL----QYRLVLNVNDSSENMAMLLKIQQVIGGYLIKR  65
+
+Query  65   NHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKEGLIKI  124
+                     I  +  ++ V++ FE + L T +  +  +F +  +          E   K 
+Sbjct  66   KEKALIAWTINNKMQIEDVIKIFEDYNLVTVRKRNQLQFLKENLKRNDVNWYLSERKNKY  125
+
+Query  125  LEIAMEMN  132
+             +  +  N
+Sbjct  126  KKSLIVSN  133
+
+
+> sp|A9RAG7|MBI3_DEBHA Cytochrome b mRNA maturase bI3 OS=Debaryomyces 
+hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 
+0083 / IGC 2968) OX=284592 GN=bI3 PE=3 SV=1
+Length=522
+
+ Score = 73.9 bits (180),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 19/108 (18%), Positives = 46/108 (43%), Gaps = 15/108 (14%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            +D   +W+VGF   EG F +  ++             F++ Q   ++++   +  FF   
+Sbjct  402  LDYFNNWLVGFTMAEGSFLIKKNK----------DICFQLKQK-YNLELFNNMTLFFNTT  450
+
+Query  61   VVRKNHDDRY-ELRIRKRSCLKKVVEFF---EKHPLKTKKNVDFKKFR  104
+                 + ++Y +  +  ++ ++ ++ FF      PL   K + + K+ 
+Sbjct  451  RKLNINKNKYMQFNVSSKNDIQNMINFFSFSNNQPLLGNKLISYNKWL  498
+
+
+> sp|P03879|MBI4_YEAST Intron-encoded RNA maturase bI4 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BI4 
+PE=1 SV=2
+Length=638
+
+ Score = 71.2 bits (173),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 18/119 (15%), Positives = 44/119 (37%), Gaps = 18/119 (15%)
+
+Query  4    KPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVR  63
+               W+ G +DG+G F +  ++               I    +D ++L  ++  FG  V  
+Sbjct  404  FNQWLAGLIDGDGYFCITKNKY----------ASCEITVELKDEKMLRQIQDKFGGSVKL  453
+
+Query  64   KNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDF--------KKFRRILIMMERGE  114
+            ++       R++ +  + K++     +   +K+ V F          F+  + + +   
+Sbjct  454  RSGVKAIRYRLQNKEGMIKLINAVNGNIRNSKRLVQFNKVCILLNIDFKEPIKLTKDNA  512
+
+
+ Score = 69.3 bits (168),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 17/138 (12%), Positives = 39/138 (28%), Gaps = 7/138 (5%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCG  60
+            +     W +GF D +G        N       ++ P+  I    + +  +   R+ FG  
+Sbjct  507  LTKDNAWFMGFFDADGTI------NYYYSGKLKIRPQLTISVTNKYLHDVEYYREVFGGN  560
+
+Query  61   V-VRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRILIMMERGEHLTKE  119
+            +   K  +  ++  I  +        + +  P K+ K        +   + +        
+Sbjct  561  IYFDKAKNGYFKWSINNKELHNIFYTYNKSCPSKSNKGKRLFLIDKFYYLYDLLAFKAPH  620
+
+Query  120  GLIKILEIAMEMNTGNHE  137
+                           N+ 
+Sbjct  621  NTALYKAWLKFNEKWNNN  638
+
+
+> sp|Q0H8X7|AI1_USTMA Probable intron-encoded DNA endonuclease 
+aI1 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=aI1 
+PE=3 SV=1
+Length=121
+
+ Score = 65.9 bits (159),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 40/95 (42%), Gaps = 3/95 (3%)
+
+Query  44   KRDIQVLYALRKFFG---CGVVRKNHDDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDF  100
+            K    +L  + + FG      +   +   Y + I   + L  ++ +  ++ L T K ++F
+Sbjct  22   KSYESILKLIAETFGVQLTTTIHNRNISYYLIAITSPAKLAILINYLNEYSLFTSKYLNF  81
+
+Query  101  KKFRRILIMMERGEHLTKEGLIKILEIAMEMNTGN  135
+            + F   + MM   EHLT  G  KI  +   MN   
+Sbjct  82   QDFSNCVNMMLNKEHLTISGREKITILKESMNNKR  116
+
+
+> sp|P12294|ENS2_YEASX Endonuclease SceI small subunit OS=Saccharomyces 
+cerevisiae OX=4932 GN=ENS2 PE=1 SV=2
+Length=476
+
+ Score = 66.2 bits (160),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 43/107 (40%), Gaps = 6/107 (6%)
+
+Query  4    KPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFF-----G  58
+               W+ GF   +G F   +   +       + P + I Q +   +++Y +++ F      
+Sbjct  317  NNYWLAGFTAADGSFLSSMYNPKDTLLFKNMRPSYVISQVETRKELIYLIQESFDLSISN  376
+
+Query  59   CGVVRKNHDDRYELRIRKRSCLKKVVEFFEKH-PLKTKKNVDFKKFR  104
+               V       ++L  R    L K + +F+K  PL   K  ++ KFR
+Sbjct  377  VKKVGNRKLKDFKLFTRTTDELMKFIYYFDKFLPLHDNKQFNYIKFR  423
+
+
+> sp|Q6DN58|AI3_KLULA Probable intron-encoded endonuclease aI3 
+OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 
+/ NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=aI3 PE=3 
+SV=1
+Length=396
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 18/100 (18%), Positives = 45/100 (45%), Gaps = 12/100 (12%)
+
+Query  7    WVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLYALRKFFGCGVVRKNH  66
+            W +GF++ +G F +  + N +               +  D  ++  L+ +F         
+Sbjct  307  WFLGFIENKGKFIIRKNNNNSFLF------------YINDKHLIEFLKNYFNIKNKLIYK  354
+
+Query  67   DDRYELRIRKRSCLKKVVEFFEKHPLKTKKNVDFKKFRRI  106
+            ++ Y L +  +  +   ++FF K+ L+  K +++ K+++I
+Sbjct  355  NNIYILEVYNKYYINIFIKFFNKYNLQGYKYIEYIKWKKI  394
+
+
+> sp|O21043|AI2A_DICDI Intron-encoded DNA endonuclease ai2a OS=Dictyostelium 
+discoideum OX=44689 GN=ai2a PE=3 SV=1
+Length=309
+
+ Score = 42.0 bits (97),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 16/163 (10%), Positives = 50/163 (31%), Gaps = 17/163 (10%)
+
+Query  1    MDLKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDIQVLY--ALRKFFG  58
+            +     W+ G+ D  G       +++             +    +   +L    ++K  G
+Sbjct  124  LTFANGWLSGYFDAVGLIEFSTEQDQLY-----------LAFRHKKNTMLNELEIQKCLG  172
+
+Query  59   CGVVRKNHD---DRYELRIRKRSCLKKVVEFFEKHPLKTK-KNVDFKKFRRILIMMERGE  114
+              +  + +    +   L    +  +  + ++F+K+ L++  K        +   +    +
+Sbjct  173  VNLTCEQNGCSCESVTLYKINKKTVLSLYKYFKKYRLRSSIKTTQILLIPQFYEIQNETK  232
+
+Query  115  HLTKEGLIKILEIAMEMNTGNHERLKRTLEEIRGLDEDTVHPH  157
+             +    + + L           E +K    ++    +    P 
+Sbjct  233  EINDMQVKQKLWKQFFKKWYVDEMVKYESVKLANYYKSKTSPE  275
+
+
+> sp|Q8U0H4|RTCB_PYRFU tRNA-splicing ligase RtcB OS=Pyrococcus 
+furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 
+GN=rtcB PE=3 SV=1
+Length=970
+
+ Score = 39.3 bits (90),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 15/123 (12%), Positives = 38/123 (31%), Gaps = 13/123 (11%)
+
+Query  3    LKPDWVVGFVDGEGCFYVGVSRNRTMKTGYQVLPEFRIVQHKRDI-QVLYALRKFFGCGV  61
+            +K +++ GF   +G   V       +        +  + ++ ++    +  + + FG   
+Sbjct  364  VKRNFLAGFFGADGSI-VEFKGTTPLPIHLTQAKDVALEENLKEFLYDISRILEEFGVKT  422
+
+Query  62   VRKNHDD----RYELRIRKRSCLKKVVEFFEKHPLKTKKNVD------FKKFRRILIMME  111
+                 +      Y L I     ++  +     +    KK         + KF+  +    
+Sbjct  423  TIYKVNSKKSVTYRLSIVGEENIRNFLGKIN-YEYDPKKKAKGLIAYAYLKFKESVKKER  481
+
+Query  112  RGE  114
+            R  
+Sbjct  482  RKA  484
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0415    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8562461542
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,1005 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 6B1K.A
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q6DN04|MIF_MACMU Macrophage migration inhibitory factor OS=M...  239     2e-82
+  sp|Q4R549|MIF_MACFA Macrophage migration inhibitory factor OS=M...  239     2e-82
+  sp|P14174|MIF_HUMAN Macrophage migration inhibitory factor OS=H...  239     2e-82
+  sp|P80928|MIF_PIG Macrophage migration inhibitory factor OS=Sus...  229     2e-78
+  sp|Q1ZZU7|MIF_SHEEP Macrophage migration inhibitory factor OS=O...  223     4e-76
+  sp|P80177|MIF_BOVIN Macrophage migration inhibitory factor OS=B...  223     4e-76
+  sp|O55052|MIF_MERUN Macrophage migration inhibitory factor OS=M...  221     2e-75
+  sp|P30904|MIF_RAT Macrophage migration inhibitory factor OS=Rat...  220     7e-75
+  sp|P34884|MIF_MOUSE Macrophage migration inhibitory factor OS=M...  218     3e-74
+  sp|Q02960|MIF_CHICK Macrophage migration inhibitory factor OS=G...  186     1e-61
+  sp|Q76BK2|MIF_XENLA Macrophage migration inhibitory factor OS=X...  175     4e-57
+  sp|A9JSE7|MIF_XENTR Macrophage migration inhibitory factor OS=X...  163     2e-52
+  sp|P91850|MIFH_BRUMA Macrophage migration inhibitory factor hom...  107     2e-30
+  sp|P81529|MIFH_TRISP Macrophage migration inhibitory factor hom...  100     2e-27
+  sp|P81748|MIFH_TRITR Macrophage migration inhibitory factor hom...  97.8    1e-26
+  sp|O44786|MIFH_WUCBA Macrophage migration inhibitory factor hom...  97.8    2e-26
+  sp|Q18785|MIF2_CAEEL MIF-like protein mif-2 OS=Caenorhabditis e...  73.2    1e-16
+  sp|P30046|DOPD_HUMAN D-dopachrome decarboxylase OS=Homo sapiens...  72.4    2e-16
+  sp|O35215|DOPD_MOUSE D-dopachrome decarboxylase OS=Mus musculus...  65.9    6e-14
+  sp|Q5ZMG0|DOPD_CHICK D-dopachrome decarboxylase OS=Gallus gallu...  65.9    6e-14
+  sp|P80254|DOPD_RAT D-dopachrome decarboxylase OS=Rattus norvegi...  65.5    1e-13
+  sp|A6NHG4|DDTL_HUMAN D-dopachrome decarboxylase-like protein OS...  62.8    1e-12
+  sp|Q68FI3|DOPDA_XENLA D-dopachrome decarboxylase-A OS=Xenopus l...  62.4    2e-12
+  sp|Q640C5|DOPDB_XENLA D-dopachrome decarboxylase-B OS=Xenopus l...  60.5    6e-12
+  sp|A5PK65|DOPD_BOVIN D-dopachrome decarboxylase OS=Bos taurus O...  54.7    1e-09
+  sp|Q28J83|DOPD_XENTR D-dopachrome decarboxylase OS=Xenopus trop...  53.9    3e-09
+  sp|P90835|MIF3_CAEEL MIF-like protein mif-3 OS=Caenorhabditis e...  50.1    1e-07
+
+
+> sp|Q6DN04|MIF_MACMU Macrophage migration inhibitory factor OS=Macaca 
+mulatta OX=9544 GN=MIF PE=3 SV=4
+Length=115
+
+ Score = 239 bits (609),  Expect = 2e-82, Method: Compositional matrix adjust.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS
+Sbjct  2    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  115
+
+
+> sp|Q4R549|MIF_MACFA Macrophage migration inhibitory factor OS=Macaca 
+fascicularis OX=9541 GN=MIF PE=3 SV=3
+Length=115
+
+ Score = 239 bits (609),  Expect = 2e-82, Method: Compositional matrix adjust.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS
+Sbjct  2    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  115
+
+
+> sp|P14174|MIF_HUMAN Macrophage migration inhibitory factor OS=Homo 
+sapiens OX=9606 GN=MIF PE=1 SV=4
+Length=115
+
+ Score = 239 bits (609),  Expect = 2e-82, Method: Compositional matrix adjust.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS
+Sbjct  2    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  115
+
+
+> sp|P80928|MIF_PIG Macrophage migration inhibitory factor OS=Sus 
+scrofa OX=9823 GN=MIF PE=1 SV=3
+Length=115
+
+ Score = 229 bits (583),  Expect = 2e-78, Method: Compositional matrix adjust.
+ Identities = 108/114 (95%), Positives = 110/114 (96%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMF+VNTNVPRASVPDGFLSELTQQL QA GKP QYIAVHVVPDQLMAFGGSSEPCALCS
+Sbjct  2    PMFVVNTNVPRASVPDGFLSELTQQLVQAMGKPAQYIAVHVVPDQLMAFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDR+YINYYDMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRIYINYYDMNAANVGWNGSTFA  115
+
+
+> sp|Q1ZZU7|MIF_SHEEP Macrophage migration inhibitory factor OS=Ovis 
+aries OX=9940 GN=MIF PE=3 SV=1
+Length=115
+
+ Score = 223 bits (568),  Expect = 4e-76, Method: Compositional matrix adjust.
+ Identities = 105/114 (92%), Positives = 108/114 (95%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMF+VNTNVPRASVPDG LSELTQQLAQATGKP QYIAVHVVPDQLM FGGSSEPCALCS
+Sbjct  2    PMFVVNTNVPRASVPDGLLSELTQQLAQATGKPAQYIAVHVVPDQLMTFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLL ERLRISPDR+YIN+ DMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLTERLRISPDRIYINFCDMNAANVGWNGSTFA  115
+
+
+> sp|P80177|MIF_BOVIN Macrophage migration inhibitory factor OS=Bos 
+taurus OX=9913 GN=MIF PE=1 SV=6
+Length=115
+
+ Score = 223 bits (568),  Expect = 4e-76, Method: Compositional matrix adjust.
+ Identities = 105/114 (92%), Positives = 108/114 (95%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMF+VNTNVPRASVPDG LSELTQQLAQATGKP QYIAVHVVPDQLM FGGSSEPCALCS
+Sbjct  2    PMFVVNTNVPRASVPDGLLSELTQQLAQATGKPAQYIAVHVVPDQLMTFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLL ERLRISPDR+YIN+ DMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLTERLRISPDRIYINFCDMNAANVGWNGSTFA  115
+
+
+> sp|O55052|MIF_MERUN Macrophage migration inhibitory factor OS=Meriones 
+unguiculatus OX=10047 GN=MIF PE=3 SV=3
+Length=115
+
+ Score = 221 bits (563),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 103/114 (90%), Positives = 109/114 (96%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPR+SVP+G LSELTQQLAQATGKP QYIAVHVVPDQLM F GSS+PCALCS
+Sbjct  2    PMFIVNTNVPRSSVPEGLLSELTQQLAQATGKPAQYIAVHVVPDQLMTFSGSSDPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNR+YSKLLCGLLA+RLRISPDR+YINYYDMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRTYSKLLCGLLADRLRISPDRIYINYYDMNAANVGWNGSTFA  115
+
+
+> sp|P30904|MIF_RAT Macrophage migration inhibitory factor OS=Rattus 
+norvegicus OX=10116 GN=Mif PE=1 SV=4
+Length=115
+
+ Score = 220 bits (560),  Expect = 7e-75, Method: Compositional matrix adjust.
+ Identities = 103/114 (90%), Positives = 109/114 (96%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVP+GFLSELTQQLAQATGKP QYIAVHVVPDQLM F G+S+PCALCS
+Sbjct  2    PMFIVNTNVPRASVPEGFLSELTQQLAQATGKPAQYIAVHVVPDQLMTFSGTSDPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNR+YSKLLCGLL++RL ISPDRVYINYYDMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRNYSKLLCGLLSDRLHISPDRVYINYYDMNAANVGWNGSTFA  115
+
+
+> sp|P34884|MIF_MOUSE Macrophage migration inhibitory factor OS=Mus 
+musculus OX=10090 GN=Mif PE=1 SV=2
+Length=115
+
+ Score = 218 bits (556),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 102/114 (89%), Positives = 109/114 (96%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVP+GFLSELTQQLAQATGKP QYIAVHVVPDQLM F G+++PCALCS
+Sbjct  2    PMFIVNTNVPRASVPEGFLSELTQQLAQATGKPAQYIAVHVVPDQLMTFSGTNDPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNR+YSKLLCGLL++RL ISPDRVYINYYDMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRNYSKLLCGLLSDRLHISPDRVYINYYDMNAANVGWNGSTFA  115
+
+
+> sp|Q02960|MIF_CHICK Macrophage migration inhibitory factor OS=Gallus 
+gallus OX=9031 GN=MIF PE=3 SV=3
+Length=115
+
+ Score = 186 bits (473),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 81/114 (71%), Positives = 101/114 (89%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMF ++TNV + +VPD  L ELTQQLA+ATGKP QYIAVH+VPDQ+M+FGGS++PCALCS
+Sbjct  2    PMFTIHTNVCKDAVPDSLLGELTQQLAKATGKPAQYIAVHIVPDQMMSFGGSTDPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L+SIGKIGG QN++Y+KLLC ++A+ L +S DRVYINY+D+NAANVGWN STFA
+Sbjct  62   LYSIGKIGGQQNKTYTKLLCDMIAKHLHVSADRVYINYFDINAANVGWNGSTFA  115
+
+
+> sp|Q76BK2|MIF_XENLA Macrophage migration inhibitory factor OS=Xenopus 
+laevis OX=8355 GN=mif PE=1 SV=1
+Length=115
+
+ Score = 175 bits (443),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 78/114 (68%), Positives = 98/114 (86%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P+F + TNV R SVPD  LS+LT+QLA+ATGKP +YIA+H+VPDQ+M+FG S++PCA+CS
+Sbjct  2    PVFTIRTNVCRDSVPDTLLSDLTKQLAKATGKPAEYIAIHIVPDQIMSFGDSTDPCAVCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L SIGKIGG QN+SY+KLLC +L ++L I  +RVYINYYD+NAANVGWN STFA
+Sbjct  62   LCSIGKIGGPQNKSYTKLLCDILTKQLNIPANRVYINYYDLNAANVGWNGSTFA  115
+
+
+> sp|A9JSE7|MIF_XENTR Macrophage migration inhibitory factor OS=Xenopus 
+tropicalis OX=8364 GN=mif PE=3 SV=1
+Length=115
+
+ Score = 163 bits (412),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 73/114 (64%), Positives = 94/114 (82%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P F V TNV R S+PD  LS+LT+ LA+ATGKP +YIA+H++PDQ+M+FG S++PCA+CS
+Sbjct  2    PTFTVCTNVCRDSMPDTLLSDLTKLLAKATGKPAEYIAIHIMPDQMMSFGDSTDPCAVCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L SIGKIGG QN+SYSKLLC  L +++ I  +RVYIN++D+N ANVGWN STFA
+Sbjct  62   LSSIGKIGGPQNKSYSKLLCDYLTKQMNIPANRVYINFHDLNPANVGWNGSTFA  115
+
+
+> sp|P91850|MIFH_BRUMA Macrophage migration inhibitory factor homolog 
+OS=Brugia malayi OX=6279 GN=Bm1_28435 PE=3 SV=4
+Length=115
+
+ Score = 107 bits (268),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 48/113 (42%), Positives = 75/113 (66%), Gaps = 0/113 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P F ++TN+P+ S+   FL + +  +A+A GKP  Y+++HV   Q M FGGS +PCA+C 
+Sbjct  2    PYFTIDTNIPQNSISSAFLKKASNVVAKALGKPESYVSIHVNGGQAMVFGGSEDPCAVCV  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTF  113
+            L SIG +G   N S+++ L  LLA+ L+I  +R YI + D+ A+++ +N STF
+Sbjct  62   LKSIGCVGPKVNNSHAEKLYKLLADELKIPKNRCYIEFVDIEASSMAFNGSTF  114
+
+
+> sp|P81529|MIFH_TRISP Macrophage migration inhibitory factor homolog 
+OS=Trichinella spiralis OX=6334 PE=1 SV=2
+Length=114
+
+ Score = 100 bits (248),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 46/113 (41%), Positives = 71/113 (63%), Gaps = 0/113 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P+F +NTN+    VP  FLS  +  +     KP  Y+AVH+  DQ ++FGGS++P A  +
+Sbjct  2    PIFTLNTNIKATDVPSDFLSSTSALVGNILSKPGSYVAVHINTDQQLSFGGSTKPAAFGT  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTF  113
+            L SIG I  ++NR +S  L   L ++L I  +R+YI++ ++N  +VGWN +TF
+Sbjct  62   LMSIGGIEPSRNRDHSAKLFDHLNKKLGIPKNRMYIHFVNLNGDDVGWNGTTF  114
+
+
+> sp|P81748|MIFH_TRITR Macrophage migration inhibitory factor homolog 
+OS=Trichuris trichiura OX=36087 PE=1 SV=2
+Length=114
+
+ Score = 97.8 bits (242),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 46/113 (41%), Positives = 68/113 (60%), Gaps = 0/113 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P+F  +TNVP  ++   FL   ++ +A   GKP  Y+AVH+   Q + FGG+  P     
+Sbjct  2    PIFTFSTNVPSENISVDFLKSTSKLIAGMLGKPESYVAVHINGGQKITFGGTDAPAGFGQ  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTF  113
+            L S+G +GG +NRS+S  L   L + L I  +R+YIN+ DM  ++VG+N STF
+Sbjct  62   LLSLGGVGGEKNRSHSAKLFKHLTDGLGIPGNRMYINFVDMRGSDVGYNGSTF  114
+
+
+> sp|O44786|MIFH_WUCBA Macrophage migration inhibitory factor homolog 
+OS=Wuchereria bancrofti OX=6293 GN=MIF PE=3 SV=3
+Length=115
+
+ Score = 97.8 bits (242),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 46/114 (40%), Positives = 70/114 (61%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P F ++TN P+ S+   FL +    + +A GKP  Y+++HV   Q M FGGS +PC +C 
+Sbjct  2    PYFTIDTNKPQDSISSAFLKKAPNVVPKALGKPESYVSIHVNGGQPMVFGGSEDPCPVCV  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L SIG +G   N S+++ L  LLA+ L+I  +R YI   D+ A+++ +N STF 
+Sbjct  62   LKSIGCVGPKVNNSHAEKLYKLLADELKIPKNRCYIESVDIEASSMAFNGSTFG  115
+
+
+> sp|Q18785|MIF2_CAEEL MIF-like protein mif-2 OS=Caenorhabditis 
+elegans OX=6239 GN=mif-2 PE=3 SV=1
+Length=120
+
+ Score = 73.2 bits (178),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 37/114 (32%), Positives = 58/114 (51%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PM  V TN+P   VP  F   LT  LA++ GKP + IAV +     +  G + +P  + S
+Sbjct  2    PMVRVATNLPNEKVPVDFEIRLTDLLARSMGKPRERIAVEIAAGARLVHGATHDPVTVIS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +    N   +  +     + L +  D+V I ++D+  A VG+N +T A
+Sbjct  62   IKSIGAVSAEDNIRNTAAITEFCGKELGLPKDKVVITFHDLPPATVGFNGTTVA  115
+
+
+> sp|P30046|DOPD_HUMAN D-dopachrome decarboxylase OS=Homo sapiens 
+OX=9606 GN=DDT PE=1 SV=3
+Length=118
+
+ Score = 72.4 bits (176),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 39/108 (36%), Positives = 56/108 (52%), Gaps = 1/108 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   ++TN+P   VP G    L    A   GKP   + V V P   MA  GS+EPCA  S
+Sbjct  2    PFLELDTNLPANRVPAGLEKRLCAAAASILGKPADRVNVTVRPGLAMALSGSTEPCAQLS  61
+
+Query  61   LHSIGKIGGAQ-NRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVG  107
+            + SIG +G A+ NRS+S      L + L +  DR+ I ++ + +  +G
+Sbjct  62   ISSIGVVGTAEDNRSHSAHFFEFLTKELALGQDRILIRFFPLESWQIG  109
+
+
+> sp|O35215|DOPD_MOUSE D-dopachrome decarboxylase OS=Mus musculus 
+OX=10090 GN=Ddt PE=1 SV=3
+Length=118
+
+ Score = 65.9 bits (159),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 34/108 (31%), Positives = 54/108 (50%), Gaps = 1/108 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   + TN+P + +P G  + L    A    KP   ++V + P   +    S+EPCA   
+Sbjct  2    PFVELETNLPASRIPAGLENRLCAATATILDKPEDRVSVTIRPGMTLLMNKSTEPCAHLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVG  107
+            + SIG +G A QNR++S      L E L +  DR+ I ++ + A  +G
+Sbjct  62   VSSIGVVGTAEQNRTHSASFFKFLTEELSLDQDRIVIRFFPLEAWQIG  109
+
+
+> sp|Q5ZMG0|DOPD_CHICK D-dopachrome decarboxylase OS=Gallus gallus 
+OX=9031 GN=DDT PE=3 SV=1
+Length=118
+
+ Score = 65.9 bits (159),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 36/115 (31%), Positives = 55/115 (48%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   + TN+P   +P G   +L +  A   GKP + + V V     M   GS+EPCA   
+Sbjct  2    PFVELETNLPAERLPPGLPLKLCEATATILGKPAERVNVTVRSGMPMVLAGSAEPCAQLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A QN+ +S      L   L + P+R+ I +Y +    +G N +   
+Sbjct  62   VSSIGVVGSAQQNQGHSARFFDFLTTELGLGPERIVIRFYPLEPWQIGKNRTVMT  116
+
+
+> sp|P80254|DOPD_RAT D-dopachrome decarboxylase OS=Rattus norvegicus 
+OX=10116 GN=Ddt PE=1 SV=3
+Length=118
+
+ Score = 65.5 bits (158),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 34/108 (31%), Positives = 53/108 (49%), Gaps = 1/108 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   + TN+P + +P G  + L    A    KP   ++V + P   +    S+EPCA   
+Sbjct  2    PFVELETNLPASRIPAGLENRLCAATATILDKPEDRVSVTIRPGMTLLMNKSTEPCAHLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVG  107
+            + SIG +G A QNRS+S      L E L +  DR+ I ++ +    +G
+Sbjct  62   ISSIGVVGTAEQNRSHSSSFFKFLTEELSLDQDRIIIRFFPLEPWQIG  109
+
+
+> sp|A6NHG4|DDTL_HUMAN D-dopachrome decarboxylase-like protein 
+OS=Homo sapiens OX=9606 GN=DDTL PE=2 SV=1
+Length=134
+
+ Score = 62.8 bits (151),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 37/94 (39%), Positives = 48/94 (51%), Gaps = 1/94 (1%)
+
+Query  1   PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+           P   ++TN+P   VP G    L    A   GKP   + V V P   MA  GS+EPCA  S
+Sbjct  2   PFLELDTNLPANRVPAGLEKRLCAAAASILGKPADRVNVTVRPGLAMALSGSTEPCAQLS  61
+
+Query  61  LHSIGKIGGAQ-NRSYSKLLCGLLAERLRISPDR  93
+           + SIG +G A+ NRS+S      L + L +  DR
+Sbjct  62  ISSIGVVGTAEDNRSHSAHFFEFLTKELALGQDR  95
+
+
+> sp|Q68FI3|DOPDA_XENLA D-dopachrome decarboxylase-A OS=Xenopus 
+laevis OX=8355 GN=ddt-a PE=3 SV=1
+Length=118
+
+ Score = 62.4 bits (150),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 35/112 (31%), Positives = 54/112 (48%), Gaps = 1/112 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   + TN+P  +VP     +L    A   GKP + + V V     M  GGSS PC    
+Sbjct  2    PFVELETNLPSQNVPQDLAEKLCSATATILGKPRERVNVTVRTGVSMVVGGSSAPCTQLF  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNS  111
+            + SIG +G A QN+ +S      L E+L ++ DR+ + +  +    +G N +
+Sbjct  62   ISSIGVVGTAEQNKEHSAKFFNFLTEQLGLAQDRILLRFVPIEPWQIGKNGT  113
+
+
+> sp|Q640C5|DOPDB_XENLA D-dopachrome decarboxylase-B OS=Xenopus 
+laevis OX=8355 GN=ddt-b PE=3 SV=1
+Length=118
+
+ Score = 60.5 bits (145),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 34/115 (30%), Positives = 54/115 (47%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   ++TN+ +  VP     +L    A   GKP + + V V     M  GGSS PC    
+Sbjct  2    PFVELDTNLQQQEVPQDLAEKLCSATATILGKPRERVNVTVRTGVSMVVGGSSAPCTQLI  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A QN+ +S      L E+L ++ DR+ + +  +    +G N +   
+Sbjct  62   ISSIGVVGTAEQNKEHSAKFFNFLTEQLGLAQDRILLRFVPLEPWQIGKNGTVMT  116
+
+
+> sp|A5PK65|DOPD_BOVIN D-dopachrome decarboxylase OS=Bos taurus 
+OX=9913 GN=DDT PE=3 SV=1
+Length=118
+
+ Score = 54.7 bits (130),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 50/108 (46%), Gaps = 1/108 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   ++T++P   VP G    L    A    KP   + V V     M   GS+EP A   
+Sbjct  2    PFVELDTSLPAGRVPAGLEKRLCAATAAILSKPEDRVNVTVRSGLAMVVNGSAEPSAQLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVG  107
+            + SIG +G A +NR +S      L + L ++ DR+ I ++ +    +G
+Sbjct  62   VSSIGVVGTAEENRGHSARFFEFLTKELDLAEDRIMIRFFPLERWQIG  109
+
+
+> sp|Q28J83|DOPD_XENTR D-dopachrome decarboxylase OS=Xenopus tropicalis 
+OX=8364 GN=ddt PE=3 SV=1
+Length=118
+
+ Score = 53.9 bits (128),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 48/108 (44%), Gaps = 1/108 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   ++TN+P   VP     +L    A    KP + + V V     M  GGS  PC    
+Sbjct  2    PFVELDTNLPPQQVPQDLAEKLCSATATILSKPRERVNVTVRTGVSMVVGGSCAPCTQLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVG  107
+            + SIG +G A QN+ +S      L E + +  DR+ + +  +    VG
+Sbjct  62   VSSIGVVGTAEQNKEHSAKFFQFLTENMGLEQDRILLRFVPLEPWQVG  109
+
+
+> sp|P90835|MIF3_CAEEL MIF-like protein mif-3 OS=Caenorhabditis 
+elegans OX=6239 GN=mif-3 PE=3 SV=1
+Length=146
+
+ Score = 50.1 bits (118),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 30/109 (28%), Positives = 50/109 (46%), Gaps = 2/109 (2%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P+  V TNV + S  DGF   L   +A+   +P   I V +  +  M  G  ++P A+  
+Sbjct  2    PVIKVQTNVKKVS--DGFEVRLAIHMAKVMKRPESQIFVSLDMNSRMTRGQLTDPLAVLD  59
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWN  109
+            + S   +       Y+  LC   ++ L +  D V INY  ++   +G+N
+Sbjct  60   VTSSTVLTPILTEEYTVALCEFFSQELALDSDAVLINYRSLSPELIGFN  108
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4976087072
+Results from round 2
+
+
+Query= 6B1K.A
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P80928|MIF_PIG Macrophage migration inhibitory factor OS=Sus...  183     3e-60
+  sp|Q1ZZU7|MIF_SHEEP Macrophage migration inhibitory factor OS=O...  182     1e-59
+  sp|P80177|MIF_BOVIN Macrophage migration inhibitory factor OS=B...  182     1e-59
+  sp|P30904|MIF_RAT Macrophage migration inhibitory factor OS=Rat...  180     4e-59
+  sp|O55052|MIF_MERUN Macrophage migration inhibitory factor OS=M...  180     4e-59
+  sp|Q6DN04|MIF_MACMU Macrophage migration inhibitory factor OS=M...  179     8e-59
+  sp|Q4R549|MIF_MACFA Macrophage migration inhibitory factor OS=M...  179     8e-59
+  sp|P14174|MIF_HUMAN Macrophage migration inhibitory factor OS=H...  179     8e-59
+  sp|P34884|MIF_MOUSE Macrophage migration inhibitory factor OS=M...  179     8e-59
+  sp|Q02960|MIF_CHICK Macrophage migration inhibitory factor OS=G...  178     3e-58
+  sp|Q76BK2|MIF_XENLA Macrophage migration inhibitory factor OS=X...  177     7e-58
+  sp|A9JSE7|MIF_XENTR Macrophage migration inhibitory factor OS=X...  176     2e-57
+  sp|P91850|MIFH_BRUMA Macrophage migration inhibitory factor hom...  163     3e-52
+  sp|P30046|DOPD_HUMAN D-dopachrome decarboxylase OS=Homo sapiens...  161     2e-51
+  sp|Q640C5|DOPDB_XENLA D-dopachrome decarboxylase-B OS=Xenopus l...  160     3e-51
+  sp|Q68FI3|DOPDA_XENLA D-dopachrome decarboxylase-A OS=Xenopus l...  159     9e-51
+  sp|Q5ZMG0|DOPD_CHICK D-dopachrome decarboxylase OS=Gallus gallu...  155     4e-49
+  sp|O35215|DOPD_MOUSE D-dopachrome decarboxylase OS=Mus musculus...  155     4e-49
+  sp|P80254|DOPD_RAT D-dopachrome decarboxylase OS=Rattus norvegi...  154     7e-49
+  sp|O44786|MIFH_WUCBA Macrophage migration inhibitory factor hom...  154     8e-49
+  sp|Q28J83|DOPD_XENTR D-dopachrome decarboxylase OS=Xenopus trop...  152     3e-48
+  sp|A5PK65|DOPD_BOVIN D-dopachrome decarboxylase OS=Bos taurus O...  152     6e-48
+  sp|P81529|MIFH_TRISP Macrophage migration inhibitory factor hom...  151     1e-47
+  sp|P81748|MIFH_TRITR Macrophage migration inhibitory factor hom...  150     2e-47
+  sp|Q18785|MIF2_CAEEL MIF-like protein mif-2 OS=Caenorhabditis e...  142     5e-44
+  sp|A6NHG4|DDTL_HUMAN D-dopachrome decarboxylase-like protein OS...  132     6e-40
+  sp|P90835|MIF3_CAEEL MIF-like protein mif-3 OS=Caenorhabditis e...  126     3e-37
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P80928|MIF_PIG Macrophage migration inhibitory factor OS=Sus 
+scrofa OX=9823 GN=MIF PE=1 SV=3
+Length=115
+
+ Score = 183 bits (464),  Expect = 3e-60, Method: Composition-based stats.
+ Identities = 108/114 (95%), Positives = 110/114 (96%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMF+VNTNVPRASVPDGFLSELTQQL QA GKP QYIAVHVVPDQLMAFGGSSEPCALCS
+Sbjct  2    PMFVVNTNVPRASVPDGFLSELTQQLVQAMGKPAQYIAVHVVPDQLMAFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDR+YINYYDMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRIYINYYDMNAANVGWNGSTFA  115
+
+
+> sp|Q1ZZU7|MIF_SHEEP Macrophage migration inhibitory factor OS=Ovis 
+aries OX=9940 GN=MIF PE=3 SV=1
+Length=115
+
+ Score = 182 bits (461),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 105/114 (92%), Positives = 108/114 (95%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMF+VNTNVPRASVPDG LSELTQQLAQATGKP QYIAVHVVPDQLM FGGSSEPCALCS
+Sbjct  2    PMFVVNTNVPRASVPDGLLSELTQQLAQATGKPAQYIAVHVVPDQLMTFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLL ERLRISPDR+YIN+ DMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLTERLRISPDRIYINFCDMNAANVGWNGSTFA  115
+
+
+> sp|P80177|MIF_BOVIN Macrophage migration inhibitory factor OS=Bos 
+taurus OX=9913 GN=MIF PE=1 SV=6
+Length=115
+
+ Score = 182 bits (461),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 105/114 (92%), Positives = 108/114 (95%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMF+VNTNVPRASVPDG LSELTQQLAQATGKP QYIAVHVVPDQLM FGGSSEPCALCS
+Sbjct  2    PMFVVNTNVPRASVPDGLLSELTQQLAQATGKPAQYIAVHVVPDQLMTFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLL ERLRISPDR+YIN+ DMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLTERLRISPDRIYINFCDMNAANVGWNGSTFA  115
+
+
+> sp|P30904|MIF_RAT Macrophage migration inhibitory factor OS=Rattus 
+norvegicus OX=10116 GN=Mif PE=1 SV=4
+Length=115
+
+ Score = 180 bits (457),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 103/114 (90%), Positives = 109/114 (96%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVP+GFLSELTQQLAQATGKP QYIAVHVVPDQLM F G+S+PCALCS
+Sbjct  2    PMFIVNTNVPRASVPEGFLSELTQQLAQATGKPAQYIAVHVVPDQLMTFSGTSDPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNR+YSKLLCGLL++RL ISPDRVYINYYDMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRNYSKLLCGLLSDRLHISPDRVYINYYDMNAANVGWNGSTFA  115
+
+
+> sp|O55052|MIF_MERUN Macrophage migration inhibitory factor OS=Meriones 
+unguiculatus OX=10047 GN=MIF PE=3 SV=3
+Length=115
+
+ Score = 180 bits (457),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 103/114 (90%), Positives = 109/114 (96%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPR+SVP+G LSELTQQLAQATGKP QYIAVHVVPDQLM F GSS+PCALCS
+Sbjct  2    PMFIVNTNVPRSSVPEGLLSELTQQLAQATGKPAQYIAVHVVPDQLMTFSGSSDPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNR+YSKLLCGLLA+RLRISPDR+YINYYDMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRTYSKLLCGLLADRLRISPDRIYINYYDMNAANVGWNGSTFA  115
+
+
+> sp|Q6DN04|MIF_MACMU Macrophage migration inhibitory factor OS=Macaca 
+mulatta OX=9544 GN=MIF PE=3 SV=4
+Length=115
+
+ Score = 179 bits (455),  Expect = 8e-59, Method: Composition-based stats.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS
+Sbjct  2    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  115
+
+
+> sp|Q4R549|MIF_MACFA Macrophage migration inhibitory factor OS=Macaca 
+fascicularis OX=9541 GN=MIF PE=3 SV=3
+Length=115
+
+ Score = 179 bits (455),  Expect = 8e-59, Method: Composition-based stats.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS
+Sbjct  2    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  115
+
+
+> sp|P14174|MIF_HUMAN Macrophage migration inhibitory factor OS=Homo 
+sapiens OX=9606 GN=MIF PE=1 SV=4
+Length=115
+
+ Score = 179 bits (455),  Expect = 8e-59, Method: Composition-based stats.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS
+Sbjct  2    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA
+Sbjct  62   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  115
+
+
+> sp|P34884|MIF_MOUSE Macrophage migration inhibitory factor OS=Mus 
+musculus OX=10090 GN=Mif PE=1 SV=2
+Length=115
+
+ Score = 179 bits (454),  Expect = 8e-59, Method: Composition-based stats.
+ Identities = 102/114 (89%), Positives = 109/114 (96%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMFIVNTNVPRASVP+GFLSELTQQLAQATGKP QYIAVHVVPDQLM F G+++PCALCS
+Sbjct  2    PMFIVNTNVPRASVPEGFLSELTQQLAQATGKPAQYIAVHVVPDQLMTFSGTNDPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            LHSIGKIGGAQNR+YSKLLCGLL++RL ISPDRVYINYYDMNAANVGWN STFA
+Sbjct  62   LHSIGKIGGAQNRNYSKLLCGLLSDRLHISPDRVYINYYDMNAANVGWNGSTFA  115
+
+
+> sp|Q02960|MIF_CHICK Macrophage migration inhibitory factor OS=Gallus 
+gallus OX=9031 GN=MIF PE=3 SV=3
+Length=115
+
+ Score = 178 bits (451),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 81/114 (71%), Positives = 101/114 (89%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PMF ++TNV + +VPD  L ELTQQLA+ATGKP QYIAVH+VPDQ+M+FGGS++PCALCS
+Sbjct  2    PMFTIHTNVCKDAVPDSLLGELTQQLAKATGKPAQYIAVHIVPDQMMSFGGSTDPCALCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L+SIGKIGG QN++Y+KLLC ++A+ L +S DRVYINY+D+NAANVGWN STFA
+Sbjct  62   LYSIGKIGGQQNKTYTKLLCDMIAKHLHVSADRVYINYFDINAANVGWNGSTFA  115
+
+
+> sp|Q76BK2|MIF_XENLA Macrophage migration inhibitory factor OS=Xenopus 
+laevis OX=8355 GN=mif PE=1 SV=1
+Length=115
+
+ Score = 177 bits (448),  Expect = 7e-58, Method: Composition-based stats.
+ Identities = 78/114 (68%), Positives = 98/114 (86%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P+F + TNV R SVPD  LS+LT+QLA+ATGKP +YIA+H+VPDQ+M+FG S++PCA+CS
+Sbjct  2    PVFTIRTNVCRDSVPDTLLSDLTKQLAKATGKPAEYIAIHIVPDQIMSFGDSTDPCAVCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L SIGKIGG QN+SY+KLLC +L ++L I  +RVYINYYD+NAANVGWN STFA
+Sbjct  62   LCSIGKIGGPQNKSYTKLLCDILTKQLNIPANRVYINYYDLNAANVGWNGSTFA  115
+
+
+> sp|A9JSE7|MIF_XENTR Macrophage migration inhibitory factor OS=Xenopus 
+tropicalis OX=8364 GN=mif PE=3 SV=1
+Length=115
+
+ Score = 176 bits (446),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 73/114 (64%), Positives = 94/114 (82%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P F V TNV R S+PD  LS+LT+ LA+ATGKP +YIA+H++PDQ+M+FG S++PCA+CS
+Sbjct  2    PTFTVCTNVCRDSMPDTLLSDLTKLLAKATGKPAEYIAIHIMPDQMMSFGDSTDPCAVCS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L SIGKIGG QN+SYSKLLC  L +++ I  +RVYIN++D+N ANVGWN STFA
+Sbjct  62   LSSIGKIGGPQNKSYSKLLCDYLTKQMNIPANRVYINFHDLNPANVGWNGSTFA  115
+
+
+> sp|P91850|MIFH_BRUMA Macrophage migration inhibitory factor homolog 
+OS=Brugia malayi OX=6279 GN=Bm1_28435 PE=3 SV=4
+Length=115
+
+ Score = 163 bits (412),  Expect = 3e-52, Method: Composition-based stats.
+ Identities = 48/114 (42%), Positives = 75/114 (66%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P F ++TN+P+ S+   FL + +  +A+A GKP  Y+++HV   Q M FGGS +PCA+C 
+Sbjct  2    PYFTIDTNIPQNSISSAFLKKASNVVAKALGKPESYVSIHVNGGQAMVFGGSEDPCAVCV  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L SIG +G   N S+++ L  LLA+ L+I  +R YI + D+ A+++ +N STF 
+Sbjct  62   LKSIGCVGPKVNNSHAEKLYKLLADELKIPKNRCYIEFVDIEASSMAFNGSTFG  115
+
+
+> sp|P30046|DOPD_HUMAN D-dopachrome decarboxylase OS=Homo sapiens 
+OX=9606 GN=DDT PE=1 SV=3
+Length=118
+
+ Score = 161 bits (407),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 39/115 (34%), Positives = 57/115 (50%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   ++TN+P   VP G    L    A   GKP   + V V P   MA  GS+EPCA  S
+Sbjct  2    PFLELDTNLPANRVPAGLEKRLCAAAASILGKPADRVNVTVRPGLAMALSGSTEPCAQLS  61
+
+Query  61   LHSIGKIGGAQ-NRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A+ NRS+S      L + L +  DR+ I ++ + +  +G   +   
+Sbjct  62   ISSIGVVGTAEDNRSHSAHFFEFLTKELALGQDRILIRFFPLESWQIGKIGTVMT  116
+
+
+> sp|Q640C5|DOPDB_XENLA D-dopachrome decarboxylase-B OS=Xenopus 
+laevis OX=8355 GN=ddt-b PE=3 SV=1
+Length=118
+
+ Score = 160 bits (406),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 34/115 (30%), Positives = 54/115 (47%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   ++TN+ +  VP     +L    A   GKP + + V V     M  GGSS PC    
+Sbjct  2    PFVELDTNLQQQEVPQDLAEKLCSATATILGKPRERVNVTVRTGVSMVVGGSSAPCTQLI  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A QN+ +S      L E+L ++ DR+ + +  +    +G N +   
+Sbjct  62   ISSIGVVGTAEQNKEHSAKFFNFLTEQLGLAQDRILLRFVPLEPWQIGKNGTVMT  116
+
+
+> sp|Q68FI3|DOPDA_XENLA D-dopachrome decarboxylase-A OS=Xenopus 
+laevis OX=8355 GN=ddt-a PE=3 SV=1
+Length=118
+
+ Score = 159 bits (402),  Expect = 9e-51, Method: Composition-based stats.
+ Identities = 35/115 (30%), Positives = 54/115 (47%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   + TN+P  +VP     +L    A   GKP + + V V     M  GGSS PC    
+Sbjct  2    PFVELETNLPSQNVPQDLAEKLCSATATILGKPRERVNVTVRTGVSMVVGGSSAPCTQLF  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A QN+ +S      L E+L ++ DR+ + +  +    +G N +   
+Sbjct  62   ISSIGVVGTAEQNKEHSAKFFNFLTEQLGLAQDRILLRFVPIEPWQIGKNGTIMT  116
+
+
+> sp|Q5ZMG0|DOPD_CHICK D-dopachrome decarboxylase OS=Gallus gallus 
+OX=9031 GN=DDT PE=3 SV=1
+Length=118
+
+ Score = 155 bits (391),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 36/115 (31%), Positives = 55/115 (48%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   + TN+P   +P G   +L +  A   GKP + + V V     M   GS+EPCA   
+Sbjct  2    PFVELETNLPAERLPPGLPLKLCEATATILGKPAERVNVTVRSGMPMVLAGSAEPCAQLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A QN+ +S      L   L + P+R+ I +Y +    +G N +   
+Sbjct  62   VSSIGVVGSAQQNQGHSARFFDFLTTELGLGPERIVIRFYPLEPWQIGKNRTVMT  116
+
+
+> sp|O35215|DOPD_MOUSE D-dopachrome decarboxylase OS=Mus musculus 
+OX=10090 GN=Ddt PE=1 SV=3
+Length=118
+
+ Score = 155 bits (391),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 34/115 (30%), Positives = 55/115 (48%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   + TN+P + +P G  + L    A    KP   ++V + P   +    S+EPCA   
+Sbjct  2    PFVELETNLPASRIPAGLENRLCAATATILDKPEDRVSVTIRPGMTLLMNKSTEPCAHLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A QNR++S      L E L +  DR+ I ++ + A  +G   +   
+Sbjct  62   VSSIGVVGTAEQNRTHSASFFKFLTEELSLDQDRIVIRFFPLEAWQIGKKGTVMT  116
+
+
+> sp|P80254|DOPD_RAT D-dopachrome decarboxylase OS=Rattus norvegicus 
+OX=10116 GN=Ddt PE=1 SV=3
+Length=118
+
+ Score = 154 bits (390),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 34/115 (30%), Positives = 54/115 (47%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   + TN+P + +P G  + L    A    KP   ++V + P   +    S+EPCA   
+Sbjct  2    PFVELETNLPASRIPAGLENRLCAATATILDKPEDRVSVTIRPGMTLLMNKSTEPCAHLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A QNRS+S      L E L +  DR+ I ++ +    +G   +   
+Sbjct  62   ISSIGVVGTAEQNRSHSSSFFKFLTEELSLDQDRIIIRFFPLEPWQIGKKGTVMT  116
+
+
+> sp|O44786|MIFH_WUCBA Macrophage migration inhibitory factor homolog 
+OS=Wuchereria bancrofti OX=6293 GN=MIF PE=3 SV=3
+Length=115
+
+ Score = 154 bits (389),  Expect = 8e-49, Method: Composition-based stats.
+ Identities = 46/114 (40%), Positives = 70/114 (61%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P F ++TN P+ S+   FL +    + +A GKP  Y+++HV   Q M FGGS +PC +C 
+Sbjct  2    PYFTIDTNKPQDSISSAFLKKAPNVVPKALGKPESYVSIHVNGGQPMVFGGSEDPCPVCV  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            L SIG +G   N S+++ L  LLA+ L+I  +R YI   D+ A+++ +N STF 
+Sbjct  62   LKSIGCVGPKVNNSHAEKLYKLLADELKIPKNRCYIESVDIEASSMAFNGSTFG  115
+
+
+> sp|Q28J83|DOPD_XENTR D-dopachrome decarboxylase OS=Xenopus tropicalis 
+OX=8364 GN=ddt PE=3 SV=1
+Length=118
+
+ Score = 152 bits (385),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 32/115 (28%), Positives = 49/115 (43%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   ++TN+P   VP     +L    A    KP + + V V     M  GGS  PC    
+Sbjct  2    PFVELDTNLPPQQVPQDLAEKLCSATATILSKPRERVNVTVRTGVSMVVGGSCAPCTQLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A QN+ +S      L E + +  DR+ + +  +    VG   +   
+Sbjct  62   VSSIGVVGTAEQNKEHSAKFFQFLTENMGLEQDRILLRFVPLEPWQVGKKATVMT  116
+
+
+> sp|A5PK65|DOPD_BOVIN D-dopachrome decarboxylase OS=Bos taurus 
+OX=9913 GN=DDT PE=3 SV=1
+Length=118
+
+ Score = 152 bits (384),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 32/115 (28%), Positives = 51/115 (44%), Gaps = 1/115 (1%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P   ++T++P   VP G    L    A    KP   + V V     M   GS+EP A   
+Sbjct  2    PFVELDTSLPAGRVPAGLEKRLCAATAAILSKPEDRVNVTVRSGLAMVVNGSAEPSAQLL  61
+
+Query  61   LHSIGKIGGA-QNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +G A +NR +S      L + L ++ DR+ I ++ +    +G   +   
+Sbjct  62   VSSIGVVGTAEENRGHSARFFEFLTKELDLAEDRIMIRFFPLERWQIGKKGTVMT  116
+
+
+> sp|P81529|MIFH_TRISP Macrophage migration inhibitory factor homolog 
+OS=Trichinella spiralis OX=6334 PE=1 SV=2
+Length=114
+
+ Score = 151 bits (382),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 46/113 (41%), Positives = 71/113 (63%), Gaps = 0/113 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P+F +NTN+    VP  FLS  +  +     KP  Y+AVH+  DQ ++FGGS++P A  +
+Sbjct  2    PIFTLNTNIKATDVPSDFLSSTSALVGNILSKPGSYVAVHINTDQQLSFGGSTKPAAFGT  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTF  113
+            L SIG I  ++NR +S  L   L ++L I  +R+YI++ ++N  +VGWN +TF
+Sbjct  62   LMSIGGIEPSRNRDHSAKLFDHLNKKLGIPKNRMYIHFVNLNGDDVGWNGTTF  114
+
+
+> sp|P81748|MIFH_TRITR Macrophage migration inhibitory factor homolog 
+OS=Trichuris trichiura OX=36087 PE=1 SV=2
+Length=114
+
+ Score = 150 bits (380),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 46/113 (41%), Positives = 68/113 (60%), Gaps = 0/113 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P+F  +TNVP  ++   FL   ++ +A   GKP  Y+AVH+   Q + FGG+  P     
+Sbjct  2    PIFTFSTNVPSENISVDFLKSTSKLIAGMLGKPESYVAVHINGGQKITFGGTDAPAGFGQ  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTF  113
+            L S+G +GG +NRS+S  L   L + L I  +R+YIN+ DM  ++VG+N STF
+Sbjct  62   LLSLGGVGGEKNRSHSAKLFKHLTDGLGIPGNRMYINFVDMRGSDVGYNGSTF  114
+
+
+> sp|Q18785|MIF2_CAEEL MIF-like protein mif-2 OS=Caenorhabditis 
+elegans OX=6239 GN=mif-2 PE=3 SV=1
+Length=120
+
+ Score = 142 bits (358),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 37/114 (32%), Positives = 58/114 (51%), Gaps = 0/114 (0%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            PM  V TN+P   VP  F   LT  LA++ GKP + IAV +     +  G + +P  + S
+Sbjct  2    PMVRVATNLPNEKVPVDFEIRLTDLLARSMGKPRERIAVEIAAGARLVHGATHDPVTVIS  61
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + SIG +    N   +  +     + L +  D+V I ++D+  A VG+N +T A
+Sbjct  62   IKSIGAVSAEDNIRNTAAITEFCGKELGLPKDKVVITFHDLPPATVGFNGTTVA  115
+
+
+> sp|A6NHG4|DDTL_HUMAN D-dopachrome decarboxylase-like protein 
+OS=Homo sapiens OX=9606 GN=DDTL PE=2 SV=1
+Length=134
+
+ Score = 132 bits (332),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 37/94 (39%), Positives = 48/94 (51%), Gaps = 1/94 (1%)
+
+Query  1   PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+           P   ++TN+P   VP G    L    A   GKP   + V V P   MA  GS+EPCA  S
+Sbjct  2   PFLELDTNLPANRVPAGLEKRLCAAAASILGKPADRVNVTVRPGLAMALSGSTEPCAQLS  61
+
+Query  61  LHSIGKIGGAQ-NRSYSKLLCGLLAERLRISPDR  93
+           + SIG +G A+ NRS+S      L + L +  DR
+Sbjct  62  ISSIGVVGTAEDNRSHSAHFFEFLTKELALGQDR  95
+
+
+> sp|P90835|MIF3_CAEEL MIF-like protein mif-3 OS=Caenorhabditis 
+elegans OX=6239 GN=mif-3 PE=3 SV=1
+Length=146
+
+ Score = 126 bits (316),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 50/114 (44%), Gaps = 2/114 (2%)
+
+Query  1    PMFIVNTNVPRASVPDGFLSELTQQLAQATGKPPQYIAVHVVPDQLMAFGGSSEPCALCS  60
+            P+  V TNV +  V DGF   L   +A+   +P   I V +  +  M  G  ++P A+  
+Sbjct  2    PVIKVQTNVKK--VSDGFEVRLAIHMAKVMKRPESQIFVSLDMNSRMTRGQLTDPLAVLD  59
+
+Query  61   LHSIGKIGGAQNRSYSKLLCGLLAERLRISPDRVYINYYDMNAANVGWNNSTFA  114
+            + S   +       Y+  LC   ++ L +  D V INY  ++   +G+N     
+Sbjct  60   VTSSTVLTPILTEEYTVALCEFFSQELALDSDAVLINYRSLSPELIGFNGHILT  113
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.144    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0439    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4976087072
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,137 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 5XA4.A
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q54450|HASA_SERMA Hemophore HasA OS=Serratia marcescens OX=6...  174     2e-54
+
+
+> sp|Q54450|HASA_SERMA Hemophore HasA OS=Serratia marcescens OX=615 
+GN=hasA PE=1 SV=1
+Length=188
+
+ Score = 174 bits (440),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 96/184 (52%), Positives = 132/184 (72%), Gaps = 8/184 (4%)
+
+Query  1    MSISISYSTTYSGWTVADYLADWSAYFGDVNHRPGQVVDGSNTGGFNPGPFDGSQYALKS  60
+            M+ S++Y +++ G+++ DYL  W++ FGDVNH  G V D +N+GGF  G   GSQYA+ S
+Sbjct  1    MAFSVNYDSSFGGYSIHDYLGQWASTFGDVNHTNGNVTD-ANSGGFYGGSLSGSQYAISS  59
+
+Query  61   TASDA-AFIAGGDLHYTLFSNPSHTLWGKLDSIALGDTLTGGASSGGYALDSQEVSFSNL  119
+            TA+   AF+AGG+L YTLF+ P+HTL+G+LDS++ GD L+GG +S  Y++   +VSF  L
+Sbjct  60   TANQVTAFVAGGNLTYTLFNEPAHTLYGQLDSLSFGDGLSGGDTSP-YSIQVPDVSFGGL  118
+
+Query  120  GLDSPIAQGRDGTVHKVVYGLMSGDSSALQGQIDALLKAVDPSLSINSTFDQLAAA---G  176
+             L S  AQG DG VH+VVYGLMSGD+ AL+  ++ +L   D  LS+NSTFDQ+AAA   G
+Sbjct  119  NLSSLQAQGHDGVVHQVVYGLMSGDTGALETALNGILD--DYGLSVNSTFDQVAAATAVG  176
+
+Query  177  VAHA  180
+            V HA
+Sbjct  177  VQHA  180
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.130    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10165041804
+Results from round 2
+
+
+Query= 5XA4.A
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q54450|HASA_SERMA Hemophore HasA OS=Serratia marcescens OX=6...  221     3e-73
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q54450|HASA_SERMA Hemophore HasA OS=Serratia marcescens OX=615 
+GN=hasA PE=1 SV=1
+Length=188
+
+ Score = 221 bits (564),  Expect = 3e-73, Method: Composition-based stats.
+ Identities = 96/184 (52%), Positives = 132/184 (72%), Gaps = 8/184 (4%)
+
+Query  1    MSISISYSTTYSGWTVADYLADWSAYFGDVNHRPGQVVDGSNTGGFNPGPFDGSQYALKS  60
+            M+ S++Y +++ G+++ DYL  W++ FGDVNH  G V D +N+GGF  G   GSQYA+ S
+Sbjct  1    MAFSVNYDSSFGGYSIHDYLGQWASTFGDVNHTNGNVTD-ANSGGFYGGSLSGSQYAISS  59
+
+Query  61   TASDA-AFIAGGDLHYTLFSNPSHTLWGKLDSIALGDTLTGGASSGGYALDSQEVSFSNL  119
+            TA+   AF+AGG+L YTLF+ P+HTL+G+LDS++ GD L+GG +S  Y++   +VSF  L
+Sbjct  60   TANQVTAFVAGGNLTYTLFNEPAHTLYGQLDSLSFGDGLSGGDTSP-YSIQVPDVSFGGL  118
+
+Query  120  GLDSPIAQGRDGTVHKVVYGLMSGDSSALQGQIDALLKAVDPSLSINSTFDQLAAA---G  176
+             L S  AQG DG VH+VVYGLMSGD+ AL+  ++ +L   D  LS+NSTFDQ+AAA   G
+Sbjct  119  NLSSLQAQGHDGVVHQVVYGLMSGDTGALETALNGILD--DYGLSVNSTFDQVAAATAVG  176
+
+Query  177  VAHA  180
+            V HA
+Sbjct  177  VQHA  180
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0396    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10165041804
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

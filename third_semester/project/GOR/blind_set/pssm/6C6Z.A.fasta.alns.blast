@@ -1,0 +1,1984 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 6C6Z.A
+
+Length=231
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|K9N5Q8|SPIKE_CVEMC Spike glycoprotein OS=Middle East respira...  460     2e-152
+  sp|Q0Q4F2|SPIKE_BC133 Spike glycoprotein OS=Bat coronavirus 133...  259     2e-78 
+  sp|A3EX94|SPIKE_BCHK4 Spike glycoprotein OS=Bat coronavirus HKU...  256     3e-77 
+  sp|A3EXD0|SPIKE_BCHK5 Spike glycoprotein OS=Bat coronavirus HKU...  228     1e-67 
+  sp|Q8JSP8|SPIKE_CVPIA Spike glycoprotein OS=Porcine hemagglutin...  75.1    3e-14 
+  sp|Q5MQD0|SPIKE_CVHN1 Spike glycoprotein OS=Human coronavirus H...  72.8    2e-13 
+  sp|Q0ZME7|SPIKE_CVHN5 Spike glycoprotein OS=Human coronavirus H...  72.8    2e-13 
+  sp|Q14EB0|SPIKE_CVHN2 Spike glycoprotein OS=Human coronavirus H...  72.8    2e-13 
+  sp|Q8BB25|SPIKE_CVP67 Spike glycoprotein OS=Porcine hemagglutin...  72.0    3e-13 
+  sp|P25194|SPIKE_CVBV Spike glycoprotein OS=Bovine coronavirus (...  69.7    2e-12 
+  sp|Q9QAR5|SPIKE_CVBLS Spike glycoprotein OS=Bovine coronavirus ...  69.7    2e-12 
+  sp|Q9QAQ8|SPIKE_CVBOK Spike glycoprotein OS=Bovine coronavirus ...  69.7    2e-12 
+  sp|Q8V436|SPIKE_CVBLU Spike glycoprotein OS=Bovine coronavirus ...  69.7    2e-12 
+  sp|P25192|SPIKE_CVBLY Spike glycoprotein OS=Bovine coronavirus ...  69.7    2e-12 
+  sp|P25193|SPIKE_CVBQ Spike glycoprotein OS=Bovine coronavirus (...  69.7    2e-12 
+  sp|P15777|SPIKE_CVBM Spike glycoprotein OS=Bovine coronavirus (...  69.7    2e-12 
+  sp|P36334|SPIKE_CVHOC Spike glycoprotein OS=Human coronavirus O...  69.3    2e-12 
+  sp|P25190|SPIKE_CVBF Spike glycoprotein OS=Bovine coronavirus (...  69.3    2e-12 
+  sp|P25191|SPIKE_CVBL9 Spike glycoprotein OS=Bovine coronavirus ...  68.6    4e-12 
+  sp|Q91A26|SPIKE_CVBEN Spike glycoprotein OS=Bovine coronavirus ...  68.2    6e-12 
+  sp|Q9IKD1|SPIKE_CVRSD Spike glycoprotein OS=Rat coronavirus (st...  66.2    3e-11 
+  sp|P11225|SPIKE_CVMJH Spike glycoprotein OS=Murine coronavirus ...  65.9    4e-11 
+  sp|P11224|SPIKE_CVMA5 Spike glycoprotein OS=Murine coronavirus ...  64.3    1e-10 
+  sp|P22432|SPIKE_CVM4 Spike glycoprotein OS=Murine coronavirus (...  63.9    2e-10 
+  sp|Q02385|SPIKE_CVMJC Spike glycoprotein OS=Murine coronavirus ...  63.9    2e-10 
+  sp|Q3I5J5|SPIKE_BCRP3 Spike glycoprotein OS=Bat coronavirus Rp3...  42.4    0.003 
+  sp|Q3LZX1|SPIKE_BCHK3 Spike glycoprotein OS=Bat coronavirus HKU...  42.0    0.003 
+  sp|Q0Q475|SPIKE_BC279 Spike glycoprotein OS=Bat coronavirus 279...  40.8    0.008 
+
+
+> sp|K9N5Q8|SPIKE_CVEMC Spike glycoprotein OS=Middle East respiratory 
+syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) 
+OX=1263720 GN=S PE=1 SV=1
+Length=1353
+
+ Score = 460 bits (1183),  Expect = 2e-152, Method: Compositional matrix adjust.
+ Identities = 223/223 (100%), Positives = 223/223 (100%), Gaps = 0/223 (0%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS
+Sbjct  367  EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  426
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+            QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH
+Sbjct  427  QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  486
+
+Query  121  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS  180
+            NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS
+Sbjct  487  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS  546
+
+Query  181  PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE
+Sbjct  547  PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  589
+
+
+> sp|Q0Q4F2|SPIKE_BC133 Spike glycoprotein OS=Bat coronavirus 133/2005 
+OX=389230 GN=S PE=3 SV=1
+Length=1350
+
+ Score = 259 bits (662),  Expect = 2e-78, Method: Compositional matrix adjust.
+ Identities = 126/224 (56%), Positives = 161/224 (72%), Gaps = 2/224 (1%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA  +G+ +EQ    ECDFSP+L+G  PQVYNFKRLVF+NCNYNLTKLLSLF+V++F+C+
+Sbjct  372  EASATGTFIEQPNVTECDFSPMLTGVAPQVYNFKRLVFSNCNYNLTKLLSLFAVDEFSCN  431
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             ISP AIA  CYS+L +DYF+YPLSMKS +   SAG I  +NYKQSF+NPTC ++A+VP 
+Sbjct  432  GISPDAIARGCYSTLTVDYFAYPLSMKSYIRPGSAGNIPLYNYKQSFANPTCRVMASVPD  491
+
+Query  121  NLTTITKPLKYSYINKCSRFLS-DDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQL  179
+            N+ TITKP  Y YI+KCSR    +   E P  +N  +YS C    P    EDG  +++ L
+Sbjct  492  NV-TITKPGAYGYISKCSRLTGVNQDIETPLYINPGEYSICRDFAPLGFSEDGQVFKRTL  550
+
+Query  180  SPLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            +  EGGG L+  G+ V MT  L+MGF I+VQYGT T+SVCP L+
+Sbjct  551  TQFEGGGLLIGVGTRVPMTANLEMGFVISVQYGTGTDSVCPMLD  594
+
+
+> sp|A3EX94|SPIKE_BCHK4 Spike glycoprotein OS=Bat coronavirus HKU4 
+OX=694007 GN=S PE=1 SV=1
+Length=1352
+
+ Score = 256 bits (654),  Expect = 3e-77, Method: Compositional matrix adjust.
+ Identities = 124/224 (55%), Positives = 161/224 (72%), Gaps = 2/224 (1%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA  +G+ +EQ    ECDFSP+L+G  PQVYNFKRLVF+NCNYNLTKLLSLF+V++F+C+
+Sbjct  372  EASATGTFIEQPNATECDFSPMLTGVAPQVYNFKRLVFSNCNYNLTKLLSLFAVDEFSCN  431
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             ISP +IA  CYS+L +DYF+YPLSMKS +   SAG I  +NYKQSF+NPTC ++A+V  
+Sbjct  432  GISPDSIARGCYSTLTVDYFAYPLSMKSYIRPGSAGNIPLYNYKQSFANPTCRVMASVLA  491
+
+Query  121  NLTTITKPLKYSYINKCSRFL-SDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQL  179
+            N+ TITKP  Y YI+KCSR   ++   E P  +N  +YS C    P    EDG  +++ L
+Sbjct  492  NV-TITKPHAYGYISKCSRLTGANQDVETPLYINPGEYSICRDFSPGGFSEDGQVFKRTL  550
+
+Query  180  SPLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            +  EGGG L+  G+ V MT+ LQM F I+VQYGT T+SVCP L+
+Sbjct  551  TQFEGGGLLIGVGTRVPMTDNLQMSFIISVQYGTGTDSVCPMLD  594
+
+
+> sp|A3EXD0|SPIKE_BCHK5 Spike glycoprotein OS=Bat coronavirus HKU5 
+OX=694008 GN=S PE=1 SV=1
+Length=1352
+
+ Score = 228 bits (582),  Expect = 1e-67, Method: Compositional matrix adjust.
+ Identities = 120/224 (54%), Positives = 150/224 (67%), Gaps = 18/224 (8%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA P G  +EQA   ECDF+P+L+GTPP +YNFKRLVFTNCNYNLTKLLSLF V++F+C 
+Sbjct  375  EASPRGEFIEQATTQECDFTPMLTGTPPPIYNFKRLVFTNCNYNLTKLLSLFQVSEFSCH  434
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+            Q+SP+++A+ CYSSL +DYF+Y   M S L   SAG I QFNYKQ FSNPTC +LATVP 
+Sbjct  435  QVSPSSLATGCYSSLTVDYFAYSTDMSSYLQPGSAGAIVQFNYKQDFSNPTCRVLATVPQ  494
+
+Query  121  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNA-NQYSPCVSIVP---STVWEDGDYYR  176
+            NLTTITKP  Y+Y+ +C +  +  +     L NA   Y+PC+S+     ST ++      
+Sbjct  495  NLTTITKPSNYAYLTECYKTSAYGKN---YLYNAPGAYTPCLSLASRGFSTKYQS-----  546
+
+Query  177  KQLSPLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCP  220
+                     G L  +G    +T  LQM F I+VQYGTDTNSVCP
+Sbjct  547  ------HSDGELTTTGYIYPVTGNLQMAFIISVQYGTDTNSVCP  584
+
+
+> sp|Q8JSP8|SPIKE_CVPIA Spike glycoprotein OS=Porcine hemagglutinating 
+encephalomyelitis virus (strain IAF-404) OX=230236 GN=S 
+PE=3 SV=1
+Length=1349
+
+ Score = 75.1 bits (183),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 46/154 (30%), Positives = 74/154 (48%), Gaps = 9/154 (6%)
+
+Query  16   ECDFSPLL-SGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+             CD    L S T     N++R +F+NCN+N+ +L+S    + F C+ I  + +   C+ S
+Sbjct  330  NCDIEAWLNSKTVSSPLNWERKIFSNCNFNMGRLMSFIQADSFGCNNIDASRLYGMCFGS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK------P  128
+            + +D F+ P S K DL V  +G +  FNYK   +  +C +  ++P    ++T        
+Sbjct  390  ITIDKFAIPNSRKVDLQVGKSGYLQSFNYKIDTAVSSCQLYYSLPAANVSVTHYNPSSWN  449
+
+Query  129  LKYSYINKC--SRFLSDDRTEVPQLVNANQYSPC  160
+             +Y +IN+   SR L D           N Y PC
+Sbjct  450  RRYGFINQSFGSRGLHDAVYSQQCFNTPNTYCPC  483
+
+
+> sp|Q5MQD0|SPIKE_CVHN1 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N1) OX=443239 GN=S PE=1 SV=1
+Length=1356
+
+ Score = 72.8 bits (177),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 38/120 (32%), Positives = 68/120 (57%), Gaps = 2/120 (2%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+    P   N++R +F+NCN+NL+ LL L   + F+C
+Sbjct  311  VKPVATVHRRIPDLPDCDIDKWLNNFNVPSPLNWERKIFSNCNFNLSTLLRLVHTDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            +    + I  +C+ S++LD F+ P S +SDL + S+G +   NYK   ++ +C +  ++P
+Sbjct  371  NNFDESKIYGSCFKSIVLDKFAIPNSRRSDLQLGSSGFLQSSNYKIDTTSSSCQLYYSLP  430
+
+
+> sp|Q0ZME7|SPIKE_CVHN5 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N5) OX=443241 GN=S PE=1 SV=1
+Length=1351
+
+ Score = 72.8 bits (177),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 37/120 (31%), Positives = 68/120 (57%), Gaps = 2/120 (2%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSGTP-PQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+    P   N++R +F+NCN+NL+ LL L  V+ F+C
+Sbjct  311  VKPVATVYRRIPNLPDCDIDNWLNNVSVPSPLNWERRIFSNCNFNLSTLLRLVHVDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + +  + I  +C++S+ +D F+ P   + DL + S+G +   NYK   S+ +C +  ++P
+Sbjct  371  NNLDKSKIFGSCFNSITVDKFAIPNRRRDDLQLGSSGFLQSSNYKIDISSSSCQLYYSLP  430
+
+
+> sp|Q14EB0|SPIKE_CVHN2 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N2) OX=443240 GN=S PE=3 SV=1
+Length=1351
+
+ Score = 72.8 bits (177),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 37/120 (31%), Positives = 68/120 (57%), Gaps = 2/120 (2%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSGTP-PQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+    P   N++R +F+NCN+NL+ LL L  V+ F+C
+Sbjct  311  VKPVATVYRRIPNLPDCDIDNWLNNVSVPSPLNWERRIFSNCNFNLSTLLRLVHVDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + +  + I  +C++S+ +D F+ P   + DL + S+G +   NYK   S+ +C +  ++P
+Sbjct  371  NNLDKSKIFGSCFNSITVDKFAIPNRRRDDLQLGSSGFLQSSNYKIDISSSSCQLYYSLP  430
+
+
+> sp|Q8BB25|SPIKE_CVP67 Spike glycoprotein OS=Porcine hemagglutinating 
+encephalomyelitis virus (strain 67N) OX=230237 GN=S 
+PE=3 SV=1
+Length=1349
+
+ Score = 72.0 bits (175),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 45/154 (29%), Positives = 73/154 (47%), Gaps = 9/154 (6%)
+
+Query  16   ECDFSPLL-SGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+             CD    L S T     N++R +F+NCN+N+ +L+S    + F C+ I  + +   C+ S
+Sbjct  330  NCDIEAWLNSKTVSSPLNWERKIFSNCNFNMGRLMSFIQADSFGCNNIDASRLYGMCFGS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK------P  128
+            + +D F+ P S K DL V  +G +  FNYK   +  +C +  ++P    ++T        
+Sbjct  390  ITIDKFAIPNSRKVDLQVGKSGYLQSFNYKIDTAVSSCQLYYSLPAANVSVTHYNPSSWN  449
+
+Query  129  LKYSYINKC--SRFLSDDRTEVPQLVNANQYSPC  160
+             +Y + N+   SR L D           N Y PC
+Sbjct  450  RRYGFNNQSFGSRGLHDAVYSQQCFNTPNTYCPC  483
+
+
+> sp|P25194|SPIKE_CVBV Spike glycoprotein OS=Bovine coronavirus 
+(strain vaccine) OX=11134 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIEAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTAASCQLYYNLPAANVSVSR  442
+
+
+> sp|Q9QAR5|SPIKE_CVBLS Spike glycoprotein OS=Bovine coronavirus 
+(strain LSU-94LSS-051) OX=233261 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR  442
+
+
+> sp|Q9QAQ8|SPIKE_CVBOK Spike glycoprotein OS=Bovine coronavirus 
+(strain OK-0514) OX=231432 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR  442
+
+
+> sp|Q8V436|SPIKE_CVBLU Spike glycoprotein OS=Bovine coronavirus 
+(strain 98TXSF-110-LUN) OX=233264 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR  442
+
+
+> sp|P25192|SPIKE_CVBLY Spike glycoprotein OS=Bovine coronavirus 
+(strain LY-138) OX=11131 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR  442
+
+
+> sp|P25193|SPIKE_CVBQ Spike glycoprotein OS=Bovine coronavirus 
+(strain Quebec) OX=11133 GN=S PE=3 SV=2
+Length=1363
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR  442
+
+
+> sp|P15777|SPIKE_CVBM Spike glycoprotein OS=Bovine coronavirus 
+(strain Mebus) OX=11132 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR  442
+
+
+> sp|P36334|SPIKE_CVHOC Spike glycoprotein OS=Human coronavirus 
+OC43 OX=31631 GN=S PE=3 SV=1
+Length=1353
+
+ Score = 69.3 bits (168),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 36/116 (31%), Positives = 62/116 (53%), Gaps = 1/116 (1%)
+
+Query  28   PQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSSLILDYFSYPLSMK  87
+            P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS+ +D F+ P   K
+Sbjct  347  PSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIDAAKIYGMCFSSITIDKFAIPNGRK  406
+
+Query  88   SDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITKPLKYSYINKCSRFLSD  143
+             DL + + G +  FNY+   +  +C +   +P    ++++    S  NK   F+ D
+Sbjct  407  VDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR-FNPSTWNKRFGFIED  461
+
+
+> sp|P25190|SPIKE_CVBF Spike glycoprotein OS=Bovine coronavirus 
+(strain F15) OX=11129 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 69.3 bits (168),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 58/105 (55%), Gaps = 1/105 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+
+> sp|P25191|SPIKE_CVBL9 Spike glycoprotein OS=Bovine coronavirus 
+(strain L9) OX=11130 GN=S PE=1 SV=1
+Length=1363
+
+ Score = 68.6 bits (166),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 62/113 (55%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSCLMSFIQADSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR  442
+
+
+> sp|Q91A26|SPIKE_CVBEN Spike glycoprotein OS=Bovine coronavirus 
+(strain 98TXSF-110-ENT) OX=233262 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 68.2 bits (165),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 61/113 (54%), Gaps = 1/113 (1%)
+
+Query  16   ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+            +C+    L+  + P   N++R  F+NCN+N++ L+S      FTC+ I  A I   C+SS
+Sbjct  330  DCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQAYSFTCNNIDAAKIYGMCFSS  389
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITK  127
+            + +D F+ P   K DL + + G +  FNY+   +  +C +   +P    ++++
+Sbjct  390  ITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLPAANVSVSR  442
+
+
+> sp|Q9IKD1|SPIKE_CVRSD Spike glycoprotein OS=Rat coronavirus (strain 
+681) OX=33740 GN=S PE=3 SV=1
+Length=1360
+
+ Score = 66.2 bits (160),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 52/179 (29%), Positives = 81/179 (45%), Gaps = 16/179 (9%)
+
+Query  3    KPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            +P G V  +   + +C     L+  T P   N++R  F NCN+NL+ LL        +CS
+Sbjct  314  QPVGLVYRRVRNLPDCKIEEWLAANTVPSPLNWERKTFQNCNFNLSSLLRFVQAESLSCS  373
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTC-LILATVP  119
+             I  + +   C+ S+ +D F+ P S + DL +  +G +  FNYK      +C L  +   
+Sbjct  374  NIDASKVYGMCFGSISIDKFAIPNSRRVDLQLGKSGLLQSFNYKIDTRATSCQLYYSLAQ  433
+
+Query  120  HNLTTITK-----PLKYSYINKCSRFLSDDR----TEVPQLVNANQYSPCVSIVPSTVW  169
+             N+T I         +Y + N  + F S +      E    V A+ Y PC    PSTV+
+Sbjct  434  DNVTVINHNPSSWNRRYGF-NDVATFHSGEHDVAYAEACFTVGAS-YCPCAK--PSTVY  488
+
+
+> sp|P11225|SPIKE_CVMJH Spike glycoprotein OS=Murine coronavirus 
+(strain JHM) OX=11144 GN=S PE=1 SV=1
+Length=1235
+
+ Score = 65.9 bits (159),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 40/148 (27%), Positives = 73/148 (49%), Gaps = 3/148 (2%)
+
+Query  3    KPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C+
+Sbjct  314  QPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSCN  373
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P 
+Sbjct  374  NIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLPK  433
+
+Query  121  NLTTITKPLKYSYINKCSRFLSDDRTEV  148
+            N  TI      S+ N+   F  +DR ++
+Sbjct  434  NNVTINNYNPSSW-NRRYGFKVNDRCQI  460
+
+
+> sp|P11224|SPIKE_CVMA5 Spike glycoprotein OS=Murine coronavirus 
+(strain A59) OX=11142 GN=S PE=1 SV=2
+Length=1324
+
+ Score = 64.3 bits (155),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 36/125 (29%), Positives = 62/125 (50%), Gaps = 2/125 (2%)
+
+Query  3    KPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            +P G V  +   +  C+    L+  + P   N++R  F NCN+NL+ LL         C+
+Sbjct  314  QPVGVVYRRVANLPACNIEEWLTARSVPSPLNWERKTFQNCNFNLSSLLRYVQAESLFCN  373
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  T+P 
+Sbjct  374  NIDASKVYGRCFGSISVDKFAVPRSRQVDLQLGNSGFLQTANYKIDTAATSCQLHYTLPK  433
+
+Query  121  NLTTI  125
+            N  TI
+Sbjct  434  NNVTI  438
+
+
+> sp|P22432|SPIKE_CVM4 Spike glycoprotein OS=Murine coronavirus 
+(strain 4) OX=12760 GN=S PE=3 SV=1
+Length=1376
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 35/125 (28%), Positives = 63/125 (50%), Gaps = 2/125 (2%)
+
+Query  3    KPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C+
+Sbjct  314  QPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSCN  373
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P 
+Sbjct  374  NIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLPK  433
+
+Query  121  NLTTI  125
+            N  TI
+Sbjct  434  NNVTI  438
+
+
+> sp|Q02385|SPIKE_CVMJC Spike glycoprotein OS=Murine coronavirus 
+(strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+Length=1376
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 35/125 (28%), Positives = 63/125 (50%), Gaps = 2/125 (2%)
+
+Query  3    KPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C+
+Sbjct  314  QPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSCN  373
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P 
+Sbjct  374  NIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLPK  433
+
+Query  121  NLTTI  125
+            N  TI
+Sbjct  434  NNVTI  438
+
+
+> sp|Q3I5J5|SPIKE_BCRP3 Spike glycoprotein OS=Bat coronavirus Rp3/2004 
+OX=349344 GN=S PE=1 SV=1
+Length=1241
+
+ Score = 42.4 bits (98),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 25/90 (28%), Positives = 44/90 (49%), Gaps = 1/90 (1%)
+
+Query  16   ECDFSPLLSGTP-PQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+             C F  + + T  P VY ++R   ++C  + T L +  S + F C  +SP+ +   C++S
+Sbjct  326  RCPFDKVFNATRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKCYGVSPSKLIDLCFTS  385
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYK  104
+            +  D F    S    ++    G I+ +NYK
+Sbjct  386  VYADTFLIRSSEVRQVAPGETGVIADYNYK  415
+
+
+> sp|Q3LZX1|SPIKE_BCHK3 Spike glycoprotein OS=Bat coronavirus HKU3 
+OX=442736 GN=S PE=3 SV=1
+Length=1242
+
+ Score = 42.0 bits (97),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 27/100 (27%), Positives = 47/100 (47%), Gaps = 1/100 (1%)
+
+Query  16   ECDFSPLLSGTP-PQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+             C F  + + T  P VY ++R   ++C  + T L +  S + F C  +SP+ +   C++S
+Sbjct  326  RCPFDKVFNATRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKCYGVSPSKLIDLCFTS  385
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLI  114
+            +  D F    S    ++    G I+ +NYK       C+I
+Sbjct  386  VYADTFLIRSSEVRQVAPGETGVIADYNYKLPDDFTGCVI  425
+
+
+> sp|Q0Q475|SPIKE_BC279 Spike glycoprotein OS=Bat coronavirus 279/2005 
+OX=389167 GN=S PE=3 SV=1
+Length=1241
+
+ Score = 40.8 bits (94),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 26/100 (26%), Positives = 47/100 (47%), Gaps = 1/100 (1%)
+
+Query  16   ECDFSPLLSGTP-PQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSS  74
+             C F  + + +  P VY ++R   ++C  + T L +  S + F C  +SP+ +   C++S
+Sbjct  326  RCPFDKVFNASRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKCYGVSPSKLIDLCFTS  385
+
+Query  75   LILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLI  114
+            +  D F    S    ++    G I+ +NYK       C+I
+Sbjct  386  VYADTFLIRSSEVRQVAPGETGVIADYNYKLPDDFTGCVI  425
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 16095167829
+Results from round 2
+
+
+Query= 6C6Z.A
+
+Length=231
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|K9N5Q8|SPIKE_CVEMC Spike glycoprotein OS=Middle East respira...  336     4e-106
+  sp|Q0Q4F2|SPIKE_BC133 Spike glycoprotein OS=Bat coronavirus 133...  317     4e-99 
+  sp|A3EX94|SPIKE_BCHK4 Spike glycoprotein OS=Bat coronavirus HKU...  305     6e-95 
+  sp|A3EXD0|SPIKE_BCHK5 Spike glycoprotein OS=Bat coronavirus HKU...  285     2e-87 
+  sp|Q8JSP8|SPIKE_CVPIA Spike glycoprotein OS=Porcine hemagglutin...  230     4e-68 
+  sp|Q8BB25|SPIKE_CVP67 Spike glycoprotein OS=Porcine hemagglutin...  228     2e-67 
+  sp|Q02385|SPIKE_CVMJC Spike glycoprotein OS=Murine coronavirus ...  226     9e-67 
+  sp|P11225|SPIKE_CVMJH Spike glycoprotein OS=Murine coronavirus ...  225     1e-66 
+  sp|P22432|SPIKE_CVM4 Spike glycoprotein OS=Murine coronavirus (...  225     2e-66 
+  sp|P15777|SPIKE_CVBM Spike glycoprotein OS=Bovine coronavirus (...  221     4e-65 
+  sp|P25193|SPIKE_CVBQ Spike glycoprotein OS=Bovine coronavirus (...  220     7e-65 
+  sp|Q9IKD1|SPIKE_CVRSD Spike glycoprotein OS=Rat coronavirus (st...  220     1e-64 
+  sp|P25192|SPIKE_CVBLY Spike glycoprotein OS=Bovine coronavirus ...  220     1e-64 
+  sp|Q8V436|SPIKE_CVBLU Spike glycoprotein OS=Bovine coronavirus ...  219     2e-64 
+  sp|P11224|SPIKE_CVMA5 Spike glycoprotein OS=Murine coronavirus ...  219     3e-64 
+  sp|P25191|SPIKE_CVBL9 Spike glycoprotein OS=Bovine coronavirus ...  219     3e-64 
+  sp|Q9QAR5|SPIKE_CVBLS Spike glycoprotein OS=Bovine coronavirus ...  219     3e-64 
+  sp|Q9QAQ8|SPIKE_CVBOK Spike glycoprotein OS=Bovine coronavirus ...  218     4e-64 
+  sp|P25190|SPIKE_CVBF Spike glycoprotein OS=Bovine coronavirus (...  218     4e-64 
+  sp|P25194|SPIKE_CVBV Spike glycoprotein OS=Bovine coronavirus (...  218     5e-64 
+  sp|P36334|SPIKE_CVHOC Spike glycoprotein OS=Human coronavirus O...  217     9e-64 
+  sp|Q91A26|SPIKE_CVBEN Spike glycoprotein OS=Bovine coronavirus ...  214     1e-62 
+  sp|Q5MQD0|SPIKE_CVHN1 Spike glycoprotein OS=Human coronavirus H...  210     4e-61 
+  sp|Q0ZME7|SPIKE_CVHN5 Spike glycoprotein OS=Human coronavirus H...  208     2e-60 
+  sp|Q14EB0|SPIKE_CVHN2 Spike glycoprotein OS=Human coronavirus H...  208     2e-60 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P59594|SPIKE_CVHSA Spike glycoprotein OS=Human SARS coronavi...  72.5    2e-13
+  sp|Q3LZX1|SPIKE_BCHK3 Spike glycoprotein OS=Bat coronavirus HKU...  70.6    9e-13
+  sp|Q3I5J5|SPIKE_BCRP3 Spike glycoprotein OS=Bat coronavirus Rp3...  69.4    2e-12
+  sp|Q0Q475|SPIKE_BC279 Spike glycoprotein OS=Bat coronavirus 279...  68.6    4e-12
+  sp|A3EXG6|SPIKE_BCHK9 Spike glycoprotein OS=Bat coronavirus HKU...  50.2    6e-06
+
+
+> sp|K9N5Q8|SPIKE_CVEMC Spike glycoprotein OS=Middle East respiratory 
+syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) 
+OX=1263720 GN=S PE=1 SV=1
+Length=1353
+
+ Score = 336 bits (861),  Expect = 4e-106, Method: Composition-based stats.
+ Identities = 223/223 (100%), Positives = 223/223 (100%), Gaps = 0/223 (0%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS
+Sbjct  367  EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  426
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+            QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH
+Sbjct  427  QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  486
+
+Query  121  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS  180
+            NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS
+Sbjct  487  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS  546
+
+Query  181  PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE
+Sbjct  547  PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  589
+
+
+> sp|Q0Q4F2|SPIKE_BC133 Spike glycoprotein OS=Bat coronavirus 133/2005 
+OX=389230 GN=S PE=3 SV=1
+Length=1350
+
+ Score = 317 bits (811),  Expect = 4e-99, Method: Composition-based stats.
+ Identities = 126/224 (56%), Positives = 160/224 (71%), Gaps = 2/224 (1%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA  +G+ +EQ    ECDFSP+L+G  PQVYNFKRLVF+NCNYNLTKLLSLF+V++F+C+
+Sbjct  372  EASATGTFIEQPNVTECDFSPMLTGVAPQVYNFKRLVFSNCNYNLTKLLSLFAVDEFSCN  431
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             ISP AIA  CYS+L +DYF+YPLSMKS +   SAG I  +NYKQSF+NPTC ++A+VP 
+Sbjct  432  GISPDAIARGCYSTLTVDYFAYPLSMKSYIRPGSAGNIPLYNYKQSFANPTCRVMASVPD  491
+
+Query  121  NLTTITKPLKYSYINKCSRFLS-DDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQL  179
+            N  TITKP  Y YI+KCSR    +   E P  +N  +YS C    P    EDG  +++ L
+Sbjct  492  N-VTITKPGAYGYISKCSRLTGVNQDIETPLYINPGEYSICRDFAPLGFSEDGQVFKRTL  550
+
+Query  180  SPLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            +  EGGG L+  G+ V MT  L+MGF I+VQYGT T+SVCP L+
+Sbjct  551  TQFEGGGLLIGVGTRVPMTANLEMGFVISVQYGTGTDSVCPMLD  594
+
+
+> sp|A3EX94|SPIKE_BCHK4 Spike glycoprotein OS=Bat coronavirus HKU4 
+OX=694007 GN=S PE=1 SV=1
+Length=1352
+
+ Score = 305 bits (782),  Expect = 6e-95, Method: Composition-based stats.
+ Identities = 124/224 (55%), Positives = 159/224 (71%), Gaps = 2/224 (1%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA  +G+ +EQ    ECDFSP+L+G  PQVYNFKRLVF+NCNYNLTKLLSLF+V++F+C+
+Sbjct  372  EASATGTFIEQPNATECDFSPMLTGVAPQVYNFKRLVFSNCNYNLTKLLSLFAVDEFSCN  431
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             ISP +IA  CYS+L +DYF+YPLSMKS +   SAG I  +NYKQSF+NPTC ++A+V  
+Sbjct  432  GISPDSIARGCYSTLTVDYFAYPLSMKSYIRPGSAGNIPLYNYKQSFANPTCRVMASVLA  491
+
+Query  121  NLTTITKPLKYSYINKCSRFLS-DDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQL  179
+            N  TITKP  Y YI+KCSR    +   E P  +N  +YS C    P    EDG  +++ L
+Sbjct  492  N-VTITKPHAYGYISKCSRLTGANQDVETPLYINPGEYSICRDFSPGGFSEDGQVFKRTL  550
+
+Query  180  SPLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            +  EGGG L+  G+ V MT+ LQM F I+VQYGT T+SVCP L+
+Sbjct  551  TQFEGGGLLIGVGTRVPMTDNLQMSFIISVQYGTGTDSVCPMLD  594
+
+
+> sp|A3EXD0|SPIKE_BCHK5 Spike glycoprotein OS=Bat coronavirus HKU5 
+OX=694008 GN=S PE=1 SV=1
+Length=1352
+
+ Score = 285 bits (728),  Expect = 2e-87, Method: Composition-based stats.
+ Identities = 115/221 (52%), Positives = 143/221 (65%), Gaps = 10/221 (5%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA P G  +EQA   ECDF+P+L+GTPP +YNFKRLVFTNCNYNLTKLLSLF V++F+C 
+Sbjct  375  EASPRGEFIEQATTQECDFTPMLTGTPPPIYNFKRLVFTNCNYNLTKLLSLFQVSEFSCH  434
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+            Q+SP+++A+ CYSSL +DYF+Y   M S L   SAG I QFNYKQ FSNPTC +LATVP 
+Sbjct  435  QVSPSSLATGCYSSLTVDYFAYSTDMSSYLQPGSAGAIVQFNYKQDFSNPTCRVLATVPQ  494
+
+Query  121  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS  180
+            NLTTITKP  Y+Y+ +C +  +  +           Y+PC+S+                 
+Sbjct  495  NLTTITKPSNYAYLTECYKTSAYGKNY--LYNAPGAYTPCLSLASRGFS--------TKY  544
+
+Query  181  PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPK  221
+                 G L  +G    +T  LQM F I+VQYGTDTNSVCP 
+Sbjct  545  QSHSDGELTTTGYIYPVTGNLQMAFIISVQYGTDTNSVCPM  585
+
+
+> sp|Q8JSP8|SPIKE_CVPIA Spike glycoprotein OS=Porcine hemagglutinating 
+encephalomyelitis virus (strain IAF-404) OX=230236 GN=S 
+PE=3 SV=1
+Length=1349
+
+ Score = 230 bits (585),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 47/171 (27%), Positives = 81/171 (47%), Gaps = 10/171 (6%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P  +V  +   +  CD    L+  T     N++R +F+NCN+N+ +L+S    + F C
+Sbjct  315  VQPVATVYRRIPDLPNCDIEAWLNSKTVSSPLNWERKIFSNCNFNMGRLMSFIQADSFGC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S K DL V  +G +  FNYK   +  +C +  ++P
+Sbjct  375  NNIDASRLYGMCFGSITIDKFAIPNSRKVDLQVGKSGYLQSFNYKIDTAVSSCQLYYSLP  434
+
+Query  120  HNLTTITK------PLKYSYINKC--SRFLSDDRTEVPQLVNANQYSPCVS  162
+                ++T         +Y +IN+   SR L D           N Y PC +
+Sbjct  435  AANVSVTHYNPSSWNRRYGFINQSFGSRGLHDAVYSQQCFNTPNTYCPCRT  485
+
+
+> sp|Q8BB25|SPIKE_CVP67 Spike glycoprotein OS=Porcine hemagglutinating 
+encephalomyelitis virus (strain 67N) OX=230237 GN=S 
+PE=3 SV=1
+Length=1349
+
+ Score = 228 bits (581),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 46/171 (27%), Positives = 80/171 (47%), Gaps = 10/171 (6%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P  +V  +   +  CD    L+  T     N++R +F+NCN+N+ +L+S    + F C
+Sbjct  315  VQPVATVYRRIPDLPNCDIEAWLNSKTVSSPLNWERKIFSNCNFNMGRLMSFIQADSFGC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S K DL V  +G +  FNYK   +  +C +  ++P
+Sbjct  375  NNIDASRLYGMCFGSITIDKFAIPNSRKVDLQVGKSGYLQSFNYKIDTAVSSCQLYYSLP  434
+
+Query  120  HNLTTITK------PLKYSYINKC--SRFLSDDRTEVPQLVNANQYSPCVS  162
+                ++T         +Y + N+   SR L D           N Y PC +
+Sbjct  435  AANVSVTHYNPSSWNRRYGFNNQSFGSRGLHDAVYSQQCFNTPNTYCPCRT  485
+
+
+> sp|Q02385|SPIKE_CVMJC Spike glycoprotein OS=Murine coronavirus 
+(strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+Length=1376
+
+ Score = 226 bits (575),  Expect = 9e-67, Method: Composition-based stats.
+ Identities = 42/172 (24%), Positives = 73/172 (42%), Gaps = 12/172 (7%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C
+Sbjct  313  VQPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P
+Sbjct  373  NNIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLP  432
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------LSDDRTEVPQLVNANQYSPCVS  162
+             N  TI      S+ N+   F           D        +    Y PC  
+Sbjct  433  KNNVTINNYNPSSW-NRRYGFNDAGVFGKSKHDVAYAQQCFIVRPSYCPCAQ  483
+
+
+> sp|P11225|SPIKE_CVMJH Spike glycoprotein OS=Murine coronavirus 
+(strain JHM) OX=11144 GN=S PE=1 SV=1
+Length=1235
+
+ Score = 225 bits (574),  Expect = 1e-66, Method: Composition-based stats.
+ Identities = 48/192 (25%), Positives = 86/192 (45%), Gaps = 8/192 (4%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C
+Sbjct  313  VQPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P
+Sbjct  373  NNIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLP  432
+
+Query  120  HNLTTITKPLKYSYINKCSRFLSDDRTEVPQL-----VNANQYSPCVSIVPSTVWEDGDY  174
+             N  TI      S+ N+   F  +DR ++        +N+         +P+T    G  
+Sbjct  433  KNNVTINNYNPSSW-NRRYGFKVNDRCQIFANILLNGINSGTTCSTDLQLPNTEVATGVC  491
+
+Query  175  YRKQLSPLEGGG  186
+             R  L  + G G
+Sbjct  492  VRYDLYGITGQG  503
+
+
+> sp|P22432|SPIKE_CVM4 Spike glycoprotein OS=Murine coronavirus 
+(strain 4) OX=12760 GN=S PE=3 SV=1
+Length=1376
+
+ Score = 225 bits (573),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 42/172 (24%), Positives = 72/172 (42%), Gaps = 12/172 (7%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C
+Sbjct  313  VQPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P
+Sbjct  373  NNIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLP  432
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------LSDDRTEVPQLVNANQYSPCVS  162
+             N  TI      S+ N+   F           D             Y PC  
+Sbjct  433  KNNVTINNYNPSSW-NRRYGFNDAGVFGKSKHDVAYAQQCFTVRPSYCPCAQ  483
+
+
+> sp|P15777|SPIKE_CVBM Spike glycoprotein OS=Bovine coronavirus 
+(strain Mebus) OX=11132 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 221 bits (563),  Expect = 4e-65, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 76/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D           + + PC
+Sbjct  435  AANVSVSR-FNPSTWNRRFGFTEQFVFKPQPVGVFTHHDVVYAQHCFKAPSNFCPC  489
+
+
+> sp|P25193|SPIKE_CVBQ Spike glycoprotein OS=Bovine coronavirus 
+(strain Quebec) OX=11133 GN=S PE=3 SV=2
+Length=1363
+
+ Score = 220 bits (561),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSVSR-FNPSTWNRRFGFTEQFVFKPQPVGVFTHHDVVYAQHCFKAPKNFCPC  489
+
+
+> sp|Q9IKD1|SPIKE_CVRSD Spike glycoprotein OS=Rat coronavirus (strain 
+681) OX=33740 GN=S PE=3 SV=1
+Length=1360
+
+ Score = 220 bits (560),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 49/179 (27%), Positives = 80/179 (45%), Gaps = 14/179 (8%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLS-GTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   + +C     L+  T P   N++R  F NCN+NL+ LL        +C
+Sbjct  313  VQPVGLVYRRVRNLPDCKIEEWLAANTVPSPLNWERKTFQNCNFNLSSLLRFVQAESLSC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            S I  + +   C+ S+ +D F+ P S + DL +  +G +  FNYK      +C +  ++ 
+Sbjct  373  SNIDASKVYGMCFGSISIDKFAIPNSRRVDLQLGKSGLLQSFNYKIDTRATSCQLYYSLA  432
+
+Query  120  HNLTTITKPLKYSY-----INKCSRFLSDDR----TEVPQLVNANQYSPCVSIVPSTVW  169
+             +  T+      S+      N  + F S +      E    V A+ Y PC    PSTV+
+Sbjct  433  QDNVTVINHNPSSWNRRYGFNDVATFHSGEHDVAYAEACFTVGAS-YCPCAK--PSTVY  488
+
+
+> sp|P25192|SPIKE_CVBLY Spike glycoprotein OS=Bovine coronavirus 
+(strain LY-138) OX=11131 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 220 bits (559),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSVSR-FNPSTWNRRFGFTEQSVFKPQPVGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|Q8V436|SPIKE_CVBLU Spike glycoprotein OS=Bovine coronavirus 
+(strain 98TXSF-110-LUN) OX=233264 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 219 bits (558),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSVSR-FNPSTWNRRFGFTEQSVFKPQPAGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|P11224|SPIKE_CVMA5 Spike glycoprotein OS=Murine coronavirus 
+(strain A59) OX=11142 GN=S PE=1 SV=2
+Length=1324
+
+ Score = 219 bits (557),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 43/172 (25%), Positives = 72/172 (42%), Gaps = 12/172 (7%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   +  C+    L+  + P   N++R  F NCN+NL+ LL         C
+Sbjct  313  VQPVGVVYRRVANLPACNIEEWLTARSVPSPLNWERKTFQNCNFNLSSLLRYVQAESLFC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  T+P
+Sbjct  373  NNIDASKVYGRCFGSISVDKFAVPRSRQVDLQLGNSGFLQTANYKIDTAATSCQLHYTLP  432
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------LSDDRTEVPQLVNANQYSPCVS  162
+             N  TI      S+ N+   F           D           + Y PC  
+Sbjct  433  KNNVTINNHNPSSW-NRRYGFNDAGVFGKNQHDVVYAQQCFTVRSSYCPCAQ  483
+
+
+> sp|P25191|SPIKE_CVBL9 Spike glycoprotein OS=Bovine coronavirus 
+(strain L9) OX=11130 GN=S PE=1 SV=1
+Length=1363
+
+ Score = 219 bits (557),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSCLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSVSR-FNPSTWNRRFGFTEQSVFKPQPVGVFTHHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|Q9QAR5|SPIKE_CVBLS Spike glycoprotein OS=Bovine coronavirus 
+(strain LSU-94LSS-051) OX=233261 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 219 bits (557),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSVSR-FNPSTWNRRFGFTEQSVFKPQPAGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|Q9QAQ8|SPIKE_CVBOK Spike glycoprotein OS=Bovine coronavirus 
+(strain OK-0514) OX=231432 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 218 bits (556),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSVSR-FNPSIWNRRFGFTEQSVFKPQPAGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|P25190|SPIKE_CVBF Spike glycoprotein OS=Bovine coronavirus 
+(strain F15) OX=11129 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 218 bits (556),  Expect = 4e-64, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSLSR-FNPSIWNRRFGFTEQSVFKPQPVGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|P25194|SPIKE_CVBV Spike glycoprotein OS=Bovine coronavirus 
+(strain vaccine) OX=11134 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 218 bits (555),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIEAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTAASCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSVSR-FNPSTWNRRFGFTEQSVFKPQPVGVFTHHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|P36334|SPIKE_CVHOC Spike glycoprotein OS=Human coronavirus 
+OC43 OX=31631 GN=S PE=3 SV=1
+Length=1353
+
+ Score = 217 bits (553),  Expect = 9e-64, Method: Composition-based stats.
+ Identities = 42/176 (24%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   +  C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  319  VQPIADVYRRKPNLPNCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  378
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  379  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  438
+
+Query  120  HNLTTITKPLKYSYINKCSRFLSDD---------------RTEVPQLVNANQYSPC  160
+                ++++    S  NK   F+ D                            + PC
+Sbjct  439  AANVSVSR-FNPSTWNKRFGFIEDSVFKPRPAGVLTNHDVVYAQHCFKAPKNFCPC  493
+
+
+> sp|Q91A26|SPIKE_CVBEN Spike glycoprotein OS=Bovine coronavirus 
+(strain 98TXSF-110-ENT) OX=233262 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 214 bits (545),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S      FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQAYSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D          +  + PC
+Sbjct  435  AANVSVSR-FNPSTWNRRFGFTEQSVFKPQPAGVFTDHDVVYAQHCFKASTNFCPC  489
+
+
+> sp|Q5MQD0|SPIKE_CVHN1 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N1) OX=443239 GN=S PE=1 SV=1
+Length=1356
+
+ Score = 210 bits (533),  Expect = 4e-61, Method: Composition-based stats.
+ Identities = 46/169 (27%), Positives = 79/169 (47%), Gaps = 9/169 (5%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+    P   N++R +F+NCN+NL+ LL L   + F+C
+Sbjct  311  VKPVATVHRRIPDLPDCDIDKWLNNFNVPSPLNWERKIFSNCNFNLSTLLRLVHTDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            +    + I  +C+ S++LD F+ P S +SDL + S+G +   NYK   ++ +C +  ++P
+Sbjct  371  NNFDESKIYGSCFKSIVLDKFAIPNSRRSDLQLGSSGFLQSSNYKIDTTSSSCQLYYSLP  430
+
+Query  120  HNLTTITKPLKYSYINKCSRF------LSDDRTEVPQLVNANQYSPCVS  162
+                TI      S+ N+   F                    N + PC  
+Sbjct  431  AINVTINNYNPSSW-NRRYGFNNFNLSSHSVVYSRYCFSVNNTFCPCAK  478
+
+
+> sp|Q0ZME7|SPIKE_CVHN5 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N5) OX=443241 GN=S PE=1 SV=1
+Length=1351
+
+ Score = 208 bits (528),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 46/169 (27%), Positives = 81/169 (48%), Gaps = 9/169 (5%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+  + P   N++R +F+NCN+NL+ LL L  V+ F+C
+Sbjct  311  VKPVATVYRRIPNLPDCDIDNWLNNVSVPSPLNWERRIFSNCNFNLSTLLRLVHVDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + +  + I  +C++S+ +D F+ P   + DL + S+G +   NYK   S+ +C +  ++P
+Sbjct  371  NNLDKSKIFGSCFNSITVDKFAIPNRRRDDLQLGSSGFLQSSNYKIDISSSSCQLYYSLP  430
+
+Query  120  HNLTTITKPLKYSYINKCSRFLS------DDRTEVPQLVNANQYSPCVS  162
+                TI      S  N+   F S      D           + + PC  
+Sbjct  431  LVNVTIN-NFNPSSWNRRYGFGSFNLSSYDVVYSDHCFSVNSDFCPCAD  478
+
+
+> sp|Q14EB0|SPIKE_CVHN2 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N2) OX=443240 GN=S PE=3 SV=1
+Length=1351
+
+ Score = 208 bits (528),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 46/169 (27%), Positives = 81/169 (48%), Gaps = 9/169 (5%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+  + P   N++R +F+NCN+NL+ LL L  V+ F+C
+Sbjct  311  VKPVATVYRRIPNLPDCDIDNWLNNVSVPSPLNWERRIFSNCNFNLSTLLRLVHVDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + +  + I  +C++S+ +D F+ P   + DL + S+G +   NYK   S+ +C +  ++P
+Sbjct  371  NNLDKSKIFGSCFNSITVDKFAIPNRRRDDLQLGSSGFLQSSNYKIDISSSSCQLYYSLP  430
+
+Query  120  HNLTTITKPLKYSYINKCSRFLS------DDRTEVPQLVNANQYSPCVS  162
+                TI      S  N+   F S      D           + + PC  
+Sbjct  431  LVNVTIN-NFNPSSWNRRYGFGSFNVSSYDVVYSDHCFSVNSDFCPCAD  478
+
+
+> sp|P59594|SPIKE_CVHSA Spike glycoprotein OS=Human SARS coronavirus 
+OX=694009 GN=S PE=1 SV=1
+Length=1255
+
+ Score = 72.5 bits (176),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 32/134 (24%), Positives = 53/134 (40%), Gaps = 2/134 (1%)
+
+Query  2    AKPSGSVVEQAEGVE-CDFSPLLSGTP-PQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+              PSG VV        C F  + + T  P VY ++R   +NC  + + L +    + F C
+Sbjct  307  VVPSGDVVRFPNITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKC  366
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+              +S   +   C+S++  D F         ++    G I+ +NYK       C++     
+Sbjct  367  YGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNTR  426
+
+Query  120  HNLTTITKPLKYSY  133
+            +   T T    Y Y
+Sbjct  427  NIDATSTGNYNYKY  440
+
+
+> sp|Q3LZX1|SPIKE_BCHK3 Spike glycoprotein OS=Bat coronavirus HKU3 
+OX=442736 GN=S PE=3 SV=1
+Length=1242
+
+ Score = 70.6 bits (171),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 30/124 (24%), Positives = 53/124 (43%), Gaps = 2/124 (2%)
+
+Query  2    AKPSGSVVEQAEGVE-CDFSPLLSGT-PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+              P+  V+        C F  + + T  P VY ++R   ++C  + T L +  S + F C
+Sbjct  311  VSPTQEVIRFPNITNRCPFDKVFNATRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+              +SP+ +   C++S+  D F    S    ++    G I+ +NYK       C+I     
+Sbjct  371  YGVSPSKLIDLCFTSVYADTFLIRSSEVRQVAPGETGVIADYNYKLPDDFTGCVIAWNTA  430
+
+Query  120  HNLT  123
+             + T
+Sbjct  431  KHDT  434
+
+
+> sp|Q3I5J5|SPIKE_BCRP3 Spike glycoprotein OS=Bat coronavirus Rp3/2004 
+OX=349344 GN=S PE=1 SV=1
+Length=1241
+
+ Score = 69.4 bits (168),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/118 (25%), Positives = 51/118 (43%), Gaps = 2/118 (2%)
+
+Query  2    AKPSGSVVEQAEGVE-CDFSPLLSGT-PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+              P+  V+        C F  + + T  P VY ++R   ++C  + T L +  S + F C
+Sbjct  311  VSPTQEVIRFPNITNRCPFDKVFNATRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILAT  117
+              +SP+ +   C++S+  D F    S    ++    G I+ +NYK       C+I   
+Sbjct  371  YGVSPSKLIDLCFTSVYADTFLIRSSEVRQVAPGETGVIADYNYKLPDDFTGCVIAWN  428
+
+
+> sp|Q0Q475|SPIKE_BC279 Spike glycoprotein OS=Bat coronavirus 279/2005 
+OX=389167 GN=S PE=3 SV=1
+Length=1241
+
+ Score = 68.6 bits (166),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 30/132 (23%), Positives = 52/132 (39%), Gaps = 2/132 (2%)
+
+Query  2    AKPSGSVVEQAEGVE-CDFSPLLSGT-PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+              P+  VV        C F  + + +  P VY ++R   ++C  + T L +  S + F C
+Sbjct  311  VTPTQEVVRFPNITNRCPFDKVFNASRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+              +SP+ +   C++S+  D F    S    ++    G I+ +NYK       C+I     
+Sbjct  371  YGVSPSKLIDLCFTSVYADTFLIRSSEVRQVAPGETGVIADYNYKLPDDFTGCVIAWNTA  430
+
+Query  120  HNLTTITKPLKY  131
+                       Y
+Sbjct  431  QQDQGQYYYRSY  442
+
+
+> sp|A3EXG6|SPIKE_BCHK9 Spike glycoprotein OS=Bat coronavirus HKU9 
+OX=694006 GN=S PE=1 SV=1
+Length=1274
+
+ Score = 50.2 bits (118),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 29/136 (21%), Positives = 53/136 (39%), Gaps = 10/136 (7%)
+
+Query  27   PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSSLILDYFSYPLSM  86
+            PPQ   ++R +  +C ++ T ++     +   C  +SP  +AS CY S+ LD      + 
+Sbjct  367  PPQPVVWRRYMLYDCVFDFTVVVDSLPTHQLQCYGVSPRRLASMCYGSVTLDVMRINETH  426
+
+Query  87   KSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITKPLKYSYINK---CSRFLSD  143
+             ++L        S +NY    +   CL    +            Y+  N+          
+Sbjct  427  LNNLFNRVPDTFSLYNYALPDNFYGCLHAFYL-------NSTAPYAVANRFPIKPGGRQS  479
+
+Query  144  DRTEVPQLVNANQYSP  159
+            +   +  ++NA  YSP
+Sbjct  480  NSAFIDTVINAAHYSP  495
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.126    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0385    0.140     1.90     42.6     43.6 
+
+Effective search space used: 16095167829
+Results from round 3
+
+
+Query= 6C6Z.A
+
+Length=231
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|K9N5Q8|SPIKE_CVEMC Spike glycoprotein OS=Middle East respira...  292     3e-90
+  sp|Q0Q4F2|SPIKE_BC133 Spike glycoprotein OS=Bat coronavirus 133...  281     4e-86
+  sp|A3EX94|SPIKE_BCHK4 Spike glycoprotein OS=Bat coronavirus HKU...  272     8e-83
+  sp|A3EXD0|SPIKE_BCHK5 Spike glycoprotein OS=Bat coronavirus HKU...  261     5e-79
+  sp|P11225|SPIKE_CVMJH Spike glycoprotein OS=Murine coronavirus ...  228     2e-67
+  sp|Q02385|SPIKE_CVMJC Spike glycoprotein OS=Murine coronavirus ...  213     2e-62
+  sp|P22432|SPIKE_CVM4 Spike glycoprotein OS=Murine coronavirus (...  212     6e-62
+  sp|Q8BB25|SPIKE_CVP67 Spike glycoprotein OS=Porcine hemagglutin...  209     8e-61
+  sp|Q8JSP8|SPIKE_CVPIA Spike glycoprotein OS=Porcine hemagglutin...  208     1e-60
+  sp|P11224|SPIKE_CVMA5 Spike glycoprotein OS=Murine coronavirus ...  205     1e-59
+  sp|Q9IKD1|SPIKE_CVRSD Spike glycoprotein OS=Rat coronavirus (st...  202     2e-58
+  sp|Q5MQD0|SPIKE_CVHN1 Spike glycoprotein OS=Human coronavirus H...  201     4e-58
+  sp|P15777|SPIKE_CVBM Spike glycoprotein OS=Bovine coronavirus (...  199     2e-57
+  sp|Q0ZME7|SPIKE_CVHN5 Spike glycoprotein OS=Human coronavirus H...  199     2e-57
+  sp|Q14EB0|SPIKE_CVHN2 Spike glycoprotein OS=Human coronavirus H...  199     2e-57
+  sp|P25193|SPIKE_CVBQ Spike glycoprotein OS=Bovine coronavirus (...  199     3e-57
+  sp|P25192|SPIKE_CVBLY Spike glycoprotein OS=Bovine coronavirus ...  198     6e-57
+  sp|P25191|SPIKE_CVBL9 Spike glycoprotein OS=Bovine coronavirus ...  198     7e-57
+  sp|Q8V436|SPIKE_CVBLU Spike glycoprotein OS=Bovine coronavirus ...  198     7e-57
+  sp|Q9QAR5|SPIKE_CVBLS Spike glycoprotein OS=Bovine coronavirus ...  197     1e-56
+  sp|Q9QAQ8|SPIKE_CVBOK Spike glycoprotein OS=Bovine coronavirus ...  197     1e-56
+  sp|P25190|SPIKE_CVBF Spike glycoprotein OS=Bovine coronavirus (...  196     1e-56
+  sp|P25194|SPIKE_CVBV Spike glycoprotein OS=Bovine coronavirus (...  196     2e-56
+  sp|P36334|SPIKE_CVHOC Spike glycoprotein OS=Human coronavirus O...  195     6e-56
+  sp|Q91A26|SPIKE_CVBEN Spike glycoprotein OS=Bovine coronavirus ...  193     2e-55
+  sp|P59594|SPIKE_CVHSA Spike glycoprotein OS=Human SARS coronavi...  168     2e-46
+  sp|Q0Q475|SPIKE_BC279 Spike glycoprotein OS=Bat coronavirus 279...  163     6e-45
+  sp|Q3I5J5|SPIKE_BCRP3 Spike glycoprotein OS=Bat coronavirus Rp3...  163     1e-44
+  sp|Q3LZX1|SPIKE_BCHK3 Spike glycoprotein OS=Bat coronavirus HKU...  162     1e-44
+  sp|A3EXG6|SPIKE_BCHK9 Spike glycoprotein OS=Bat coronavirus HKU...  148     1e-39
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|K9N5Q8|SPIKE_CVEMC Spike glycoprotein OS=Middle East respiratory 
+syndrome-related coronavirus (isolate United Kingdom/H123990006/2012) 
+OX=1263720 GN=S PE=1 SV=1
+Length=1353
+
+ Score = 292 bits (748),  Expect = 3e-90, Method: Composition-based stats.
+ Identities = 223/223 (100%), Positives = 223/223 (100%), Gaps = 0/223 (0%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS
+Sbjct  367  EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  426
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+            QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH
+Sbjct  427  QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  486
+
+Query  121  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS  180
+            NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS
+Sbjct  487  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS  546
+
+Query  181  PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE
+Sbjct  547  PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  589
+
+
+> sp|Q0Q4F2|SPIKE_BC133 Spike glycoprotein OS=Bat coronavirus 133/2005 
+OX=389230 GN=S PE=3 SV=1
+Length=1350
+
+ Score = 281 bits (718),  Expect = 4e-86, Method: Composition-based stats.
+ Identities = 125/224 (56%), Positives = 159/224 (71%), Gaps = 2/224 (1%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA  +G+ +EQ    ECDFSP+L+G  PQVYNFKRLVF+NCNYNLTKLLSLF+V++F+C+
+Sbjct  372  EASATGTFIEQPNVTECDFSPMLTGVAPQVYNFKRLVFSNCNYNLTKLLSLFAVDEFSCN  431
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             ISP AIA  CYS+L +DYF+YPLSMKS +   SAG I  +NYKQSF+NPTC ++A+VP 
+Sbjct  432  GISPDAIARGCYSTLTVDYFAYPLSMKSYIRPGSAGNIPLYNYKQSFANPTCRVMASVPD  491
+
+Query  121  NLTTITKPLKYSYINKCSRFLS-DDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQL  179
+               TITKP  Y YI+KCSR    +   E P  +N  +YS C    P    EDG  +++ L
+Sbjct  492  -NVTITKPGAYGYISKCSRLTGVNQDIETPLYINPGEYSICRDFAPLGFSEDGQVFKRTL  550
+
+Query  180  SPLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            +  EGGG L+  G+ V MT  L+MGF I+VQYGT T+SVCP L+
+Sbjct  551  TQFEGGGLLIGVGTRVPMTANLEMGFVISVQYGTGTDSVCPMLD  594
+
+
+> sp|A3EX94|SPIKE_BCHK4 Spike glycoprotein OS=Bat coronavirus HKU4 
+OX=694007 GN=S PE=1 SV=1
+Length=1352
+
+ Score = 272 bits (694),  Expect = 8e-83, Method: Composition-based stats.
+ Identities = 123/224 (55%), Positives = 158/224 (71%), Gaps = 2/224 (1%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA  +G+ +EQ    ECDFSP+L+G  PQVYNFKRLVF+NCNYNLTKLLSLF+V++F+C+
+Sbjct  372  EASATGTFIEQPNATECDFSPMLTGVAPQVYNFKRLVFSNCNYNLTKLLSLFAVDEFSCN  431
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+             ISP +IA  CYS+L +DYF+YPLSMKS +   SAG I  +NYKQSF+NPTC ++A+V  
+Sbjct  432  GISPDSIARGCYSTLTVDYFAYPLSMKSYIRPGSAGNIPLYNYKQSFANPTCRVMASV-L  490
+
+Query  121  NLTTITKPLKYSYINKCSRFLS-DDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQL  179
+               TITKP  Y YI+KCSR    +   E P  +N  +YS C    P    EDG  +++ L
+Sbjct  491  ANVTITKPHAYGYISKCSRLTGANQDVETPLYINPGEYSICRDFSPGGFSEDGQVFKRTL  550
+
+Query  180  SPLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLE  223
+            +  EGGG L+  G+ V MT+ LQM F I+VQYGT T+SVCP L+
+Sbjct  551  TQFEGGGLLIGVGTRVPMTDNLQMSFIISVQYGTGTDSVCPMLD  594
+
+
+> sp|A3EXD0|SPIKE_BCHK5 Spike glycoprotein OS=Bat coronavirus HKU5 
+OX=694008 GN=S PE=1 SV=1
+Length=1352
+
+ Score = 261 bits (666),  Expect = 5e-79, Method: Composition-based stats.
+ Identities = 115/221 (52%), Positives = 143/221 (65%), Gaps = 10/221 (5%)
+
+Query  1    EAKPSGSVVEQAEGVECDFSPLLSGTPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCS  60
+            EA P G  +EQA   ECDF+P+L+GTPP +YNFKRLVFTNCNYNLTKLLSLF V++F+C 
+Sbjct  375  EASPRGEFIEQATTQECDFTPMLTGTPPPIYNFKRLVFTNCNYNLTKLLSLFQVSEFSCH  434
+
+Query  61   QISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVPH  120
+            Q+SP+++A+ CYSSL +DYF+Y   M S L   SAG I QFNYKQ FSNPTC +LATVP 
+Sbjct  435  QVSPSSLATGCYSSLTVDYFAYSTDMSSYLQPGSAGAIVQFNYKQDFSNPTCRVLATVPQ  494
+
+Query  121  NLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLS  180
+            NLTTITKP  Y+Y+ +C +  +  +           Y+PC+S+                 
+Sbjct  495  NLTTITKPSNYAYLTECYKTSAYGKNY--LYNAPGAYTPCLSLASRGFS--------TKY  544
+
+Query  181  PLEGGGWLVASGSTVAMTEQLQMGFGITVQYGTDTNSVCPK  221
+                 G L  +G    +T  LQM F I+VQYGTDTNSVCP 
+Sbjct  545  QSHSDGELTTTGYIYPVTGNLQMAFIISVQYGTDTNSVCPM  585
+
+
+> sp|P11225|SPIKE_CVMJH Spike glycoprotein OS=Murine coronavirus 
+(strain JHM) OX=11144 GN=S PE=1 SV=1
+Length=1235
+
+ Score = 228 bits (580),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 48/192 (25%), Positives = 86/192 (45%), Gaps = 8/192 (4%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C
+Sbjct  313  VQPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P
+Sbjct  373  NNIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLP  432
+
+Query  120  HNLTTITKPLKYSYINKCSRFLSDDRTEVPQL-----VNANQYSPCVSIVPSTVWEDGDY  174
+             N  TI      S+ N+   F  +DR ++        +N+         +P+T    G  
+Sbjct  433  KNNVTINNYNPSSW-NRRYGFKVNDRCQIFANILLNGINSGTTCSTDLQLPNTEVATGVC  491
+
+Query  175  YRKQLSPLEGGG  186
+             R  L  + G G
+Sbjct  492  VRYDLYGITGQG  503
+
+
+> sp|Q02385|SPIKE_CVMJC Spike glycoprotein OS=Murine coronavirus 
+(strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+Length=1376
+
+ Score = 213 bits (543),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 42/172 (24%), Positives = 73/172 (42%), Gaps = 12/172 (7%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C
+Sbjct  313  VQPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P
+Sbjct  373  NNIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLP  432
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------LSDDRTEVPQLVNANQYSPCVS  162
+             N  TI      S+ N+   F           D        +    Y PC  
+Sbjct  433  KNNVTINNYNPSSW-NRRYGFNDAGVFGKSKHDVAYAQQCFIVRPSYCPCAQ  483
+
+
+ Score = 40.9 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 8/35 (23%), Positives = 13/35 (37%), Gaps = 0/35 (0%)
+
+Query  152  VNANQYSPCVSIVPSTVWEDGDYYRKQLSPLEGGG  186
+            +N+         +P+T    G   R  L  + G G
+Sbjct  610  INSGTTCSTDLQLPNTEVATGVCVRYDLYGITGQG  644
+
+
+> sp|P22432|SPIKE_CVM4 Spike glycoprotein OS=Murine coronavirus 
+(strain 4) OX=12760 GN=S PE=3 SV=1
+Length=1376
+
+ Score = 212 bits (540),  Expect = 6e-62, Method: Composition-based stats.
+ Identities = 42/172 (24%), Positives = 72/172 (42%), Gaps = 12/172 (7%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   + +C     L+  + P   N++R  F NCN+NL+ LL        +C
+Sbjct  313  VQPVGVVYRRVPNLPDCKIEEWLTAKSVPSPLNWERRTFQNCNFNLSSLLRYVQAESLSC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  ++P
+Sbjct  373  NNIDASKVYGMCFGSVSVDKFAIPRSRQIDLQIGNSGFLQTANYKIDTAATSCQLYYSLP  432
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------LSDDRTEVPQLVNANQYSPCVS  162
+             N  TI      S+ N+   F           D             Y PC  
+Sbjct  433  KNNVTINNYNPSSW-NRRYGFNDAGVFGKSKHDVAYAQQCFTVRPSYCPCAQ  483
+
+
+ Score = 40.9 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 8/35 (23%), Positives = 13/35 (37%), Gaps = 0/35 (0%)
+
+Query  152  VNANQYSPCVSIVPSTVWEDGDYYRKQLSPLEGGG  186
+            +N+         +P+T    G   R  L  + G G
+Sbjct  610  INSGTTCSTDLQLPNTEVATGVCVRYDLYGITGQG  644
+
+
+> sp|Q8BB25|SPIKE_CVP67 Spike glycoprotein OS=Porcine hemagglutinating 
+encephalomyelitis virus (strain 67N) OX=230237 GN=S 
+PE=3 SV=1
+Length=1349
+
+ Score = 209 bits (531),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 46/184 (25%), Positives = 79/184 (43%), Gaps = 12/184 (7%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P  +V  +   +  CD    L+  T     N++R +F+NCN+N+ +L+S    + F C
+Sbjct  315  VQPVATVYRRIPDLPNCDIEAWLNSKTVSSPLNWERKIFSNCNFNMGRLMSFIQADSFGC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S K DL V  +G +  FNYK   +  +C +  ++P
+Sbjct  375  NNIDASRLYGMCFGSITIDKFAIPNSRKVDLQVGKSGYLQSFNYKIDTAVSSCQLYYSLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------LSDDRTEVPQLVNANQYSPCVSIVPSTVWE  170
+                ++T     S+ N+   F         L D           N Y PC +        
+Sbjct  435  AANVSVTHYNPSSW-NRRYGFNNQSFGSRGLHDAVYSQQCFNTPNTYCPCRTSQCIGGAG  493
+
+Query  171  DGDY  174
+             G  
+Sbjct  494  TGTC  497
+
+
+> sp|Q8JSP8|SPIKE_CVPIA Spike glycoprotein OS=Porcine hemagglutinating 
+encephalomyelitis virus (strain IAF-404) OX=230236 GN=S 
+PE=3 SV=1
+Length=1349
+
+ Score = 208 bits (530),  Expect = 1e-60, Method: Composition-based stats.
+ Identities = 46/184 (25%), Positives = 79/184 (43%), Gaps = 12/184 (7%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P  +V  +   +  CD    L+  T     N++R +F+NCN+N+ +L+S    + F C
+Sbjct  315  VQPVATVYRRIPDLPNCDIEAWLNSKTVSSPLNWERKIFSNCNFNMGRLMSFIQADSFGC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S K DL V  +G +  FNYK   +  +C +  ++P
+Sbjct  375  NNIDASRLYGMCFGSITIDKFAIPNSRKVDLQVGKSGYLQSFNYKIDTAVSSCQLYYSLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------LSDDRTEVPQLVNANQYSPCVSIVPSTVWE  170
+                ++T     S+ N+   F         L D           N Y PC +        
+Sbjct  435  AANVSVTHYNPSSW-NRRYGFINQSFGSRGLHDAVYSQQCFNTPNTYCPCRTSQCIGGAG  493
+
+Query  171  DGDY  174
+             G  
+Sbjct  494  TGTC  497
+
+
+> sp|P11224|SPIKE_CVMA5 Spike glycoprotein OS=Murine coronavirus 
+(strain A59) OX=11142 GN=S PE=1 SV=2
+Length=1324
+
+ Score = 205 bits (522),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 43/172 (25%), Positives = 72/172 (42%), Gaps = 12/172 (7%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   +  C+    L+  + P   N++R  F NCN+NL+ LL         C
+Sbjct  313  VQPVGVVYRRVANLPACNIEEWLTARSVPSPLNWERKTFQNCNFNLSSLLRYVQAESLFC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  + +   C+ S+ +D F+ P S + DL + ++G +   NYK   +  +C +  T+P
+Sbjct  373  NNIDASKVYGRCFGSISVDKFAVPRSRQVDLQLGNSGFLQTANYKIDTAATSCQLHYTLP  432
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------LSDDRTEVPQLVNANQYSPCVS  162
+             N  TI      S+ N+   F           D           + Y PC  
+Sbjct  433  KNNVTINNHNPSSW-NRRYGFNDAGVFGKNQHDVVYAQQCFTVRSSYCPCAQ  483
+
+
+> sp|Q9IKD1|SPIKE_CVRSD Spike glycoprotein OS=Rat coronavirus (strain 
+681) OX=33740 GN=S PE=3 SV=1
+Length=1360
+
+ Score = 202 bits (513),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 46/180 (26%), Positives = 75/180 (42%), Gaps = 14/180 (8%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P G V  +   + +C     L+  T P   N++R  F NCN+NL+ LL        +C
+Sbjct  313  VQPVGLVYRRVRNLPDCKIEEWLAANTVPSPLNWERKTFQNCNFNLSSLLRFVQAESLSC  372
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            S I  + +   C+ S+ +D F+ P S + DL +  +G +  FNYK      +C +  ++ 
+Sbjct  373  SNIDASKVYGMCFGSISIDKFAIPNSRRVDLQLGKSGLLQSFNYKIDTRATSCQLYYSLA  432
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------SDDRTEVPQLVNANQYSPCVSIVPSTVWE  170
+             +  T+      S+ N+   F           D             Y PC    PSTV+ 
+Sbjct  433  QDNVTVINHNPSSW-NRRYGFNDVATFHSGEHDVAYAEACFTVGASYCPCAK--PSTVYS  489
+
+
+> sp|Q5MQD0|SPIKE_CVHN1 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N1) OX=443239 GN=S PE=1 SV=1
+Length=1356
+
+ Score = 201 bits (511),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 46/169 (27%), Positives = 79/169 (47%), Gaps = 9/169 (5%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+    P   N++R +F+NCN+NL+ LL L   + F+C
+Sbjct  311  VKPVATVHRRIPDLPDCDIDKWLNNFNVPSPLNWERKIFSNCNFNLSTLLRLVHTDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            +    + I  +C+ S++LD F+ P S +SDL + S+G +   NYK   ++ +C +  ++P
+Sbjct  371  NNFDESKIYGSCFKSIVLDKFAIPNSRRSDLQLGSSGFLQSSNYKIDTTSSSCQLYYSLP  430
+
+Query  120  HNLTTITKPLKYSYINKCSRF------LSDDRTEVPQLVNANQYSPCVS  162
+                TI      S+ N+   F                    N + PC  
+Sbjct  431  AINVTINNYNPSSW-NRRYGFNNFNLSSHSVVYSRYCFSVNNTFCPCAK  478
+
+
+> sp|P15777|SPIKE_CVBM Spike glycoprotein OS=Bovine coronavirus 
+(strain Mebus) OX=11132 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 199 bits (507),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 77/176 (44%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    ++ N+   F                 D           + + PC
+Sbjct  435  AANVSVSRFNPSTW-NRRFGFTEQFVFKPQPVGVFTHHDVVYAQHCFKAPSNFCPC  489
+
+
+> sp|Q0ZME7|SPIKE_CVHN5 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N5) OX=443241 GN=S PE=1 SV=1
+Length=1351
+
+ Score = 199 bits (506),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 46/169 (27%), Positives = 82/169 (49%), Gaps = 9/169 (5%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+  + P   N++R +F+NCN+NL+ LL L  V+ F+C
+Sbjct  311  VKPVATVYRRIPNLPDCDIDNWLNNVSVPSPLNWERRIFSNCNFNLSTLLRLVHVDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + +  + I  +C++S+ +D F+ P   + DL + S+G +   NYK   S+ +C +  ++P
+Sbjct  371  NNLDKSKIFGSCFNSITVDKFAIPNRRRDDLQLGSSGFLQSSNYKIDISSSSCQLYYSLP  430
+
+Query  120  HNLTTITKPLKYSYINKCSRFLS------DDRTEVPQLVNANQYSPCVS  162
+                TI      S+ N+   F S      D           + + PC  
+Sbjct  431  LVNVTINNFNPSSW-NRRYGFGSFNLSSYDVVYSDHCFSVNSDFCPCAD  478
+
+
+> sp|Q14EB0|SPIKE_CVHN2 Spike glycoprotein OS=Human coronavirus 
+HKU1 (isolate N2) OX=443240 GN=S PE=3 SV=1
+Length=1351
+
+ Score = 199 bits (505),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 46/169 (27%), Positives = 82/169 (49%), Gaps = 9/169 (5%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             KP  +V  +   + +CD    L+  + P   N++R +F+NCN+NL+ LL L  V+ F+C
+Sbjct  311  VKPVATVYRRIPNLPDCDIDNWLNNVSVPSPLNWERRIFSNCNFNLSTLLRLVHVDSFSC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + +  + I  +C++S+ +D F+ P   + DL + S+G +   NYK   S+ +C +  ++P
+Sbjct  371  NNLDKSKIFGSCFNSITVDKFAIPNRRRDDLQLGSSGFLQSSNYKIDISSSSCQLYYSLP  430
+
+Query  120  HNLTTITKPLKYSYINKCSRFLS------DDRTEVPQLVNANQYSPCVS  162
+                TI      S+ N+   F S      D           + + PC  
+Sbjct  431  LVNVTINNFNPSSW-NRRYGFGSFNVSSYDVVYSDHCFSVNSDFCPCAD  478
+
+
+> sp|P25193|SPIKE_CVBQ Spike glycoprotein OS=Bovine coronavirus 
+(strain Quebec) OX=11133 GN=S PE=3 SV=2
+Length=1363
+
+ Score = 199 bits (505),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 76/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    ++ N+   F                 D             + PC
+Sbjct  435  AANVSVSRFNPSTW-NRRFGFTEQFVFKPQPVGVFTHHDVVYAQHCFKAPKNFCPC  489
+
+
+> sp|P25192|SPIKE_CVBLY Spike glycoprotein OS=Bovine coronavirus 
+(strain LY-138) OX=11131 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 198 bits (502),  Expect = 6e-57, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 76/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    ++ N+   F                 D             + PC
+Sbjct  435  AANVSVSRFNPSTW-NRRFGFTEQSVFKPQPVGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|P25191|SPIKE_CVBL9 Spike glycoprotein OS=Bovine coronavirus 
+(strain L9) OX=11130 GN=S PE=1 SV=1
+Length=1363
+
+ Score = 198 bits (502),  Expect = 7e-57, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 76/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSCLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    ++ N+   F                 D             + PC
+Sbjct  435  AANVSVSRFNPSTW-NRRFGFTEQSVFKPQPVGVFTHHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|Q8V436|SPIKE_CVBLU Spike glycoprotein OS=Bovine coronavirus 
+(strain 98TXSF-110-LUN) OX=233264 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 198 bits (502),  Expect = 7e-57, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 76/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    ++ N+   F                 D             + PC
+Sbjct  435  AANVSVSRFNPSTW-NRRFGFTEQSVFKPQPAGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|Q9QAR5|SPIKE_CVBLS Spike glycoprotein OS=Bovine coronavirus 
+(strain LSU-94LSS-051) OX=233261 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 197 bits (500),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 76/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    ++ N+   F                 D             + PC
+Sbjct  435  AANVSVSRFNPSTW-NRRFGFTEQSVFKPQPAGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|Q9QAQ8|SPIKE_CVBOK Spike glycoprotein OS=Bovine coronavirus 
+(strain OK-0514) OX=231432 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 197 bits (500),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSVSRFNP-SIWNRRFGFTEQSVFKPQPAGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|P25190|SPIKE_CVBF Spike glycoprotein OS=Bovine coronavirus 
+(strain F15) OX=11129 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 196 bits (499),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    S  N+   F                 D             + PC
+Sbjct  435  AANVSLSRFNP-SIWNRRFGFTEQSVFKPQPVGVFTDHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|P25194|SPIKE_CVBV Spike glycoprotein OS=Bovine coronavirus 
+(strain vaccine) OX=11134 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 196 bits (498),  Expect = 2e-56, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 76/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIEAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTAASCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    ++ N+   F                 D             + PC
+Sbjct  435  AANVSVSRFNPSTW-NRRFGFTEQSVFKPQPVGVFTHHDVVYAQHCFKAPTNFCPC  489
+
+
+> sp|P36334|SPIKE_CVHOC Spike glycoprotein OS=Human coronavirus 
+OC43 OX=31631 GN=S PE=3 SV=1
+Length=1353
+
+ Score = 195 bits (495),  Expect = 6e-56, Method: Composition-based stats.
+ Identities = 41/176 (23%), Positives = 75/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   +  C+    L+  + P   N++R  F+NCN+N++ L+S    + FTC
+Sbjct  319  VQPIADVYRRKPNLPNCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQADSFTC  378
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  379  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  438
+
+Query  120  HNLTTITKPLKYSYINKCSRF---------------LSDDRTEVPQLVNANQYSPC  160
+                ++++    ++ NK   F                 D             + PC
+Sbjct  439  AANVSVSRFNPSTW-NKRFGFIEDSVFKPRPAGVLTNHDVVYAQHCFKAPKNFCPC  493
+
+
+> sp|Q91A26|SPIKE_CVBEN Spike glycoprotein OS=Bovine coronavirus 
+(strain 98TXSF-110-ENT) OX=233262 GN=S PE=3 SV=1
+Length=1363
+
+ Score = 193 bits (491),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 40/176 (23%), Positives = 76/176 (43%), Gaps = 18/176 (10%)
+
+Query  2    AKPSGSVVEQAEGV-ECDFSPLLSG-TPPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+             +P   V  +   + +C+    L+  + P   N++R  F+NCN+N++ L+S      FTC
+Sbjct  315  VQPIADVYRRIPNLPDCNIEAWLNDKSVPSPLNWERKTFSNCNFNMSSLMSFIQAYSFTC  374
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+            + I  A I   C+SS+ +D F+ P   K DL + + G +  FNY+   +  +C +   +P
+Sbjct  375  NNIDAAKIYGMCFSSITIDKFAIPNGRKVDLQLGNLGYLQSFNYRIDTTATSCQLYYNLP  434
+
+Query  120  HNLTTITKPLKYSYINKCSRFL---------------SDDRTEVPQLVNANQYSPC  160
+                ++++    ++ N+   F                 D          +  + PC
+Sbjct  435  AANVSVSRFNPSTW-NRRFGFTEQSVFKPQPAGVFTDHDVVYAQHCFKASTNFCPC  489
+
+
+> sp|P59594|SPIKE_CVHSA Spike glycoprotein OS=Human SARS coronavirus 
+OX=694009 GN=S PE=1 SV=1
+Length=1255
+
+ Score = 168 bits (425),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 38/183 (21%), Positives = 66/183 (36%), Gaps = 2/183 (1%)
+
+Query  2    AKPSGSVVEQAEGVE-CDFSPLLSGT-PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+              PSG VV        C F  + + T  P VY ++R   +NC  + + L +    + F C
+Sbjct  307  VVPSGDVVRFPNITNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKC  366
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+              +S   +   C+S++  D F         ++    G I+ +NYK       C++     
+Sbjct  367  YGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNTR  426
+
+Query  120  HNLTTITKPLKYSYINKCSRFLSDDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQL  179
+            +   T T    Y Y       L     ++  +  +    PC     +  W   DY     
+Sbjct  427  NIDATSTGNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCTPPALNCYWPLNDYGFYTT  486
+
+Query  180  SPL  182
+            + +
+Sbjct  487  TGI  489
+
+
+> sp|Q0Q475|SPIKE_BC279 Spike glycoprotein OS=Bat coronavirus 279/2005 
+OX=389167 GN=S PE=3 SV=1
+Length=1241
+
+ Score = 163 bits (413),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 30/132 (23%), Positives = 52/132 (39%), Gaps = 2/132 (2%)
+
+Query  2    AKPSGSVVEQAEGVE-CDFSPLLSGT-PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+              P+  VV        C F  + + +  P VY ++R   ++C  + T L +  S + F C
+Sbjct  311  VTPTQEVVRFPNITNRCPFDKVFNASRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+              +SP+ +   C++S+  D F    S    ++    G I+ +NYK       C+I     
+Sbjct  371  YGVSPSKLIDLCFTSVYADTFLIRSSEVRQVAPGETGVIADYNYKLPDDFTGCVIAWNTA  430
+
+Query  120  HNLTTITKPLKY  131
+                       Y
+Sbjct  431  QQDQGQYYYRSY  442
+
+
+> sp|Q3I5J5|SPIKE_BCRP3 Spike glycoprotein OS=Bat coronavirus Rp3/2004 
+OX=349344 GN=S PE=1 SV=1
+Length=1241
+
+ Score = 163 bits (411),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 29/132 (22%), Positives = 52/132 (39%), Gaps = 2/132 (2%)
+
+Query  2    AKPSGSVVEQAEGVE-CDFSPLLSGT-PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+              P+  V+        C F  + + T  P VY ++R   ++C  + T L +  S + F C
+Sbjct  311  VSPTQEVIRFPNITNRCPFDKVFNATRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+              +SP+ +   C++S+  D F    S    ++    G I+ +NYK       C+I     
+Sbjct  371  YGVSPSKLIDLCFTSVYADTFLIRSSEVRQVAPGETGVIADYNYKLPDDFTGCVIAWNTA  430
+
+Query  120  HNLTTITKPLKY  131
+                       +
+Sbjct  431  KQDQGQYYYRSH  442
+
+
+> sp|Q3LZX1|SPIKE_BCHK3 Spike glycoprotein OS=Bat coronavirus HKU3 
+OX=442736 GN=S PE=3 SV=1
+Length=1242
+
+ Score = 162 bits (410),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 30/132 (23%), Positives = 54/132 (41%), Gaps = 2/132 (2%)
+
+Query  2    AKPSGSVVEQAEGVE-CDFSPLLSGT-PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTC  59
+              P+  V+        C F  + + T  P VY ++R   ++C  + T L +  S + F C
+Sbjct  311  VSPTQEVIRFPNITNRCPFDKVFNATRFPNVYAWERTKISDCVADYTVLYNSTSFSTFKC  370
+
+Query  60   SQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSSAGPISQFNYKQSFSNPTCLILATVP  119
+              +SP+ +   C++S+  D F    S    ++    G I+ +NYK       C+I     
+Sbjct  371  YGVSPSKLIDLCFTSVYADTFLIRSSEVRQVAPGETGVIADYNYKLPDDFTGCVIAWNTA  430
+
+Query  120  HNLTTITKPLKY  131
+             + T       +
+Sbjct  431  KHDTGNYYYRSH  442
+
+
+> sp|A3EXG6|SPIKE_BCHK9 Spike glycoprotein OS=Bat coronavirus HKU9 
+OX=694006 GN=S PE=1 SV=1
+Length=1274
+
+ Score = 148 bits (373),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 43/221 (19%), Positives = 74/221 (33%), Gaps = 34/221 (15%)
+
+Query  27   PPQVYNFKRLVFTNCNYNLTKLLSLFSVNDFTCSQISPAAIASNCYSSLILDYFSYPLSM  86
+            PPQ   ++R +  +C ++ T ++     +   C  +SP  +AS CY S+ LD      + 
+Sbjct  367  PPQPVVWRRYMLYDCVFDFTVVVDSLPTHQLQCYGVSPRRLASMCYGSVTLDVMRINETH  426
+
+Query  87   KSDLSVSSAGPISQFNYKQSFSNPTCLILATVPHNLTTITKPLKYSYINK---CSRFLSD  143
+             ++L        S +NY    +   CL    +            Y+  N+          
+Sbjct  427  LNNLFNRVPDTFSLYNYALPDNFYGCLHAFYL-------NSTAPYAVANRFPIKPGGRQS  479
+
+Query  144  DRTEVPQLVNANQYSP--------------------CVSIVPSTVWEDGDYYRKQLSPLE  183
+            +   +  ++NA  YSP                       +   TV       +  L    
+Sbjct  480  NSAFIDTVINAAHYSPFSYVYGLAVITLKPAAGSKLVCPVANDTVVITDRCVQYNLYGYT  539
+
+Query  184  GGGWLVASGSTVAMTEQL----QMGFGITVQYGTDTNSVCP  220
+            G G L  + S V    ++      G  I V   + T S+ P
+Sbjct  540  GTGVLSKNTSLVIPDGKVFTASSTGTIIGVSINSTTYSIMP  580
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.125    0.343    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0382    0.140     1.90     42.6     43.6 
+
+Effective search space used: 16095167829
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

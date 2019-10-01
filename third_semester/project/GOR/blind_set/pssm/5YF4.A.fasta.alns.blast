@@ -1,0 +1,2807 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 5YF4.A
+
+Length=162
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9QYW3|PHOCN_RAT MOB-like protein phocein OS=Rattus norvegic...  339     1e-119
+  sp|Q5RDB1|PHOCN_PONAB MOB-like protein phocein OS=Pongo abelii ...  339     1e-119
+  sp|Q6PEB6|PHOCN_MOUSE MOB-like protein phocein OS=Mus musculus ...  339     1e-119
+  sp|Q9Y3A3|PHOCN_HUMAN MOB-like protein phocein OS=Homo sapiens ...  339     1e-119
+  sp|Q5F495|PHOCN_CHICK MOB-like protein phocein OS=Gallus gallus...  339     1e-119
+  sp|Q7K0E3|MOB4_DROME MOB kinase activator-like 4 OS=Drosophila ...  300     4e-104
+  sp|P34349|PHOCN_CAEEL MOB-like protein phocein OS=Caenorhabditi...  269     5e-92 
+  sp|Q9P601|MOB1_NEUCR Probable maintenance of ploidy protein mob...  73.2    3e-15 
+  sp|Q9VL13|MOB3_DROME MOB kinase activator-like 3 OS=Drosophila ...  59.7    3e-10 
+  sp|P40484|MOB1_YEAST DBF2 kinase activator protein MOB1 OS=Sacc...  57.4    4e-09 
+  sp|Q54CR8|MOB1B_DICDI MOB kinase activator-like 1 homolog B OS=...  56.6    4e-09 
+  sp|Q9FHI1|MOB1A_ARATH MOB kinase activator-like 1A OS=Arabidops...  56.2    6e-09 
+  sp|O94360|MOB1_SCHPO Maintenance of ploidy protein mob1 OS=Schi...  55.5    1e-08 
+  sp|Q8BPB0|MOB1B_MOUSE MOB kinase activator 1B OS=Mus musculus O...  52.4    1e-07 
+  sp|Q7L9L4|MOB1B_HUMAN MOB kinase activator 1B OS=Homo sapiens O...  52.4    1e-07 
+  sp|Q949G5|MOB1A_MEDSF MOB kinase activator-like 1A OS=Medicago ...  52.4    2e-07 
+  sp|Q8GYX0|MOB1B_ARATH MOB kinase activator-like 1B OS=Arabidops...  52.0    2e-07 
+  sp|Q2WBN3|MOB1B_MEDSF MOB kinase activator-like 1B OS=Medicago ...  51.6    2e-07 
+  sp|Q3T1J9|MOB1A_RAT MOB kinase activator 1A OS=Rattus norvegicu...  51.6    3e-07 
+  sp|Q5RAE0|MOB1A_PONAB MOB kinase activator 1A OS=Pongo abelii O...  51.6    3e-07 
+  sp|Q921Y0|MOB1A_MOUSE MOB kinase activator 1A OS=Mus musculus O...  51.6    3e-07 
+  sp|Q9H8S9|MOB1A_HUMAN MOB kinase activator 1A OS=Homo sapiens O...  51.6    3e-07 
+  sp|Q86TA1|MOB3B_HUMAN MOB kinase activator 3B OS=Homo sapiens O...  51.2    3e-07 
+  sp|Q29RK9|MOB3B_BOVIN MOB kinase activator 3B OS=Bos taurus OX=...  50.8    4e-07 
+  sp|Q8VE04|MOB3B_MOUSE MOB kinase activator 3B OS=Mus musculus O...  50.8    5e-07 
+  sp|Q95RA8|MOB1_DROME MOB kinase activator-like 1 OS=Drosophila ...  48.5    4e-06 
+  sp|Q8BSU7|MOB3A_MOUSE MOB kinase activator 3A OS=Mus musculus O...  46.6    1e-05 
+  sp|Q54XJ0|MOB1A_DICDI MOB kinase activator-like 1 homolog A OS=...  46.6    2e-05 
+  sp|Q70IA8|MOB3C_HUMAN MOB kinase activator 3C OS=Homo sapiens O...  45.1    5e-05 
+  sp|Q5EAA4|MOB3C_BOVIN MOB kinase activator 3C OS=Bos taurus OX=...  45.1    6e-05 
+  sp|Q8BJG4|MOB3C_MOUSE MOB kinase activator 3C OS=Mus musculus O...  44.3    1e-04 
+  sp|Q54BM4|MOB1C_DICDI MOB kinase activator-like 1 homolog C OS=...  44.3    1e-04 
+  sp|Q5R5Z0|MOB3A_PONAB MOB kinase activator 3A OS=Pongo abelii O...  43.5    2e-04 
+  sp|Q96BX8|MOB3A_HUMAN MOB kinase activator 3A OS=Homo sapiens O...  43.5    2e-04 
+  sp|Q54QV0|MOB2_DICDI MOB kinase activator-like 2 OS=Dictyosteli...  43.1    2e-04 
+  sp|Q58D63|MOB3A_BOVIN MOB kinase activator 3A OS=Bos taurus OX=...  41.2    0.001 
+  sp|O74558|MOB2_SCHPO Maintenance of ploidy protein mob2 OS=Schi...  41.2    0.001 
+  sp|F4K495|MOB2A_ARATH MOB kinase activator-like 2A OS=Arabidops...  40.8    0.002 
+
+
+> sp|Q9QYW3|PHOCN_RAT MOB-like protein phocein OS=Rattus norvegicus 
+OX=10116 GN=Mob4 PE=1 SV=1
+Length=225
+
+ Score = 339 bits (870),  Expect = 1e-119, Method: Compositional matrix adjust.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q5RDB1|PHOCN_PONAB MOB-like protein phocein OS=Pongo abelii 
+OX=9601 GN=MOB4 PE=2 SV=2
+Length=225
+
+ Score = 339 bits (870),  Expect = 1e-119, Method: Compositional matrix adjust.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q6PEB6|PHOCN_MOUSE MOB-like protein phocein OS=Mus musculus 
+OX=10090 GN=Mob4 PE=1 SV=1
+Length=225
+
+ Score = 339 bits (870),  Expect = 1e-119, Method: Compositional matrix adjust.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q9Y3A3|PHOCN_HUMAN MOB-like protein phocein OS=Homo sapiens 
+OX=9606 GN=MOB4 PE=1 SV=1
+Length=225
+
+ Score = 339 bits (870),  Expect = 1e-119, Method: Compositional matrix adjust.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q5F495|PHOCN_CHICK MOB-like protein phocein OS=Gallus gallus 
+OX=9031 GN=MOB4 PE=2 SV=1
+Length=223
+
+ Score = 339 bits (870),  Expect = 1e-119, Method: Compositional matrix adjust.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q7K0E3|MOB4_DROME MOB kinase activator-like 4 OS=Drosophila 
+melanogaster OX=7227 GN=Mob4 PE=2 SV=1
+Length=223
+
+ Score = 300 bits (768),  Expect = 4e-104, Method: Compositional matrix adjust.
+ Identities = 137/158 (87%), Positives = 147/158 (93%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N++ IL  PE QDEGVWKYEHLRQFC+ELNGLAV+LQ EC P TCTQMTAT+QWIFLCAA
+Sbjct  53   NVELILTMPEAQDEGVWKYEHLRQFCMELNGLAVRLQKECSPSTCTQMTATDQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSV KLGSVCRR+YRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVTKLGSVCRRVYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHR+IFDE+E ET+LCHRFT FV KYNLMSK+NLIVPI
+Sbjct  173  HHRRIFDEFEAETYLCHRFTHFVTKYNLMSKENLIVPI  210
+
+
+> sp|P34349|PHOCN_CAEEL MOB-like protein phocein OS=Caenorhabditis 
+elegans OX=6239 GN=mob-4 PE=3 SV=2
+Length=223
+
+ Score = 269 bits (688),  Expect = 5e-92, Method: Compositional matrix adjust.
+ Identities = 122/158 (77%), Positives = 139/158 (88%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  IL PP  QDEGVWKYEHLRQFC+ELNGLA+ LQ EC P+TC QMTATEQWIFLCAA
+Sbjct  53   DVATILTPPLDQDEGVWKYEHLRQFCIELNGLALLLQRECIPETCQQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HK P ECPAIDYTRHTLDGAA LLNSNKYFPSRV+IKE S++KLGSV RR+YRIFSHA+F
+Sbjct  113  HKNPNECPAIDYTRHTLDGAATLLNSNKYFPSRVNIKEISISKLGSVARRVYRIFSHAFF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHR++FDE+ENET LC RFT +V KYNLM +++LIVPI
+Sbjct  173  HHRKLFDEFENETHLCKRFTTYVSKYNLMQQEHLIVPI  210
+
+
+> sp|Q9P601|MOB1_NEUCR Probable maintenance of ploidy protein mob1 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 
+708.71 / DSM 1257 / FGSC 987) OX=367110 GN=mob1-1 PE=3 SV=2
+Length=219
+
+ Score = 73.2 bits (178),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 43/166 (26%), Positives = 84/166 (51%), Gaps = 8/166 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFL---  61
+            ++ K+++ PEG+DE  W   ++  F  ++N L   +   C P TC +M AT+++ +L   
+Sbjct  43   SLRKVVKLPEGEDENEWLAVNMVDFYNQINLLYGAITEFCSPQTCPEMKATDEFEYLWQD  102
+
+Query  62   CAAHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSI--KESSVAKLGSVCRRIYRIF  119
+               +K P + PA  Y    +      +++    PSR+ +   +S  A +  + +R+YR++
+Sbjct  103  TENYKRPTKMPAPAYIEQLMSWVQGNIDNEAVLPSRIGVPFPKSFPALVRQIFKRMYRVY  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLIVPI  162
+            +H Y HH  +  E   E  L   F ++V+   ++NL +  +   P+
+Sbjct  163  AHIYCHHYPVIRELGLEPHLNTSFKQYVLFIDEHNLATGKDFWGPL  208
+
+
+> sp|Q9VL13|MOB3_DROME MOB kinase activator-like 3 OS=Drosophila 
+melanogaster OX=7227 GN=Mob3 PE=2 SV=1
+Length=220
+
+ Score = 59.7 bits (143),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 39/162 (24%), Positives = 75/162 (46%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA-  63
+            N+ +++  P+G++   W   H+  F   +N +   +   C+  TC  M+   ++ +L A 
+Sbjct  44   NLRQVVRLPQGENLNDWLAVHVVDFFNRINLIYGTVSEFCNETTCPTMSGGSRYEYLWAD  103
+
+Query  64   --AHKTPKECPAIDYTRHTLDGAACLLNSNKYFP--SRVSIKESSVAKLGSVCRRIYRIF  119
+               +K P    A  Y  H +D     +N+   FP  + V   ++ +A    +  R++R+F
+Sbjct  104  GDLYKKPTALSAQKYIEHLMDWIETQINNEAVFPVSTDVPFPKNFIAISRKILTRLFRVF  163
+
+Query  120  SHAYFHH--RQIFDEYENETFLCHR-FTKFVMKYNLMSKDNL  158
+             H Y HH  R +    E     C++ F  FV +++++S   L
+Sbjct  164  VHVYIHHFDRIVSIGAEAHVNACYKHFYYFVQEFDMISAKEL  205
+
+
+> sp|P40484|MOB1_YEAST DBF2 kinase activator protein MOB1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=MOB1 PE=1 SV=2
+Length=314
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 39/148 (26%), Positives = 67/148 (45%), Gaps = 5/148 (3%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+            +++ ++ P G+DE  W   H   F  ++N L   +   C P TC +M AT ++ +L A  
+Sbjct  141  LNQAVKLPRGEDENEWLAVHCVDFYNQINMLYGSITEFCSPQTCPRMIATNEYEYLWAFQ  200
+
+Query  66   K--TPKECPAIDYTRHTLDGAACLLNSNKYFPSRV--SIKESSVAK-LGSVCRRIYRIFS  120
+            K   P    A  Y    +       +    FPS+V  +  E  + + +  + RR++R+++
+Sbjct  201  KGQPPVSVSAPKYVECLMRWCQDQFDDESLFPSKVTGTFPEGFIQRVIQPILRRLFRVYA  260
+
+Query  121  HAYFHHRQIFDEYENETFLCHRFTKFVM  148
+            H Y HH     E   +T L   F  F +
+Sbjct  261  HIYCHHFNEILELNLQTVLNTSFRHFCL  288
+
+
+> sp|Q54CR8|MOB1B_DICDI MOB kinase activator-like 1 homolog B OS=Dictyostelium 
+discoideum OX=44689 GN=mobB PE=3 SV=1
+Length=216
+
+ Score = 56.6 bits (135),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 38/155 (25%), Positives = 75/155 (48%), Gaps = 8/155 (5%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA---AHKTPK  69
+            PE +D   W   +   F  ++N L   +   C P TC  M+A  ++ +L A   + K P 
+Sbjct  48   PEREDLNEWLAVNTVDFFNQINLLYGSITEFCTPKTCEVMSAGPKYEYLWADGESVKKPI  107
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVSIK--ESSVAKLGSVCRRIYRIFSHAYFHHR  127
+            +  A +Y    +     +L+    FPSRV ++  ++  + + ++ +R++R++ H Y+ H 
+Sbjct  108  KVSAPEYVEFLMTWVQGILDDENIFPSRVDVQFPKNFQSIVKNIFKRLFRVYGHIYYSHF  167
+
+Query  128  QIFDEYENETFL--CHR-FTKFVMKYNLMSKDNLI  159
+                    E  L  C + F  F++++NL+ K  ++
+Sbjct  168  TKIVSLGEEAHLNTCFKHFYFFIVEFNLVDKKEML  202
+
+
+> sp|Q9FHI1|MOB1A_ARATH MOB kinase activator-like 1A OS=Arabidopsis 
+thaliana OX=3702 GN=MOB1A PE=2 SV=1
+Length=215
+
+ Score = 56.2 bits (134),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 41/162 (25%), Positives = 70/162 (43%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  P G+D   W   +   F  ++N L   L   C PD C  MTA  ++ +  A 
+Sbjct  40   NLREAVRLPPGEDANEWLAVNTVDFFNQVNLLYGTLTEFCTPDNCPTMTAGPKYEYRWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAK--LGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+        K  + ++ +R++R++
+Sbjct  100  GVQIKKPIEVSAPKYVEYLMDWIETQLDDETLFPQRLGAPFPQNFKDVVKTIFKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNL  158
+            +H Y  H Q     + E  L   F  F++   ++ L+ K  L
+Sbjct  160  AHIYHSHFQKIVSLKEEAHLNTCFKHFILFTHEFGLIDKKEL  201
+
+
+> sp|O94360|MOB1_SCHPO Maintenance of ploidy protein mob1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mob1 PE=1 SV=1
+Length=210
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 36/140 (26%), Positives = 62/140 (44%), Gaps = 5/140 (4%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAHKT---PK  69
+            P+G+D   W   +   F  ++N L   +   C   +C QM A   + +     K    P 
+Sbjct  46   PKGEDLNEWIAMNTMDFYTQINMLYGTITEFCTAASCPQMNAGPSYEYYWQDDKIYTKPT  105
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVSIK--ESSVAKLGSVCRRIYRIFSHAYFHHR  127
+               A DY  + LD     L+  K FP+ + ++  ++    +  + RR++RI++H Y  H 
+Sbjct  106  RMSAPDYINNLLDWTQEKLDDKKLFPTEIGVEFPKNFRKVIQQIFRRLFRIYAHIYCSHF  165
+
+Query  128  QIFDEYENETFLCHRFTKFV  147
+             +    E E++L   F  FV
+Sbjct  166  HVMVAMELESYLNTSFKHFV  185
+
+
+> sp|Q8BPB0|MOB1B_MOUSE MOB kinase activator 1B OS=Mus musculus 
+OX=10090 GN=Mob1b PE=1 SV=3
+Length=216
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 39/156 (25%), Positives = 71/156 (46%), Gaps = 12/156 (8%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH---KTPK  69
+            PEG+D   W   +   F  ++N L   +   C  ++C  M+A  ++ +  A     K P 
+Sbjct  48   PEGEDLNEWVAVNTVDFFNQINMLYGTITDFCTEESCPVMSAGPKYEYHWADGTNIKKPI  107
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES----SVAKLGSVCRRIYRIFSHAYFH  125
+            +C A  Y  + +      L+    FPS++ +       SVAK  ++ +R++R+++H Y  
+Sbjct  108  KCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAK--TILKRLFRVYAHIYHQ  165
+
+Query  126  HRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNL  158
+            H     + + E  L   F     FV ++NL+ +  L
+Sbjct  166  HFDPVIQLQEEAHLNTSFKHFIFFVQEFNLIDRREL  201
+
+
+> sp|Q7L9L4|MOB1B_HUMAN MOB kinase activator 1B OS=Homo sapiens 
+OX=9606 GN=MOB1B PE=1 SV=3
+Length=216
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 39/156 (25%), Positives = 71/156 (46%), Gaps = 12/156 (8%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH---KTPK  69
+            PEG+D   W   +   F  ++N L   +   C  ++C  M+A  ++ +  A     K P 
+Sbjct  48   PEGEDLNEWVAVNTVDFFNQINMLYGTITDFCTEESCPVMSAGPKYEYHWADGTNIKKPI  107
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES----SVAKLGSVCRRIYRIFSHAYFH  125
+            +C A  Y  + +      L+    FPS++ +       SVAK  ++ +R++R+++H Y  
+Sbjct  108  KCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAK--TILKRLFRVYAHIYHQ  165
+
+Query  126  HRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNL  158
+            H     + + E  L   F     FV ++NL+ +  L
+Sbjct  166  HFDPVIQLQEEAHLNTSFKHFIFFVQEFNLIDRREL  201
+
+
+> sp|Q949G5|MOB1A_MEDSF MOB kinase activator-like 1A OS=Medicago 
+sativa subsp. falcata OX=3878 GN=MOB1-A PE=2 SV=2
+Length=215
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/162 (24%), Positives = 70/162 (43%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N +   L   C P  C  MTA  ++ +  A 
+Sbjct  41   NLREAVKLPPGEDINEWLAVNTVDFFNQVNTMFGTLTEFCTPSNCPTMTAGPKYEYRWAD  100
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAK--LGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+        +  + ++ +R++R++
+Sbjct  101  GVTIKKPIEVSAPKYVEYLMDWIESQLDDETIFPQRLGAPFPPNFRDVVKTIFKRLFRVY  160
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNL  158
+            +H Y  H Q     + E  L   F  FV+   ++ L+ K  L
+Sbjct  161  AHVYHSHFQKIVSLKEEAHLNTCFKHFVLFTWEFRLIEKAEL  202
+
+
+> sp|Q8GYX0|MOB1B_ARATH MOB kinase activator-like 1B OS=Arabidopsis 
+thaliana OX=3702 GN=MOB1B PE=2 SV=1
+Length=215
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/162 (24%), Positives = 72/162 (44%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N L   L   C P+ C+ MTA  ++ +  A 
+Sbjct  40   NLREAVKLPPGEDLNEWLAVNTVDFFNQVNLLFGTLTEFCTPENCSTMTAGPKYEYRWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAK--LGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP ++        K  + ++ +R++R++
+Sbjct  100  GVQIKKPIEVSAPKYVEYLMDWIETQLDDETIFPQKLGAAFPPNFKEVVKTIFKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNL  158
+            +H Y  H Q     + E  L   F  F++   ++ L+ K  L
+Sbjct  160  AHIYHSHFQKIVSLKEEAHLNTCFKHFILFTHEFVLIDKKEL  201
+
+
+> sp|Q2WBN3|MOB1B_MEDSF MOB kinase activator-like 1B OS=Medicago 
+sativa subsp. falcata OX=3878 GN=MOB1-B PE=2 SV=1
+Length=215
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/162 (24%), Positives = 70/162 (43%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N +   L   C P  C  MTA  ++ +  A 
+Sbjct  41   NLREAVKLPPGEDINEWLAVNTVDFFNQVNTMFGTLTEFCTPSNCPTMTAGPKYEYRWAD  100
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAK--LGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+        +  + ++ +R++R++
+Sbjct  101  GVTIKKPIEVSAPKYVEYLMDWMESQLDDETIFPQRLGAPFPPNFRDVVKTIFKRLFRVY  160
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNL  158
+            +H Y  H Q     + E  L   F  FV+   ++ L+ K  L
+Sbjct  161  AHIYHSHFQKIVSLKEEAHLNTCFKHFVLFTWEFRLIEKAEL  202
+
+
+> sp|Q3T1J9|MOB1A_RAT MOB kinase activator 1A OS=Rattus norvegicus 
+OX=10116 GN=Mob1a PE=2 SV=3
+Length=216
+
+ Score = 51.6 bits (122),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 74/164 (45%), Gaps = 12/164 (7%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSI----KESSVAKLGSVCRRIYR  117
+                K P +C A  Y  + +      L+    FPS++ +       SVAK  ++ +R++R
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAK--TILKRLFR  157
+
+Query  118  IFSHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNL  158
+            +++H Y  H     + + E  L   F     FV ++NL+ +  L
+Sbjct  158  VYAHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRREL  201
+
+
+> sp|Q5RAE0|MOB1A_PONAB MOB kinase activator 1A OS=Pongo abelii 
+OX=9601 GN=MOB1A PE=2 SV=3
+Length=216
+
+ Score = 51.6 bits (122),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 74/164 (45%), Gaps = 12/164 (7%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSI----KESSVAKLGSVCRRIYR  117
+                K P +C A  Y  + +      L+    FPS++ +       SVAK  ++ +R++R
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAK--TILKRLFR  157
+
+Query  118  IFSHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNL  158
+            +++H Y  H     + + E  L   F     FV ++NL+ +  L
+Sbjct  158  VYAHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRREL  201
+
+
+> sp|Q921Y0|MOB1A_MOUSE MOB kinase activator 1A OS=Mus musculus 
+OX=10090 GN=Mob1a PE=2 SV=3
+Length=216
+
+ Score = 51.6 bits (122),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 74/164 (45%), Gaps = 12/164 (7%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSI----KESSVAKLGSVCRRIYR  117
+                K P +C A  Y  + +      L+    FPS++ +       SVAK  ++ +R++R
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAK--TILKRLFR  157
+
+Query  118  IFSHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNL  158
+            +++H Y  H     + + E  L   F     FV ++NL+ +  L
+Sbjct  158  VYAHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRREL  201
+
+
+> sp|Q9H8S9|MOB1A_HUMAN MOB kinase activator 1A OS=Homo sapiens 
+OX=9606 GN=MOB1A PE=1 SV=4
+Length=216
+
+ Score = 51.6 bits (122),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 40/164 (24%), Positives = 74/164 (45%), Gaps = 12/164 (7%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSI----KESSVAKLGSVCRRIYR  117
+                K P +C A  Y  + +      L+    FPS++ +       SVAK  ++ +R++R
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAK--TILKRLFR  157
+
+Query  118  IFSHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNL  158
+            +++H Y  H     + + E  L   F     FV ++NL+ +  L
+Sbjct  158  VYAHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRREL  201
+
+
+> sp|Q86TA1|MOB3B_HUMAN MOB kinase activator 3B OS=Homo sapiens 
+OX=9606 GN=MOB3B PE=1 SV=2
+Length=216
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 39/164 (24%), Positives = 70/164 (43%), Gaps = 12/164 (7%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA-  63
+            ++   ++ P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +    
+Sbjct  43   DLKAAVQLPSGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQD  102
+
+Query  64   --AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCR----RIYR  117
+               +K P   PA  Y    +D     +N+ + FP+ V +          +C+    R++R
+Sbjct  103  DLKYKKPTALPAPQYMNLLMDWIEVQINNEEIFPTCVGVPFPK--NFLQICKKILCRLFR  160
+
+Query  118  IFSHAYFHH--RQIFDEYENETFLCHR-FTKFVMKYNLMSKDNL  158
+            +F H Y HH  R I    E     C++ F  FV + NL+ +  L
+Sbjct  161  VFVHVYIHHFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q29RK9|MOB3B_BOVIN MOB kinase activator 3B OS=Bos taurus OX=9913 
+GN=MOB3B PE=2 SV=1
+Length=216
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 39/164 (24%), Positives = 69/164 (42%), Gaps = 12/164 (7%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA-  63
+            ++   ++ P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +    
+Sbjct  43   DLKAAVQLPSGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQD  102
+
+Query  64   --AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCR----RIYR  117
+               +K P   PA  Y    +D     +N+   FP+ V +          +C+    R++R
+Sbjct  103  DLKYKKPTALPAPQYMNLLMDWIEVQINNEDIFPTCVGVPFPK--NFLQICKKILCRLFR  160
+
+Query  118  IFSHAYFHH--RQIFDEYENETFLCHR-FTKFVMKYNLMSKDNL  158
+            +F H Y HH  R I    E     C++ F  FV + NL+ +  L
+Sbjct  161  VFVHVYIHHFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q8VE04|MOB3B_MOUSE MOB kinase activator 3B OS=Mus musculus 
+OX=10090 GN=Mob3b PE=2 SV=1
+Length=216
+
+ Score = 50.8 bits (120),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 39/156 (25%), Positives = 65/156 (42%), Gaps = 12/156 (8%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA---AHKTPK  69
+            P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +       +K P 
+Sbjct  51   PNGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQDDLKYKKPT  110
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCR----RIYRIFSHAYFH  125
+              PA  Y    +D     +N+   FP+ V +          +C+    R++R+F H Y H
+Sbjct  111  ALPAPQYMNLLMDWIEVQINNEDIFPTCVGVPFPK--NFLQICKKILCRLFRVFVHVYIH  168
+
+Query  126  H--RQIFDEYENETFLCHR-FTKFVMKYNLMSKDNL  158
+            H  R I    E     C++ F  FV + NL+ +  L
+Sbjct  169  HFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q95RA8|MOB1_DROME MOB kinase activator-like 1 OS=Drosophila 
+melanogaster OX=7227 GN=mats PE=1 SV=1
+Length=219
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 37/163 (23%), Positives = 74/163 (45%), Gaps = 10/163 (6%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  P+G+D   W   +   F  ++N L   +   C  +TC  M+A  ++ +  A 
+Sbjct  40   NLRNAVALPDGEDLNEWVAVNTVDFFNQINMLYGTITEFCTEETCGIMSAGPKYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSI--KESSVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++ +   ++  +   ++ +R++R++
+Sbjct  100  GLTVKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFHSSAKTILKRLFRVY  159
+
+Query  120  SHAYFHH----RQIFDEYENETFLCHRFTKFVMKYNLMSKDNL  158
+            +H Y  H      + +E    T   H F  FV ++NL+ +  L
+Sbjct  160  AHIYHQHFTEVVTLGEEAHLNTSFKH-FIFFVQEFNLIERREL  201
+
+
+> sp|Q8BSU7|MOB3A_MOUSE MOB kinase activator 3A OS=Mus musculus 
+OX=10090 GN=Mob3a PE=1 SV=1
+Length=217
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 33/154 (21%), Positives = 64/154 (42%), Gaps = 8/154 (5%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH---KTPK  69
+            P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +        + P 
+Sbjct  52   PPGEDLNDWVAVHVVDFFNRINLIYGTISDGCTEQSCPVMSGGPKYEYRWQDEQRFRKPT  111
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSHAYFHHR  127
+               A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F H Y HH 
+Sbjct  112  ALSAPRYMDLLMDWIEVQINNEDIFPTNVGTPFPKTFLQAVRKILSRLFRVFVHVYIHHF  171
+
+Query  128  QIFDEYENETFL--CHR-FTKFVMKYNLMSKDNL  158
+                +  +E  +  C++ F  FV ++NL+    L
+Sbjct  172  DRIAQMGSEAHVNTCYKHFYYFVTEFNLIDPKEL  205
+
+
+> sp|Q54XJ0|MOB1A_DICDI MOB kinase activator-like 1 homolog A OS=Dictyostelium 
+discoideum OX=44689 GN=mobA PE=3 SV=1
+Length=213
+
+ Score = 46.6 bits (109),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 37/163 (23%), Positives = 73/163 (45%), Gaps = 10/163 (6%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  P G+D   W   +   F  ++N L   +   C    C  M+A  ++ +  A 
+Sbjct  38   NLKSAVSLPTGEDINEWLAVNTTDFFNQINMLYGTITEFCTGTDCPVMSAGPKYEYHWAD  97
+
+Query  65   HKTPKEC---PAIDYTRHTLDGAACLLNSNKYFPSRVSIK--ESSVAKLGSVCRRIYRIF  119
+              T K+     A +Y    +      L+    FPS++ +   ++  + + ++ +R++R++
+Sbjct  98   GTTVKKAIKVSAPEYVDFLMTWVQSQLDDENIFPSKIGVPFPKNFQSIVKTIFKRLFRVY  157
+
+Query  120  SHAYFHHRQ----IFDEYENETFLCHRFTKFVMKYNLMSKDNL  158
+            +H Y  H Q    + +E    T L H F  F+ ++NL+ K  L
+Sbjct  158  AHIYHSHFQKIVSLGEEAHLNTSLKH-FIYFIQEFNLVDKKEL  199
+
+
+> sp|Q70IA8|MOB3C_HUMAN MOB kinase activator 3C OS=Homo sapiens 
+OX=9606 GN=MOB3C PE=1 SV=1
+Length=216
+
+ Score = 45.1 bits (105),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 34/165 (21%), Positives = 70/165 (42%), Gaps = 14/165 (8%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA-  63
+            ++  ++  P G++   W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGENIDDWIAVHVVDFFNRINLIYGTMAERCSETSCPVMAGGPRYEYRWQD  102
+
+Query  64   --AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIK--ESSVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N  + FP+RV +   ++       +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIEGLINDEEVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEY-----ENETFLCHR-FTKFVMKYNLMSKDNL  158
+             H Y HH   FD       E     C++ F  F+ +++L+ +  L
+Sbjct  163  VHVYIHH---FDSILSMGAEAHVNTCYKHFYYFIREFSLVDQREL  204
+
+
+> sp|Q5EAA4|MOB3C_BOVIN MOB kinase activator 3C OS=Bos taurus OX=9913 
+GN=MOB3C PE=2 SV=1
+Length=216
+
+ Score = 45.1 bits (105),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 34/165 (21%), Positives = 69/165 (42%), Gaps = 14/165 (8%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA-  63
+            ++  ++  P G++   W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGENIDDWIAVHVVDFFNRINLIYGTMAERCSETSCPVMAGGPRYEYRWQD  102
+
+Query  64   --AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIK--ESSVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N    FP+RV +   ++       +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIESLINDEDVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEY-----ENETFLCHR-FTKFVMKYNLMSKDNL  158
+             H Y HH   FD       E     C++ F  F+ +++L+ +  L
+Sbjct  163  VHVYIHH---FDSILSMGAEAHVNTCYKHFYYFIREFSLVDQREL  204
+
+
+> sp|Q8BJG4|MOB3C_MOUSE MOB kinase activator 3C OS=Mus musculus 
+OX=10090 GN=Mob3c PE=2 SV=1
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 34/165 (21%), Positives = 68/165 (41%), Gaps = 14/165 (8%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA-  63
+            ++  ++  P G+    W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGESIDDWIAVHVVDFFNRINLIYGTMAEHCSESSCPVMAGGPRYEYRWQD  102
+
+Query  64   --AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIK--ESSVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N    FP+RV +   ++       +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIEGLINDEDVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEY-----ENETFLCHR-FTKFVMKYNLMSKDNL  158
+             H Y HH   FD       E     C++ F  F+ +++L+ +  L
+Sbjct  163  VHVYIHH---FDSILSMGAEAHVNTCYKHFYYFIQEFSLVDQREL  204
+
+
+> sp|Q54BM4|MOB1C_DICDI MOB kinase activator-like 1 homolog C OS=Dictyostelium 
+discoideum OX=44689 GN=mobC PE=3 SV=1
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 38/163 (23%), Positives = 70/163 (43%), Gaps = 13/163 (8%)
+
+Query  7    DKILEPPEGQDEGV--WKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            D I  PP   DE +  W   +   F  + N L   +   C P  C  M+A  Q+ FL A 
+Sbjct  42   DAIKLPP---DETLFEWLSVNTIDFFNQSNLLYGSITEFCTPKYCPSMSAGPQYEFLWAD  98
+
+Query  65   HK---TPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+             K    P    A  Y  + +      L+    FP++ +  + ++ +  + ++ +R++R++
+Sbjct  99   GKEIKKPIRVSAPAYVDYLMTWIQVQLDDEDIFPTKPTEDMPKNFLPTIKAIFKRLFRVY  158
+
+Query  120  SHAYFHHRQIFDEYENETFL---CHRFTKFVMKYNLMSKDNLI  159
+            +H Y+ H         E  L      F  F+ ++NL+ K  ++
+Sbjct  159  AHIYYSHMDRVSVLGVEAHLNTAFRHFYLFIKEFNLVDKKEML  201
+
+
+> sp|Q5R5Z0|MOB3A_PONAB MOB kinase activator 3A OS=Pongo abelii 
+OX=9601 GN=MOB3A PE=2 SV=1
+Length=217
+
+ Score = 43.5 bits (101),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 32/154 (21%), Positives = 63/154 (41%), Gaps = 8/154 (5%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH---KTPK  69
+            P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +        + P 
+Sbjct  52   PPGEDLNDWVTVHVVDFFNRVNLIYGTISDGCTEQSCPVMSGGPKYEYRWQDEHKFRKPT  111
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSHAYFHHR  127
+               A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F H Y HH 
+Sbjct  112  ALSAPRYMDLLMDWIEAQINNEDLFPTNVGTPFPKNFLQAVRKILSRLFRVFVHVYIHHF  171
+
+Query  128  QIFDEYENETFL--CHR-FTKFVMKYNLMSKDNL  158
+                +  +E  +  C++ F  FV ++ L+    L
+Sbjct  172  DRIAQMGSEAHVNTCYKHFYYFVKEFGLIDTKEL  205
+
+
+> sp|Q96BX8|MOB3A_HUMAN MOB kinase activator 3A OS=Homo sapiens 
+OX=9606 GN=MOB3A PE=1 SV=1
+Length=217
+
+ Score = 43.5 bits (101),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 32/154 (21%), Positives = 63/154 (41%), Gaps = 8/154 (5%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH---KTPK  69
+            P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +        + P 
+Sbjct  52   PPGEDLNDWVAVHVVDFFNRVNLIYGTISDGCTEQSCPVMSGGPKYEYRWQDEHKFRKPT  111
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSHAYFHHR  127
+               A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F H Y HH 
+Sbjct  112  ALSAPRYMDLLMDWIEAQINNEDLFPTNVGTPFPKNFLQTVRKILSRLFRVFVHVYIHHF  171
+
+Query  128  QIFDEYENETFL--CHR-FTKFVMKYNLMSKDNL  158
+                +  +E  +  C++ F  FV ++ L+    L
+Sbjct  172  DRIAQMGSEAHVNTCYKHFYYFVKEFGLIDTKEL  205
+
+
+> sp|Q54QV0|MOB2_DICDI MOB kinase activator-like 2 OS=Dictyostelium 
+discoideum OX=44689 GN=mob2 PE=3 SV=1
+Length=217
+
+ Score = 43.1 bits (100),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 34/152 (22%), Positives = 63/152 (41%), Gaps = 4/152 (3%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAHKTPKECP  72
+            P+G+DE  W   +  +    +N     +Q  C   +C QMT  +           P+E  
+Sbjct  58   PDGEDENEWIAVNTIEIFNTMNMCYSFIQGFCTEASCPQMTGAKATYLWTDGKGKPQELS  117
+
+Query  73   AIDYTRHTLDGAACLLNSNKYFPSRVSI----KESSVAKLGSVCRRIYRIFSHAYFHHRQ  128
+            A  Y  + ++  +  +++ + FP   S        +V K+ S   R+Y    HA++ H Q
+Sbjct  118  APQYIDNLVNWISEQIDNPEIFPVDDSDFPKNYRPAVIKIISRVLRVYAHIYHAHWDHIQ  177
+
+Query  129  IFDEYENETFLCHRFTKFVMKYNLMSKDNLIV  160
+              D Y++          F   ++L+ + +L V
+Sbjct  178  KLDCYQHTNTSLKHLQYFAEHFSLIGEKDLAV  209
+
+
+> sp|Q58D63|MOB3A_BOVIN MOB kinase activator 3A OS=Bos taurus OX=9913 
+GN=MOB3A PE=2 SV=2
+Length=217
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 31/154 (20%), Positives = 63/154 (41%), Gaps = 8/154 (5%)
+
+Query  13   PEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH---KTPK  69
+            P G++   W   H+  F   +N +   +   C   +C  M+   ++ +        + P 
+Sbjct  52   PAGEELNDWVAVHVVDFFNRVNLIYGTISDGCTERSCPIMSGGPKYEYRWQDENKFRRPT  111
+
+Query  70   ECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSHAYFHHR  127
+               A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F H Y HH 
+Sbjct  112  ALSAPRYMDLLMDWIEVQINNEDVFPTNVGTPFPKNFLQVVKKILSRLFRVFVHVYIHHF  171
+
+Query  128  QIFDEYENETFL--CHR-FTKFVMKYNLMSKDNL  158
+                +  +E  +  C++ F  FV ++ L+    L
+Sbjct  172  DRIAQLGSEAHVNTCYKHFYYFVTEFGLIDTKEL  205
+
+
+> sp|O74558|MOB2_SCHPO Maintenance of ploidy protein mob2 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mob2 PE=1 SV=1
+Length=244
+
+ Score = 41.2 bits (95),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 35/158 (22%), Positives = 66/158 (42%), Gaps = 8/158 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIF-LCA  63
+            N   I+  P   D   W   ++ +    LN       + C   TC  M+A   + +    
+Sbjct  69   NFSTIVSLPRFVDLDEWVALNVYELFTYLNHFYDVFATFCTVKTCPVMSAAANFDYTWLD  128
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESS--VAKLGSVCRRIYRIFSH  121
+             ++ P   PA  Y  + L      L+    FP++  +   S  +  + ++ ++++RIF+H
+Sbjct  129  NNRKPVHLPAPQYIEYVLAWIENRLHDQNVFPTKAGLPFPSNFLVIVKAIYKQMFRIFAH  188
+
+Query  122  AYF-HHRQIFD---EYENETFLCHRFTKFVMKYNLMSK  155
+             Y+ H+ +I     E    +F  H F  F  ++ L+ K
+Sbjct  189  MYYAHYAEILHLSLEAHWNSFFAH-FIAFGKEFQLLDK  225
+
+
+> sp|F4K495|MOB2A_ARATH MOB kinase activator-like 2A OS=Arabidopsis 
+thaliana OX=3702 GN=MOB2A PE=2 SV=1
+Length=216
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 36/167 (22%), Positives = 68/167 (41%), Gaps = 9/167 (5%)
+
+Query  4    ENIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATE---QWIF  60
+            +N+ + +  P+G D   W   +   F  +++ L   L+  C   TC  M A     +W  
+Sbjct  41   DNLREAVRLPQGVDINEWFAMNTVDFFNQISLLYATLEEFCTQTTCPVMNAGRYEYRWAD  100
+
+Query  61   LCAAHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRI  118
+                 K PK   A  Y  + +D     +++   FP         +    +  + R+++R+
+Sbjct  101  GTTITK-PKTVSAPKYVEYLIDWVETEIDNEAIFPKNPGEPFPPNFEDFVKRILRKLFRV  159
+
+Query  119  FSHAY---FHHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            ++H Y   FH     +E  +       F  FV ++ L+ K+  + PI
+Sbjct  160  YAHIYYSHFHEIVALNEQAHLNTCFKHFLLFVSEFQLVDKEKEMAPI  206
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.136    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7439515766
+Results from round 2
+
+
+Query= 5YF4.A
+
+Length=162
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q3T1J9|MOB1A_RAT MOB kinase activator 1A OS=Rattus norvegicu...  244     3e-82
+  sp|Q5RAE0|MOB1A_PONAB MOB kinase activator 1A OS=Pongo abelii O...  244     3e-82
+  sp|Q921Y0|MOB1A_MOUSE MOB kinase activator 1A OS=Mus musculus O...  244     3e-82
+  sp|Q9H8S9|MOB1A_HUMAN MOB kinase activator 1A OS=Homo sapiens O...  244     3e-82
+  sp|Q9FHI1|MOB1A_ARATH MOB kinase activator-like 1A OS=Arabidops...  244     4e-82
+  sp|Q8BPB0|MOB1B_MOUSE MOB kinase activator 1B OS=Mus musculus O...  241     6e-81
+  sp|Q7L9L4|MOB1B_HUMAN MOB kinase activator 1B OS=Homo sapiens O...  241     6e-81
+  sp|Q8GYX0|MOB1B_ARATH MOB kinase activator-like 1B OS=Arabidops...  238     7e-80
+  sp|Q54XJ0|MOB1A_DICDI MOB kinase activator-like 1 homolog A OS=...  238     1e-79
+  sp|Q949G5|MOB1A_MEDSF MOB kinase activator-like 1A OS=Medicago ...  237     1e-79
+  sp|Q95RA8|MOB1_DROME MOB kinase activator-like 1 OS=Drosophila ...  237     2e-79
+  sp|Q2WBN3|MOB1B_MEDSF MOB kinase activator-like 1B OS=Medicago ...  236     5e-79
+  sp|Q54CR8|MOB1B_DICDI MOB kinase activator-like 1 homolog B OS=...  231     3e-77
+  sp|Q8VE04|MOB3B_MOUSE MOB kinase activator 3B OS=Mus musculus O...  229     4e-76
+  sp|Q29RK9|MOB3B_BOVIN MOB kinase activator 3B OS=Bos taurus OX=...  228     6e-76
+  sp|Q86TA1|MOB3B_HUMAN MOB kinase activator 3B OS=Homo sapiens O...  228     8e-76
+  sp|Q8BSU7|MOB3A_MOUSE MOB kinase activator 3A OS=Mus musculus O...  226     4e-75
+  sp|Q9P601|MOB1_NEUCR Probable maintenance of ploidy protein mob...  225     9e-75
+  sp|Q96BX8|MOB3A_HUMAN MOB kinase activator 3A OS=Homo sapiens O...  224     2e-74
+  sp|Q9VL13|MOB3_DROME MOB kinase activator-like 3 OS=Drosophila ...  223     7e-74
+  sp|Q5R5Z0|MOB3A_PONAB MOB kinase activator 3A OS=Pongo abelii O...  222     2e-73
+  sp|Q58D63|MOB3A_BOVIN MOB kinase activator 3A OS=Bos taurus OX=...  221     4e-73
+  sp|Q70IA8|MOB3C_HUMAN MOB kinase activator 3C OS=Homo sapiens O...  219     4e-72
+  sp|Q5EAA4|MOB3C_BOVIN MOB kinase activator 3C OS=Bos taurus OX=...  218     6e-72
+  sp|Q8BJG4|MOB3C_MOUSE MOB kinase activator 3C OS=Mus musculus O...  217     1e-71
+  sp|F4K495|MOB2A_ARATH MOB kinase activator-like 2A OS=Arabidops...  216     3e-71
+  sp|Q54BM4|MOB1C_DICDI MOB kinase activator-like 1 homolog C OS=...  216     3e-71
+  sp|O94360|MOB1_SCHPO Maintenance of ploidy protein mob1 OS=Schi...  213     4e-70
+  sp|Q7K0E3|MOB4_DROME MOB kinase activator-like 4 OS=Drosophila ...  211     3e-69
+  sp|Q5F495|PHOCN_CHICK MOB-like protein phocein OS=Gallus gallus...  210     7e-69
+  sp|Q9QYW3|PHOCN_RAT MOB-like protein phocein OS=Rattus norvegic...  210     9e-69
+  sp|Q5RDB1|PHOCN_PONAB MOB-like protein phocein OS=Pongo abelii ...  210     9e-69
+  sp|Q6PEB6|PHOCN_MOUSE MOB-like protein phocein OS=Mus musculus ...  210     9e-69
+  sp|Q9Y3A3|PHOCN_HUMAN MOB-like protein phocein OS=Homo sapiens ...  210     9e-69
+  sp|P40484|MOB1_YEAST DBF2 kinase activator protein MOB1 OS=Sacc...  204     7e-65
+  sp|P34349|PHOCN_CAEEL MOB-like protein phocein OS=Caenorhabditi...  195     7e-63
+  sp|Q54QV0|MOB2_DICDI MOB kinase activator-like 2 OS=Dictyosteli...  195     8e-63
+  sp|O74558|MOB2_SCHPO Maintenance of ploidy protein mob2 OS=Schi...  179     4e-56
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q5ABC6|MOB2_CANAL CBK1 kinase activator protein MOB2 OS=Cand...  160     5e-48
+  sp|Q8VI63|MOB2_MOUSE MOB kinase activator 2 OS=Mus musculus OX=...  156     3e-47
+  sp|P43563|MOB2_YEAST CBK1 kinase activator protein MOB2 OS=Sacc...  157     8e-47
+  sp|Q70IA6|MOB2_HUMAN MOB kinase activator 2 OS=Homo sapiens OX=...  154     2e-46
+  sp|Q2LZ59|MOB2_DROPS MOB kinase activator-like 2 OS=Drosophila ...  148     2e-41
+  sp|Q8IQG1|MOB2_DROME MOB kinase activator-like 2 OS=Drosophila ...  148     3e-41
+  sp|F4K494|MOB2B_ARATH Putative MOB kinase activator-like 2B OS=...  121     7e-35
+
+
+> sp|Q3T1J9|MOB1A_RAT MOB kinase activator 1A OS=Rattus norvegicus 
+OX=10116 GN=Mob1a PE=2 SV=3
+Length=216
+
+ Score = 244 bits (623),  Expect = 3e-82, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 72/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++ +      ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L   F     FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q5RAE0|MOB1A_PONAB MOB kinase activator 1A OS=Pongo abelii 
+OX=9601 GN=MOB1A PE=2 SV=3
+Length=216
+
+ Score = 244 bits (623),  Expect = 3e-82, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 72/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++ +      ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L   F     FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q921Y0|MOB1A_MOUSE MOB kinase activator 1A OS=Mus musculus 
+OX=10090 GN=Mob1a PE=2 SV=3
+Length=216
+
+ Score = 244 bits (623),  Expect = 3e-82, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 72/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++ +      ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L   F     FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q9H8S9|MOB1A_HUMAN MOB kinase activator 1A OS=Homo sapiens 
+OX=9606 GN=MOB1A PE=1 SV=4
+Length=216
+
+ Score = 244 bits (623),  Expect = 3e-82, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 72/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++ +      ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L   F     FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q9FHI1|MOB1A_ARATH MOB kinase activator-like 1A OS=Arabidopsis 
+thaliana OX=3702 GN=MOB1A PE=2 SV=1
+Length=215
+
+ Score = 244 bits (623),  Expect = 4e-82, Method: Composition-based stats.
+ Identities = 40/163 (25%), Positives = 69/163 (42%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  P G+D   W   +   F  ++N L   L   C PD C  MTA  ++ +  A 
+Sbjct  40   NLREAVRLPPGEDANEWLAVNTVDFFNQVNLLYGTLTEFCTPDNCPTMTAGPKYEYRWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+           + ++ +R++R++
+Sbjct  100  GVQIKKPIEVSAPKYVEYLMDWIETQLDDETLFPQRLGAPFPQNFKDVVKTIFKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLI  159
+            +H Y  H Q     + E  L   F  F++   ++ L+ K  L 
+Sbjct  160  AHIYHSHFQKIVSLKEEAHLNTCFKHFILFTHEFGLIDKKELA  202
+
+
+> sp|Q8BPB0|MOB1B_MOUSE MOB kinase activator 1B OS=Mus musculus 
+OX=10090 GN=Mob1b PE=1 SV=3
+Length=216
+
+ Score = 241 bits (615),  Expect = 6e-81, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 72/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  PEG+D   W   +   F  ++N L   +   C  ++C  M+A  ++ +  A 
+Sbjct  40   NLRMAVMLPEGEDLNEWVAVNTVDFFNQINMLYGTITDFCTEESCPVMSAGPKYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++ +      ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L   F     FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDPVIQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q7L9L4|MOB1B_HUMAN MOB kinase activator 1B OS=Homo sapiens 
+OX=9606 GN=MOB1B PE=1 SV=3
+Length=216
+
+ Score = 241 bits (615),  Expect = 6e-81, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 72/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  PEG+D   W   +   F  ++N L   +   C  ++C  M+A  ++ +  A 
+Sbjct  40   NLRMAVMLPEGEDLNEWVAVNTVDFFNQINMLYGTITDFCTEESCPVMSAGPKYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++ +      ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L   F     FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDPVIQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q8GYX0|MOB1B_ARATH MOB kinase activator-like 1B OS=Arabidopsis 
+thaliana OX=3702 GN=MOB1B PE=2 SV=1
+Length=215
+
+ Score = 238 bits (608),  Expect = 7e-80, Method: Composition-based stats.
+ Identities = 38/163 (23%), Positives = 72/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N L   L   C P+ C+ MTA  ++ +  A 
+Sbjct  40   NLREAVKLPPGEDLNEWLAVNTVDFFNQVNLLFGTLTEFCTPENCSTMTAGPKYEYRWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP ++      +    + ++ +R++R++
+Sbjct  100  GVQIKKPIEVSAPKYVEYLMDWIETQLDDETIFPQKLGAAFPPNFKEVVKTIFKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLI  159
+            +H Y  H Q     + E  L   F  F++   ++ L+ K  L 
+Sbjct  160  AHIYHSHFQKIVSLKEEAHLNTCFKHFILFTHEFVLIDKKELA  202
+
+
+> sp|Q54XJ0|MOB1A_DICDI MOB kinase activator-like 1 homolog A OS=Dictyostelium 
+discoideum OX=44689 GN=mobA PE=3 SV=1
+Length=213
+
+ Score = 238 bits (607),  Expect = 1e-79, Method: Composition-based stats.
+ Identities = 34/162 (21%), Positives = 66/162 (41%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  P G+D   W   +   F  ++N L   +   C    C  M+A  ++ +  A 
+Sbjct  38   NLKSAVSLPTGEDINEWLAVNTTDFFNQINMLYGTITEFCTGTDCPVMSAGPKYEYHWAD  97
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K   +  A +Y    +      L+    FPS++ +       + + ++ +R++R++
+Sbjct  98   GTTVKKAIKVSAPEYVDFLMTWVQSQLDDENIFPSKIGVPFPKNFQSIVKTIFKRLFRVY  157
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+            +H Y  H Q       E  L      F  F+ ++NL+ K  L
+Sbjct  158  AHIYHSHFQKIVSLGEEAHLNTSLKHFIYFIQEFNLVDKKEL  199
+
+
+> sp|Q949G5|MOB1A_MEDSF MOB kinase activator-like 1A OS=Medicago 
+sativa subsp. falcata OX=3878 GN=MOB1-A PE=2 SV=2
+Length=215
+
+ Score = 237 bits (606),  Expect = 1e-79, Method: Composition-based stats.
+ Identities = 39/163 (24%), Positives = 69/163 (42%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N +   L   C P  C  MTA  ++ +  A 
+Sbjct  41   NLREAVKLPPGEDINEWLAVNTVDFFNQVNTMFGTLTEFCTPSNCPTMTAGPKYEYRWAD  100
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+           + ++ +R++R++
+Sbjct  101  GVTIKKPIEVSAPKYVEYLMDWIESQLDDETIFPQRLGAPFPPNFRDVVKTIFKRLFRVY  160
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLI  159
+            +H Y  H Q     + E  L   F  FV+   ++ L+ K  L 
+Sbjct  161  AHVYHSHFQKIVSLKEEAHLNTCFKHFVLFTWEFRLIEKAELA  203
+
+
+> sp|Q95RA8|MOB1_DROME MOB kinase activator-like 1 OS=Drosophila 
+melanogaster OX=7227 GN=mats PE=1 SV=1
+Length=219
+
+ Score = 237 bits (606),  Expect = 2e-79, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 69/163 (42%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  P+G+D   W   +   F  ++N L   +   C  +TC  M+A  ++ +  A 
+Sbjct  40   NLRNAVALPDGEDLNEWVAVNTVDFFNQINMLYGTITEFCTEETCGIMSAGPKYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++ +       +   ++ +R++R++
+Sbjct  100  GLTVKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFHSSAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLI  159
+            +H Y  H         E  L   F     FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFTEVVTLGEEAHLNTSFKHFIFFVQEFNLIERRELA  202
+
+
+> sp|Q2WBN3|MOB1B_MEDSF MOB kinase activator-like 1B OS=Medicago 
+sativa subsp. falcata OX=3878 GN=MOB1-B PE=2 SV=1
+Length=215
+
+ Score = 236 bits (602),  Expect = 5e-79, Method: Composition-based stats.
+ Identities = 39/163 (24%), Positives = 69/163 (42%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N +   L   C P  C  MTA  ++ +  A 
+Sbjct  41   NLREAVKLPPGEDINEWLAVNTVDFFNQVNTMFGTLTEFCTPSNCPTMTAGPKYEYRWAD  100
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+           + ++ +R++R++
+Sbjct  101  GVTIKKPIEVSAPKYVEYLMDWMESQLDDETIFPQRLGAPFPPNFRDVVKTIFKRLFRVY  160
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLI  159
+            +H Y  H Q     + E  L   F  FV+   ++ L+ K  L 
+Sbjct  161  AHIYHSHFQKIVSLKEEAHLNTCFKHFVLFTWEFRLIEKAELA  203
+
+
+> sp|Q54CR8|MOB1B_DICDI MOB kinase activator-like 1 homolog B OS=Dictyostelium 
+discoideum OX=44689 GN=mobB PE=3 SV=1
+Length=216
+
+ Score = 231 bits (590),  Expect = 3e-77, Method: Composition-based stats.
+ Identities = 38/163 (23%), Positives = 73/163 (45%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  PE +D   W   +   F  ++N L   +   C P TC  M+A  ++ +L A 
+Sbjct  40   NLRLAVSLPEREDLNEWLAVNTVDFFNQINLLYGSITEFCTPKTCEVMSAGPKYEYLWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +  A +Y    +     +L+    FPSRV     ++  + + ++ +R++R++
+Sbjct  100  GESVKKPIKVSAPEYVEFLMTWVQGILDDENIFPSRVDVQFPKNFQSIVKNIFKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+             H Y+ H         E  L      F  F++++NL+ K  ++
+Sbjct  160  GHIYYSHFTKIVSLGEEAHLNTCFKHFYFFIVEFNLVDKKEML  202
+
+
+> sp|Q8VE04|MOB3B_MOUSE MOB kinase activator 3B OS=Mus musculus 
+OX=10090 GN=Mob3b PE=2 SV=1
+Length=216
+
+ Score = 229 bits (583),  Expect = 4e-76, Method: Composition-based stats.
+ Identities = 35/162 (22%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +    
+Sbjct  43   DLRAAVQLPNGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+               +K P   PA  Y    +D     +N+   FP+ V +      +     +  R++R+F
+Sbjct  103  DLKYKKPTALPAPQYMNLLMDWIEVQINNEDIFPTCVGVPFPKNFLQICKKILCRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  FV + NL+ +  L
+Sbjct  163  VHVYIHHFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q29RK9|MOB3B_BOVIN MOB kinase activator 3B OS=Bos taurus OX=9913 
+GN=MOB3B PE=2 SV=1
+Length=216
+
+ Score = 228 bits (582),  Expect = 6e-76, Method: Composition-based stats.
+ Identities = 35/162 (22%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +    
+Sbjct  43   DLKAAVQLPSGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+               +K P   PA  Y    +D     +N+   FP+ V +      +     +  R++R+F
+Sbjct  103  DLKYKKPTALPAPQYMNLLMDWIEVQINNEDIFPTCVGVPFPKNFLQICKKILCRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  FV + NL+ +  L
+Sbjct  163  VHVYIHHFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q86TA1|MOB3B_HUMAN MOB kinase activator 3B OS=Homo sapiens 
+OX=9606 GN=MOB3B PE=1 SV=2
+Length=216
+
+ Score = 228 bits (581),  Expect = 8e-76, Method: Composition-based stats.
+ Identities = 35/162 (22%), Positives = 65/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +    
+Sbjct  43   DLKAAVQLPSGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+               +K P   PA  Y    +D     +N+ + FP+ V +      +     +  R++R+F
+Sbjct  103  DLKYKKPTALPAPQYMNLLMDWIEVQINNEEIFPTCVGVPFPKNFLQICKKILCRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  FV + NL+ +  L
+Sbjct  163  VHVYIHHFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q8BSU7|MOB3A_MOUSE MOB kinase activator 3A OS=Mus musculus 
+OX=10090 GN=Mob3a PE=1 SV=1
+Length=217
+
+ Score = 226 bits (577),  Expect = 4e-75, Method: Composition-based stats.
+ Identities = 32/162 (20%), Positives = 63/162 (39%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +    
+Sbjct  44   DLRLAVQLPPGEDLNDWVAVHVVDFFNRINLIYGTISDGCTEQSCPVMSGGPKYEYRWQD  103
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                + P    A  Y    +D     +N+   FP+ V        +  +  +  R++R+F
+Sbjct  104  EQRFRKPTALSAPRYMDLLMDWIEVQINNEDIFPTNVGTPFPKTFLQAVRKILSRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH     +  +E  +      F  FV ++NL+    L
+Sbjct  164  VHVYIHHFDRIAQMGSEAHVNTCYKHFYYFVTEFNLIDPKEL  205
+
+
+> sp|Q9P601|MOB1_NEUCR Probable maintenance of ploidy protein mob1 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 
+708.71 / DSM 1257 / FGSC 987) OX=367110 GN=mob1-1 PE=3 SV=2
+Length=219
+
+ Score = 225 bits (575),  Expect = 9e-75, Method: Composition-based stats.
+ Identities = 42/166 (25%), Positives = 81/166 (49%), Gaps = 8/166 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++ K+++ PEG+DE  W   ++  F  ++N L   +   C P TC +M AT+++ +L   
+Sbjct  43   SLRKVVKLPEGEDENEWLAVNMVDFYNQINLLYGAITEFCSPQTCPEMKATDEFEYLWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+               +K P + PA  Y    +      +++    PSR+ +       A +  + +R+YR++
+Sbjct  103  TENYKRPTKMPAPAYIEQLMSWVQGNIDNEAVLPSRIGVPFPKSFPALVRQIFKRMYRVY  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLIVPI  162
+            +H Y HH  +  E   E  L   F +   F+ ++NL +  +   P+
+Sbjct  163  AHIYCHHYPVIRELGLEPHLNTSFKQYVLFIDEHNLATGKDFWGPL  208
+
+
+> sp|Q96BX8|MOB3A_HUMAN MOB kinase activator 3A OS=Homo sapiens 
+OX=9606 GN=MOB3A PE=1 SV=1
+Length=217
+
+ Score = 224 bits (572),  Expect = 2e-74, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +    
+Sbjct  44   DLRLAVQLPPGEDLNDWVAVHVVDFFNRVNLIYGTISDGCTEQSCPVMSGGPKYEYRWQD  103
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                + P    A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F
+Sbjct  104  EHKFRKPTALSAPRYMDLLMDWIEAQINNEDLFPTNVGTPFPKNFLQTVRKILSRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH     +  +E  +      F  FV ++ L+    L
+Sbjct  164  VHVYIHHFDRIAQMGSEAHVNTCYKHFYYFVKEFGLIDTKEL  205
+
+
+> sp|Q9VL13|MOB3_DROME MOB kinase activator-like 3 OS=Drosophila 
+melanogaster OX=7227 GN=Mob3 PE=2 SV=1
+Length=220
+
+ Score = 223 bits (569),  Expect = 7e-74, Method: Composition-based stats.
+ Identities = 37/162 (23%), Positives = 71/162 (44%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ +++  P+G++   W   H+  F   +N +   +   C+  TC  M+   ++ +L A 
+Sbjct  44   NLRQVVRLPQGENLNDWLAVHVVDFFNRINLIYGTVSEFCNETTCPTMSGGSRYEYLWAD  103
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFP--SRVSIKESSVAKLGSVCRRIYRIF  119
+               +K P    A  Y  H +D     +N+   FP  + V   ++ +A    +  R++R+F
+Sbjct  104  GDLYKKPTALSAQKYIEHLMDWIETQINNEAVFPVSTDVPFPKNFIAISRKILTRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLC---HRFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  FV +++++S   L
+Sbjct  164  VHVYIHHFDRIVSIGAEAHVNACYKHFYYFVQEFDMISAKEL  205
+
+
+> sp|Q5R5Z0|MOB3A_PONAB MOB kinase activator 3A OS=Pongo abelii 
+OX=9601 GN=MOB3A PE=2 SV=1
+Length=217
+
+ Score = 222 bits (566),  Expect = 2e-73, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +    
+Sbjct  44   DLRLAVQLPPGEDLNDWVTVHVVDFFNRVNLIYGTISDGCTEQSCPVMSGGPKYEYRWQD  103
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                + P    A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F
+Sbjct  104  EHKFRKPTALSAPRYMDLLMDWIEAQINNEDLFPTNVGTPFPKNFLQAVRKILSRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH     +  +E  +      F  FV ++ L+    L
+Sbjct  164  VHVYIHHFDRIAQMGSEAHVNTCYKHFYYFVKEFGLIDTKEL  205
+
+
+> sp|Q58D63|MOB3A_BOVIN MOB kinase activator 3A OS=Bos taurus OX=9913 
+GN=MOB3A PE=2 SV=2
+Length=217
+
+ Score = 221 bits (563),  Expect = 4e-73, Method: Composition-based stats.
+ Identities = 30/162 (19%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G++   W   H+  F   +N +   +   C   +C  M+   ++ +    
+Sbjct  44   DLKLAVQLPAGEELNDWVAVHVVDFFNRVNLIYGTISDGCTERSCPIMSGGPKYEYRWQD  103
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                + P    A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F
+Sbjct  104  ENKFRRPTALSAPRYMDLLMDWIEVQINNEDVFPTNVGTPFPKNFLQVVKKILSRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH     +  +E  +      F  FV ++ L+    L
+Sbjct  164  VHVYIHHFDRIAQLGSEAHVNTCYKHFYYFVTEFGLIDTKEL  205
+
+
+> sp|Q70IA8|MOB3C_HUMAN MOB kinase activator 3C OS=Homo sapiens 
+OX=9606 GN=MOB3C PE=1 SV=1
+Length=216
+
+ Score = 219 bits (557),  Expect = 4e-72, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  ++  P G++   W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGENIDDWIAVHVVDFFNRINLIYGTMAERCSETSCPVMAGGPRYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N  + FP+RV +            +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIEGLINDEEVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  F+ +++L+ +  L
+Sbjct  163  VHVYIHHFDSILSMGAEAHVNTCYKHFYYFIREFSLVDQREL  204
+
+
+> sp|Q5EAA4|MOB3C_BOVIN MOB kinase activator 3C OS=Bos taurus OX=9913 
+GN=MOB3C PE=2 SV=1
+Length=216
+
+ Score = 218 bits (556),  Expect = 6e-72, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 63/162 (39%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  ++  P G++   W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGENIDDWIAVHVVDFFNRINLIYGTMAERCSETSCPVMAGGPRYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N    FP+RV +            +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIESLINDEDVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  F+ +++L+ +  L
+Sbjct  163  VHVYIHHFDSILSMGAEAHVNTCYKHFYYFIREFSLVDQREL  204
+
+
+> sp|Q8BJG4|MOB3C_MOUSE MOB kinase activator 3C OS=Mus musculus 
+OX=10090 GN=Mob3c PE=2 SV=1
+Length=216
+
+ Score = 217 bits (554),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 62/162 (38%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  ++  P G+    W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGESIDDWIAVHVVDFFNRINLIYGTMAEHCSESSCPVMAGGPRYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N    FP+RV +            +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIEGLINDEDVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  F+ +++L+ +  L
+Sbjct  163  VHVYIHHFDSILSMGAEAHVNTCYKHFYYFIQEFSLVDQREL  204
+
+
+> sp|F4K495|MOB2A_ARATH MOB kinase activator-like 2A OS=Arabidopsis 
+thaliana OX=3702 GN=MOB2A PE=2 SV=1
+Length=216
+
+ Score = 216 bits (551),  Expect = 3e-71, Method: Composition-based stats.
+ Identities = 34/167 (20%), Positives = 68/167 (41%), Gaps = 9/167 (5%)
+
+Query  4    ENIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA  63
+            +N+ + +  P+G D   W   +   F  +++ L   L+  C   TC  M A  ++ +  A
+Sbjct  41   DNLREAVRLPQGVDINEWFAMNTVDFFNQISLLYATLEEFCTQTTCPVMNAG-RYEYRWA  99
+
+Query  64   AH---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRI  118
+                   PK   A  Y  + +D     +++   FP         +    +  + R+++R+
+Sbjct  100  DGTTITKPKTVSAPKYVEYLIDWVETEIDNEAIFPKNPGEPFPPNFEDFVKRILRKLFRV  159
+
+Query  119  FSHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLIVPI  162
+            ++H Y+ H         +  L   F     FV ++ L+ K+  + PI
+Sbjct  160  YAHIYYSHFHEIVALNEQAHLNTCFKHFLLFVSEFQLVDKEKEMAPI  206
+
+
+> sp|Q54BM4|MOB1C_DICDI MOB kinase activator-like 1 homolog C OS=Dictyostelium 
+discoideum OX=44689 GN=mobC PE=3 SV=1
+Length=216
+
+ Score = 216 bits (551),  Expect = 3e-71, Method: Composition-based stats.
+ Identities = 33/163 (20%), Positives = 69/163 (42%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P  +    W   +   F  + N L   +   C P  C  M+A  Q+ FL A 
+Sbjct  39   DLTDAIKLPPDETLFEWLSVNTIDFFNQSNLLYGSITEFCTPKYCPSMSAGPQYEFLWAD  98
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P    A  Y  + +      L+    FP++ +  + ++ +  + ++ +R++R++
+Sbjct  99   GKEIKKPIRVSAPAYVDYLMTWIQVQLDDEDIFPTKPTEDMPKNFLPTIKAIFKRLFRVY  158
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y+ H         E  L      F  F+ ++NL+ K  ++
+Sbjct  159  AHIYYSHMDRVSVLGVEAHLNTAFRHFYLFIKEFNLVDKKEML  201
+
+
+> sp|O94360|MOB1_SCHPO Maintenance of ploidy protein mob1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mob1 PE=1 SV=1
+Length=210
+
+ Score = 213 bits (543),  Expect = 4e-70, Method: Composition-based stats.
+ Identities = 38/161 (24%), Positives = 69/161 (43%), Gaps = 8/161 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++ + ++ P+G+D   W   +   F  ++N L   +   C   +C QM A   + +    
+Sbjct  38   SLMEAVKLPKGEDLNEWIAMNTMDFYTQINMLYGTITEFCTAASCPQMNAGPSYEYYWQD  97
+
+Query  65   HK---TPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+             K    P    A DY  + LD     L+  K FP+ +     ++    +  + RR++RI+
+Sbjct  98   DKIYTKPTRMSAPDYINNLLDWTQEKLDDKKLFPTEIGVEFPKNFRKVIQQIFRRLFRIY  157
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFV---MKYNLMSKDN  157
+            +H Y  H  +    E E++L   F  FV    ++ LM    
+Sbjct  158  AHIYCSHFHVMVAMELESYLNTSFKHFVFFCREFGLMDNKE  198
+
+
+> sp|Q7K0E3|MOB4_DROME MOB kinase activator-like 4 OS=Drosophila 
+melanogaster OX=7227 GN=Mob4 PE=2 SV=1
+Length=223
+
+ Score = 211 bits (538),  Expect = 3e-69, Method: Composition-based stats.
+ Identities = 137/158 (87%), Positives = 147/158 (93%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N++ IL  PE QDEGVWKYEHLRQFC+ELNGLAV+LQ EC P TCTQMTAT+QWIFLCAA
+Sbjct  53   NVELILTMPEAQDEGVWKYEHLRQFCMELNGLAVRLQKECSPSTCTQMTATDQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSV KLGSVCRR+YRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVTKLGSVCRRVYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHR+IFDE+E ET+LCHRFT FV KYNLMSK+NLIVPI
+Sbjct  173  HHRRIFDEFEAETYLCHRFTHFVTKYNLMSKENLIVPI  210
+
+
+> sp|Q5F495|PHOCN_CHICK MOB-like protein phocein OS=Gallus gallus 
+OX=9031 GN=MOB4 PE=2 SV=1
+Length=223
+
+ Score = 210 bits (536),  Expect = 7e-69, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q9QYW3|PHOCN_RAT MOB-like protein phocein OS=Rattus norvegicus 
+OX=10116 GN=Mob4 PE=1 SV=1
+Length=225
+
+ Score = 210 bits (536),  Expect = 9e-69, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q5RDB1|PHOCN_PONAB MOB-like protein phocein OS=Pongo abelii 
+OX=9601 GN=MOB4 PE=2 SV=2
+Length=225
+
+ Score = 210 bits (536),  Expect = 9e-69, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q6PEB6|PHOCN_MOUSE MOB-like protein phocein OS=Mus musculus 
+OX=10090 GN=Mob4 PE=1 SV=1
+Length=225
+
+ Score = 210 bits (536),  Expect = 9e-69, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q9Y3A3|PHOCN_HUMAN MOB-like protein phocein OS=Homo sapiens 
+OX=9606 GN=MOB4 PE=1 SV=1
+Length=225
+
+ Score = 210 bits (536),  Expect = 9e-69, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|P40484|MOB1_YEAST DBF2 kinase activator protein MOB1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=MOB1 PE=1 SV=2
+Length=314
+
+ Score = 204 bits (518),  Expect = 7e-65, Method: Composition-based stats.
+ Identities = 40/161 (25%), Positives = 71/161 (44%), Gaps = 8/161 (5%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+            +++ ++ P G+DE  W   H   F  ++N L   +   C P TC +M AT ++ +L A  
+Sbjct  141  LNQAVKLPRGEDENEWLAVHCVDFYNQINMLYGSITEFCSPQTCPRMIATNEYEYLWAFQ  200
+
+Query  66   K--TPKECPAIDYTRHTLDGAACLLNSNKYFPSRV--SIKESSVAKL-GSVCRRIYRIFS  120
+            K   P    A  Y    +       +    FPS+V  +  E  + ++   + RR++R+++
+Sbjct  201  KGQPPVSVSAPKYVECLMRWCQDQFDDESLFPSKVTGTFPEGFIQRVIQPILRRLFRVYA  260
+
+Query  121  HAYFHHRQIFDEYENETFLCHRFTKFV---MKYNLMSKDNL  158
+            H Y HH     E   +T L   F  F     ++ L+   + 
+Sbjct  261  HIYCHHFNEILELNLQTVLNTSFRHFCLFAQEFELLRPADF  301
+
+
+> sp|P34349|PHOCN_CAEEL MOB-like protein phocein OS=Caenorhabditis 
+elegans OX=6239 GN=mob-4 PE=3 SV=2
+Length=223
+
+ Score = 195 bits (497),  Expect = 7e-63, Method: Composition-based stats.
+ Identities = 122/158 (77%), Positives = 139/158 (88%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  IL PP  QDEGVWKYEHLRQFC+ELNGLA+ LQ EC P+TC QMTATEQWIFLCAA
+Sbjct  53   DVATILTPPLDQDEGVWKYEHLRQFCIELNGLALLLQRECIPETCQQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HK P ECPAIDYTRHTLDGAA LLNSNKYFPSRV+IKE S++KLGSV RR+YRIFSHA+F
+Sbjct  113  HKNPNECPAIDYTRHTLDGAATLLNSNKYFPSRVNIKEISISKLGSVARRVYRIFSHAFF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHR++FDE+ENET LC RFT +V KYNLM +++LIVPI
+Sbjct  173  HHRKLFDEFENETHLCKRFTTYVSKYNLMQQEHLIVPI  210
+
+
+> sp|Q54QV0|MOB2_DICDI MOB kinase activator-like 2 OS=Dictyostelium 
+discoideum OX=44689 GN=mob2 PE=3 SV=1
+Length=217
+
+ Score = 195 bits (496),  Expect = 8e-63, Method: Composition-based stats.
+ Identities = 31/159 (19%), Positives = 68/159 (43%), Gaps = 4/159 (3%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+            + + ++ P+G+DE  W   +  +    +N     +Q  C   +C QMT  +         
+Sbjct  51   LKESVKCPDGEDENEWIAVNTIEIFNTMNMCYSFIQGFCTEASCPQMTGAKATYLWTDGK  110
+
+Query  66   KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS-IKESSVAKLGSVCRRIYRIFSHAY-  123
+              P+E  A  Y  + ++  +  +++ + FP   S   ++    +  +  R+ R+++H Y 
+Sbjct  111  GKPQELSAPQYIDNLVNWISEQIDNPEIFPVDDSDFPKNYRPAVIKIISRVLRVYAHIYH  170
+
+Query  124  --FHHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIV  160
+              + H Q  D Y++          F   ++L+ + +L V
+Sbjct  171  AHWDHIQKLDCYQHTNTSLKHLQYFAEHFSLIGEKDLAV  209
+
+
+> sp|O74558|MOB2_SCHPO Maintenance of ploidy protein mob2 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mob2 PE=1 SV=1
+Length=244
+
+ Score = 179 bits (454),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 31/159 (19%), Positives = 60/159 (38%), Gaps = 6/159 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLC-A  63
+            N   I+  P   D   W   ++ +    LN       + C   TC  M+A   + +    
+Sbjct  69   NFSTIVSLPRFVDLDEWVALNVYELFTYLNHFYDVFATFCTVKTCPVMSAAANFDYTWLD  128
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIFSH  121
+             ++ P   PA  Y  + L      L+    FP++  +      +  + ++ ++++RIF+H
+Sbjct  129  NNRKPVHLPAPQYIEYVLAWIENRLHDQNVFPTKAGLPFPSNFLVIVKAIYKQMFRIFAH  188
+
+Query  122  AYFHHRQIFDEYENETF---LCHRFTKFVMKYNLMSKDN  157
+             Y+ H         E         F  F  ++ L+ K +
+Sbjct  189  MYYAHYAEILHLSLEAHWNSFFAHFIAFGKEFQLLDKRD  227
+
+
+> sp|Q5ABC6|MOB2_CANAL CBK1 kinase activator protein MOB2 OS=Candida 
+albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=MOB2 
+PE=1 SV=1
+Length=313
+
+ Score = 160 bits (406),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 31/160 (19%), Positives = 59/160 (37%), Gaps = 6/160 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            +   I++ P+  D   W   ++ +    LN     +Q    P+    M A     +L   
+Sbjct  133  SFKTIVQLPKYVDYCEWLALNIFELFNHLNRFYGVIQEYATPEAYPTMNAGPNTNYLWVN  192
+
+Query  65   -HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSH  121
+                    PA  Y  + +      LN    FP++       + +    ++ R+++RIF+H
+Sbjct  193  SSGQAVNLPACQYIEYVITWVTNKLNDQSVFPTKNGGAFPPNFIKDCKNISRQMFRIFAH  252
+
+Query  122  AYFHHRQIFDEYENETF---LCHRFTKFVMKYNLMSKDNL  158
+             Y +H         E         F  FV ++NL+ +  +
+Sbjct  253  IYHNHFDKIIHLSLEAHWNSFFAHFISFVKEFNLIDRTEM  292
+
+
+> sp|Q8VI63|MOB2_MOUSE MOB kinase activator 2 OS=Mus musculus OX=10090 
+GN=Mob2 PE=1 SV=1
+Length=235
+
+ Score = 156 bits (394),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 27/160 (17%), Positives = 52/160 (33%), Gaps = 5/160 (3%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+              +++  P   D   W   +   F   +N     +   C  +TC  M       +     
+Sbjct  40   FKELVVLPREIDLNEWLASNTTTFFHHINLQYSTISEFCTGETCQTMAVCNTQYYWYDER  99
+
+Query  66   KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSHAY  123
+                +C A  Y    +     L+     FP++       S  + +  +C+ ++ +  H Y
+Sbjct  100  GKKVKCTAPQYVDFVMSSVQKLVTDEDVFPTKYGREFPSSFESLVKKICKYLFHVLGHIY  159
+
+Query  124  FHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLIV  160
+            + H +     E    L      F  F  ++NL+      V
+Sbjct  160  WAHFKETLALELHGHLNTLYVHFILFAREFNLLDPKETAV  199
+
+
+> sp|P43563|MOB2_YEAST CBK1 kinase activator protein MOB2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=MOB2 PE=1 SV=2
+Length=287
+
+ Score = 157 bits (396),  Expect = 8e-47, Method: Composition-based stats.
+ Identities = 31/161 (19%), Positives = 57/161 (35%), Gaps = 6/161 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLC-A  63
+            +   I++ P+  D G W   ++ +F   LN     +     PD    M A     +L   
+Sbjct  109  SFKTIVQLPKYVDLGEWIALNVFEFFTNLNQFYGVVAEYVTPDAYPTMNAGPHTDYLWLD  168
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIFSH  121
+            A+      PA  Y    L      +N    FP++  +         +  +  +++RIF+H
+Sbjct  169  ANNRQVSLPASQYIDLALTWINNKVNDKNLFPTKNGLPFPQQFSRDVQRIMVQMFRIFAH  228
+
+Query  122  AYFHHRQIFDEYENETF---LCHRFTKFVMKYNLMSKDNLI  159
+             Y HH         E         F  F  ++ ++ +  + 
+Sbjct  229  IYHHHFDKIVHLSLEAHWNSFFSHFISFAKEFKIIDRKEMA  269
+
+
+> sp|Q70IA6|MOB2_HUMAN MOB kinase activator 2 OS=Homo sapiens OX=9606 
+GN=MOB2 PE=1 SV=1
+Length=237
+
+ Score = 154 bits (389),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 27/160 (17%), Positives = 53/160 (33%), Gaps = 5/160 (3%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+              +++  P   D   W   +   F   +N     +   C  +TC  M       +     
+Sbjct  40   FKELVVLPREIDLNEWLASNTTTFFHHINLQYSTISEFCTGETCQTMAVCNTQYYWYDER  99
+
+Query  66   KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSHAY  123
+                +C A  Y    +     L+     FP++       S  + +  +CR ++ + +H Y
+Sbjct  100  GKKVKCTAPQYVDFVMSSVQKLVTDEDVFPTKYGREFPSSFESLVRKICRHLFHVLAHIY  159
+
+Query  124  FHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLIV  160
+            + H +     E    L      F  F  ++NL+      +
+Sbjct  160  WAHFKETLALELHGHLNTLYVHFILFAREFNLLDPKETAI  199
+
+
+> sp|Q2LZ59|MOB2_DROPS MOB kinase activator-like 2 OS=Drosophila 
+pseudoobscura pseudoobscura OX=46245 GN=Mob1 PE=3 SV=2
+Length=562
+
+ Score = 148 bits (373),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 24/159 (15%), Positives = 50/159 (31%), Gaps = 6/159 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTA-TEQWIFLCA  63
+            ++  +++ P G D   W   H       +N +   +   C    C  MT    +      
+Sbjct  131  DLKALVDLPAGLDYNEWLASHTLALFEHVNLVYGTISEFCTQSGCADMTGPGNRTYLWFD  190
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSH  121
+                     A  Y  + +      ++    FP++ +     S  +    + R  + + +H
+Sbjct  191  EKGKKTRVAAPQYIDYVMTFTQKTVSDESIFPTKYANEFPGSFESIARKILRLQFHVIAH  250
+
+Query  122  AYFHHRQIFDEYENETFLCHRFTKFV---MKYNLMSKDN  157
+             Y  H +        T L   F        ++NL+ +  
+Sbjct  251  LYAAHFREIALLGLHTHLNLTFAHLTALHRRFNLIDEKE  289
+
+
+> sp|Q8IQG1|MOB2_DROME MOB kinase activator-like 2 OS=Drosophila 
+melanogaster OX=7227 GN=Mob2 PE=1 SV=3
+Length=566
+
+ Score = 148 bits (373),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 24/159 (15%), Positives = 50/159 (31%), Gaps = 6/159 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTA-TEQWIFLCA  63
+            ++  +++ P G D   W   H       +N +   +   C    C  MT    +      
+Sbjct  170  DLKALVDLPAGLDYNEWLASHTLALFEHVNLVYGTISEFCTQSGCADMTGPGNRTYLWFD  229
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSH  121
+                     A  Y  + +      ++    FP++ +     S  +    + R  + + +H
+Sbjct  230  EKGKKTRVAAPQYIDYVMTFTQKTVSDESIFPTKYANEFPGSFESIARKILRLQFHVIAH  289
+
+Query  122  AYFHHRQIFDEYENETFLCHRFTKFV---MKYNLMSKDN  157
+             Y  H +        T L   F        ++NL+ +  
+Sbjct  290  LYAAHFREIALLGLHTHLNLTFAHLTALHRRFNLIDEKE  328
+
+
+> sp|F4K494|MOB2B_ARATH Putative MOB kinase activator-like 2B OS=Arabidopsis 
+thaliana OX=3702 GN=MOB2B PE=5 SV=1
+Length=122
+
+ Score = 121 bits (303),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 21/116 (18%), Positives = 46/116 (40%), Gaps = 9/116 (8%)
+
+Query  52   MTATEQWIFLCAAHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLG  109
+            M A  ++ +  A         A +Y    ++     +++   FP +       +    + 
+Sbjct  1    MKAG-RYEYRWADGT--TMVSAPEYVELLMNWIETQIDNEHIFPKKTGEPFPPNFEDFVK  57
+
+Query  110  SVCRRIYRIFSHAYFHHRQIFDEYENETFLCHRF---TKFVMKYNLMSKDNLIVPI  162
+             + R+++R+++H Y  H         +  L   F     FV ++ L+ K+ + VPI
+Sbjct  58   RILRKLFRVYAHIYHSHFPKIVTLNEQAHLNTCFHRYLLFVSEFQLVDKEEM-VPI  112
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.144    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0442    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7439515766
+Results from round 3
+
+
+Query= 5YF4.A
+
+Length=162
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q9FHI1|MOB1A_ARATH MOB kinase activator-like 1A OS=Arabidops...  253     1e-85
+  sp|Q3T1J9|MOB1A_RAT MOB kinase activator 1A OS=Rattus norvegicu...  249     2e-84
+  sp|Q5RAE0|MOB1A_PONAB MOB kinase activator 1A OS=Pongo abelii O...  249     2e-84
+  sp|Q921Y0|MOB1A_MOUSE MOB kinase activator 1A OS=Mus musculus O...  249     2e-84
+  sp|Q9H8S9|MOB1A_HUMAN MOB kinase activator 1A OS=Homo sapiens O...  249     2e-84
+  sp|Q8GYX0|MOB1B_ARATH MOB kinase activator-like 1B OS=Arabidops...  248     8e-84
+  sp|Q54XJ0|MOB1A_DICDI MOB kinase activator-like 1 homolog A OS=...  247     2e-83
+  sp|Q949G5|MOB1A_MEDSF MOB kinase activator-like 1A OS=Medicago ...  247     3e-83
+  sp|Q8BPB0|MOB1B_MOUSE MOB kinase activator 1B OS=Mus musculus O...  246     5e-83
+  sp|Q7L9L4|MOB1B_HUMAN MOB kinase activator 1B OS=Homo sapiens O...  246     5e-83
+  sp|Q2WBN3|MOB1B_MEDSF MOB kinase activator-like 1B OS=Medicago ...  246     6e-83
+  sp|Q95RA8|MOB1_DROME MOB kinase activator-like 1 OS=Drosophila ...  244     3e-82
+  sp|Q54CR8|MOB1B_DICDI MOB kinase activator-like 1 homolog B OS=...  240     2e-80
+  sp|Q8BSU7|MOB3A_MOUSE MOB kinase activator 3A OS=Mus musculus O...  237     2e-79
+  sp|Q29RK9|MOB3B_BOVIN MOB kinase activator 3B OS=Bos taurus OX=...  237     2e-79
+  sp|Q8VE04|MOB3B_MOUSE MOB kinase activator 3B OS=Mus musculus O...  237     2e-79
+  sp|Q86TA1|MOB3B_HUMAN MOB kinase activator 3B OS=Homo sapiens O...  237     3e-79
+  sp|Q96BX8|MOB3A_HUMAN MOB kinase activator 3A OS=Homo sapiens O...  236     7e-79
+  sp|Q5R5Z0|MOB3A_PONAB MOB kinase activator 3A OS=Pongo abelii O...  234     4e-78
+  sp|Q58D63|MOB3A_BOVIN MOB kinase activator 3A OS=Bos taurus OX=...  232     1e-77
+  sp|Q9P601|MOB1_NEUCR Probable maintenance of ploidy protein mob...  231     4e-77
+  sp|Q9VL13|MOB3_DROME MOB kinase activator-like 3 OS=Drosophila ...  229     3e-76
+  sp|Q5EAA4|MOB3C_BOVIN MOB kinase activator 3C OS=Bos taurus OX=...  227     1e-75
+  sp|Q70IA8|MOB3C_HUMAN MOB kinase activator 3C OS=Homo sapiens O...  227     1e-75
+  sp|Q8BJG4|MOB3C_MOUSE MOB kinase activator 3C OS=Mus musculus O...  227     3e-75
+  sp|Q54BM4|MOB1C_DICDI MOB kinase activator-like 1 homolog C OS=...  226     4e-75
+  sp|F4K495|MOB2A_ARATH MOB kinase activator-like 2A OS=Arabidops...  225     1e-74
+  sp|O94360|MOB1_SCHPO Maintenance of ploidy protein mob1 OS=Schi...  224     1e-74
+  sp|P40484|MOB1_YEAST DBF2 kinase activator protein MOB1 OS=Sacc...  214     5e-69
+  sp|Q8VI63|MOB2_MOUSE MOB kinase activator 2 OS=Mus musculus OX=...  209     3e-68
+  sp|Q5ABC6|MOB2_CANAL CBK1 kinase activator protein MOB2 OS=Cand...  210     1e-67
+  sp|Q7K0E3|MOB4_DROME MOB kinase activator-like 4 OS=Drosophila ...  205     6e-67
+  sp|Q70IA6|MOB2_HUMAN MOB kinase activator 2 OS=Homo sapiens OX=...  205     1e-66
+  sp|Q54QV0|MOB2_DICDI MOB kinase activator-like 2 OS=Dictyosteli...  202     8e-66
+  sp|Q5F495|PHOCN_CHICK MOB-like protein phocein OS=Gallus gallus...  203     1e-65
+  sp|Q9QYW3|PHOCN_RAT MOB-like protein phocein OS=Rattus norvegic...  202     1e-65
+  sp|Q5RDB1|PHOCN_PONAB MOB-like protein phocein OS=Pongo abelii ...  202     1e-65
+  sp|Q6PEB6|PHOCN_MOUSE MOB-like protein phocein OS=Mus musculus ...  202     1e-65
+  sp|Q9Y3A3|PHOCN_HUMAN MOB-like protein phocein OS=Homo sapiens ...  202     1e-65
+  sp|P43563|MOB2_YEAST CBK1 kinase activator protein MOB2 OS=Sacc...  200     7e-64
+  sp|Q2LZ59|MOB2_DROPS MOB kinase activator-like 2 OS=Drosophila ...  203     3e-62
+  sp|Q8IQG1|MOB2_DROME MOB kinase activator-like 2 OS=Drosophila ...  203     6e-62
+  sp|P34349|PHOCN_CAEEL MOB-like protein phocein OS=Caenorhabditi...  193     7e-62
+  sp|O74558|MOB2_SCHPO Maintenance of ploidy protein mob2 OS=Schi...  193     1e-61
+  sp|F4K494|MOB2B_ARATH Putative MOB kinase activator-like 2B OS=...  137     2e-41
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q9FHI1|MOB1A_ARATH MOB kinase activator-like 1A OS=Arabidopsis 
+thaliana OX=3702 GN=MOB1A PE=2 SV=1
+Length=215
+
+ Score = 253 bits (646),  Expect = 1e-85, Method: Composition-based stats.
+ Identities = 40/163 (25%), Positives = 71/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  P G+D   W   +   F  ++N L   L   C PD C  MTA  ++ +  A 
+Sbjct  40   NLREAVRLPPGEDANEWLAVNTVDFFNQVNLLYGTLTEFCTPDNCPTMTAGPKYEYRWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+     ++    + ++ +R++R++
+Sbjct  100  GVQIKKPIEVSAPKYVEYLMDWIETQLDDETLFPQRLGAPFPQNFKDVVKTIFKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLI  159
+            +H Y  H Q     + E  L   F  F++   ++ L+ K  L 
+Sbjct  160  AHIYHSHFQKIVSLKEEAHLNTCFKHFILFTHEFGLIDKKELA  202
+
+
+> sp|Q3T1J9|MOB1A_RAT MOB kinase activator 1A OS=Rattus norvegicus 
+OX=10116 GN=Mob1a PE=2 SV=3
+Length=216
+
+ Score = 249 bits (637),  Expect = 2e-84, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 73/163 (45%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++     ++ ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L      F  FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q5RAE0|MOB1A_PONAB MOB kinase activator 1A OS=Pongo abelii 
+OX=9601 GN=MOB1A PE=2 SV=3
+Length=216
+
+ Score = 249 bits (637),  Expect = 2e-84, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 73/163 (45%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++     ++ ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L      F  FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q921Y0|MOB1A_MOUSE MOB kinase activator 1A OS=Mus musculus 
+OX=10090 GN=Mob1a PE=2 SV=3
+Length=216
+
+ Score = 249 bits (637),  Expect = 2e-84, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 73/163 (45%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++     ++ ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L      F  FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q9H8S9|MOB1A_HUMAN MOB kinase activator 1A OS=Homo sapiens 
+OX=9606 GN=MOB1A PE=1 SV=4
+Length=216
+
+ Score = 249 bits (637),  Expect = 2e-84, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 73/163 (45%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + +  PEG+D   W   +   F  ++N L   +   C   +C  M+A  ++ +  A 
+Sbjct  40   NLRQAVMLPEGEDLNEWIAVNTVDFFNQINMLYGTITEFCTEASCPVMSAGPRYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++     ++ ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L      F  FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDSVMQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q8GYX0|MOB1B_ARATH MOB kinase activator-like 1B OS=Arabidopsis 
+thaliana OX=3702 GN=MOB1B PE=2 SV=1
+Length=215
+
+ Score = 248 bits (634),  Expect = 8e-84, Method: Composition-based stats.
+ Identities = 38/163 (23%), Positives = 72/163 (44%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N L   L   C P+ C+ MTA  ++ +  A 
+Sbjct  40   NLREAVKLPPGEDLNEWLAVNTVDFFNQVNLLFGTLTEFCTPENCSTMTAGPKYEYRWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP ++      +    + ++ +R++R++
+Sbjct  100  GVQIKKPIEVSAPKYVEYLMDWIETQLDDETIFPQKLGAAFPPNFKEVVKTIFKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLI  159
+            +H Y  H Q     + E  L   F  F++   ++ L+ K  L 
+Sbjct  160  AHIYHSHFQKIVSLKEEAHLNTCFKHFILFTHEFVLIDKKELA  202
+
+
+> sp|Q54XJ0|MOB1A_DICDI MOB kinase activator-like 1 homolog A OS=Dictyostelium 
+discoideum OX=44689 GN=mobA PE=3 SV=1
+Length=213
+
+ Score = 247 bits (632),  Expect = 2e-83, Method: Composition-based stats.
+ Identities = 34/162 (21%), Positives = 67/162 (41%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  P G+D   W   +   F  ++N L   +   C    C  M+A  ++ +  A 
+Sbjct  38   NLKSAVSLPTGEDINEWLAVNTTDFFNQINMLYGTITEFCTGTDCPVMSAGPKYEYHWAD  97
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K   +  A +Y    +      L+    FPS++     ++  + + ++ +R++R++
+Sbjct  98   GTTVKKAIKVSAPEYVDFLMTWVQSQLDDENIFPSKIGVPFPKNFQSIVKTIFKRLFRVY  157
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+            +H Y  H Q       E  L      F  F+ ++NL+ K  L
+Sbjct  158  AHIYHSHFQKIVSLGEEAHLNTSLKHFIYFIQEFNLVDKKEL  199
+
+
+> sp|Q949G5|MOB1A_MEDSF MOB kinase activator-like 1A OS=Medicago 
+sativa subsp. falcata OX=3878 GN=MOB1-A PE=2 SV=2
+Length=215
+
+ Score = 247 bits (630),  Expect = 3e-83, Method: Composition-based stats.
+ Identities = 39/163 (24%), Positives = 70/163 (43%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N +   L   C P  C  MTA  ++ +  A 
+Sbjct  41   NLREAVKLPPGEDINEWLAVNTVDFFNQVNTMFGTLTEFCTPSNCPTMTAGPKYEYRWAD  100
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+      +    + ++ +R++R++
+Sbjct  101  GVTIKKPIEVSAPKYVEYLMDWIESQLDDETIFPQRLGAPFPPNFRDVVKTIFKRLFRVY  160
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLI  159
+            +H Y  H Q     + E  L   F  FV+   ++ L+ K  L 
+Sbjct  161  AHVYHSHFQKIVSLKEEAHLNTCFKHFVLFTWEFRLIEKAELA  203
+
+
+> sp|Q8BPB0|MOB1B_MOUSE MOB kinase activator 1B OS=Mus musculus 
+OX=10090 GN=Mob1b PE=1 SV=3
+Length=216
+
+ Score = 246 bits (629),  Expect = 5e-83, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 73/163 (45%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  PEG+D   W   +   F  ++N L   +   C  ++C  M+A  ++ +  A 
+Sbjct  40   NLRMAVMLPEGEDLNEWVAVNTVDFFNQINMLYGTITDFCTEESCPVMSAGPKYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++     ++ ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L      F  FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDPVIQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q7L9L4|MOB1B_HUMAN MOB kinase activator 1B OS=Homo sapiens 
+OX=9606 GN=MOB1B PE=1 SV=3
+Length=216
+
+ Score = 246 bits (629),  Expect = 5e-83, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 73/163 (45%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  PEG+D   W   +   F  ++N L   +   C  ++C  M+A  ++ +  A 
+Sbjct  40   NLRMAVMLPEGEDLNEWVAVNTVDFFNQINMLYGTITDFCTEESCPVMSAGPKYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++     ++ ++   ++ +R++R++
+Sbjct  100  GTNIKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFMSVAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y  H     + + E  L      F  FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFDPVIQLQEEAHLNTSFKHFIFFVQEFNLIDRRELA  202
+
+
+> sp|Q2WBN3|MOB1B_MEDSF MOB kinase activator-like 1B OS=Medicago 
+sativa subsp. falcata OX=3878 GN=MOB1-B PE=2 SV=1
+Length=215
+
+ Score = 246 bits (628),  Expect = 6e-83, Method: Composition-based stats.
+ Identities = 39/163 (24%), Positives = 70/163 (43%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ + ++ P G+D   W   +   F  ++N +   L   C P  C  MTA  ++ +  A 
+Sbjct  41   NLREAVKLPPGEDINEWLAVNTVDFFNQVNTMFGTLTEFCTPSNCPTMTAGPKYEYRWAD  100
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P E  A  Y  + +D     L+    FP R+      +    + ++ +R++R++
+Sbjct  101  GVTIKKPIEVSAPKYVEYLMDWMESQLDDETIFPQRLGAPFPPNFRDVVKTIFKRLFRVY  160
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFVM---KYNLMSKDNLI  159
+            +H Y  H Q     + E  L   F  FV+   ++ L+ K  L 
+Sbjct  161  AHIYHSHFQKIVSLKEEAHLNTCFKHFVLFTWEFRLIEKAELA  203
+
+
+> sp|Q95RA8|MOB1_DROME MOB kinase activator-like 1 OS=Drosophila 
+melanogaster OX=7227 GN=mats PE=1 SV=1
+Length=219
+
+ Score = 244 bits (624),  Expect = 3e-82, Method: Composition-based stats.
+ Identities = 36/163 (22%), Positives = 70/163 (43%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  P+G+D   W   +   F  ++N L   +   C  +TC  M+A  ++ +  A 
+Sbjct  40   NLRNAVALPDGEDLNEWVAVNTVDFFNQINMLYGTITEFCTEETCGIMSAGPKYEYHWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +C A  Y  + +      L+    FPS++     ++  +   ++ +R++R++
+Sbjct  100  GLTVKKPIKCSAPKYIDYLMTWVQDQLDDETLFPSKIGVPFPKNFHSSAKTILKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y  H         E  L      F  FV ++NL+ +  L 
+Sbjct  160  AHIYHQHFTEVVTLGEEAHLNTSFKHFIFFVQEFNLIERRELA  202
+
+
+> sp|Q54CR8|MOB1B_DICDI MOB kinase activator-like 1 homolog B OS=Dictyostelium 
+discoideum OX=44689 GN=mobB PE=3 SV=1
+Length=216
+
+ Score = 240 bits (612),  Expect = 2e-80, Method: Composition-based stats.
+ Identities = 38/163 (23%), Positives = 73/163 (45%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+   +  PE +D   W   +   F  ++N L   +   C P TC  M+A  ++ +L A 
+Sbjct  40   NLRLAVSLPEREDLNEWLAVNTVDFFNQINLLYGSITEFCTPKTCEVMSAGPKYEYLWAD  99
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P +  A +Y    +     +L+    FPSRV     ++  + + ++ +R++R++
+Sbjct  100  GESVKKPIKVSAPEYVEFLMTWVQGILDDENIFPSRVDVQFPKNFQSIVKNIFKRLFRVY  159
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLI  159
+             H Y+ H         E  L   F     F++++NL+ K  ++
+Sbjct  160  GHIYYSHFTKIVSLGEEAHLNTCFKHFYFFIVEFNLVDKKEML  202
+
+
+> sp|Q8BSU7|MOB3A_MOUSE MOB kinase activator 3A OS=Mus musculus 
+OX=10090 GN=Mob3a PE=1 SV=1
+Length=217
+
+ Score = 237 bits (606),  Expect = 2e-79, Method: Composition-based stats.
+ Identities = 32/162 (20%), Positives = 63/162 (39%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +    
+Sbjct  44   DLRLAVQLPPGEDLNDWVAVHVVDFFNRINLIYGTISDGCTEQSCPVMSGGPKYEYRWQD  103
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+                + P    A  Y    +D     +N+   FP+ V        +  +  +  R++R+F
+Sbjct  104  EQRFRKPTALSAPRYMDLLMDWIEVQINNEDIFPTNVGTPFPKTFLQAVRKILSRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH     +  +E  +      F  FV ++NL+    L
+Sbjct  164  VHVYIHHFDRIAQMGSEAHVNTCYKHFYYFVTEFNLIDPKEL  205
+
+
+> sp|Q29RK9|MOB3B_BOVIN MOB kinase activator 3B OS=Bos taurus OX=9913 
+GN=MOB3B PE=2 SV=1
+Length=216
+
+ Score = 237 bits (605),  Expect = 2e-79, Method: Composition-based stats.
+ Identities = 35/162 (22%), Positives = 65/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +    
+Sbjct  43   DLKAAVQLPSGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+               +K P   PA  Y    +D     +N+   FP+ V     ++ +     +  R++R+F
+Sbjct  103  DLKYKKPTALPAPQYMNLLMDWIEVQINNEDIFPTCVGVPFPKNFLQICKKILCRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  FV + NL+ +  L
+Sbjct  163  VHVYIHHFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q8VE04|MOB3B_MOUSE MOB kinase activator 3B OS=Mus musculus 
+OX=10090 GN=Mob3b PE=2 SV=1
+Length=216
+
+ Score = 237 bits (605),  Expect = 2e-79, Method: Composition-based stats.
+ Identities = 35/162 (22%), Positives = 65/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +    
+Sbjct  43   DLRAAVQLPNGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+               +K P   PA  Y    +D     +N+   FP+ V     ++ +     +  R++R+F
+Sbjct  103  DLKYKKPTALPAPQYMNLLMDWIEVQINNEDIFPTCVGVPFPKNFLQICKKILCRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  FV + NL+ +  L
+Sbjct  163  VHVYIHHFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q86TA1|MOB3B_HUMAN MOB kinase activator 3B OS=Homo sapiens 
+OX=9606 GN=MOB3B PE=1 SV=2
+Length=216
+
+ Score = 237 bits (604),  Expect = 3e-79, Method: Composition-based stats.
+ Identities = 35/162 (22%), Positives = 66/162 (41%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D+  W   H+  F   +N +   +   C   TC  M+   ++ +    
+Sbjct  43   DLKAAVQLPSGEDQNDWVAVHVVDFFNRINLIYGTICEFCTERTCPVMSGGPKYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+               +K P   PA  Y    +D     +N+ + FP+ V     ++ +     +  R++R+F
+Sbjct  103  DLKYKKPTALPAPQYMNLLMDWIEVQINNEEIFPTCVGVPFPKNFLQICKKILCRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  FV + NL+ +  L
+Sbjct  163  VHVYIHHFDRVIVMGAEAHVNTCYKHFYYFVTEMNLIDRKEL  204
+
+
+> sp|Q96BX8|MOB3A_HUMAN MOB kinase activator 3A OS=Homo sapiens 
+OX=9606 GN=MOB3A PE=1 SV=1
+Length=217
+
+ Score = 236 bits (602),  Expect = 7e-79, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +    
+Sbjct  44   DLRLAVQLPPGEDLNDWVAVHVVDFFNRVNLIYGTISDGCTEQSCPVMSGGPKYEYRWQD  103
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                + P    A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F
+Sbjct  104  EHKFRKPTALSAPRYMDLLMDWIEAQINNEDLFPTNVGTPFPKNFLQTVRKILSRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH     +  +E  +      F  FV ++ L+    L
+Sbjct  164  VHVYIHHFDRIAQMGSEAHVNTCYKHFYYFVKEFGLIDTKEL  205
+
+
+> sp|Q5R5Z0|MOB3A_PONAB MOB kinase activator 3A OS=Pongo abelii 
+OX=9601 GN=MOB3A PE=2 SV=1
+Length=217
+
+ Score = 234 bits (596),  Expect = 4e-78, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G+D   W   H+  F   +N +   +   C   +C  M+   ++ +    
+Sbjct  44   DLRLAVQLPPGEDLNDWVTVHVVDFFNRVNLIYGTISDGCTEQSCPVMSGGPKYEYRWQD  103
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                + P    A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F
+Sbjct  104  EHKFRKPTALSAPRYMDLLMDWIEAQINNEDLFPTNVGTPFPKNFLQAVRKILSRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH     +  +E  +      F  FV ++ L+    L
+Sbjct  164  VHVYIHHFDRIAQMGSEAHVNTCYKHFYYFVKEFGLIDTKEL  205
+
+
+> sp|Q58D63|MOB3A_BOVIN MOB kinase activator 3A OS=Bos taurus OX=9913 
+GN=MOB3A PE=2 SV=2
+Length=217
+
+ Score = 232 bits (593),  Expect = 1e-77, Method: Composition-based stats.
+ Identities = 30/162 (19%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P G++   W   H+  F   +N +   +   C   +C  M+   ++ +    
+Sbjct  44   DLKLAVQLPAGEELNDWVAVHVVDFFNRVNLIYGTISDGCTERSCPIMSGGPKYEYRWQD  103
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                + P    A  Y    +D     +N+   FP+ V     ++ +  +  +  R++R+F
+Sbjct  104  ENKFRRPTALSAPRYMDLLMDWIEVQINNEDVFPTNVGTPFPKNFLQVVKKILSRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH     +  +E  +      F  FV ++ L+    L
+Sbjct  164  VHVYIHHFDRIAQLGSEAHVNTCYKHFYYFVTEFGLIDTKEL  205
+
+
+> sp|Q9P601|MOB1_NEUCR Probable maintenance of ploidy protein mob1 
+OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 
+708.71 / DSM 1257 / FGSC 987) OX=367110 GN=mob1-1 PE=3 SV=2
+Length=219
+
+ Score = 231 bits (590),  Expect = 4e-77, Method: Composition-based stats.
+ Identities = 42/166 (25%), Positives = 81/166 (49%), Gaps = 8/166 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++ K+++ PEG+DE  W   ++  F  ++N L   +   C P TC +M AT+++ +L   
+Sbjct  43   SLRKVVKLPEGEDENEWLAVNMVDFYNQINLLYGAITEFCSPQTCPEMKATDEFEYLWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIF  119
+               +K P + PA  Y    +      +++    PSR+ +       A +  + +R+YR++
+Sbjct  103  TENYKRPTKMPAPAYIEQLMSWVQGNIDNEAVLPSRIGVPFPKSFPALVRQIFKRMYRVY  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLIVPI  162
+            +H Y HH  +  E   E  L   F +   F+ ++NL +  +   P+
+Sbjct  163  AHIYCHHYPVIRELGLEPHLNTSFKQYVLFIDEHNLATGKDFWGPL  208
+
+
+> sp|Q9VL13|MOB3_DROME MOB kinase activator-like 3 OS=Drosophila 
+melanogaster OX=7227 GN=Mob3 PE=2 SV=1
+Length=220
+
+ Score = 229 bits (585),  Expect = 3e-76, Method: Composition-based stats.
+ Identities = 37/162 (23%), Positives = 71/162 (44%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N+ +++  P+G++   W   H+  F   +N +   +   C+  TC  M+   ++ +L A 
+Sbjct  44   NLRQVVRLPQGENLNDWLAVHVVDFFNRINLIYGTVSEFCNETTCPTMSGGSRYEYLWAD  103
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFP--SRVSIKESSVAKLGSVCRRIYRIF  119
+               +K P    A  Y  H +D     +N+   FP  + V   ++ +A    +  R++R+F
+Sbjct  104  GDLYKKPTALSAQKYIEHLMDWIETQINNEAVFPVSTDVPFPKNFIAISRKILTRLFRVF  163
+
+Query  120  SHAYFHHRQIFDEYENETFLC---HRFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  FV +++++S   L
+Sbjct  164  VHVYIHHFDRIVSIGAEAHVNACYKHFYYFVQEFDMISAKEL  205
+
+
+> sp|Q5EAA4|MOB3C_BOVIN MOB kinase activator 3C OS=Bos taurus OX=9913 
+GN=MOB3C PE=2 SV=1
+Length=216
+
+ Score = 227 bits (580),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 64/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  ++  P G++   W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGENIDDWIAVHVVDFFNRINLIYGTMAERCSETSCPVMAGGPRYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N    FP+RV     ++       +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIESLINDEDVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  F+ +++L+ +  L
+Sbjct  163  VHVYIHHFDSILSMGAEAHVNTCYKHFYYFIREFSLVDQREL  204
+
+
+> sp|Q70IA8|MOB3C_HUMAN MOB kinase activator 3C OS=Homo sapiens 
+OX=9606 GN=MOB3C PE=1 SV=1
+Length=216
+
+ Score = 227 bits (580),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 65/162 (40%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  ++  P G++   W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGENIDDWIAVHVVDFFNRINLIYGTMAERCSETSCPVMAGGPRYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N  + FP+RV     ++       +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIEGLINDEEVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  F+ +++L+ +  L
+Sbjct  163  VHVYIHHFDSILSMGAEAHVNTCYKHFYYFIREFSLVDQREL  204
+
+
+> sp|Q8BJG4|MOB3C_MOUSE MOB kinase activator 3C OS=Mus musculus 
+OX=10090 GN=Mob3c PE=2 SV=1
+Length=216
+
+ Score = 227 bits (578),  Expect = 3e-75, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 63/162 (39%), Gaps = 8/162 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  ++  P G+    W   H+  F   +N +   +   C   +C  M    ++ +    
+Sbjct  43   DLRSVVRLPPGESIDDWIAVHVVDFFNRINLIYGTMAEHCSESSCPVMAGGPRYEYRWQD  102
+
+Query  65   ---HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+               ++ P +  A  Y    +D    L+N    FP+RV     ++       +  R++R+F
+Sbjct  103  ERQYRRPAKLSAPRYMALLMDWIEGLINDEDVFPTRVGVPFPKNFQQVCTKILTRLFRVF  162
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNL  158
+             H Y HH         E  +      F  F+ +++L+ +  L
+Sbjct  163  VHVYIHHFDSILSMGAEAHVNTCYKHFYYFIQEFSLVDQREL  204
+
+
+> sp|Q54BM4|MOB1C_DICDI MOB kinase activator-like 1 homolog C OS=Dictyostelium 
+discoideum OX=44689 GN=mobC PE=3 SV=1
+Length=216
+
+ Score = 226 bits (577),  Expect = 4e-75, Method: Composition-based stats.
+ Identities = 33/163 (20%), Positives = 69/163 (42%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++   ++ P  +    W   +   F  + N L   +   C P  C  M+A  Q+ FL A 
+Sbjct  39   DLTDAIKLPPDETLFEWLSVNTIDFFNQSNLLYGSITEFCTPKYCPSMSAGPQYEFLWAD  98
+
+Query  65   H---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+                K P    A  Y  + +      L+    FP++ +  + ++ +  + ++ +R++R++
+Sbjct  99   GKEIKKPIRVSAPAYVDYLMTWIQVQLDDEDIFPTKPTEDMPKNFLPTIKAIFKRLFRVY  158
+
+Query  120  SHAYFHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLI  159
+            +H Y+ H         E  L      F  F+ ++NL+ K  ++
+Sbjct  159  AHIYYSHMDRVSVLGVEAHLNTAFRHFYLFIKEFNLVDKKEML  201
+
+
+> sp|F4K495|MOB2A_ARATH MOB kinase activator-like 2A OS=Arabidopsis 
+thaliana OX=3702 GN=MOB2A PE=2 SV=1
+Length=216
+
+ Score = 225 bits (574),  Expect = 1e-74, Method: Composition-based stats.
+ Identities = 34/167 (20%), Positives = 68/167 (41%), Gaps = 9/167 (5%)
+
+Query  4    ENIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCA  63
+            +N+ + +  P+G D   W   +   F  +++ L   L+  C   TC  M A  ++ +  A
+Sbjct  41   DNLREAVRLPQGVDINEWFAMNTVDFFNQISLLYATLEEFCTQTTCPVMNAG-RYEYRWA  99
+
+Query  64   AH---KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRI  118
+                   PK   A  Y  + +D     +++   FP         +    +  + R+++R+
+Sbjct  100  DGTTITKPKTVSAPKYVEYLIDWVETEIDNEAIFPKNPGEPFPPNFEDFVKRILRKLFRV  159
+
+Query  119  FSHAYFHHRQIFDEYENETFLCHRFTK---FVMKYNLMSKDNLIVPI  162
+            ++H Y+ H         +  L   F     FV ++ L+ K+  + PI
+Sbjct  160  YAHIYYSHFHEIVALNEQAHLNTCFKHFLLFVSEFQLVDKEKEMAPI  206
+
+
+> sp|O94360|MOB1_SCHPO Maintenance of ploidy protein mob1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mob1 PE=1 SV=1
+Length=210
+
+ Score = 224 bits (572),  Expect = 1e-74, Method: Composition-based stats.
+ Identities = 38/163 (23%), Positives = 69/163 (42%), Gaps = 8/163 (5%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++ + ++ P+G+D   W   +   F  ++N L   +   C   +C QM A   + +    
+Sbjct  38   SLMEAVKLPKGEDLNEWIAMNTMDFYTQINMLYGTITEFCTAASCPQMNAGPSYEYYWQD  97
+
+Query  65   HK---TPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIF  119
+             K    P    A DY  + LD     L+  K FP+ +     ++    +  + RR++RI+
+Sbjct  98   DKIYTKPTRMSAPDYINNLLDWTQEKLDDKKLFPTEIGVEFPKNFRKVIQQIFRRLFRIY  157
+
+Query  120  SHAYFHHRQIFDEYENETFLCHRFTKFV---MKYNLMSKDNLI  159
+            +H Y  H  +    E E++L   F  FV    ++ LM      
+Sbjct  158  AHIYCSHFHVMVAMELESYLNTSFKHFVFFCREFGLMDNKEYA  200
+
+
+> sp|P40484|MOB1_YEAST DBF2 kinase activator protein MOB1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=MOB1 PE=1 SV=2
+Length=314
+
+ Score = 214 bits (545),  Expect = 5e-69, Method: Composition-based stats.
+ Identities = 40/161 (25%), Positives = 71/161 (44%), Gaps = 8/161 (5%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+            +++ ++ P G+DE  W   H   F  ++N L   +   C P TC +M AT ++ +L A  
+Sbjct  141  LNQAVKLPRGEDENEWLAVHCVDFYNQINMLYGSITEFCSPQTCPRMIATNEYEYLWAFQ  200
+
+Query  66   K--TPKECPAIDYTRHTLDGAACLLNSNKYFPSRV--SIKESSVAKL-GSVCRRIYRIFS  120
+            K   P    A  Y    +       +    FPS+V  +  E  + ++   + RR++R+++
+Sbjct  201  KGQPPVSVSAPKYVECLMRWCQDQFDDESLFPSKVTGTFPEGFIQRVIQPILRRLFRVYA  260
+
+Query  121  HAYFHHRQIFDEYENETFLCHRFTKFV---MKYNLMSKDNL  158
+            H Y HH     E   +T L   F  F     ++ L+   + 
+Sbjct  261  HIYCHHFNEILELNLQTVLNTSFRHFCLFAQEFELLRPADF  301
+
+
+> sp|Q8VI63|MOB2_MOUSE MOB kinase activator 2 OS=Mus musculus OX=10090 
+GN=Mob2 PE=1 SV=1
+Length=235
+
+ Score = 209 bits (533),  Expect = 3e-68, Method: Composition-based stats.
+ Identities = 27/160 (17%), Positives = 52/160 (33%), Gaps = 5/160 (3%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+              +++  P   D   W   +   F   +N     +   C  +TC  M       +     
+Sbjct  40   FKELVVLPREIDLNEWLASNTTTFFHHINLQYSTISEFCTGETCQTMAVCNTQYYWYDER  99
+
+Query  66   KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSHAY  123
+                +C A  Y    +     L+     FP++       S  + +  +C+ ++ +  H Y
+Sbjct  100  GKKVKCTAPQYVDFVMSSVQKLVTDEDVFPTKYGREFPSSFESLVKKICKYLFHVLGHIY  159
+
+Query  124  FHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLIV  160
+            + H +     E    L      F  F  ++NL+      V
+Sbjct  160  WAHFKETLALELHGHLNTLYVHFILFAREFNLLDPKETAV  199
+
+
+> sp|Q5ABC6|MOB2_CANAL CBK1 kinase activator protein MOB2 OS=Candida 
+albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=MOB2 
+PE=1 SV=1
+Length=313
+
+ Score = 210 bits (536),  Expect = 1e-67, Method: Composition-based stats.
+ Identities = 31/160 (19%), Positives = 59/160 (37%), Gaps = 6/160 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            +   I++ P+  D   W   ++ +    LN     +Q    P+    M A     +L   
+Sbjct  133  SFKTIVQLPKYVDYCEWLALNIFELFNHLNRFYGVIQEYATPEAYPTMNAGPNTNYLWVN  192
+
+Query  65   -HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSH  121
+                    PA  Y  + +      LN    FP++       + +    ++ R+++RIF+H
+Sbjct  193  SSGQAVNLPACQYIEYVITWVTNKLNDQSVFPTKNGGAFPPNFIKDCKNISRQMFRIFAH  252
+
+Query  122  AYFHHRQIFDEYENETF---LCHRFTKFVMKYNLMSKDNL  158
+             Y +H         E         F  FV ++NL+ +  +
+Sbjct  253  IYHNHFDKIIHLSLEAHWNSFFAHFISFVKEFNLIDRTEM  292
+
+
+> sp|Q7K0E3|MOB4_DROME MOB kinase activator-like 4 OS=Drosophila 
+melanogaster OX=7227 GN=Mob4 PE=2 SV=1
+Length=223
+
+ Score = 205 bits (523),  Expect = 6e-67, Method: Composition-based stats.
+ Identities = 137/158 (87%), Positives = 147/158 (93%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            N++ IL  PE QDEGVWKYEHLRQFC+ELNGLAV+LQ EC P TCTQMTAT+QWIFLCAA
+Sbjct  53   NVELILTMPEAQDEGVWKYEHLRQFCMELNGLAVRLQKECSPSTCTQMTATDQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSV KLGSVCRR+YRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVTKLGSVCRRVYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHR+IFDE+E ET+LCHRFT FV KYNLMSK+NLIVPI
+Sbjct  173  HHRRIFDEFEAETYLCHRFTHFVTKYNLMSKENLIVPI  210
+
+
+> sp|Q70IA6|MOB2_HUMAN MOB kinase activator 2 OS=Homo sapiens OX=9606 
+GN=MOB2 PE=1 SV=1
+Length=237
+
+ Score = 205 bits (523),  Expect = 1e-66, Method: Composition-based stats.
+ Identities = 27/160 (17%), Positives = 53/160 (33%), Gaps = 5/160 (3%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+              +++  P   D   W   +   F   +N     +   C  +TC  M       +     
+Sbjct  40   FKELVVLPREIDLNEWLASNTTTFFHHINLQYSTISEFCTGETCQTMAVCNTQYYWYDER  99
+
+Query  66   KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSHAY  123
+                +C A  Y    +     L+     FP++       S  + +  +CR ++ + +H Y
+Sbjct  100  GKKVKCTAPQYVDFVMSSVQKLVTDEDVFPTKYGREFPSSFESLVRKICRHLFHVLAHIY  159
+
+Query  124  FHHRQIFDEYENETFLCH---RFTKFVMKYNLMSKDNLIV  160
+            + H +     E    L      F  F  ++NL+      +
+Sbjct  160  WAHFKETLALELHGHLNTLYVHFILFAREFNLLDPKETAI  199
+
+
+> sp|Q54QV0|MOB2_DICDI MOB kinase activator-like 2 OS=Dictyostelium 
+discoideum OX=44689 GN=mob2 PE=3 SV=1
+Length=217
+
+ Score = 202 bits (515),  Expect = 8e-66, Method: Composition-based stats.
+ Identities = 31/159 (19%), Positives = 68/159 (43%), Gaps = 4/159 (3%)
+
+Query  6    IDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAAH  65
+            + + ++ P+G+DE  W   +  +    +N     +Q  C   +C QMT  +         
+Sbjct  51   LKESVKCPDGEDENEWIAVNTIEIFNTMNMCYSFIQGFCTEASCPQMTGAKATYLWTDGK  110
+
+Query  66   KTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS-IKESSVAKLGSVCRRIYRIFSHAY-  123
+              P+E  A  Y  + ++  +  +++ + FP   S   ++    +  +  R+ R+++H Y 
+Sbjct  111  GKPQELSAPQYIDNLVNWISEQIDNPEIFPVDDSDFPKNYRPAVIKIISRVLRVYAHIYH  170
+
+Query  124  --FHHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIV  160
+              + H Q  D Y++          F   ++L+ + +L V
+Sbjct  171  AHWDHIQKLDCYQHTNTSLKHLQYFAEHFSLIGEKDLAV  209
+
+
+> sp|Q5F495|PHOCN_CHICK MOB-like protein phocein OS=Gallus gallus 
+OX=9031 GN=MOB4 PE=2 SV=1
+Length=223
+
+ Score = 203 bits (516),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q9QYW3|PHOCN_RAT MOB-like protein phocein OS=Rattus norvegicus 
+OX=10116 GN=Mob4 PE=1 SV=1
+Length=225
+
+ Score = 202 bits (515),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q5RDB1|PHOCN_PONAB MOB-like protein phocein OS=Pongo abelii 
+OX=9601 GN=MOB4 PE=2 SV=2
+Length=225
+
+ Score = 202 bits (515),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q6PEB6|PHOCN_MOUSE MOB-like protein phocein OS=Mus musculus 
+OX=10090 GN=Mob4 PE=1 SV=1
+Length=225
+
+ Score = 202 bits (515),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|Q9Y3A3|PHOCN_HUMAN MOB-like protein phocein OS=Homo sapiens 
+OX=9606 GN=MOB4 PE=1 SV=1
+Length=225
+
+ Score = 202 bits (515),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA
+Sbjct  53   NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF
+Sbjct  113  HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI
+Sbjct  173  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  210
+
+
+> sp|P43563|MOB2_YEAST CBK1 kinase activator protein MOB2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=MOB2 PE=1 SV=2
+Length=287
+
+ Score = 200 bits (509),  Expect = 7e-64, Method: Composition-based stats.
+ Identities = 31/161 (19%), Positives = 57/161 (35%), Gaps = 6/161 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLC-A  63
+            +   I++ P+  D G W   ++ +F   LN     +     PD    M A     +L   
+Sbjct  109  SFKTIVQLPKYVDLGEWIALNVFEFFTNLNQFYGVVAEYVTPDAYPTMNAGPHTDYLWLD  168
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIFSH  121
+            A+      PA  Y    L      +N    FP++  +         +  +  +++RIF+H
+Sbjct  169  ANNRQVSLPASQYIDLALTWINNKVNDKNLFPTKNGLPFPQQFSRDVQRIMVQMFRIFAH  228
+
+Query  122  AYFHHRQIFDEYENETF---LCHRFTKFVMKYNLMSKDNLI  159
+             Y HH         E         F  F  ++ ++ +  + 
+Sbjct  229  IYHHHFDKIVHLSLEAHWNSFFSHFISFAKEFKIIDRKEMA  269
+
+
+> sp|Q2LZ59|MOB2_DROPS MOB kinase activator-like 2 OS=Drosophila 
+pseudoobscura pseudoobscura OX=46245 GN=Mob1 PE=3 SV=2
+Length=562
+
+ Score = 203 bits (517),  Expect = 3e-62, Method: Composition-based stats.
+ Identities = 25/162 (15%), Positives = 51/162 (31%), Gaps = 6/162 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTA-TEQWIFLCA  63
+            ++  +++ P G D   W   H       +N +   +   C    C  MT    +      
+Sbjct  131  DLKALVDLPAGLDYNEWLASHTLALFEHVNLVYGTISEFCTQSGCADMTGPGNRTYLWFD  190
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSH  121
+                     A  Y  + +      ++    FP++ +     S  +    + R  + + +H
+Sbjct  191  EKGKKTRVAAPQYIDYVMTFTQKTVSDESIFPTKYANEFPGSFESIARKILRLQFHVIAH  250
+
+Query  122  AYFHHRQIFDEYENETFLCHRFTKFV---MKYNLMSKDNLIV  160
+             Y  H +        T L   F        ++NL+ +    V
+Sbjct  251  LYAAHFREIALLGLHTHLNLTFAHLTALHRRFNLIDEKETDV  292
+
+
+> sp|Q8IQG1|MOB2_DROME MOB kinase activator-like 2 OS=Drosophila 
+melanogaster OX=7227 GN=Mob2 PE=1 SV=3
+Length=566
+
+ Score = 203 bits (516),  Expect = 6e-62, Method: Composition-based stats.
+ Identities = 25/162 (15%), Positives = 51/162 (31%), Gaps = 6/162 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTA-TEQWIFLCA  63
+            ++  +++ P G D   W   H       +N +   +   C    C  MT    +      
+Sbjct  170  DLKALVDLPAGLDYNEWLASHTLALFEHVNLVYGTISEFCTQSGCADMTGPGNRTYLWFD  229
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLGSVCRRIYRIFSH  121
+                     A  Y  + +      ++    FP++ +     S  +    + R  + + +H
+Sbjct  230  EKGKKTRVAAPQYIDYVMTFTQKTVSDESIFPTKYANEFPGSFESIARKILRLQFHVIAH  289
+
+Query  122  AYFHHRQIFDEYENETFLCHRFTKFV---MKYNLMSKDNLIV  160
+             Y  H +        T L   F        ++NL+ +    V
+Sbjct  290  LYAAHFREIALLGLHTHLNLTFAHLTALHRRFNLIDEKETDV  331
+
+
+> sp|P34349|PHOCN_CAEEL MOB-like protein phocein OS=Caenorhabditis 
+elegans OX=6239 GN=mob-4 PE=3 SV=2
+Length=223
+
+ Score = 193 bits (490),  Expect = 7e-62, Method: Composition-based stats.
+ Identities = 122/158 (77%), Positives = 139/158 (88%), Gaps = 0/158 (0%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLCAA  64
+            ++  IL PP  QDEGVWKYEHLRQFC+ELNGLA+ LQ EC P+TC QMTATEQWIFLCAA
+Sbjct  53   DVATILTPPLDQDEGVWKYEHLRQFCIELNGLALLLQRECIPETCQQMTATEQWIFLCAA  112
+
+Query  65   HKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKESSVAKLGSVCRRIYRIFSHAYF  124
+            HK P ECPAIDYTRHTLDGAA LLNSNKYFPSRV+IKE S++KLGSV RR+YRIFSHA+F
+Sbjct  113  HKNPNECPAIDYTRHTLDGAATLLNSNKYFPSRVNIKEISISKLGSVARRVYRIFSHAFF  172
+
+Query  125  HHRQIFDEYENETFLCHRFTKFVMKYNLMSKDNLIVPI  162
+            HHR++FDE+ENET LC RFT +V KYNLM +++LIVPI
+Sbjct  173  HHRKLFDEFENETHLCKRFTTYVSKYNLMQQEHLIVPI  210
+
+
+> sp|O74558|MOB2_SCHPO Maintenance of ploidy protein mob2 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mob2 PE=1 SV=1
+Length=244
+
+ Score = 193 bits (490),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 31/161 (19%), Positives = 60/161 (37%), Gaps = 6/161 (4%)
+
+Query  5    NIDKILEPPEGQDEGVWKYEHLRQFCLELNGLAVKLQSECHPDTCTQMTATEQWIFLC-A  63
+            N   I+  P   D   W   ++ +    LN       + C   TC  M+A   + +    
+Sbjct  69   NFSTIVSLPRFVDLDEWVALNVYELFTYLNHFYDVFATFCTVKTCPVMSAAANFDYTWLD  128
+
+Query  64   AHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVSIKES--SVAKLGSVCRRIYRIFSH  121
+             ++ P   PA  Y  + L      L+    FP++  +      +  + ++ ++++RIF+H
+Sbjct  129  NNRKPVHLPAPQYIEYVLAWIENRLHDQNVFPTKAGLPFPSNFLVIVKAIYKQMFRIFAH  188
+
+Query  122  AYFHHRQIFDEYENETF---LCHRFTKFVMKYNLMSKDNLI  159
+             Y+ H         E         F  F  ++ L+ K +  
+Sbjct  189  MYYAHYAEILHLSLEAHWNSFFAHFIAFGKEFQLLDKRDTA  229
+
+
+> sp|F4K494|MOB2B_ARATH Putative MOB kinase activator-like 2B OS=Arabidopsis 
+thaliana OX=3702 GN=MOB2B PE=5 SV=1
+Length=122
+
+ Score = 137 bits (346),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 21/116 (18%), Positives = 46/116 (40%), Gaps = 9/116 (8%)
+
+Query  52   MTATEQWIFLCAAHKTPKECPAIDYTRHTLDGAACLLNSNKYFPSRVS--IKESSVAKLG  109
+            M A  ++ +  A         A +Y    ++     +++   FP +       +    + 
+Sbjct  1    MKAG-RYEYRWADGT--TMVSAPEYVELLMNWIETQIDNEHIFPKKTGEPFPPNFEDFVK  57
+
+Query  110  SVCRRIYRIFSHAYFHHRQIFDEYENETFLCHRF---TKFVMKYNLMSKDNLIVPI  162
+             + R+++R+++H Y  H         +  L   F     FV ++ L+ K+ + VPI
+Sbjct  58   RILRKLFRVYAHIYHSHFPKIVTLNEQAHLNTCFHRYLLFVSEFQLVDKEEM-VPI  112
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.149    0.471    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0455    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7439515766
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,1396 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= d2qdla_
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P06110|CHEW_SALTY Chemotaxis protein CheW OS=Salmonella typh...  96.3    1e-24
+  sp|O83453|CHEW_TREPA Chemotaxis protein CheW OS=Treponema palli...  95.9    2e-24
+  sp|P0A967|CHEW_SHIFL Chemotaxis protein CheW OS=Shigella flexne...  95.5    2e-24
+  sp|P0A964|CHEW_ECOLI Chemotaxis protein CheW OS=Escherichia col...  95.5    2e-24
+  sp|P0A965|CHEW_ECOL6 Chemotaxis protein CheW OS=Escherichia col...  95.5    2e-24
+  sp|P0A966|CHEW_ECO57 Chemotaxis protein CheW OS=Escherichia col...  95.5    2e-24
+  sp|P21821|CHEW_KLEAK Chemotaxis protein CheW OS=Klebsiella aero...  90.9    1e-22
+  sp|Q2KCI0|CHEW_RHIEC Probable chemotaxis protein CheW OS=Rhizob...  87.0    3e-21
+  sp|Q60251|CHEW_RHOSH Chemotaxis protein CheW OS=Rhodobacter sph...  85.9    8e-21
+  sp|Q52881|CHEW_RHIME Chemotaxis protein CheW OS=Rhizobium melil...  80.5    1e-18
+  sp|O87715|CHEW_CAUVC Chemotaxis protein CheW OS=Caulobacter vib...  80.1    2e-18
+  sp|P39802|CHEW_BACSU Chemotaxis protein CheW OS=Bacillus subtil...  71.2    4e-15
+  sp|P37599|CHEV_BACSU Chemotaxis protein CheV OS=Bacillus subtil...  70.5    6e-14
+  sp|Q56311|CHEW_THEMA Chemotaxis protein CheW OS=Thermotoga mari...  66.2    3e-13
+  sp|P43502|PILI_PSEAE Protein PilI OS=Pseudomonas aeruginosa (st...  57.0    1e-09
+  sp|P43498|FRZA_MYXXA Protein FrzA OS=Myxococcus xanthus OX=34 G...  47.8    3e-06
+
+
+> sp|P06110|CHEW_SALTY Chemotaxis protein CheW OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=cheW 
+PE=1 SV=1
+Length=167
+
+ Score = 96.3 bits (238),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 52/149 (35%), Positives = 88/149 (59%), Gaps = 5/149 (3%)
+
+Query  7    HPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLK  66
+             P  ++ +VF+L  E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL+
+Sbjct  13   EPSGQEFLVFTLGNEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDLR  72
+
+Query  67   KRFGIGKRGKSKDSRIIIVEILGQK-AGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+             +F  G   +  D+ ++IV  LGQ+  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  73   VKFCEGDV-EYDDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+             G+    ++M+I++ +  L   N +EM L
+Sbjct  132  TGLGALGERMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|O83453|CHEW_TREPA Chemotaxis protein CheW OS=Treponema pallidum 
+(strain Nichols) OX=243276 GN=cheW PE=3 SV=1
+Length=170
+
+ Score = 95.9 bits (237),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 55/162 (34%), Positives = 86/162 (53%), Gaps = 10/162 (6%)
+
+Query  3    HHHHHPMPK-----KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRG  57
+            HH   PM       ++V F L EELYG+DI  V E+VK   +  IP  P ++EGI NLR 
+Sbjct  8    HHRRVPMAVNDEQFQLVTFQLGEELYGIDIMGVKEIVKVQDVRPIPCAPAYVEGIFNLRS  67
+
+Query  58   KIIPVIDLKKRFGIG----KRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPP  113
+            +IIP+I+L KRF +     + G       +I+ +   K G+I+D +  VI + +  ++ P
+Sbjct  68   EIIPIINLHKRFHLREATLESGDEYLGGFVILNVEDSKLGIIIDRIARVIAVSQEDVQSP  127
+
+Query  114  PPV-TTIDTAFVEGIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+            P V T I   ++ G+ +     +I++ +H LF     + L N
+Sbjct  128  PQVITGIGAEYIHGVVRQGTSYLIVLDIHKLFSSKELQKLAN  169
+
+
+> sp|P0A967|CHEW_SHIFL Chemotaxis protein CheW OS=Shigella flexneri 
+OX=623 GN=cheW PE=3 SV=1
+Length=167
+
+ Score = 95.5 bits (236),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 52/150 (35%), Positives = 87/150 (58%), Gaps = 5/150 (3%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQK-AGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAF  123
+            + +F         D+ ++IV  LGQ+  G++VD V +V+ +    I P P    T+ T +
+Sbjct  72   RIKFS-QVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEY  130
+
+Query  124  VEGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+            + G+    D+M+I++ +  L   N +EM L
+Sbjct  131  LTGLGALGDRMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P0A964|CHEW_ECOLI Chemotaxis protein CheW OS=Escherichia coli 
+(strain K12) OX=83333 GN=cheW PE=1 SV=1
+Length=167
+
+ Score = 95.5 bits (236),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 52/150 (35%), Positives = 87/150 (58%), Gaps = 5/150 (3%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQK-AGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAF  123
+            + +F         D+ ++IV  LGQ+  G++VD V +V+ +    I P P    T+ T +
+Sbjct  72   RIKFS-QVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEY  130
+
+Query  124  VEGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+            + G+    D+M+I++ +  L   N +EM L
+Sbjct  131  LTGLGALGDRMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P0A965|CHEW_ECOL6 Chemotaxis protein CheW OS=Escherichia coli 
+O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=cheW 
+PE=3 SV=1
+Length=167
+
+ Score = 95.5 bits (236),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 52/150 (35%), Positives = 87/150 (58%), Gaps = 5/150 (3%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQK-AGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAF  123
+            + +F         D+ ++IV  LGQ+  G++VD V +V+ +    I P P    T+ T +
+Sbjct  72   RIKFS-QVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEY  130
+
+Query  124  VEGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+            + G+    D+M+I++ +  L   N +EM L
+Sbjct  131  LTGLGALGDRMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P0A966|CHEW_ECO57 Chemotaxis protein CheW OS=Escherichia coli 
+O157:H7 OX=83334 GN=cheW PE=3 SV=1
+Length=167
+
+ Score = 95.5 bits (236),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 52/150 (35%), Positives = 87/150 (58%), Gaps = 5/150 (3%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQK-AGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAF  123
+            + +F         D+ ++IV  LGQ+  G++VD V +V+ +    I P P    T+ T +
+Sbjct  72   RIKFS-QVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEY  130
+
+Query  124  VEGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+            + G+    D+M+I++ +  L   N +EM L
+Sbjct  131  LTGLGALGDRMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P21821|CHEW_KLEAK Chemotaxis protein CheW OS=Klebsiella aerogenes 
+(strain ATCC 13048 / DSM 30053 / JCM 1235 / KCTC 2190 
+/ NBRC 13534 / NCIMB 10102 / NCTC 10006) OX=1028307 GN=cheW 
+PE=4 SV=2
+Length=166
+
+ Score = 90.9 bits (224),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 50/150 (33%), Positives = 90/150 (60%), Gaps = 7/150 (5%)
+
+Query  7    HPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLK  66
+              + ++ ++F+L  E YG+DI  V E+     +T+I  TP+FI+G+ NLRG I+P+IDL+
+Sbjct  13   ETVGQEFLIFTLGNEEYGIDILKVQEIRGYDQVTRIANTPDFIKGVTNLRGVIVPIIDLR  72
+
+Query  67   KRFGIGKRGKSKD-SRIIIVEILGQK-AGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAF  123
+             +F   ++G S D + ++IV   GQ+  G++VD V +V+ +    I P P    T+ T +
+Sbjct  73   VKF--AQQGVSYDENTVVIVLNFGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLATEY  130
+
+Query  124  VEGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+            + G+    ++M+I++ +  L   + +EM L
+Sbjct  131  LTGLGALGERMLILVDIEKLL--SSEEMAL  158
+
+
+> sp|Q2KCI0|CHEW_RHIEC Probable chemotaxis protein CheW OS=Rhizobium 
+etli (strain CFN 42 / ATCC 51251) OX=347834 GN=cheW PE=3 
+SV=1
+Length=155
+
+ Score = 87.0 bits (214),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 41/141 (29%), Positives = 81/141 (57%), Gaps = 1/141 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++++ F + ++ + ++I  V E+      T +P +P ++ G+INLRG ++P+IDL  R G
+Sbjct  13   RELIAFRIGDQEFCVNIMSVREIRGWTPATAMPHSPAYMLGVINLRGAVLPIIDLAARLG  72
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTT-IDTAFVEGIAK  129
+            +     +    II+ ++  +  GL+VDAV +++ + +  I+P P +++ ++  F  GI  
+Sbjct  73   MKPADPTARHVIIVAQVRRKVVGLLVDAVSDILTVTDEIIQPTPEISSDLERQFARGILA  132
+
+Query  130  TDDKMIIIIKLHFLFEVNGKE  150
+             D +MI +I+L  LF     E
+Sbjct  133  IDKRMICLIELEALFSETESE  153
+
+
+> sp|Q60251|CHEW_RHOSH Chemotaxis protein CheW OS=Rhodobacter sphaeroides 
+OX=1063 GN=cheW PE=3 SV=1
+Length=152
+
+ Score = 85.9 bits (211),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 43/131 (33%), Positives = 77/131 (59%), Gaps = 1/131 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            +++V F +  + + +DI  V E+      T +P  P +I G+INLRG ++P+I+L +R G
+Sbjct  11   REVVAFRIGSQEFCIDIRAVREIRSWTPTTILPHAPSYIIGVINLRGSVVPIINLAERLG  70
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDT-AFVEGIAK  129
+            +G         III  + GQ  GL+VDAV +++ +  +S++P P + +  T +FV G+  
+Sbjct  71   LGSLEPEARHVIIITVVEGQVVGLLVDAVSDILTLPPSSVQPMPKIASETTLSFVRGVIT  130
+
+Query  130  TDDKMIIIIKL  140
+             D +M+ ++ L
+Sbjct  131  LDQRMLRLLDL  141
+
+
+> sp|Q52881|CHEW_RHIME Chemotaxis protein CheW OS=Rhizobium meliloti 
+(strain 1021) OX=266834 GN=cheW PE=3 SV=2
+Length=155
+
+ Score = 80.5 bits (197),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 35/141 (25%), Positives = 79/141 (56%), Gaps = 1/141 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++++ F + ++ + ++I  V E+      T +P  P ++ G+INLRG ++P++D   R G
+Sbjct  13   RELIAFRVGDQEFCVNIMAVREIRGWTPATPMPHAPAYVLGVINLRGAVLPIVDFSARLG  72
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTT-IDTAFVEGIAK  129
+            +     +    II+ ++  +  GL+VDAV +++ + +  I+P P + +  + +F  G+  
+Sbjct  73   MKAAEPTVRHVIIVAQVKSRVVGLLVDAVSDILTVSDRDIQPTPDIASDFERSFARGVLA  132
+
+Query  130  TDDKMIIIIKLHFLFEVNGKE  150
+             + +MI +++L  +F    +E
+Sbjct  133  IEGRMICLVELDSVFPSEERE  153
+
+
+> sp|O87715|CHEW_CAUVC Chemotaxis protein CheW OS=Caulobacter vibrioides 
+(strain ATCC 19089 / CB15) OX=190650 GN=cheW PE=3 
+SV=1
+Length=155
+
+ Score = 80.1 bits (196),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 78/135 (58%), Gaps = 1/135 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++++ F + E+ Y +DI  V E+      T +P++P ++ G+INLRG ++P++DL  R G
+Sbjct  13   RELISFRVGEQEYCVDIMAVREIRGWSPATTLPQSPGYMRGVINLRGAVLPIMDLACRLG  72
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDT-AFVEGIAK  129
+            +     +  S  I+V+   +  GL+VDAV +++ I+++ I+P P V      +FV GI  
+Sbjct  73   MPVIEPTVRSVFIVVKAGDRTVGLLVDAVSDILSINDDMIQPTPDVACDAVRSFVRGIIS  132
+
+Query  130  TDDKMIIIIKLHFLF  144
+             + +MI  I L  + 
+Sbjct  133  IEGRMISEISLDRIL  147
+
+
+> sp|P39802|CHEW_BACSU Chemotaxis protein CheW OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=cheW PE=1 SV=1
+Length=156
+
+ Score = 71.2 bits (173),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 43/136 (32%), Positives = 77/136 (57%), Gaps = 1/136 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            +K++VF +  + Y + +  V  + K    T++P    +I G+INLRG + PVIDL+KR  
+Sbjct  9    EKMIVFMVNGKEYAISVTQVKSIEKWQKPTRVPGVEPYICGVINLRGVVTPVIDLRKRLN  68
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDT-AFVEGIAK  129
+            + +   + ++RIII+     + G IVD  ++VI + E+ IE  P     DT   +E I K
+Sbjct  69   LPEYEITDETRIIIIAYRDIEVGWIVDEANDVITVHESEIESAPEGVQKDTDVSIEQIVK  128
+
+Query  130  TDDKMIIIIKLHFLFE  145
+             +++++ II  + + +
+Sbjct  129  QENRLLNIIDANAVLD  144
+
+
+> sp|P37599|CHEV_BACSU Chemotaxis protein CheV OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=cheV PE=1 SV=1
+Length=303
+
+ Score = 70.5 bits (171),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 41/126 (33%), Positives = 71/126 (56%), Gaps = 1/126 (1%)
+
+Query  12   KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI  71
+            +IV F + E  +G+++  V E+++ V +T +P + + +EG+I LRG+I+PVI L   FG+
+Sbjct  18   EIVKFGVGENAFGINVMKVREIIQPVEVTSVPHSHQHVEGMIKLRGEILPVISLFSFFGV  77
+
+Query  72   GKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKTD  131
+               G SKD + I+ E   +K    V +V ++  +   +IE P  +       + GI K +
+Sbjct  78   EPEG-SKDEKYIVTEFNKRKIVFHVGSVSQIHRVSWEAIEKPTSLNQGMERHLTGIIKLE  136
+
+Query  132  DKMIII  137
+            D MI +
+Sbjct  137  DLMIFL  142
+
+
+> sp|Q56311|CHEW_THEMA Chemotaxis protein CheW OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=cheW PE=1 SV=1
+Length=151
+
+ Score = 66.2 bits (160),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 43/137 (31%), Positives = 77/137 (56%), Gaps = 8/137 (6%)
+
+Query  12   KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI  71
+            +++ F + E+    D+ ++  V++   IT +P++  F+EG+INLRG+IIPV++L K  GI
+Sbjct  12   EVLSFEIDEQALAFDVDNIEMVIEKSDITPVPKSRHFVEGVINLRGRIIPVVNLAKILGI  71
+
+Query  72   GKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAF---VEGIA  128
+                + K   II+      + G +VD V  V+ I EN ++    +T +   F    +G+ 
+Sbjct  72   S-FDEQKMKSIIVARTKDVEVGFLVDRVLGVLRITENQLD----LTNVSDKFGKKSKGLV  126
+
+Query  129  KTDDKMIIIIKLHFLFE  145
+            KTD ++II + +  + E
+Sbjct  127  KTDGRLIIYLDIDKIIE  143
+
+
+> sp|P43502|PILI_PSEAE Protein PilI OS=Pseudomonas aeruginosa (strain 
+ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 
+12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pilI PE=4 SV=1
+Length=178
+
+ Score = 57.0 bits (136),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 34/124 (27%), Positives = 63/124 (51%), Gaps = 3/124 (2%)
+
+Query  16   FSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIGKRG  75
+            F +    +   + +V EV+ +   T++P    +++G+ N+RG+++P++DL    G     
+Sbjct  40   FRMGGRFFVAPMGEVGEVLHEPRYTQLPGVKTWVKGVANVRGRLLPIMDLCGFLGTELSP  99
+
+Query  76   KSKDSRIIIVEILGQKAGLIVDAVHEV--IPIDENSIEPPPPVTTIDTAFVEGIAKTDDK  133
+              K  R+++VE L   AGLIVD V  +   P+D  S E  PP+      F+ G+   +  
+Sbjct  100  LRKQRRVLVVEHLDVFAGLIVDEVFGMQHFPVDTFS-EQLPPLEAALQPFIHGVFHREQP  158
+
+Query  134  MIII  137
+             ++ 
+Sbjct  159  WLVF  162
+
+
+> sp|P43498|FRZA_MYXXA Protein FrzA OS=Myxococcus xanthus OX=34 
+GN=frzA PE=4 SV=1
+Length=160
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 29/104 (28%), Positives = 52/104 (50%), Gaps = 0/104 (0%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++   F + +   G+   +V EV++   +T +P TP FI G+   RG+++PV+DL +   
+Sbjct  15   QEFFCFRVGDLRLGVPSENVLEVLRAGLLTPLPRTPSFIMGVTGHRGEVLPVLDLLRFLS  74
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPP  114
+             G+      +R+ +       AG++ D V  +  I    I PPP
+Sbjct  75   KGEARIGPRTRLFVGVTGSYVAGVVADTVLGLRRIPVADILPPP  118
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.144    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6482722914
+Results from round 2
+
+
+Query= d2qdla_
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q52881|CHEW_RHIME Chemotaxis protein CheW OS=Rhizobium melil...  173     3e-55
+  sp|Q2KCI0|CHEW_RHIEC Probable chemotaxis protein CheW OS=Rhizob...  172     1e-54
+  sp|O87715|CHEW_CAUVC Chemotaxis protein CheW OS=Caulobacter vib...  163     4e-51
+  sp|P06110|CHEW_SALTY Chemotaxis protein CheW OS=Salmonella typh...  161     3e-50
+  sp|P0A967|CHEW_SHIFL Chemotaxis protein CheW OS=Shigella flexne...  161     4e-50
+  sp|P0A964|CHEW_ECOLI Chemotaxis protein CheW OS=Escherichia col...  161     4e-50
+  sp|P0A965|CHEW_ECOL6 Chemotaxis protein CheW OS=Escherichia col...  161     4e-50
+  sp|P0A966|CHEW_ECO57 Chemotaxis protein CheW OS=Escherichia col...  161     4e-50
+  sp|P21821|CHEW_KLEAK Chemotaxis protein CheW OS=Klebsiella aero...  155     8e-48
+  sp|O83453|CHEW_TREPA Chemotaxis protein CheW OS=Treponema palli...  152     2e-46
+  sp|Q60251|CHEW_RHOSH Chemotaxis protein CheW OS=Rhodobacter sph...  147     8e-45
+  sp|P39802|CHEW_BACSU Chemotaxis protein CheW OS=Bacillus subtil...  142     8e-43
+  sp|P37599|CHEV_BACSU Chemotaxis protein CheV OS=Bacillus subtil...  138     1e-39
+  sp|P43502|PILI_PSEAE Protein PilI OS=Pseudomonas aeruginosa (st...  126     2e-36
+  sp|P43498|FRZA_MYXXA Protein FrzA OS=Myxococcus xanthus OX=34 G...  122     8e-35
+  sp|Q56311|CHEW_THEMA Chemotaxis protein CheW OS=Thermotoga mari...  120     1e-34
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P07363|CHEA_ECOLI Chemotaxis protein CheA OS=Escherichia col...  46.1    3e-05
+  sp|Q44737|CHEA_BORBU Chemotaxis protein CheA OS=Borrelia burgdo...  39.2    0.009
+
+
+> sp|Q52881|CHEW_RHIME Chemotaxis protein CheW OS=Rhizobium meliloti 
+(strain 1021) OX=266834 GN=cheW PE=3 SV=2
+Length=155
+
+ Score = 173 bits (439),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 35/144 (24%), Positives = 79/144 (55%), Gaps = 1/144 (1%)
+
+Query  10   PKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRF  69
+             ++++ F + ++ + ++I  V E+      T +P  P ++ G+INLRG ++P++D   R 
+Sbjct  12   GRELIAFRVGDQEFCVNIMAVREIRGWTPATPMPHAPAYVLGVINLRGAVLPIVDFSARL  71
+
+Query  70   GIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTT-IDTAFVEGIA  128
+            G+     +    II+ ++  +  GL+VDAV +++ + +  I+P P + +  + +F  G+ 
+Sbjct  72   GMKAAEPTVRHVIIVAQVKSRVVGLLVDAVSDILTVSDRDIQPTPDIASDFERSFARGVL  131
+
+Query  129  KTDDKMIIIIKLHFLFEVNGKEML  152
+              + +MI +++L  +F    +E  
+Sbjct  132  AIEGRMICLVELDSVFPSEEREAA  155
+
+
+> sp|Q2KCI0|CHEW_RHIEC Probable chemotaxis protein CheW OS=Rhizobium 
+etli (strain CFN 42 / ATCC 51251) OX=347834 GN=cheW PE=3 
+SV=1
+Length=155
+
+ Score = 172 bits (435),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 41/143 (29%), Positives = 81/143 (57%), Gaps = 1/143 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++++ F + ++ + ++I  V E+      T +P +P ++ G+INLRG ++P+IDL  R G
+Sbjct  13   RELIAFRIGDQEFCVNIMSVREIRGWTPATAMPHSPAYMLGVINLRGAVLPIIDLAARLG  72
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTT-IDTAFVEGIAK  129
+            +     +    II+ ++  +  GL+VDAV +++ + +  I+P P +++ ++  F  GI  
+Sbjct  73   MKPADPTARHVIIVAQVRRKVVGLLVDAVSDILTVTDEIIQPTPEISSDLERQFARGILA  132
+
+Query  130  TDDKMIIIIKLHFLFEVNGKEML  152
+             D +MI +I+L  LF     E  
+Sbjct  133  IDKRMICLIELEALFSETESEAA  155
+
+
+> sp|O87715|CHEW_CAUVC Chemotaxis protein CheW OS=Caulobacter vibrioides 
+(strain ATCC 19089 / CB15) OX=190650 GN=cheW PE=3 
+SV=1
+Length=155
+
+ Score = 163 bits (412),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 43/139 (31%), Positives = 78/139 (56%), Gaps = 1/139 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++++ F + E+ Y +DI  V E+      T +P++P ++ G+INLRG ++P++DL  R G
+Sbjct  13   RELISFRVGEQEYCVDIMAVREIRGWSPATTLPQSPGYMRGVINLRGAVLPIMDLACRLG  72
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTID-TAFVEGIAK  129
+            +     +  S  I+V+   +  GL+VDAV +++ I+++ I+P P V      +FV GI  
+Sbjct  73   MPVIEPTVRSVFIVVKAGDRTVGLLVDAVSDILSINDDMIQPTPDVACDAVRSFVRGIIS  132
+
+Query  130  TDDKMIIIIKLHFLFEVNG  148
+             + +MI  I L  +     
+Sbjct  133  IEGRMISEISLDRILPERE  151
+
+
+> sp|P06110|CHEW_SALTY Chemotaxis protein CheW OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=cheW 
+PE=1 SV=1
+Length=167
+
+ Score = 161 bits (408),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 47/148 (32%), Positives = 85/148 (57%), Gaps = 3/148 (2%)
+
+Query  7    HPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLK  66
+             P  ++ +VF+L  E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL+
+Sbjct  13   EPSGQEFLVFTLGNEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDLR  72
+
+Query  67   KRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFVE  125
+             +F  G      ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++ 
+Sbjct  73   VKFCEGDVEYDDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYLT  132
+
+Query  126  GIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+            G+    ++M+I++ +  L   N +EM L
+Sbjct  133  GLGALGERMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P0A967|CHEW_SHIFL Chemotaxis protein CheW OS=Shigella flexneri 
+OX=623 GN=cheW PE=3 SV=1
+Length=167
+
+ Score = 161 bits (407),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 47/149 (32%), Positives = 86/149 (58%), Gaps = 3/149 (2%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+            + +F       + ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  72   RIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+             G+    D+M+I++ +  L   N +EM L
+Sbjct  132  TGLGALGDRMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P0A964|CHEW_ECOLI Chemotaxis protein CheW OS=Escherichia coli 
+(strain K12) OX=83333 GN=cheW PE=1 SV=1
+Length=167
+
+ Score = 161 bits (407),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 47/149 (32%), Positives = 86/149 (58%), Gaps = 3/149 (2%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+            + +F       + ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  72   RIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+             G+    D+M+I++ +  L   N +EM L
+Sbjct  132  TGLGALGDRMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P0A965|CHEW_ECOL6 Chemotaxis protein CheW OS=Escherichia coli 
+O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=cheW 
+PE=3 SV=1
+Length=167
+
+ Score = 161 bits (407),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 47/149 (32%), Positives = 86/149 (58%), Gaps = 3/149 (2%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+            + +F       + ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  72   RIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+             G+    D+M+I++ +  L   N +EM L
+Sbjct  132  TGLGALGDRMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P0A966|CHEW_ECO57 Chemotaxis protein CheW OS=Escherichia coli 
+O157:H7 OX=83334 GN=cheW PE=3 SV=1
+Length=167
+
+ Score = 161 bits (407),  Expect = 4e-50, Method: Composition-based stats.
+ Identities = 47/149 (32%), Positives = 86/149 (58%), Gaps = 3/149 (2%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+            + +F       + ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  72   RIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+             G+    D+M+I++ +  L   N +EM L
+Sbjct  132  TGLGALGDRMLILVNIEKLL--NSEEMAL  158
+
+
+> sp|P21821|CHEW_KLEAK Chemotaxis protein CheW OS=Klebsiella aerogenes 
+(strain ATCC 13048 / DSM 30053 / JCM 1235 / KCTC 2190 
+/ NBRC 13534 / NCIMB 10102 / NCTC 10006) OX=1028307 GN=cheW 
+PE=4 SV=2
+Length=166
+
+ Score = 155 bits (391),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 42/149 (28%), Positives = 83/149 (56%), Gaps = 1/149 (1%)
+
+Query  7    HPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLK  66
+              + ++ ++F+L  E YG+DI  V E+     +T+I  TP+FI+G+ NLRG I+P+IDL+
+Sbjct  13   ETVGQEFLIFTLGNEEYGIDILKVQEIRGYDQVTRIANTPDFIKGVTNLRGVIVPIIDLR  72
+
+Query  67   KRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFVE  125
+             +F        +++ +I++    +  G++VD V +V+ +    I P P    T+ T ++ 
+Sbjct  73   VKFAQQGVSYDENTVVIVLNFGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLATEYLT  132
+
+Query  126  GIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+            G+    ++M+I++ +  L       ++ N
+Sbjct  133  GLGALGERMLILVDIEKLLSSEEMALVDN  161
+
+
+> sp|O83453|CHEW_TREPA Chemotaxis protein CheW OS=Treponema pallidum 
+(strain Nichols) OX=243276 GN=cheW PE=3 SV=1
+Length=170
+
+ Score = 152 bits (383),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 54/162 (33%), Positives = 86/162 (53%), Gaps = 10/162 (6%)
+
+Query  3    HHHHHPMPK-----KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRG  57
+            HH   PM       ++V F L EELYG+DI  V E+VK   +  IP  P ++EGI NLR 
+Sbjct  8    HHRRVPMAVNDEQFQLVTFQLGEELYGIDIMGVKEIVKVQDVRPIPCAPAYVEGIFNLRS  67
+
+Query  58   KIIPVIDLKKRFGIG----KRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPP  113
+            +IIP+I+L KRF +     + G       +I+ +   K G+I+D +  VI + +  ++ P
+Sbjct  68   EIIPIINLHKRFHLREATLESGDEYLGGFVILNVEDSKLGIIIDRIARVIAVSQEDVQSP  127
+
+Query  114  PP-VTTIDTAFVEGIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+            P  +T I   ++ G+ +     +I++ +H LF     + L N
+Sbjct  128  PQVITGIGAEYIHGVVRQGTSYLIVLDIHKLFSSKELQKLAN  169
+
+
+> sp|Q60251|CHEW_RHOSH Chemotaxis protein CheW OS=Rhodobacter sphaeroides 
+OX=1063 GN=cheW PE=3 SV=1
+Length=152
+
+ Score = 147 bits (370),  Expect = 8e-45, Method: Composition-based stats.
+ Identities = 44/142 (31%), Positives = 80/142 (56%), Gaps = 1/142 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            +++V F +  + + +DI  V E+      T +P  P +I G+INLRG ++P+I+L +R G
+Sbjct  11   REVVAFRIGSQEFCIDIRAVREIRSWTPTTILPHAPSYIIGVINLRGSVVPIINLAERLG  70
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDT-AFVEGIAK  129
+            +G         III  + GQ  GL+VDAV +++ +  +S++P P + +  T +FV G+  
+Sbjct  71   LGSLEPEARHVIIITVVEGQVVGLLVDAVSDILTLPPSSVQPMPKIASETTLSFVRGVIT  130
+
+Query  130  TDDKMIIIIKLHFLFEVNGKEM  151
+             D +M+ ++ L  +     + M
+Sbjct  131  LDQRMLRLLDLIGVLPNVRRMM  152
+
+
+> sp|P39802|CHEW_BACSU Chemotaxis protein CheW OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=cheW PE=1 SV=1
+Length=156
+
+ Score = 142 bits (357),  Expect = 8e-43, Method: Composition-based stats.
+ Identities = 43/146 (29%), Positives = 79/146 (54%), Gaps = 1/146 (1%)
+
+Query  9    MPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKR  68
+              +K++VF +  + Y + +  V  + K    T++P    +I G+INLRG + PVIDL+KR
+Sbjct  7    TGEKMIVFMVNGKEYAISVTQVKSIEKWQKPTRVPGVEPYICGVINLRGVVTPVIDLRKR  66
+
+Query  69   FGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDT-AFVEGI  127
+              + +   + ++RIII+     + G IVD  ++VI + E+ IE  P     DT   +E I
+Sbjct  67   LNLPEYEITDETRIIIIAYRDIEVGWIVDEANDVITVHESEIESAPEGVQKDTDVSIEQI  126
+
+Query  128  AKTDDKMIIIIKLHFLFEVNGKEMLL  153
+             K +++++ II  + + +    +  +
+Sbjct  127  VKQENRLLNIIDANAVLDKESSQSAV  152
+
+
+> sp|P37599|CHEV_BACSU Chemotaxis protein CheV OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=cheV PE=1 SV=1
+Length=303
+
+ Score = 138 bits (348),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 41/139 (29%), Positives = 73/139 (53%), Gaps = 1/139 (1%)
+
+Query  12   KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI  71
+            +IV F + E  +G+++  V E+++ V +T +P + + +EG+I LRG+I+PVI L   FG+
+Sbjct  18   EIVKFGVGENAFGINVMKVREIIQPVEVTSVPHSHQHVEGMIKLRGEILPVISLFSFFGV  77
+
+Query  72   GKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKTD  131
+               G SKD + I+ E   +K    V +V ++  +   +IE P  +       + GI K +
+Sbjct  78   EPEG-SKDEKYIVTEFNKRKIVFHVGSVSQIHRVSWEAIEKPTSLNQGMERHLTGIIKLE  136
+
+Query  132  DKMIIIIKLHFLFEVNGKE  150
+            D MI +     +      +
+Sbjct  137  DLMIFLPDYEKIIYDIESD  155
+
+
+> sp|P43502|PILI_PSEAE Protein PilI OS=Pseudomonas aeruginosa (strain 
+ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 
+12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pilI PE=4 SV=1
+Length=178
+
+ Score = 126 bits (317),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 34/126 (27%), Positives = 64/126 (51%), Gaps = 3/126 (2%)
+
+Query  14   VVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIGK  73
+            + F +    +   + +V EV+ +   T++P    +++G+ N+RG+++P++DL    G   
+Sbjct  38   IGFRMGGRFFVAPMGEVGEVLHEPRYTQLPGVKTWVKGVANVRGRLLPIMDLCGFLGTEL  97
+
+Query  74   RGKSKDSRIIIVEILGQKAGLIVDAVHEV--IPIDENSIEPPPPVTTIDTAFVEGIAKTD  131
+                K  R+++VE L   AGLIVD V  +   P+D  S E  PP+      F+ G+   +
+Sbjct  98   SPLRKQRRVLVVEHLDVFAGLIVDEVFGMQHFPVDTFS-EQLPPLEAALQPFIHGVFHRE  156
+
+Query  132  DKMIII  137
+               ++ 
+Sbjct  157  QPWLVF  162
+
+
+> sp|P43498|FRZA_MYXXA Protein FrzA OS=Myxococcus xanthus OX=34 
+GN=frzA PE=4 SV=1
+Length=160
+
+ Score = 122 bits (305),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 32/138 (23%), Positives = 63/138 (46%), Gaps = 2/138 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++   F + +   G+   +V EV++   +T +P TP FI G+   RG+++PV+DL +   
+Sbjct  15   QEFFCFRVGDLRLGVPSENVLEVLRAGLLTPLPRTPSFIMGVTGHRGEVLPVLDLLRFLS  74
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKT  130
+             G+      +R+ +       AG++ D V  +  I    I PPP         + G+ + 
+Sbjct  75   KGEARIGPRTRLFVGVTGSYVAGVVADTVLGLRRIPVADILPPPLGGDAAAEHLLGVVQA  134
+
+Query  131  --DDKMIIIIKLHFLFEV  146
+              + + I ++    L + 
+Sbjct  135  SGNQEAINLLNFSKLLQT  152
+
+
+> sp|Q56311|CHEW_THEMA Chemotaxis protein CheW OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=cheW PE=1 SV=1
+Length=151
+
+ Score = 120 bits (302),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 43/138 (31%), Positives = 76/138 (55%), Gaps = 8/138 (6%)
+
+Query  12   KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI  71
+            +++ F + E+    D+ ++  V++   IT +P++  F+EG+INLRG+IIPV++L K  GI
+Sbjct  12   EVLSFEIDEQALAFDVDNIEMVIEKSDITPVPKSRHFVEGVINLRGRIIPVVNLAKILGI  71
+
+Query  72   GKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAF---VEGIA  128
+                + K   II+      + G +VD V  V+ I EN +     +T +   F    +G+ 
+Sbjct  72   S-FDEQKMKSIIVARTKDVEVGFLVDRVLGVLRITENQL----DLTNVSDKFGKKSKGLV  126
+
+Query  129  KTDDKMIIIIKLHFLFEV  146
+            KTD ++II + +  + E 
+Sbjct  127  KTDGRLIIYLDIDKIIEE  144
+
+
+> sp|P07363|CHEA_ECOLI Chemotaxis protein CheA OS=Escherichia coli 
+(strain K12) OX=83333 GN=cheA PE=1 SV=3
+Length=654
+
+ Score = 46.1 bits (108),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 29/143 (20%), Positives = 69/143 (48%), Gaps = 8/143 (6%)
+
+Query  14   VVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI-G  72
+            +   +A+E++ L +  V E ++       P      E ++ +RG+ +P+++L K F + G
+Sbjct  515  MSVRVADEVFILPLNAVMESLQPREADLHPLAGG--ERVLEVRGEYLPIVELWKVFNVAG  572
+
+Query  73   KRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPP-PPVTTIDTAFVEGIAKTD  131
+             + ++    ++I++  G++  L+VD +     +   ++E     V  I  A + G    D
+Sbjct  573  AKTEATQGIVVILQSGGRRYALLVDQLIGQHQVVVKNLESNYRKVPGISAATILG----D  628
+
+Query  132  DKMIIIIKLHFLFEVNGKEMLLN  154
+              + +I+ +  L  +N ++ + N
+Sbjct  629  GSVALIVDVSALQAINREQRMAN  651
+
+
+> sp|Q44737|CHEA_BORBU Chemotaxis protein CheA OS=Borrelia burgdorferi 
+(strain ATCC 35210 / B31 / CIP 102532 / DSM 4680) OX=224326 
+GN=cheA PE=3 SV=2
+Length=864
+
+ Score = 39.2 bits (90),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 27/135 (20%), Positives = 57/135 (42%), Gaps = 9/135 (7%)
+
+Query  19   AEELYGLDIFDVHEV--VKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIGKRGK  76
+              E Y + + +V E   + +  I  +    E    + NLR ++I V+ L K F I +   
+Sbjct  736  GSETYVIPLNNVLETHRITEHDIKLLENYHE----VYNLRDEVISVLRLDKLFNITRDDS  791
+
+Query  77   SKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKTDDKMII  136
+              +  +I+V     K  ++VD++      ++  ++P     +     V      + K+++
+Sbjct  792  LIEKFLIVVNTSNMKIAIVVDSILGE---EDFVVKPIKDKFSSSAGIVGATTLGNGKVVL  848
+
+Query  137  IIKLHFLFEVNGKEM  151
+            II +  LF++     
+Sbjct  849  IIDVFKLFDLQKDTK  863
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.142    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0434    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6482722914
+Results from round 3
+
+
+Query= d2qdla_
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q52881|CHEW_RHIME Chemotaxis protein CheW OS=Rhizobium melil...  167     1e-52
+  sp|Q2KCI0|CHEW_RHIEC Probable chemotaxis protein CheW OS=Rhizob...  164     2e-51
+  sp|P0A967|CHEW_SHIFL Chemotaxis protein CheW OS=Shigella flexne...  159     2e-49
+  sp|P0A964|CHEW_ECOLI Chemotaxis protein CheW OS=Escherichia col...  159     2e-49
+  sp|P0A965|CHEW_ECOL6 Chemotaxis protein CheW OS=Escherichia col...  159     2e-49
+  sp|P0A966|CHEW_ECO57 Chemotaxis protein CheW OS=Escherichia col...  159     2e-49
+  sp|O87715|CHEW_CAUVC Chemotaxis protein CheW OS=Caulobacter vib...  158     2e-49
+  sp|P06110|CHEW_SALTY Chemotaxis protein CheW OS=Salmonella typh...  158     3e-49
+  sp|P21821|CHEW_KLEAK Chemotaxis protein CheW OS=Klebsiella aero...  155     7e-48
+  sp|Q60251|CHEW_RHOSH Chemotaxis protein CheW OS=Rhodobacter sph...  143     1e-43
+  sp|O83453|CHEW_TREPA Chemotaxis protein CheW OS=Treponema palli...  143     3e-43
+  sp|P39802|CHEW_BACSU Chemotaxis protein CheW OS=Bacillus subtil...  137     5e-41
+  sp|P37599|CHEV_BACSU Chemotaxis protein CheV OS=Bacillus subtil...  139     6e-40
+  sp|P43498|FRZA_MYXXA Protein FrzA OS=Myxococcus xanthus OX=34 G...  131     2e-38
+  sp|P43502|PILI_PSEAE Protein PilI OS=Pseudomonas aeruginosa (st...  119     1e-33
+  sp|Q56311|CHEW_THEMA Chemotaxis protein CheW OS=Thermotoga mari...  114     5e-32
+  sp|P07363|CHEA_ECOLI Chemotaxis protein CheA OS=Escherichia col...  109     2e-27
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P09384|CHEA_SALTY Chemotaxis protein CheA OS=Salmonella typh...  98.5    2e-23
+  sp|P21813|CHEA_KLEAK Chemotaxis protein CheA OS=Klebsiella aero...  90.8    1e-20
+  sp|Q52880|CHEA_RHIME Chemotaxis protein CheA OS=Rhizobium melil...  50.8    8e-07
+  sp|Q53135|CHEA_RHOSH Chemotaxis protein CheA OS=Rhodobacter sph...  48.8    4e-06
+  sp|Q56310|CHEA_THEMA Chemotaxis protein CheA OS=Thermotoga mari...  48.1    6e-06
+  sp|Q44737|CHEA_BORBU Chemotaxis protein CheA OS=Borrelia burgdo...  45.8    4e-05
+  sp|P29072|CHEA_BACSU Chemotaxis protein CheA OS=Bacillus subtil...  45.4    5e-05
+  sp|P96123|CHEA_TREPA Chemotaxis protein CheA OS=Treponema palli...  45.4    6e-05
+  sp|Q48768|CHEA_LISMO Chemotaxis protein CheA OS=Listeria monocy...  40.4    0.003
+
+
+> sp|Q52881|CHEW_RHIME Chemotaxis protein CheW OS=Rhizobium meliloti 
+(strain 1021) OX=266834 GN=cheW PE=3 SV=2
+Length=155
+
+ Score = 167 bits (422),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 35/144 (24%), Positives = 79/144 (55%), Gaps = 1/144 (1%)
+
+Query  10   PKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRF  69
+             ++++ F + ++ + ++I  V E+      T +P  P ++ G+INLRG ++P++D   R 
+Sbjct  12   GRELIAFRVGDQEFCVNIMAVREIRGWTPATPMPHAPAYVLGVINLRGAVLPIVDFSARL  71
+
+Query  70   GIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTT-IDTAFVEGIA  128
+            G+     +    II+ ++  +  GL+VDAV +++ + +  I+P P + +  + +F  G+ 
+Sbjct  72   GMKAAEPTVRHVIIVAQVKSRVVGLLVDAVSDILTVSDRDIQPTPDIASDFERSFARGVL  131
+
+Query  129  KTDDKMIIIIKLHFLFEVNGKEML  152
+              + +MI +++L  +F    +E  
+Sbjct  132  AIEGRMICLVELDSVFPSEEREAA  155
+
+
+> sp|Q2KCI0|CHEW_RHIEC Probable chemotaxis protein CheW OS=Rhizobium 
+etli (strain CFN 42 / ATCC 51251) OX=347834 GN=cheW PE=3 
+SV=1
+Length=155
+
+ Score = 164 bits (415),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 41/143 (29%), Positives = 81/143 (57%), Gaps = 1/143 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++++ F + ++ + ++I  V E+      T +P +P ++ G+INLRG ++P+IDL  R G
+Sbjct  13   RELIAFRIGDQEFCVNIMSVREIRGWTPATAMPHSPAYMLGVINLRGAVLPIIDLAARLG  72
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTT-IDTAFVEGIAK  129
+            +     +    II+ ++  +  GL+VDAV +++ + +  I+P P +++ ++  F  GI  
+Sbjct  73   MKPADPTARHVIIVAQVRRKVVGLLVDAVSDILTVTDEIIQPTPEISSDLERQFARGILA  132
+
+Query  130  TDDKMIIIIKLHFLFEVNGKEML  152
+             D +MI +I+L  LF     E  
+Sbjct  133  IDKRMICLIELEALFSETESEAA  155
+
+
+> sp|P0A967|CHEW_SHIFL Chemotaxis protein CheW OS=Shigella flexneri 
+OX=623 GN=cheW PE=3 SV=1
+Length=167
+
+ Score = 159 bits (402),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 44/150 (29%), Positives = 84/150 (56%), Gaps = 1/150 (1%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+            + +F       + ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  72   RIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+             G+    D+M+I++ +  L       +L +
+Sbjct  132  TGLGALGDRMLILVNIEKLLNSEEMALLDS  161
+
+
+> sp|P0A964|CHEW_ECOLI Chemotaxis protein CheW OS=Escherichia coli 
+(strain K12) OX=83333 GN=cheW PE=1 SV=1
+Length=167
+
+ Score = 159 bits (402),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 44/150 (29%), Positives = 84/150 (56%), Gaps = 1/150 (1%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+            + +F       + ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  72   RIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+             G+    D+M+I++ +  L       +L +
+Sbjct  132  TGLGALGDRMLILVNIEKLLNSEEMALLDS  161
+
+
+> sp|P0A965|CHEW_ECOL6 Chemotaxis protein CheW OS=Escherichia coli 
+O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=cheW 
+PE=3 SV=1
+Length=167
+
+ Score = 159 bits (402),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 44/150 (29%), Positives = 84/150 (56%), Gaps = 1/150 (1%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+            + +F       + ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  72   RIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+             G+    D+M+I++ +  L       +L +
+Sbjct  132  TGLGALGDRMLILVNIEKLLNSEEMALLDS  161
+
+
+> sp|P0A966|CHEW_ECO57 Chemotaxis protein CheW OS=Escherichia coli 
+O157:H7 OX=83334 GN=cheW PE=3 SV=1
+Length=167
+
+ Score = 159 bits (402),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 44/150 (29%), Positives = 84/150 (56%), Gaps = 1/150 (1%)
+
+Query  6    HHPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDL  65
+              P  ++ +VF+L +E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL
+Sbjct  12   SEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDL  71
+
+Query  66   KKRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFV  124
+            + +F       + ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++
+Sbjct  72   RIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYL  131
+
+Query  125  EGIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+             G+    D+M+I++ +  L       +L +
+Sbjct  132  TGLGALGDRMLILVNIEKLLNSEEMALLDS  161
+
+
+> sp|O87715|CHEW_CAUVC Chemotaxis protein CheW OS=Caulobacter vibrioides 
+(strain ATCC 19089 / CB15) OX=190650 GN=cheW PE=3 
+SV=1
+Length=155
+
+ Score = 158 bits (401),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 43/143 (30%), Positives = 78/143 (55%), Gaps = 1/143 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++++ F + E+ Y +DI  V E+      T +P++P ++ G+INLRG ++P++DL  R G
+Sbjct  13   RELISFRVGEQEYCVDIMAVREIRGWSPATTLPQSPGYMRGVINLRGAVLPIMDLACRLG  72
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTID-TAFVEGIAK  129
+            +     +  S  I+V+   +  GL+VDAV +++ I+++ I+P P V      +FV GI  
+Sbjct  73   MPVIEPTVRSVFIVVKAGDRTVGLLVDAVSDILSINDDMIQPTPDVACDAVRSFVRGIIS  132
+
+Query  130  TDDKMIIIIKLHFLFEVNGKEML  152
+             + +MI  I L  +         
+Sbjct  133  IEGRMISEISLDRILPEREAMAA  155
+
+
+> sp|P06110|CHEW_SALTY Chemotaxis protein CheW OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=cheW 
+PE=1 SV=1
+Length=167
+
+ Score = 158 bits (401),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 44/148 (30%), Positives = 82/148 (55%), Gaps = 1/148 (1%)
+
+Query  7    HPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLK  66
+             P  ++ +VF+L  E YG+DI  V E+     +T+I  TP FI+G+ NLRG I+P++DL+
+Sbjct  13   EPSGQEFLVFTLGNEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDLR  72
+
+Query  67   KRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFVE  125
+             +F  G      ++ +I++ +  +  G++VD V +V+ +    I P P    T+ T ++ 
+Sbjct  73   VKFCEGDVEYDDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYLT  132
+
+Query  126  GIAKTDDKMIIIIKLHFLFEVNGKEMLL  153
+            G+    ++M+I++ +  L       +L 
+Sbjct  133  GLGALGERMLILVNIEKLLNSEEMALLD  160
+
+
+> sp|P21821|CHEW_KLEAK Chemotaxis protein CheW OS=Klebsiella aerogenes 
+(strain ATCC 13048 / DSM 30053 / JCM 1235 / KCTC 2190 
+/ NBRC 13534 / NCIMB 10102 / NCTC 10006) OX=1028307 GN=cheW 
+PE=4 SV=2
+Length=166
+
+ Score = 155 bits (392),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 42/149 (28%), Positives = 83/149 (56%), Gaps = 1/149 (1%)
+
+Query  7    HPMPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLK  66
+              + ++ ++F+L  E YG+DI  V E+     +T+I  TP+FI+G+ NLRG I+P+IDL+
+Sbjct  13   ETVGQEFLIFTLGNEEYGIDILKVQEIRGYDQVTRIANTPDFIKGVTNLRGVIVPIIDLR  72
+
+Query  67   KRFGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPP-VTTIDTAFVE  125
+             +F        +++ +I++    +  G++VD V +V+ +    I P P    T+ T ++ 
+Sbjct  73   VKFAQQGVSYDENTVVIVLNFGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLATEYLT  132
+
+Query  126  GIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+            G+    ++M+I++ +  L       ++ N
+Sbjct  133  GLGALGERMLILVDIEKLLSSEEMALVDN  161
+
+
+> sp|Q60251|CHEW_RHOSH Chemotaxis protein CheW OS=Rhodobacter sphaeroides 
+OX=1063 GN=cheW PE=3 SV=1
+Length=152
+
+ Score = 143 bits (362),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 44/142 (31%), Positives = 80/142 (56%), Gaps = 1/142 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            +++V F +  + + +DI  V E+      T +P  P +I G+INLRG ++P+I+L +R G
+Sbjct  11   REVVAFRIGSQEFCIDIRAVREIRSWTPTTILPHAPSYIIGVINLRGSVVPIINLAERLG  70
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDT-AFVEGIAK  129
+            +G         III  + GQ  GL+VDAV +++ +  +S++P P + +  T +FV G+  
+Sbjct  71   LGSLEPEARHVIIITVVEGQVVGLLVDAVSDILTLPPSSVQPMPKIASETTLSFVRGVIT  130
+
+Query  130  TDDKMIIIIKLHFLFEVNGKEM  151
+             D +M+ ++ L  +     + M
+Sbjct  131  LDQRMLRLLDLIGVLPNVRRMM  152
+
+
+> sp|O83453|CHEW_TREPA Chemotaxis protein CheW OS=Treponema pallidum 
+(strain Nichols) OX=243276 GN=cheW PE=3 SV=1
+Length=170
+
+ Score = 143 bits (361),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 54/162 (33%), Positives = 86/162 (53%), Gaps = 10/162 (6%)
+
+Query  3    HHHHHPMPK-----KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRG  57
+            HH   PM       ++V F L EELYG+DI  V E+VK   +  IP  P ++EGI NLR 
+Sbjct  8    HHRRVPMAVNDEQFQLVTFQLGEELYGIDIMGVKEIVKVQDVRPIPCAPAYVEGIFNLRS  67
+
+Query  58   KIIPVIDLKKRFGIGKR----GKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPP  113
+            +IIP+I+L KRF + +     G       +I+ +   K G+I+D +  VI + +  ++ P
+Sbjct  68   EIIPIINLHKRFHLREATLESGDEYLGGFVILNVEDSKLGIIIDRIARVIAVSQEDVQSP  127
+
+Query  114  PP-VTTIDTAFVEGIAKTDDKMIIIIKLHFLFEVNGKEMLLN  154
+            P  +T I   ++ G+ +     +I++ +H LF     + L N
+Sbjct  128  PQVITGIGAEYIHGVVRQGTSYLIVLDIHKLFSSKELQKLAN  169
+
+
+> sp|P39802|CHEW_BACSU Chemotaxis protein CheW OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=cheW PE=1 SV=1
+Length=156
+
+ Score = 137 bits (346),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 43/146 (29%), Positives = 79/146 (54%), Gaps = 1/146 (1%)
+
+Query  9    MPKKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKR  68
+              +K++VF +  + Y + +  V  + K    T++P    +I G+INLRG + PVIDL+KR
+Sbjct  7    TGEKMIVFMVNGKEYAISVTQVKSIEKWQKPTRVPGVEPYICGVINLRGVVTPVIDLRKR  66
+
+Query  69   FGIGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTA-FVEGI  127
+              + +   + ++RIII+     + G IVD  ++VI + E+ IE  P     DT   +E I
+Sbjct  67   LNLPEYEITDETRIIIIAYRDIEVGWIVDEANDVITVHESEIESAPEGVQKDTDVSIEQI  126
+
+Query  128  AKTDDKMIIIIKLHFLFEVNGKEMLL  153
+             K +++++ II  + + +    +  +
+Sbjct  127  VKQENRLLNIIDANAVLDKESSQSAV  152
+
+
+> sp|P37599|CHEV_BACSU Chemotaxis protein CheV OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=cheV PE=1 SV=1
+Length=303
+
+ Score = 139 bits (350),  Expect = 6e-40, Method: Composition-based stats.
+ Identities = 41/143 (29%), Positives = 75/143 (52%), Gaps = 1/143 (1%)
+
+Query  12   KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI  71
+            +IV F + E  +G+++  V E+++ V +T +P + + +EG+I LRG+I+PVI L   FG+
+Sbjct  18   EIVKFGVGENAFGINVMKVREIIQPVEVTSVPHSHQHVEGMIKLRGEILPVISLFSFFGV  77
+
+Query  72   GKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKTD  131
+               G SKD + I+ E   +K    V +V ++  +   +IE P  +       + GI K +
+Sbjct  78   EPEG-SKDEKYIVTEFNKRKIVFHVGSVSQIHRVSWEAIEKPTSLNQGMERHLTGIIKLE  136
+
+Query  132  DKMIIIIKLHFLFEVNGKEMLLN  154
+            D MI +     +      +  ++
+Sbjct  137  DLMIFLPDYEKIIYDIESDSGVD  159
+
+
+> sp|P43498|FRZA_MYXXA Protein FrzA OS=Myxococcus xanthus OX=34 
+GN=frzA PE=4 SV=1
+Length=160
+
+ Score = 131 bits (329),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 32/145 (22%), Positives = 65/145 (45%), Gaps = 2/145 (1%)
+
+Query  11   KKIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFG  70
+            ++   F + +   G+   +V EV++   +T +P TP FI G+   RG+++PV+DL +   
+Sbjct  15   QEFFCFRVGDLRLGVPSENVLEVLRAGLLTPLPRTPSFIMGVTGHRGEVLPVLDLLRFLS  74
+
+Query  71   IGKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKT  130
+             G+      +R+ +       AG++ D V  +  I    I PPP         + G+ + 
+Sbjct  75   KGEARIGPRTRLFVGVTGSYVAGVVADTVLGLRRIPVADILPPPLGGDAAAEHLLGVVQA  134
+
+Query  131  --DDKMIIIIKLHFLFEVNGKEMLL  153
+              + + I ++    L +   +  + 
+Sbjct  135  SGNQEAINLLNFSKLLQTARQRAVA  159
+
+
+> sp|P43502|PILI_PSEAE Protein PilI OS=Pseudomonas aeruginosa (strain 
+ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 
+12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pilI PE=4 SV=1
+Length=178
+
+ Score = 119 bits (298),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 34/126 (27%), Positives = 64/126 (51%), Gaps = 3/126 (2%)
+
+Query  14   VVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIGK  73
+            + F +    +   + +V EV+ +   T++P    +++G+ N+RG+++P++DL    G   
+Sbjct  38   IGFRMGGRFFVAPMGEVGEVLHEPRYTQLPGVKTWVKGVANVRGRLLPIMDLCGFLGTEL  97
+
+Query  74   RGKSKDSRIIIVEILGQKAGLIVDAVHEV--IPIDENSIEPPPPVTTIDTAFVEGIAKTD  131
+                K  R+++VE L   AGLIVD V  +   P+D  S E  PP+      F+ G+   +
+Sbjct  98   SPLRKQRRVLVVEHLDVFAGLIVDEVFGMQHFPVDTFS-EQLPPLEAALQPFIHGVFHRE  156
+
+Query  132  DKMIII  137
+               ++ 
+Sbjct  157  QPWLVF  162
+
+
+> sp|Q56311|CHEW_THEMA Chemotaxis protein CheW OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=cheW PE=1 SV=1
+Length=151
+
+ Score = 114 bits (286),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 43/139 (31%), Positives = 76/139 (55%), Gaps = 8/139 (6%)
+
+Query  12   KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI  71
+            +++ F + E+    D+ ++  V++   IT +P++  F+EG+INLRG+IIPV++L K  GI
+Sbjct  12   EVLSFEIDEQALAFDVDNIEMVIEKSDITPVPKSRHFVEGVINLRGRIIPVVNLAKILGI  71
+
+Query  72   GKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAF---VEGIA  128
+                + K   II+      + G +VD V  V+ I EN +     +T +   F    +G+ 
+Sbjct  72   S-FDEQKMKSIIVARTKDVEVGFLVDRVLGVLRITENQL----DLTNVSDKFGKKSKGLV  126
+
+Query  129  KTDDKMIIIIKLHFLFEVN  147
+            KTD ++II + +  + E  
+Sbjct  127  KTDGRLIIYLDIDKIIEEI  145
+
+
+> sp|P07363|CHEA_ECOLI Chemotaxis protein CheA OS=Escherichia coli 
+(strain K12) OX=83333 GN=cheA PE=1 SV=3
+Length=654
+
+ Score = 109 bits (273),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 29/143 (20%), Positives = 69/143 (48%), Gaps = 8/143 (6%)
+
+Query  14   VVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI-G  72
+            +   +A+E++ L +  V E ++       P      E ++ +RG+ +P+++L K F + G
+Sbjct  515  MSVRVADEVFILPLNAVMESLQPREADLHPLAGG--ERVLEVRGEYLPIVELWKVFNVAG  572
+
+Query  73   KRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPP-PPVTTIDTAFVEGIAKTD  131
+             + ++    ++I++  G++  L+VD +     +   ++E     V  I  A + G    D
+Sbjct  573  AKTEATQGIVVILQSGGRRYALLVDQLIGQHQVVVKNLESNYRKVPGISAATILG----D  628
+
+Query  132  DKMIIIIKLHFLFEVNGKEMLLN  154
+              + +I+ +  L  +N ++ + N
+Sbjct  629  GSVALIVDVSALQAINREQRMAN  651
+
+
+> sp|P09384|CHEA_SALTY Chemotaxis protein CheA OS=Salmonella typhimurium 
+(strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=cheA 
+PE=1 SV=1
+Length=671
+
+ Score = 98.5 bits (244),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 28/142 (20%), Positives = 67/142 (47%), Gaps = 8/142 (6%)
+
+Query  14   VVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI-G  72
+            +   +A E++ L +  V E ++       P      E ++ +RG+ +P+++L K F + G
+Sbjct  532  MSVRVAGEVFILPLNAVMESLQPREEDLHPLAGG--ERVLEVRGEYLPLVELWKVFDVDG  589
+
+Query  73   KRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPP-PPVTTIDTAFVEGIAKTD  131
+             + ++    ++I++  G++  L+VD +     +   ++E     V  I  A + G    D
+Sbjct  590  AKTEATQGIVVILQSAGRRYALLVDQLIGQHQVVVKNLESNYRKVPGISAATILG----D  645
+
+Query  132  DKMIIIIKLHFLFEVNGKEMLL  153
+              + +I+ +  L  +N ++ + 
+Sbjct  646  GSVALIVDVSALQGLNREQRMA  667
+
+
+> sp|P21813|CHEA_KLEAK Chemotaxis protein CheA OS=Klebsiella aerogenes 
+(strain ATCC 13048 / DSM 30053 / JCM 1235 / KCTC 2190 
+/ NBRC 13534 / NCIMB 10102 / NCTC 10006) OX=1028307 GN=cheA 
+PE=3 SV=2
+Length=652
+
+ Score = 90.8 bits (224),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 69/141 (49%), Gaps = 8/141 (6%)
+
+Query  14   VVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI-G  72
+            +   + EE++ L +  V E ++  +    P      E ++ +RG+ +P+++L + F + G
+Sbjct  513  MSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGG--ERMLQVRGEYLPLVELYRVFDVAG  570
+
+Query  73   KRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPP-PPVTTIDTAFVEGIAKTD  131
+             + ++    ++I++  G++  L+VD +     +   ++E     V  I  A + G    D
+Sbjct  571  AKTEATQGIVVILQSAGRRYALLVDQLIGQHQVVVKNLESNYRKVPGISAATILG----D  626
+
+Query  132  DKMIIIIKLHFLFEVNGKEML  152
+              + +I+ +  L  +N +++L
+Sbjct  627  GSVALIVDVSALQMLNREKLL  647
+
+
+> sp|Q52880|CHEA_RHIME Chemotaxis protein CheA OS=Rhizobium meliloti 
+(strain 1021) OX=266834 GN=cheA PE=1 SV=2
+Length=758
+
+ Score = 50.8 bits (120),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 21/142 (15%), Positives = 58/142 (41%), Gaps = 9/142 (6%)
+
+Query  14   VVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIGK  73
+            +V ++A +   + +  + E ++  +      +    + +I++R    P++D+ +      
+Sbjct  613  MVVTVANQTLVVPLTAIVETLQPEASAI--HSFGSSQRLISIRDSFCPLVDVGRILNFRG  670
+
+Query  74   RGKSKDSRI--IIVEILGQKAGLIVDAVHEVIPIDENSIEPP-PPVTTIDTAFVEGIAKT  130
+               +    +  ++    G +  L+VDA+     +   S+E     V  I  A + G    
+Sbjct  671  AQANPVEGVALLVESEGGGQRALMVDAIQGQRQVVIKSLEANYTHVPGIAAATILG----  726
+
+Query  131  DDKMIIIIKLHFLFEVNGKEML  152
+            D ++ +I+ +  +   +  + L
+Sbjct  727  DGRVALILDVDAIVAASRGQSL  748
+
+
+> sp|Q53135|CHEA_RHOSH Chemotaxis protein CheA OS=Rhodobacter sphaeroides 
+OX=1063 GN=cheA PE=3 SV=1
+Length=686
+
+ Score = 48.8 bits (115),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/128 (15%), Positives = 53/128 (41%), Gaps = 9/128 (7%)
+
+Query  14   VVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIGK  73
+            +V  +  +   + +  + E ++              + ++ +RG ++P++D    FG   
+Sbjct  546  MVVDVGGQTMVVPVSAIVETLRPRPADI--HVLGSGDQVVAIRGSLVPIVDCGSIFGFRA  603
+
+Query  74   RGKSKDSRIIIVE--ILGQKAGLIVDAVHEVIPIDENSIEPP-PPVTTIDTAFVEGIAKT  130
+              +S +  ++++      +   L+VD +H+   +    +E     +  +  A + G    
+Sbjct  604  PVRSYEESVLLLVETARQKLCALVVDTIHDQRQVVIKGLENGYGRIPGVAAATILG----  659
+
+Query  131  DDKMIIII  138
+            D ++ +II
+Sbjct  660  DGRIALII  667
+
+
+> sp|Q56310|CHEA_THEMA Chemotaxis protein CheA OS=Thermotoga maritima 
+(strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 
+GN=cheA PE=1 SV=2
+Length=671
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 23/133 (17%), Positives = 55/133 (41%), Gaps = 6/133 (5%)
+
+Query  12   KIVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI  71
+            + ++  +   +Y + I ++  ++                 +I +RG++IPV  L +   I
+Sbjct  545  QALLVKVNNLVYAIPIANIDTILSISKEDI---QRVQDRDVIVIRGEVIPVYRLWEVLQI  601
+
+Query  72   GKRGKSKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKTD  131
+              + + ++   +IV +  +K G++VD +      D+  I+    V +    F       D
+Sbjct  602  EHKEELEEMEAVIVRVGNRKYGIVVDDLLGQ---DDIVIKSLGKVFSEVKEFSGAAILGD  658
+
+Query  132  DKMIIIIKLHFLF  144
+              + +II +  + 
+Sbjct  659  GSIALIINVSGIV  671
+
+
+> sp|Q44737|CHEA_BORBU Chemotaxis protein CheA OS=Borrelia burgdorferi 
+(strain ATCC 35210 / B31 / CIP 102532 / DSM 4680) OX=224326 
+GN=cheA PE=3 SV=2
+Length=864
+
+ Score = 45.8 bits (107),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 27/127 (21%), Positives = 55/127 (43%), Gaps = 5/127 (4%)
+
+Query  19   AEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIGKRGKSK  78
+              E Y + + +V E  +      I     + E + NLR ++I V+ L K F I +     
+Sbjct  736  GSETYVIPLNNVLETHRITEHD-IKLLENYHE-VYNLRDEVISVLRLDKLFNITRDDSLI  793
+
+Query  79   DSRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKTDDKMIIII  138
+            +  +I+V     K  ++VD++      ++  ++P     +     V      + K+++II
+Sbjct  794  EKFLIVVNTSNMKIAIVVDSILGE---EDFVVKPIKDKFSSSAGIVGATTLGNGKVVLII  850
+
+Query  139  KLHFLFE  145
+             +  LF+
+Sbjct  851  DVFKLFD  857
+
+
+> sp|P29072|CHEA_BACSU Chemotaxis protein CheA OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=cheA PE=1 SV=2
+Length=672
+
+ Score = 45.4 bits (106),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 30/134 (22%), Positives = 56/134 (42%), Gaps = 9/134 (7%)
+
+Query  13   IVVFSLAEELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIG  72
+            +++  L EE + + I  + E         +         +I+ RG I+PV+ LK+ F I 
+Sbjct  545  VLLIKLEEETFAIPISSIIETAVIDRKDIL---QTHDREVIDFRGHIVPVVYLKEEFKIE  601
+
+Query  73   KRGKSKDSR-IIIVEILGQKAGLIVDAVHEVIPIDENSI-EPPPPVTTIDTAFVEGIAKT  130
+               K  +   II+V+   +    +VD+      +   S+ +    V  I  A + G    
+Sbjct  602  DTRKDAEQLHIIVVKKGDKPTAFVVDSFIGQQEVVLKSLGDYLTNVFAISGATILG----  657
+
+Query  131  DDKMIIIIKLHFLF  144
+            D ++ +II  + L 
+Sbjct  658  DGEVALIIDCNALI  671
+
+
+> sp|P96123|CHEA_TREPA Chemotaxis protein CheA OS=Treponema pallidum 
+(strain Nichols) OX=243276 GN=cheA PE=3 SV=2
+Length=812
+
+ Score = 45.4 bits (106),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 31/137 (23%), Positives = 59/137 (43%), Gaps = 14/137 (10%)
+
+Query  14   VVFSLAEELYGLDIFDVHEV--VKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGI  71
+            ++  + +E+Y + I  V E   +K   I +I         + N+R ++I ++ L + FGI
+Sbjct  667  LLIRVGQEVYSIPIASVIESHRIKSEEINRIDNYE-----VFNVRNEVISLLRLDRLFGI  721
+
+Query  72   GKRGK--SKDSRIIIVEILGQKAGLIVDAVHEVIPIDENSIE-PPPPVTTIDTAFVEGIA  128
+                +   +   ++IV    +K GL+VDA+     +    +         I  A + G  
+Sbjct  722  SCDDEVTGQYHYVVIVGAAEKKVGLMVDALIGEEDVVIKPLRDQFTSSPGIAGASILG--  779
+
+Query  129  KTDDKMIIIIKLHFLFE  145
+              D  + +II +  L E
+Sbjct  780  --DGSVSLIIDVGQLLE  794
+
+
+> sp|Q48768|CHEA_LISMO Chemotaxis protein CheA OS=Listeria monocytogenes 
+serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 
+GN=cheA PE=3 SV=2
+Length=618
+
+ Score = 40.4 bits (93),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 24/122 (20%), Positives = 49/122 (40%), Gaps = 5/122 (4%)
+
+Query  20   EELYGLDIFDVHEVVKDVSITKIPETPEFIEGIINLRGKIIPVIDLKKRFGIGKRGKSKD  79
+            E  Y + + +V E +       I       + +IN R  II V+DL + F       + +
+Sbjct  500  ERRYAVPLANVAEAITINPAD-IQHVHG--KDLINYRETIIEVLDLGECFHETPLNDTDE  556
+
+Query  80   SRIIIVEILGQKAGLIVDAVHEVIPIDENSIEPPPPVTTIDTAFVEGIAKTDDKMIIIIK  139
+              +++V+   +  GLI+  +     I   ++      + I   F       D ++++I+ 
+Sbjct  557  LLLLVVKNAKRTFGLIIKDIIGQREIVLKTLGGFFSESQIA--FSGATILGDGRVVLILN  614
+
+Query  140  LH  141
+            L 
+Sbjct  615  LE  616
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.141    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0432    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6482722914
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 13, 2019  2:29 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

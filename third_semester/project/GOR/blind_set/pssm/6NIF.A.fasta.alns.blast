@@ -1,0 +1,2759 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 6NIF.A
+
+Length=260
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q9UI95|MD2L2_HUMAN Mitotic spindle assembly checkpoint prote...  432     7e-155
+  sp|Q2KIP7|MD2L2_BOVIN Mitotic spindle assembly checkpoint prote...  428     3e-153
+  sp|D3Z8D9|MD2L2_RAT Mitotic spindle assembly checkpoint protein...  425     3e-152
+  sp|Q9D752|MD2L2_MOUSE Mitotic spindle assembly checkpoint prote...  425     3e-152
+  sp|Q4KWZ6|MD2L2_CHICK Mitotic spindle assembly checkpoint prote...  419     7e-150
+  sp|Q28H85|MD2L2_XENTR Mitotic spindle assembly checkpoint prote...  386     8e-137
+  sp|Q8QFR4|MD2L2_XENLA Mitotic spindle assembly checkpoint prote...  385     2e-136
+  sp|Q568H3|MD2L2_DANRE Mitotic spindle assembly checkpoint prote...  383     1e-135
+  sp|Q94FL5|REV7_ARATH DNA polymerase zeta processivity subunit O...  108     9e-28 
+  sp|Q54S00|MD2L2_DICDI Mitotic spindle assembly checkpoint prote...  84.7    8e-18 
+  sp|Q0E7J8|REV7_SCHPO DNA polymerase zeta processivity subunit O...  73.9    1e-14 
+  sp|Q556Y9|MD2L1_DICDI Mitotic spindle assembly checkpoint prote...  58.9    3e-09 
+  sp|Q9Z1B5|MD2L1_MOUSE Mitotic spindle assembly checkpoint prote...  55.8    3e-08 
+  sp|P40958|MAD2_YEAST Mitotic spindle checkpoint component MAD2 ...  54.7    7e-08 
+  sp|Q13257|MD2L1_HUMAN Mitotic spindle assembly checkpoint prote...  52.0    8e-07 
+  sp|O14417|MAD2_SCHPO Mitotic spindle checkpoint component mad2 ...  51.2    1e-06 
+  sp|Q59VQ3|MAD2_CANAL Spindle assembly checkpoint component MAD2...  50.1    3e-06 
+  sp|Q9XFH3|MAD2_MAIZE Mitotic spindle checkpoint protein MAD2 OS...  48.9    8e-06 
+  sp|Q9LU93|MAD2_ARATH Mitotic spindle checkpoint protein MAD2 OS...  46.6    6e-05 
+  sp|Q9YGC0|RAN_SALSA GTP-binding nuclear protein Ran OS=Salmo sa...  44.3    3e-04 
+  sp|P42558|RAN_CHICK GTP-binding nuclear protein Ran OS=Gallus g...  44.3    4e-04 
+  sp|P52301|RAN_XENLA GTP-binding nuclear protein Ran OS=Xenopus ...  44.3    4e-04 
+  sp|P62828|RAN_RAT GTP-binding nuclear protein Ran OS=Rattus nor...  44.3    4e-04 
+  sp|Q5R556|RAN_PONAB GTP-binding nuclear protein Ran OS=Pongo ab...  44.3    4e-04 
+  sp|P62827|RAN_MOUSE GTP-binding nuclear protein Ran OS=Mus musc...  44.3    4e-04 
+  sp|Q4R4M9|RAN_MACFA GTP-binding nuclear protein Ran OS=Macaca f...  44.3    4e-04 
+  sp|P62826|RAN_HUMAN GTP-binding nuclear protein Ran OS=Homo sap...  44.3    4e-04 
+  sp|P62825|RAN_CANLF GTP-binding nuclear protein Ran OS=Canis lu...  44.3    4e-04 
+  sp|Q3T054|RAN_BOVIN GTP-binding nuclear protein Ran OS=Bos taur...  44.3    4e-04 
+  sp|Q61820|RANT_MOUSE GTP-binding nuclear protein Ran, testis-sp...  43.9    4e-04 
+  sp|Q8K586|RANT_RAT GTP-binding nuclear protein Ran, testis-spec...  43.9    4e-04 
+  sp|O17915|RAN_CAEEL GTP-binding nuclear protein ran-1 OS=Caenor...  43.1    8e-04 
+  sp|P38542|RAN_BRUMA GTP-binding nuclear protein Ran OS=Brugia m...  43.1    8e-04 
+  sp|P38544|RAN_ONCVO GTP-binding nuclear protein Ran OS=Onchocer...  43.1    9e-04 
+  sp|Q6GL85|RAN_XENTR GTP-binding nuclear protein Ran OS=Xenopus ...  43.1    0.001 
+  sp|P79735|RAN_DANRE GTP-binding nuclear protein Ran OS=Danio re...  42.4    0.002 
+  sp|Q9VZ23|RAN_DROME GTP-binding nuclear protein Ran OS=Drosophi...  41.6    0.003 
+
+
+> sp|Q9UI95|MD2L2_HUMAN Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Homo sapiens OX=9606 GN=MAD2L2 PE=1 SV=2
+Length=211
+
+ Score = 432 bits (1111),  Expect = 7e-155, Method: Compositional matrix adjust.
+ Identities = 209/210 (99%), Positives = 209/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHKGS
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+
+
+> sp|Q2KIP7|MD2L2_BOVIN Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Bos taurus OX=9913 GN=MAD2L2 PE=2 SV=1
+Length=211
+
+ Score = 428 bits (1100),  Expect = 3e-153, Method: Compositional matrix adjust.
+ Identities = 207/210 (99%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLL ISSDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLPISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKSS  211
+
+
+> sp|D3Z8D9|MD2L2_RAT Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Rattus norvegicus OX=10116 GN=Mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 425 bits (1093),  Expect = 3e-152, Method: Compositional matrix adjust.
+ Identities = 206/210 (98%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSI+SDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSINSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKNS  211
+
+
+> sp|Q9D752|MD2L2_MOUSE Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Mus musculus OX=10090 GN=Mad2l2 PE=1 SV=2
+Length=211
+
+ Score = 425 bits (1093),  Expect = 3e-152, Method: Compositional matrix adjust.
+ Identities = 206/210 (98%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSI+SDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSINSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKNS  211
+
+
+> sp|Q4KWZ6|MD2L2_CHICK Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Gallus gallus OX=9031 GN=MAD2L2 PE=1 SV=1
+Length=211
+
+ Score = 419 bits (1078),  Expect = 7e-150, Method: Compositional matrix adjust.
+ Identities = 202/210 (96%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYP+GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPIGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEH PVE+FVFEITQPPLLSISS+SLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHHPVERFVFEITQPPLLSISSESLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHKG+
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGT  211
+
+
+> sp|Q28H85|MD2L2_XENTR Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Xenopus tropicalis OX=8364 GN=mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 386 bits (992),  Expect = 8e-137, Method: Compositional matrix adjust.
+ Identities = 195/210 (93%), Positives = 204/210 (97%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVAD+LCEFLEVAVHLILYVREVYP+GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADILCEFLEVAVHLILYVREVYPIGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            +YIQDTLHCVKPL+EKNDVEKVVVVILDKEH PVE+FVFEI QPPLLSISSDSLLSHVEQ
+Sbjct  62   RYIQDTLHCVKPLIEKNDVEKVVVVILDKEHHPVERFVFEIAQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFT+LVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTLLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+             +PRLIPLKTMTSDILKMQLYVEERA K +
+Sbjct  182  QEPRLIPLKTMTSDILKMQLYVEERAQKST  211
+
+
+> sp|Q8QFR4|MD2L2_XENLA Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Xenopus laevis OX=8355 GN=mad2l2 PE=1 SV=1
+Length=211
+
+ Score = 385 bits (990),  Expect = 2e-136, Method: Compositional matrix adjust.
+ Identities = 195/210 (93%), Positives = 203/210 (97%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVAD+LCEFLEVAVHLILYVREVYP GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADILCEFLEVAVHLILYVREVYPTGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            +YIQDTLHCVKPL+EKNDVEKVVVVILDKEH PVE+FVFEI QPPLLSISSDSLLSHVEQ
+Sbjct  62   RYIQDTLHCVKPLIEKNDVEKVVVVILDKEHHPVERFVFEIAQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFT+LVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTLLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+             +PRLIPLKTMTSDILKMQLYVEERA K +
+Sbjct  182  QEPRLIPLKTMTSDILKMQLYVEERAQKST  211
+
+
+> sp|Q568H3|MD2L2_DANRE Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Danio rerio OX=7955 GN=mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 383 bits (984),  Expect = 1e-135, Method: Compositional matrix adjust.
+ Identities = 177/209 (85%), Positives = 198/209 (95%), Gaps = 0/209 (0%)
+
+Query  3    TLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ  62
+            TLTRQDLNFGQVVAD+LCEFLEVA+HLILYVR++YP GIFQKR+KYNVPVQMSCHP+LNQ
+Sbjct  3    TLTRQDLNFGQVVADILCEFLEVAIHLILYVRDIYPSGIFQKRQKYNVPVQMSCHPQLNQ  62
+
+Query  63   YIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQL  122
+            YIQDTLHCVKPL+EKN+ EKVVVVI++KEH PVE+FVFEI+QPPLL+ISS++LLSHVEQL
+Sbjct  63   YIQDTLHCVKPLIEKNEAEKVVVVIMNKEHHPVERFVFEISQPPLLAISSETLLSHVEQL  122
+
+Query  123  LAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMH  182
+            L A ILKISVCDAVLD NPPGCTFTVLVHTREAATRNMEK+QVIKDFPWI+ADEQ+VHM 
+Sbjct  123  LRAMILKISVCDAVLDSNPPGCTFTVLVHTREAATRNMEKVQVIKDFPWIVADEQEVHME  182
+
+Query  183  DPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            + +LIPLKTMTSDILKMQLYVEE+  K S
+Sbjct  183  EAKLIPLKTMTSDILKMQLYVEEKTQKSS  211
+
+
+> sp|Q94FL5|REV7_ARATH DNA polymerase zeta processivity subunit 
+OS=Arabidopsis thaliana OX=3702 GN=REV7 PE=2 SV=1
+Length=215
+
+ Score = 108 bits (271),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 66/201 (33%), Positives = 110/201 (55%), Gaps = 7/201 (3%)
+
+Query  4    LTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQY  63
+            ++R+D N    V   L +F+EVA+ +I+Y++  YP   F++R+  NV VQ + HPEL  Y
+Sbjct  1    MSRKDDNQSGEVGRTLVDFMEVAITMIVYLKGFYPSAAFERRRYMNVVVQRARHPELRDY  60
+
+Query  64   IQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQLL  123
+            I      + P +EK  VE+V VV   +++ PVE+F+F+IT  P  S ++      +E  L
+Sbjct  61   IHSAASGLLPFIEKGLVERVAVVFFSEDNVPVERFIFKITIKP--SCAALVEEGQLEFAL  118
+
+Query  124  AAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHD  183
+             +F++K+SV  +++   P  C + V  + R        K   +    WI  D +    + 
+Sbjct  119  RSFLIKLSVSKSLVKPLPLNCRWEVTAYLRSLPQVGSSKEAEL----WIPTDTKQWQ-NP  173
+
+Query  184  PRLIPLKTMTSDILKMQLYVE  204
+            P L P+K++ S+ L +QLY+E
+Sbjct  174  PVLTPVKSLNSEPLCLQLYLE  194
+
+
+> sp|Q54S00|MD2L2_DICDI Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Dictyostelium discoideum OX=44689 GN=mad2l2 PE=3 
+SV=1
+Length=332
+
+ Score = 84.7 bits (208),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 38/88 (43%), Positives = 59/88 (67%), Gaps = 0/88 (0%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+             D + EFLE + H ILY+R VYP  +F K  KY++PV +S    L +YI +++  +KP  
+Sbjct  7    CDCIGEFLETSFHCILYIRGVYPSCLFSKSIKYDIPVPISRSDLLTRYISNSIDSLKPHF  66
+
+Query  76   EKNDVEKVVVVILDKEHRPVEKFVFEIT  103
+             K+ +EK+ + IL+K  +P+EKF+FEI+
+Sbjct  67   LKDTIEKISLTILNKYDKPIEKFIFEIS  94
+
+
+> sp|Q0E7J8|REV7_SCHPO DNA polymerase zeta processivity subunit 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 
+GN=rev7 PE=3 SV=1
+Length=213
+
+ Score = 73.9 bits (180),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 47/151 (31%), Positives = 80/151 (53%), Gaps = 10/151 (7%)
+
+Query  17   DVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLLE  76
+            D+  EFL V++H ILY R +YP  +F K +KYN  V  S HP L +YI++ +      L+
+Sbjct  14   DIFGEFLLVSIHCILYARRLYPQDLFIKARKYNTIVWQSRHPILCEYIEEVVQSCIEELQ  73
+
+Query  77   KNDVEKVVVVILDKEHRPVEKFVFEITQPPLL-------SISSDSLLS--HVEQLLAAFI  127
+               V +V + I++KE R  E++VF     P++        IS++   +  +VE + A+ I
+Sbjct  74   TGSVHQVALSIINKEQREEERYVFSTDSIPIIPDFLLEKQISTNEPFTDAYVEYMRASLI  133
+
+Query  128  LKISVCDAVLDHNPPGCTFTVLVHTREAATR  158
+              +++ +  L      CT+T+ V  ++   R
+Sbjct  134  QLLNITNG-LPLIEQECTWTLRVTLKDGFPR  163
+
+
+> sp|Q556Y9|MD2L1_DICDI Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Dictyostelium discoideum OX=44689 GN=mad2l1-1 
+PE=3 SV=1
+Length=203
+
+ Score = 58.9 bits (141),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 39/140 (28%), Positives = 69/140 (49%), Gaps = 3/140 (2%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+             +++ EF   +++ IL+ R +YP   F +  KY +P+ ++    L  Y+ + L  +   L
+Sbjct  17   TEIVTEFFSYSINTILFQRGLYPPESFTRVAKYGLPILVTNDQSLKDYLDNVLKQLSEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQ--PPLLSISSDSLLSHVEQLLAAFILKISV  132
+               DV+K+V+VI D   + V E++VF++T   P             +   + A I +I+ 
+Sbjct  77   LSGDVQKLVLVITDIVTKEVLERWVFDVTTDIPKEGEAPRQKPEKEIMNEIQAIIRQITA  136
+
+Query  133  CDAVLDHNPPGCTFTVLVHT  152
+                L   P  CTF +LV+T
+Sbjct  137  SVTFLPLLPNACTFDLLVYT  156
+
+
+> sp|Q9Z1B5|MD2L1_MOUSE Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Mus musculus OX=10090 GN=Mad2l1 PE=1 SV=2
+Length=205
+
+ Score = 55.8 bits (133),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 37/141 (26%), Positives = 71/141 (50%), Gaps = 4/141 (3%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A+++ EF    ++ ILY R +YP   F + +KY + +  +  PEL +Y+ + +  +K  L
+Sbjct  17   AEIVAEFFSFGINSILYQRGIYPSETFTRVQKYGLTLLTTTDPELIKYLNNVVEQLKEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLLS---ISSDSLLSHVEQLLAAFILKIS  131
+             K  V+K+VVVI + E   V E++ F+I          +  +     ++  + + I +I+
+Sbjct  77   YKCSVQKLVVVISNIESGEVLERWQFDIECDKTAKEEGVRREKSQKAIQDEIRSVIRQIT  136
+
+Query  132  VCDAVLDHNPPGCTFTVLVHT  152
+                 L      C+F +L++T
+Sbjct  137  ATVTFLPLLEVSCSFDLLIYT  157
+
+
+> sp|P40958|MAD2_YEAST Mitotic spindle checkpoint component MAD2 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=MAD2 PE=1 SV=1
+Length=196
+
+ Score = 54.7 bits (130),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 51/182 (28%), Positives = 81/182 (45%), Gaps = 16/182 (9%)
+
+Query  19   LCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLLEKN  78
+            + EF E +++ ILY R VYP   F   KKY++ +  +   EL  YI+  L  V   L   
+Sbjct  14   VTEFFEYSINSILYQRGVYPAEDFVTVKKYDLTLLKTHDDELKDYIRKILLQVHRWLLGG  73
+
+Query  79   DVEKVVVVILDK-EHRPVEKFVFEITQPPLLSISSDSL--LSHVEQLLAAFILKISVCDA  135
+               ++V+ I+DK E   VE++ F +      S   D +  L+  +  + A I +I+    
+Sbjct  74   KCNQLVLCIVDKDEGEVVERWSFNVQHISGNSNGQDDVVDLNTTQSQIRALIRQITSSVT  133
+
+Query  136  VLDH--NPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKTMT  193
+             L       G TFTVL +T   A   +E         W  AD     + D  ++  KT +
+Sbjct  134  FLPELTKEGGYTFTVLAYTDADAKVPLE---------W--ADSNSKEIPDGEVVQFKTFS  182
+
+Query  194  SD  195
+            ++
+Sbjct  183  TN  184
+
+
+> sp|Q13257|MD2L1_HUMAN Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Homo sapiens OX=9606 GN=MAD2L1 PE=1 SV=1
+Length=205
+
+ Score = 52.0 bits (123),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 29/88 (33%), Positives = 52/88 (59%), Gaps = 1/88 (1%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A+++ EF    ++ ILY R +YP   F + +KY + + ++   EL +Y+ + +  +K  L
+Sbjct  17   AEIVAEFFSFGINSILYQRGIYPSETFTRVQKYGLTLLVTTDLELIKYLNNVVEQLKDWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEI  102
+             K  V+K+VVVI + E   V E++ F+I
+Sbjct  77   YKCSVQKLVVVISNIESGEVLERWQFDI  104
+
+
+> sp|O14417|MAD2_SCHPO Mitotic spindle checkpoint component mad2 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mad2 PE=1 SV=1
+Length=203
+
+ Score = 51.2 bits (121),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 69/141 (49%), Gaps = 5/141 (4%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            + ++ EF E AV+ IL+ R +YP   F+  +KY + + +S   E+  YI+  +  +   +
+Sbjct  16   SKLVSEFFEYAVNSILFQRGIYPAEDFKVVRKYGLNMLVSVDEEVKTYIRKIVSQLHKWM  75
+
+Query  76   EKNDVEKVVVVILDK-EHRPVEKFVFEI----TQPPLLSISSDSLLSHVEQLLAAFILKI  130
+                ++K+++VI  K     +E++ F +    T     +I +      V++ + A I +I
+Sbjct  76   FAKKIQKLILVITSKCSGEDLERWQFNVEMVDTADQFQNIGNKEDELRVQKEIQALIRQI  135
+
+Query  131  SVCDAVLDHNPPGCTFTVLVH  151
+            +     L      CTF VLV+
+Sbjct  136  TATVTFLPQLEEQCTFNVLVY  156
+
+
+> sp|Q59VQ3|MAD2_CANAL Spindle assembly checkpoint component MAD2 
+OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 
+GN=MAD2 PE=3 SV=1
+Length=214
+
+ Score = 50.1 bits (118),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 53/88 (60%), Gaps = 1/88 (1%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            + ++C++ E A++ ILY R +YP   F   KKY++P+ ++   ++ +YI + +  +K  +
+Sbjct  17   SKIVCDYFEFALNSILYQRGIYPQEDFVTVKKYDLPMVINDDYDVQKYINNIMKQIKKWI  76
+
+Query  76   EKNDVEKVVVVILDKEH-RPVEKFVFEI  102
+              + + K ++VI+ K +   +E++ F I
+Sbjct  77   YGSLMSKFIIVIVSKTNLENIERWEFNI  104
+
+
+> sp|Q9XFH3|MAD2_MAIZE Mitotic spindle checkpoint protein MAD2 
+OS=Zea mays OX=4577 GN=MAD2 PE=2 SV=1
+Length=208
+
+ Score = 48.9 bits (115),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 38/144 (26%), Positives = 66/144 (46%), Gaps = 10/144 (7%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A ++ EF   A + ILY R VYP   F K KKY + + ++    +  +I      +   L
+Sbjct  17   AAIVSEFFGYAANSILYNRAVYPEESFSKVKKYGLTMLLTQDEGVKNFIASLTSQLSEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVF------EITQPPLLSISSDSLLSHVEQLLAAFIL  128
+            E   ++++V+VI+ K    V E++ F      E+ +   +   SD     + + + A + 
+Sbjct  77   EAGKLQRIVLVIMSKATSEVLERWNFNIVTDAEVVEKGAIKEKSD---KEIMREIQAIMR  133
+
+Query  129  KISVCDAVLDHNPPGCTFTVLVHT  152
+            +I+ C   L      C F VL +T
+Sbjct  134  QIASCITYLPCLDEPCVFDVLAYT  157
+
+
+> sp|Q9LU93|MAD2_ARATH Mitotic spindle checkpoint protein MAD2 
+OS=Arabidopsis thaliana OX=3702 GN=MAD2 PE=1 SV=1
+Length=209
+
+ Score = 46.6 bits (109),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 47/192 (24%), Positives = 86/192 (45%), Gaps = 15/192 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A ++ EF   A + ILY R VYP   F K KKY +P+ +     +  ++ +    +   L
+Sbjct  18   AAIVSEFFCYAANSILYNRAVYPEESFVKVKKYGLPMLLIEDESVKSFMSNLTSQISEWL  77
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEI-TQPPLLS--ISSDSLLSHVEQLLAAFILKIS  131
+            E   +++VV+VI+ K    V E++ F I T   ++   +S +     + + + A + +++
+Sbjct  78   EAGKLQRVVLVIMSKATGEVLERWNFRIETDNEVVDKGVSREKSDKEIMREIQAIMRQVA  137
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+                 L      C F VL +T            V   F WI +D +   + +P+++ L  
+Sbjct  138  SSVTYLPCLDETCVFDVLAYT---------DTDVAVPFTWIESDPK--LIANPQMVKLHG  186
+
+Query  192  MTSDILKMQLYV  203
+              + I K+   V
+Sbjct  187  FDTKIHKVDTLV  198
+
+
+> sp|Q9YGC0|RAN_SALSA GTP-binding nuclear protein Ran OS=Salmo 
+salar OX=8030 GN=ran PE=2 SV=1
+Length=215
+
+ Score = 44.3 bits (103),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  164  ARKLIGDPNLEFVAMPALAPP  184
+
+
+> sp|P42558|RAN_CHICK GTP-binding nuclear protein Ran OS=Gallus 
+gallus OX=9031 GN=RAN PE=2 SV=1
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P52301|RAN_XENLA GTP-binding nuclear protein Ran OS=Xenopus 
+laevis OX=8355 GN=ran PE=1 SV=2
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62828|RAN_RAT GTP-binding nuclear protein Ran OS=Rattus norvegicus 
+OX=10116 GN=Ran PE=1 SV=3
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q5R556|RAN_PONAB GTP-binding nuclear protein Ran OS=Pongo 
+abelii OX=9601 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62827|RAN_MOUSE GTP-binding nuclear protein Ran OS=Mus musculus 
+OX=10090 GN=Ran PE=1 SV=3
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q4R4M9|RAN_MACFA GTP-binding nuclear protein Ran OS=Macaca 
+fascicularis OX=9541 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62826|RAN_HUMAN GTP-binding nuclear protein Ran OS=Homo sapiens 
+OX=9606 GN=RAN PE=1 SV=3
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62825|RAN_CANLF GTP-binding nuclear protein Ran OS=Canis 
+lupus familiaris OX=9615 GN=RAN PE=1 SV=3
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q3T054|RAN_BOVIN GTP-binding nuclear protein Ran OS=Bos taurus 
+OX=9913 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q61820|RANT_MOUSE GTP-binding nuclear protein Ran, testis-specific 
+isoform OS=Mus musculus OX=10090 GN=Rasl2-9 PE=2 SV=1
+Length=216
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q8K586|RANT_RAT GTP-binding nuclear protein Ran, testis-specific 
+isoform OS=Rattus norvegicus OX=10116 GN=Rasl2-9 PE=2 
+SV=1
+Length=216
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 19/19 (100%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  232  KLIGDPNLEFVAMPALAPP  250
+            KLIGDPNLEFVAMPALAPP
+Sbjct  167  KLIGDPNLEFVAMPALAPP  185
+
+
+> sp|O17915|RAN_CAEEL GTP-binding nuclear protein ran-1 OS=Caenorhabditis 
+elegans OX=6239 GN=ran-1 PE=1 SV=1
+Length=215
+
+ Score = 43.1 bits (100),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 18/19 (95%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  232  KLIGDPNLEFVAMPALAPP  250
+            KL+GDPNLEFVAMPALAPP
+Sbjct  166  KLLGDPNLEFVAMPALAPP  184
+
+
+> sp|P38542|RAN_BRUMA GTP-binding nuclear protein Ran OS=Brugia 
+malayi OX=6279 GN=Bm1_44725 PE=2 SV=2
+Length=215
+
+ Score = 43.1 bits (100),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 18/19 (95%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  232  KLIGDPNLEFVAMPALAPP  250
+            KL+GDPNLEFVAMPALAPP
+Sbjct  166  KLLGDPNLEFVAMPALAPP  184
+
+
+> sp|P38544|RAN_ONCVO GTP-binding nuclear protein Ran OS=Onchocerca 
+volvulus OX=6282 GN=ran-1 PE=2 SV=1
+Length=215
+
+ Score = 43.1 bits (100),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 18/19 (95%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  232  KLIGDPNLEFVAMPALAPP  250
+            KL+GDPNLEFVAMPALAPP
+Sbjct  166  KLLGDPNLEFVAMPALAPP  184
+
+
+> sp|Q6GL85|RAN_XENTR GTP-binding nuclear protein Ran OS=Xenopus 
+tropicalis OX=8364 GN=ran PE=2 SV=1
+Length=216
+
+ Score = 43.1 bits (100),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 18/21 (86%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPN EFVAMPALAPP
+Sbjct  165  ARKLIGDPNFEFVAMPALAPP  185
+
+
+> sp|P79735|RAN_DANRE GTP-binding nuclear protein Ran OS=Danio 
+rerio OX=7955 GN=ran PE=2 SV=1
+Length=215
+
+ Score = 42.4 bits (98),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 18/21 (86%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFV MPALAPP
+Sbjct  164  ARKLIGDPNLEFVEMPALAPP  184
+
+
+> sp|Q9VZ23|RAN_DROME GTP-binding nuclear protein Ran OS=Drosophila 
+melanogaster OX=7227 GN=Ran PE=1 SV=1
+Length=216
+
+ Score = 41.6 bits (96),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 17/21 (81%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+GDPNLEFVAMPAL PP
+Sbjct  165  ARKLVGDPNLEFVAMPALLPP  185
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19865725000
+Results from round 2
+
+
+Query= 6NIF.A
+
+Length=260
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q2KIP7|MD2L2_BOVIN Mitotic spindle assembly checkpoint prote...  324     2e-112
+  sp|D3Z8D9|MD2L2_RAT Mitotic spindle assembly checkpoint protein...  322     2e-111
+  sp|Q9D752|MD2L2_MOUSE Mitotic spindle assembly checkpoint prote...  322     2e-111
+  sp|Q9UI95|MD2L2_HUMAN Mitotic spindle assembly checkpoint prote...  317     3e-109
+  sp|Q4KWZ6|MD2L2_CHICK Mitotic spindle assembly checkpoint prote...  312     1e-107
+  sp|Q568H3|MD2L2_DANRE Mitotic spindle assembly checkpoint prote...  310     2e-106
+  sp|Q8QFR4|MD2L2_XENLA Mitotic spindle assembly checkpoint prote...  307     1e-105
+  sp|Q28H85|MD2L2_XENTR Mitotic spindle assembly checkpoint prote...  307     3e-105
+  sp|Q94FL5|REV7_ARATH DNA polymerase zeta processivity subunit O...  233     2e-76 
+  sp|Q9LU93|MAD2_ARATH Mitotic spindle checkpoint protein MAD2 OS...  221     2e-71 
+  sp|Q9XFH3|MAD2_MAIZE Mitotic spindle checkpoint protein MAD2 OS...  210     2e-67 
+  sp|P40958|MAD2_YEAST Mitotic spindle checkpoint component MAD2 ...  205     2e-65 
+  sp|Q9Z1B5|MD2L1_MOUSE Mitotic spindle assembly checkpoint prote...  201     5e-64 
+  sp|Q556Y9|MD2L1_DICDI Mitotic spindle assembly checkpoint prote...  201     8e-64 
+  sp|O14417|MAD2_SCHPO Mitotic spindle checkpoint component mad2 ...  199     5e-63 
+  sp|Q13257|MD2L1_HUMAN Mitotic spindle assembly checkpoint prote...  198     1e-62 
+  sp|Q0E7J8|REV7_SCHPO DNA polymerase zeta processivity subunit O...  172     1e-52 
+  sp|Q59VQ3|MAD2_CANAL Spindle assembly checkpoint component MAD2...  171     4e-52 
+  sp|Q54S00|MD2L2_DICDI Mitotic spindle assembly checkpoint prote...  124     2e-32 
+  sp|Q9YGC0|RAN_SALSA GTP-binding nuclear protein Ran OS=Salmo sa...  50.1    4e-06 
+  sp|P52301|RAN_XENLA GTP-binding nuclear protein Ran OS=Xenopus ...  50.1    4e-06 
+  sp|P62828|RAN_RAT GTP-binding nuclear protein Ran OS=Rattus nor...  50.1    4e-06 
+  sp|Q5R556|RAN_PONAB GTP-binding nuclear protein Ran OS=Pongo ab...  50.1    4e-06 
+  sp|P62827|RAN_MOUSE GTP-binding nuclear protein Ran OS=Mus musc...  50.1    4e-06 
+  sp|Q4R4M9|RAN_MACFA GTP-binding nuclear protein Ran OS=Macaca f...  50.1    4e-06 
+  sp|P62826|RAN_HUMAN GTP-binding nuclear protein Ran OS=Homo sap...  50.1    4e-06 
+  sp|P42558|RAN_CHICK GTP-binding nuclear protein Ran OS=Gallus g...  50.1    4e-06 
+  sp|P62825|RAN_CANLF GTP-binding nuclear protein Ran OS=Canis lu...  50.1    4e-06 
+  sp|Q3T054|RAN_BOVIN GTP-binding nuclear protein Ran OS=Bos taur...  50.1    4e-06 
+  sp|Q8K586|RANT_RAT GTP-binding nuclear protein Ran, testis-spec...  50.1    4e-06 
+  sp|Q61820|RANT_MOUSE GTP-binding nuclear protein Ran, testis-sp...  50.1    4e-06 
+  sp|O17915|RAN_CAEEL GTP-binding nuclear protein ran-1 OS=Caenor...  49.7    5e-06 
+  sp|P38542|RAN_BRUMA GTP-binding nuclear protein Ran OS=Brugia m...  49.7    5e-06 
+  sp|P38544|RAN_ONCVO GTP-binding nuclear protein Ran OS=Onchocer...  48.6    1e-05 
+  sp|Q6GL85|RAN_XENTR GTP-binding nuclear protein Ran OS=Xenopus ...  48.6    1e-05 
+  sp|P79735|RAN_DANRE GTP-binding nuclear protein Ran OS=Danio re...  47.8    2e-05 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P38927|REV7_YEAST DNA polymerase zeta processivity subunit O...  61.7    5e-10
+  sp|Q9VZ23|RAN_DROME GTP-binding nuclear protein Ran OS=Drosophi...  47.0    4e-05
+  sp|Q5SQP1|HORM2_MOUSE HORMA domain-containing protein 2 OS=Mus ...  45.9    2e-04
+  sp|P28748|SPI1_SCHPO GTP-binding nuclear protein spi1 OS=Schizo...  44.3    3e-04
+  sp|Q7ZZX9|RAN_CARAU GTP-binding nuclear protein Ran OS=Carassiu...  44.3    3e-04
+
+
+> sp|Q2KIP7|MD2L2_BOVIN Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Bos taurus OX=9913 GN=MAD2L2 PE=2 SV=1
+Length=211
+
+ Score = 324 bits (831),  Expect = 2e-112, Method: Composition-based stats.
+ Identities = 207/210 (99%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLL ISSDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLPISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKSS  211
+
+
+> sp|D3Z8D9|MD2L2_RAT Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Rattus norvegicus OX=10116 GN=Mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 322 bits (826),  Expect = 2e-111, Method: Composition-based stats.
+ Identities = 206/210 (98%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSI+SDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSINSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKNS  211
+
+
+> sp|Q9D752|MD2L2_MOUSE Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Mus musculus OX=10090 GN=Mad2l2 PE=1 SV=2
+Length=211
+
+ Score = 322 bits (826),  Expect = 2e-111, Method: Composition-based stats.
+ Identities = 206/210 (98%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSI+SDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSINSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKNS  211
+
+
+> sp|Q9UI95|MD2L2_HUMAN Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Homo sapiens OX=9606 GN=MAD2L2 PE=1 SV=2
+Length=211
+
+ Score = 317 bits (811),  Expect = 3e-109, Method: Composition-based stats.
+ Identities = 209/210 (99%), Positives = 209/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHKGS
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+
+
+> sp|Q4KWZ6|MD2L2_CHICK Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Gallus gallus OX=9031 GN=MAD2L2 PE=1 SV=1
+Length=211
+
+ Score = 312 bits (800),  Expect = 1e-107, Method: Composition-based stats.
+ Identities = 202/210 (96%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYP+GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPIGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEH PVE+FVFEITQPPLLSISS+SLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHHPVERFVFEITQPPLLSISSESLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHKG+
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGT  211
+
+
+> sp|Q568H3|MD2L2_DANRE Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Danio rerio OX=7955 GN=mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 310 bits (793),  Expect = 2e-106, Method: Composition-based stats.
+ Identities = 177/209 (85%), Positives = 198/209 (95%), Gaps = 0/209 (0%)
+
+Query  3    TLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ  62
+            TLTRQDLNFGQVVAD+LCEFLEVA+HLILYVR++YP GIFQKR+KYNVPVQMSCHP+LNQ
+Sbjct  3    TLTRQDLNFGQVVADILCEFLEVAIHLILYVRDIYPSGIFQKRQKYNVPVQMSCHPQLNQ  62
+
+Query  63   YIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQL  122
+            YIQDTLHCVKPL+EKN+ EKVVVVI++KEH PVE+FVFEI+QPPLL+ISS++LLSHVEQL
+Sbjct  63   YIQDTLHCVKPLIEKNEAEKVVVVIMNKEHHPVERFVFEISQPPLLAISSETLLSHVEQL  122
+
+Query  123  LAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMH  182
+            L A ILKISVCDAVLD NPPGCTFTVLVHTREAATRNMEK+QVIKDFPWI+ADEQ+VHM 
+Sbjct  123  LRAMILKISVCDAVLDSNPPGCTFTVLVHTREAATRNMEKVQVIKDFPWIVADEQEVHME  182
+
+Query  183  DPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            + +LIPLKTMTSDILKMQLYVEE+  K S
+Sbjct  183  EAKLIPLKTMTSDILKMQLYVEEKTQKSS  211
+
+
+> sp|Q8QFR4|MD2L2_XENLA Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Xenopus laevis OX=8355 GN=mad2l2 PE=1 SV=1
+Length=211
+
+ Score = 307 bits (787),  Expect = 1e-105, Method: Composition-based stats.
+ Identities = 195/210 (93%), Positives = 203/210 (97%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVAD+LCEFLEVAVHLILYVREVYP GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADILCEFLEVAVHLILYVREVYPTGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            +YIQDTLHCVKPL+EKNDVEKVVVVILDKEH PVE+FVFEI QPPLLSISSDSLLSHVEQ
+Sbjct  62   RYIQDTLHCVKPLIEKNDVEKVVVVILDKEHHPVERFVFEIAQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFT+LVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTLLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+             +PRLIPLKTMTSDILKMQLYVEERA K +
+Sbjct  182  QEPRLIPLKTMTSDILKMQLYVEERAQKST  211
+
+
+> sp|Q28H85|MD2L2_XENTR Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Xenopus tropicalis OX=8364 GN=mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 307 bits (785),  Expect = 3e-105, Method: Composition-based stats.
+ Identities = 195/210 (93%), Positives = 204/210 (97%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVAD+LCEFLEVAVHLILYVREVYP+GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADILCEFLEVAVHLILYVREVYPIGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            +YIQDTLHCVKPL+EKNDVEKVVVVILDKEH PVE+FVFEI QPPLLSISSDSLLSHVEQ
+Sbjct  62   RYIQDTLHCVKPLIEKNDVEKVVVVILDKEHHPVERFVFEIAQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFT+LVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTLLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+             +PRLIPLKTMTSDILKMQLYVEERA K +
+Sbjct  182  QEPRLIPLKTMTSDILKMQLYVEERAQKST  211
+
+
+> sp|Q94FL5|REV7_ARATH DNA polymerase zeta processivity subunit 
+OS=Arabidopsis thaliana OX=3702 GN=REV7 PE=2 SV=1
+Length=215
+
+ Score = 233 bits (595),  Expect = 2e-76, Method: Composition-based stats.
+ Identities = 66/201 (33%), Positives = 110/201 (55%), Gaps = 7/201 (3%)
+
+Query  4    LTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQY  63
+            ++R+D N    V   L +F+EVA+ +I+Y++  YP   F++R+  NV VQ + HPEL  Y
+Sbjct  1    MSRKDDNQSGEVGRTLVDFMEVAITMIVYLKGFYPSAAFERRRYMNVVVQRARHPELRDY  60
+
+Query  64   IQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQLL  123
+            I      + P +EK  VE+V VV   +++ PVE+F+F+IT  P  S ++      +E  L
+Sbjct  61   IHSAASGLLPFIEKGLVERVAVVFFSEDNVPVERFIFKITIKP--SCAALVEEGQLEFAL  118
+
+Query  124  AAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHD  183
+             +F++K+SV  +++   P  C + V  + R        K   +    WI  D +    + 
+Sbjct  119  RSFLIKLSVSKSLVKPLPLNCRWEVTAYLRSLPQVGSSKEAEL----WIPTDTKQWQ-NP  173
+
+Query  184  PRLIPLKTMTSDILKMQLYVE  204
+            P L P+K++ S+ L +QLY+E
+Sbjct  174  PVLTPVKSLNSEPLCLQLYLE  194
+
+
+> sp|Q9LU93|MAD2_ARATH Mitotic spindle checkpoint protein MAD2 
+OS=Arabidopsis thaliana OX=3702 GN=MAD2 PE=1 SV=1
+Length=209
+
+ Score = 221 bits (562),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 46/195 (24%), Positives = 85/195 (44%), Gaps = 15/195 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A ++ EF   A + ILY R VYP   F K KKY +P+ +     +  ++ +    +   L
+Sbjct  18   AAIVSEFFCYAANSILYNRAVYPEESFVKVKKYGLPMLLIEDESVKSFMSNLTSQISEWL  77
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLL---SISSDSLLSHVEQLLAAFILKIS  131
+            E   +++VV+VI+ K    V E++ F I     +    +S +     + + + A + +++
+Sbjct  78   EAGKLQRVVLVIMSKATGEVLERWNFRIETDNEVVDKGVSREKSDKEIMREIQAIMRQVA  137
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+                 L      C F VL +T            V   F WI +D +   + +P+++ L  
+Sbjct  138  SSVTYLPCLDETCVFDVLAYT---------DTDVAVPFTWIESDPK--LIANPQMVKLHG  186
+
+Query  192  MTSDILKMQLYVEER  206
+              + I K+   V  +
+Sbjct  187  FDTKIHKVDTLVSYK  201
+
+
+> sp|Q9XFH3|MAD2_MAIZE Mitotic spindle checkpoint protein MAD2 
+OS=Zea mays OX=4577 GN=MAD2 PE=2 SV=1
+Length=208
+
+ Score = 210 bits (535),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 44/195 (23%), Positives = 83/195 (43%), Gaps = 15/195 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A ++ EF   A + ILY R VYP   F K KKY + + ++    +  +I      +   L
+Sbjct  17   AAIVSEFFGYAANSILYNRAVYPEESFSKVKKYGLTMLLTQDEGVKNFIASLTSQLSEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLLSIS---SDSLLSHVEQLLAAFILKIS  131
+            E   ++++V+VI+ K    V E++ F I     +       +     + + + A + +I+
+Sbjct  77   EAGKLQRIVLVIMSKATSEVLERWNFNIVTDAEVVEKGAIKEKSDKEIMREIQAIMRQIA  136
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+             C   L      C F VL +T            V     W+ +D +   + +P+++ L +
+Sbjct  137  SCITYLPCLDEPCVFDVLAYT---------DTDVDAPGTWVESDAK--LIDNPQMVKLHS  185
+
+Query  192  MTSDILKMQLYVEER  206
+              + I K+   V  +
+Sbjct  186  FDTKIHKVDTLVSYK  200
+
+
+> sp|P40958|MAD2_YEAST Mitotic spindle checkpoint component MAD2 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=MAD2 PE=1 SV=1
+Length=196
+
+ Score = 205 bits (521),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 51/189 (27%), Positives = 82/189 (43%), Gaps = 16/189 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+               + EF E +++ ILY R VYP   F   KKY++ +  +   EL  YI+  L  V   L
+Sbjct  11   TRTVTEFFEYSINSILYQRGVYPAEDFVTVKKYDLTLLKTHDDELKDYIRKILLQVHRWL  70
+
+Query  76   EKNDVEKVVVVILDKEHRP-VEKFVFEITQPPLLSISSDS--LLSHVEQLLAAFILKISV  132
+                  ++V+ I+DK+    VE++ F +      S   D    L+  +  + A I +I+ 
+Sbjct  71   LGGKCNQLVLCIVDKDEGEVVERWSFNVQHISGNSNGQDDVVDLNTTQSQIRALIRQITS  130
+
+Query  133  CDAVLDHN--PPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLK  190
+                L       G TFTVL +T   A   +E         W  AD     + D  ++  K
+Sbjct  131  SVTFLPELTKEGGYTFTVLAYTDADAKVPLE---------W--ADSNSKEIPDGEVVQFK  179
+
+Query  191  TMTSDILKM  199
+            T +++  K+
+Sbjct  180  TFSTNDHKV  188
+
+
+> sp|Q9Z1B5|MD2L1_MOUSE Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Mus musculus OX=10090 GN=Mad2l1 PE=1 SV=2
+Length=205
+
+ Score = 201 bits (512),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 44/196 (22%), Positives = 89/196 (45%), Gaps = 15/196 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A+++ EF    ++ ILY R +YP   F + +KY + +  +  PEL +Y+ + +  +K  L
+Sbjct  17   AEIVAEFFSFGINSILYQRGIYPSETFTRVQKYGLTLLTTTDPELIKYLNNVVEQLKEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLLS---ISSDSLLSHVEQLLAAFILKIS  131
+             K  V+K+VVVI + E   V E++ F+I          +  +     ++  + + I +I+
+Sbjct  77   YKCSVQKLVVVISNIESGEVLERWQFDIECDKTAKEEGVRREKSQKAIQDEIRSVIRQIT  136
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+                 L      C+F +L++T            ++    W  +  Q   + +   + L++
+Sbjct  137  ATVTFLPLLEVSCSFDLLIYT---------DKDLVVPEKWEESGPQ--FITNCEEVRLRS  185
+
+Query  192  MTSDILKMQLYVEERA  207
+             T+ I K+   V  + 
+Sbjct  186  FTTTIHKVNSMVAYKT  201
+
+
+> sp|Q556Y9|MD2L1_DICDI Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Dictyostelium discoideum OX=44689 GN=mad2l1-1 
+PE=3 SV=1
+Length=203
+
+ Score = 201 bits (511),  Expect = 8e-64, Method: Composition-based stats.
+ Identities = 46/194 (24%), Positives = 90/194 (46%), Gaps = 14/194 (7%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+             +++ EF   +++ IL+ R +YP   F +  KY +P+ ++    L  Y+ + L  +   L
+Sbjct  17   TEIVTEFFSYSINTILFQRGLYPPESFTRVAKYGLPILVTNDQSLKDYLDNVLKQLSEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQ--PPLLSISSDSLLSHVEQLLAAFILKISV  132
+               DV+K+V+VI D   + V E++VF++T   P             +   + A I +I+ 
+Sbjct  77   LSGDVQKLVLVITDIVTKEVLERWVFDVTTDIPKEGEAPRQKPEKEIMNEIQAIIRQITA  136
+
+Query  133  CDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKTM  192
+                L   P  CTF +LV+T +          +     W  +D +   + + + + L++ 
+Sbjct  137  SVTFLPLLPNACTFDLLVYTSK---------DLAVPQKWEESDPK--FITNSQQVKLRSF  185
+
+Query  193  TSDILKMQLYVEER  206
+            T+ I K++  V  +
+Sbjct  186  TTTIHKVESMVAYK  199
+
+
+> sp|O14417|MAD2_SCHPO Mitotic spindle checkpoint component mad2 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mad2 PE=1 SV=1
+Length=203
+
+ Score = 199 bits (506),  Expect = 5e-63, Method: Composition-based stats.
+ Identities = 43/198 (22%), Positives = 91/198 (46%), Gaps = 16/198 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            + ++ EF E AV+ IL+ R +YP   F+  +KY + + +S   E+  YI+  +  +   +
+Sbjct  16   SKLVSEFFEYAVNSILFQRGIYPAEDFKVVRKYGLNMLVSVDEEVKTYIRKIVSQLHKWM  75
+
+Query  76   EKNDVEKVVVVILDK-EHRPVEKFVFEI----TQPPLLSISSDSLLSHVEQLLAAFILKI  130
+                ++K+++VI  K     +E++ F +    T     +I +      V++ + A I +I
+Sbjct  76   FAKKIQKLILVITSKCSGEDLERWQFNVEMVDTADQFQNIGNKEDELRVQKEIQALIRQI  135
+
+Query  131  SVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLK  190
+            +     L      CTF VLV+  + +    +         W+ +D +   + D   + L+
+Sbjct  136  TATVTFLPQLEEQCTFNVLVYADKDSEVPTD---------WVDSDPR--ILRDAEQVQLR  184
+
+Query  191  TMTSDILKMQLYVEERAH  208
+            + ++ + K+   V  R +
+Sbjct  185  SFSTSMHKIDCQVAYRVN  202
+
+
+> sp|Q13257|MD2L1_HUMAN Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Homo sapiens OX=9606 GN=MAD2L1 PE=1 SV=1
+Length=205
+
+ Score = 198 bits (503),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 44/195 (23%), Positives = 89/195 (46%), Gaps = 15/195 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A+++ EF    ++ ILY R +YP   F + +KY + + ++   EL +Y+ + +  +K  L
+Sbjct  17   AEIVAEFFSFGINSILYQRGIYPSETFTRVQKYGLTLLVTTDLELIKYLNNVVEQLKDWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLL---SISSDSLLSHVEQLLAAFILKIS  131
+             K  V+K+VVVI + E   V E++ F+I         S   +     ++  + + I +I+
+Sbjct  77   YKCSVQKLVVVISNIESGEVLERWQFDIECDKTAKDDSAPREKSQKAIQDEIRSVIRQIT  136
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+                 L      C+F +L++T            ++    W  +  Q   + +   + L++
+Sbjct  137  ATVTFLPLLEVSCSFDLLIYT---------DKDLVVPEKWEESGPQ--FITNSEEVRLRS  185
+
+Query  192  MTSDILKMQLYVEER  206
+             T+ I K+   V  +
+Sbjct  186  FTTTIHKVNSMVAYK  200
+
+
+> sp|Q0E7J8|REV7_SCHPO DNA polymerase zeta processivity subunit 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 
+GN=rev7 PE=3 SV=1
+Length=213
+
+ Score = 172 bits (437),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 52/201 (26%), Positives = 96/201 (48%), Gaps = 12/201 (6%)
+
+Query  17   DVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLLE  76
+            D+  EFL V++H ILY R +YP  +F K +KYN  V  S HP L +YI++ +      L+
+Sbjct  14   DIFGEFLLVSIHCILYARRLYPQDLFIKARKYNTIVWQSRHPILCEYIEEVVQSCIEELQ  73
+
+Query  77   KNDVEKVVVVILDKEHRPVEKFVFEITQPPLL-------SISSDSLLS--HVEQLLAAFI  127
+               V +V + I++KE R  E++VF     P++        IS++   +  +VE + A+ I
+Sbjct  74   TGSVHQVALSIINKEQREEERYVFSTDSIPIIPDFLLEKQISTNEPFTDAYVEYMRASLI  133
+
+Query  128  LKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLI  187
+              +++ +  L      CT+T+ V  ++   R  +  +          D           I
+Sbjct  134  QLLNITNG-LPLIEQECTWTLRVTLKDGFPRPKQWEEWFLPPQARETDATRQF--KGITI  190
+
+Query  188  PLKTMTSDILKMQLYVEERAH  208
+            P++ +    +  +++VE+  +
+Sbjct  191  PVRNVDIGPMMTEIWVEKYTN  211
+
+
+> sp|Q59VQ3|MAD2_CANAL Spindle assembly checkpoint component MAD2 
+OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 
+GN=MAD2 PE=3 SV=1
+Length=214
+
+ Score = 171 bits (434),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 40/203 (20%), Positives = 89/203 (44%), Gaps = 19/203 (9%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            + ++C++ E A++ ILY R +YP   F   KKY++P+ ++   ++ +YI + +  +K  +
+Sbjct  17   SKIVCDYFEFALNSILYQRGIYPQEDFVTVKKYDLPMVINDDYDVQKYINNIMKQIKKWI  76
+
+Query  76   EKNDVEKVVVVILDKEH-RPVEKFVFEITQPPLLSISSD---------SLLSHVEQLLAA  125
+              + + K ++VI+ K +   +E++ F I        + +              +++ +  
+Sbjct  77   YGSLMSKFIIVIVSKTNLENIERWEFNIETKDQEETTENGDGDGDGVGKSRQEIQKEIRT  136
+
+Query  126  FILKISVCDAVLDHN--PPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHD  183
+             I +I+   + L         TF VLV+T    +  +E      D   +  D  D     
+Sbjct  137  IIRQITSSVSYLPVLKDDDEYTFNVLVYTDPNTSVPIEWCDTQGDGKVLDGDNVDN----  192
+
+Query  184  PRLIPLKTMTSDILKMQLYVEER  206
+               +   + ++DI ++   V  +
+Sbjct  193  ---VKFTSFSTDIHQVGTSVSYK  212
+
+
+> sp|Q54S00|MD2L2_DICDI Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Dictyostelium discoideum OX=44689 GN=mad2l2 PE=3 
+SV=1
+Length=332
+
+ Score = 124 bits (310),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 38/89 (43%), Positives = 59/89 (66%), Gaps = 0/89 (0%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+             D + EFLE + H ILY+R VYP  +F K  KY++PV +S    L +YI +++  +KP  
+Sbjct  7    CDCIGEFLETSFHCILYIRGVYPSCLFSKSIKYDIPVPISRSDLLTRYISNSIDSLKPHF  66
+
+Query  76   EKNDVEKVVVVILDKEHRPVEKFVFEITQ  104
+             K+ +EK+ + IL+K  +P+EKF+FEI+ 
+Sbjct  67   LKDTIEKISLTILNKYDKPIEKFIFEISS  95
+
+
+> sp|P38927|REV7_YEAST DNA polymerase zeta processivity subunit 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=REV7 PE=1 SV=1
+Length=245
+
+ Score = 61.7 bits (148),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 43/209 (21%), Positives = 84/209 (40%), Gaps = 27/209 (13%)
+
+Query  22   FLEVAVHLILYVREVYPVGIF--QKRKKYNVP--VQMSCHPELNQYIQDTLHCVKPLLEK  77
+            +L+  ++LIL+ R VYP   F     + +N+P  V ++ HP L  YI++ +  V   L  
+Sbjct  12   YLKCYINLILFYRNVYPPQSFDYTTYQSFNLPQFVPINRHPALIDYIEELILDVLSKL--  69
+
+Query  78   NDVEKVVVVILDKEHRP-VEKFVFEITQPPLLSISSD-SLLSHVEQLLAAFILKISVCDA  135
+              V +  + I++K++   +EK+V + ++   +         + V     + +  + +   
+Sbjct  70   THVYRFSICIINKKNDLCIEKYVLDFSELQHVDKDDQIITETEVFDEFRSSLNSLIMHLE  129
+
+Query  136  VLD-HNPPGCTFTVLVHTREA-----ATRNM------EKIQVIKDFPWI-------LADE  176
+             L   N    TF  +++  E        RN       EK ++ +D  W+       L D 
+Sbjct  130  KLPKVNDDTITFEAVINAIELELGHKLDRNRRVDSLEEKAEIERDSNWVKCQEDENLPDN  189
+
+Query  177  QDVHMHDPRLIPLKTMTSDILKMQLYVEE  205
+                    +L  L       L +  + E+
+Sbjct  190  NGFQPPKIKLTSLVGSDVGPLIIHQFSEK  218
+
+
+> sp|Q9YGC0|RAN_SALSA GTP-binding nuclear protein Ran OS=Salmo 
+salar OX=8030 GN=ran PE=2 SV=1
+Length=215
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  164  ARKLIGDPNLEFVAMPALAPP  184
+
+
+> sp|P52301|RAN_XENLA GTP-binding nuclear protein Ran OS=Xenopus 
+laevis OX=8355 GN=ran PE=1 SV=2
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62828|RAN_RAT GTP-binding nuclear protein Ran OS=Rattus norvegicus 
+OX=10116 GN=Ran PE=1 SV=3
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q5R556|RAN_PONAB GTP-binding nuclear protein Ran OS=Pongo 
+abelii OX=9601 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62827|RAN_MOUSE GTP-binding nuclear protein Ran OS=Mus musculus 
+OX=10090 GN=Ran PE=1 SV=3
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q4R4M9|RAN_MACFA GTP-binding nuclear protein Ran OS=Macaca 
+fascicularis OX=9541 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62826|RAN_HUMAN GTP-binding nuclear protein Ran OS=Homo sapiens 
+OX=9606 GN=RAN PE=1 SV=3
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P42558|RAN_CHICK GTP-binding nuclear protein Ran OS=Gallus 
+gallus OX=9031 GN=RAN PE=2 SV=1
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62825|RAN_CANLF GTP-binding nuclear protein Ran OS=Canis 
+lupus familiaris OX=9615 GN=RAN PE=1 SV=3
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q3T054|RAN_BOVIN GTP-binding nuclear protein Ran OS=Bos taurus 
+OX=9913 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q8K586|RANT_RAT GTP-binding nuclear protein Ran, testis-specific 
+isoform OS=Rattus norvegicus OX=10116 GN=Rasl2-9 PE=2 
+SV=1
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q61820|RANT_MOUSE GTP-binding nuclear protein Ran, testis-specific 
+isoform OS=Mus musculus OX=10090 GN=Rasl2-9 PE=2 SV=1
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|O17915|RAN_CAEEL GTP-binding nuclear protein ran-1 OS=Caenorhabditis 
+elegans OX=6239 GN=ran-1 PE=1 SV=1
+Length=215
+
+ Score = 49.7 bits (117),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+GDPNLEFVAMPALAPP
+Sbjct  164  ARKLLGDPNLEFVAMPALAPP  184
+
+
+> sp|P38542|RAN_BRUMA GTP-binding nuclear protein Ran OS=Brugia 
+malayi OX=6279 GN=Bm1_44725 PE=2 SV=2
+Length=215
+
+ Score = 49.7 bits (117),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+GDPNLEFVAMPALAPP
+Sbjct  164  ARKLLGDPNLEFVAMPALAPP  184
+
+
+> sp|P38544|RAN_ONCVO GTP-binding nuclear protein Ran OS=Onchocerca 
+volvulus OX=6282 GN=ran-1 PE=2 SV=1
+Length=215
+
+ Score = 48.6 bits (114),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 18/20 (90%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  231  SKLIGDPNLEFVAMPALAPP  250
+             KL+GDPNLEFVAMPALAPP
+Sbjct  165  RKLLGDPNLEFVAMPALAPP  184
+
+
+> sp|Q6GL85|RAN_XENTR GTP-binding nuclear protein Ran OS=Xenopus 
+tropicalis OX=8364 GN=ran PE=2 SV=1
+Length=216
+
+ Score = 48.6 bits (114),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPN EFVAMPALAPP
+Sbjct  165  ARKLIGDPNFEFVAMPALAPP  185
+
+
+> sp|P79735|RAN_DANRE GTP-binding nuclear protein Ran OS=Danio 
+rerio OX=7955 GN=ran PE=2 SV=1
+Length=215
+
+ Score = 47.8 bits (112),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFV MPALAPP
+Sbjct  164  ARKLIGDPNLEFVEMPALAPP  184
+
+
+> sp|Q9VZ23|RAN_DROME GTP-binding nuclear protein Ran OS=Drosophila 
+melanogaster OX=7227 GN=Ran PE=1 SV=1
+Length=216
+
+ Score = 47.0 bits (110),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 17/21 (81%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+GDPNLEFVAMPAL PP
+Sbjct  165  ARKLVGDPNLEFVAMPALLPP  185
+
+
+> sp|Q5SQP1|HORM2_MOUSE HORMA domain-containing protein 2 OS=Mus 
+musculus OX=10090 GN=Hormad2 PE=1 SV=1
+Length=306
+
+ Score = 45.9 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 31/213 (15%), Positives = 74/213 (35%), Gaps = 29/213 (14%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            V+ +     +  I Y+R ++P   ++ R+  ++ +++    +      +I   +      
+Sbjct  34   VVKKLFATCISCITYLRGLFPESSYRDRRLDDLSLKILREDKKCPGSLHIIKWIQGCFDA  93
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPPL--------LSISSDSLLSHVEQ  121
+            LEK  +   V+ +      P +     +F F+ T+            S  S +    +++
+Sbjct  94   LEKRYLHMAVLTLYTNPKEPEKVTEIYQFRFKYTKKGTTMDFDSSSTSFESGTDSEDIKK  153
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADE  176
+              +  I ++ +    L   P     T+ +H     T         K  V   F       
+Sbjct  154  ACSLLIRQLYILMQNLGPLPNDVILTMKLHYYNSVTPHDYQPPGFKEAVNSHFLLFEG--  211
+
+Query  177  QDVHMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+                  +P  + + +++S    M++ V   A +
+Sbjct  212  ------EPVSLRMGSVSSGFHSMKVKVTTEATR  238
+
+
+> sp|P28748|SPI1_SCHPO GTP-binding nuclear protein spi1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=spi1 
+PE=1 SV=1
+Length=216
+
+ Score = 44.3 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 16/21 (76%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+G+PNLEFVA PALAPP
+Sbjct  164  ARKLVGNPNLEFVASPALAPP  184
+
+
+> sp|Q7ZZX9|RAN_CARAU GTP-binding nuclear protein Ran OS=Carassius 
+auratus OX=7957 GN=ran PE=2 SV=1
+Length=215
+
+ Score = 44.3 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/21 (81%), Positives = 17/21 (81%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFV M ALAPP
+Sbjct  164  ARKLIGDPNLEFVEMSALAPP  184
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.130    0.341    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19865725000
+Results from round 3
+
+
+Query= 6NIF.A
+
+Length=260
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q2KIP7|MD2L2_BOVIN Mitotic spindle assembly checkpoint prote...  292     9e-100
+  sp|D3Z8D9|MD2L2_RAT Mitotic spindle assembly checkpoint protein...  290     1e-98 
+  sp|Q9D752|MD2L2_MOUSE Mitotic spindle assembly checkpoint prote...  290     1e-98 
+  sp|Q9UI95|MD2L2_HUMAN Mitotic spindle assembly checkpoint prote...  285     7e-97 
+  sp|Q568H3|MD2L2_DANRE Mitotic spindle assembly checkpoint prote...  284     2e-96 
+  sp|Q4KWZ6|MD2L2_CHICK Mitotic spindle assembly checkpoint prote...  281     4e-95 
+  sp|Q8QFR4|MD2L2_XENLA Mitotic spindle assembly checkpoint prote...  278     5e-94 
+  sp|Q28H85|MD2L2_XENTR Mitotic spindle assembly checkpoint prote...  277     1e-93 
+  sp|Q9LU93|MAD2_ARATH Mitotic spindle checkpoint protein MAD2 OS...  221     2e-71 
+  sp|Q9XFH3|MAD2_MAIZE Mitotic spindle checkpoint protein MAD2 OS...  215     2e-69 
+  sp|Q556Y9|MD2L1_DICDI Mitotic spindle assembly checkpoint prote...  215     2e-69 
+  sp|Q9Z1B5|MD2L1_MOUSE Mitotic spindle assembly checkpoint prote...  214     8e-69 
+  sp|O14417|MAD2_SCHPO Mitotic spindle checkpoint component mad2 ...  213     1e-68 
+  sp|Q94FL5|REV7_ARATH DNA polymerase zeta processivity subunit O...  213     1e-68 
+  sp|Q13257|MD2L1_HUMAN Mitotic spindle assembly checkpoint prote...  208     2e-66 
+  sp|P40958|MAD2_YEAST Mitotic spindle checkpoint component MAD2 ...  206     1e-65 
+  sp|Q59VQ3|MAD2_CANAL Spindle assembly checkpoint component MAD2...  205     2e-65 
+  sp|Q0E7J8|REV7_SCHPO DNA polymerase zeta processivity subunit O...  202     3e-64 
+  sp|Q5SQP1|HORM2_MOUSE HORMA domain-containing protein 2 OS=Mus ...  176     1e-52 
+  sp|P38927|REV7_YEAST DNA polymerase zeta processivity subunit O...  148     2e-42 
+  sp|Q54S00|MD2L2_DICDI Mitotic spindle assembly checkpoint prote...  120     7e-31 
+  sp|Q9YGC0|RAN_SALSA GTP-binding nuclear protein Ran OS=Salmo sa...  50.2    3e-06 
+  sp|P52301|RAN_XENLA GTP-binding nuclear protein Ran OS=Xenopus ...  50.2    3e-06 
+  sp|P62828|RAN_RAT GTP-binding nuclear protein Ran OS=Rattus nor...  50.2    3e-06 
+  sp|Q5R556|RAN_PONAB GTP-binding nuclear protein Ran OS=Pongo ab...  50.2    3e-06 
+  sp|P62827|RAN_MOUSE GTP-binding nuclear protein Ran OS=Mus musc...  50.2    3e-06 
+  sp|Q4R4M9|RAN_MACFA GTP-binding nuclear protein Ran OS=Macaca f...  50.2    3e-06 
+  sp|P62826|RAN_HUMAN GTP-binding nuclear protein Ran OS=Homo sap...  50.2    3e-06 
+  sp|P42558|RAN_CHICK GTP-binding nuclear protein Ran OS=Gallus g...  50.2    3e-06 
+  sp|P62825|RAN_CANLF GTP-binding nuclear protein Ran OS=Canis lu...  50.2    3e-06 
+  sp|Q3T054|RAN_BOVIN GTP-binding nuclear protein Ran OS=Bos taur...  50.2    3e-06 
+  sp|Q8K586|RANT_RAT GTP-binding nuclear protein Ran, testis-spec...  50.2    3e-06 
+  sp|Q61820|RANT_MOUSE GTP-binding nuclear protein Ran, testis-sp...  50.2    3e-06 
+  sp|O17915|RAN_CAEEL GTP-binding nuclear protein ran-1 OS=Caenor...  49.4    6e-06 
+  sp|P38542|RAN_BRUMA GTP-binding nuclear protein Ran OS=Brugia m...  49.4    6e-06 
+  sp|Q9VZ23|RAN_DROME GTP-binding nuclear protein Ran OS=Drosophi...  49.4    7e-06 
+  sp|Q6GL85|RAN_XENTR GTP-binding nuclear protein Ran OS=Xenopus ...  49.0    1e-05 
+  sp|P79735|RAN_DANRE GTP-binding nuclear protein Ran OS=Danio re...  48.2    2e-05 
+  sp|P38544|RAN_ONCVO GTP-binding nuclear protein Ran OS=Onchocer...  47.9    2e-05 
+  sp|P28748|SPI1_SCHPO GTP-binding nuclear protein spi1 OS=Schizo...  47.9    2e-05 
+  sp|Q7ZZX9|RAN_CARAU GTP-binding nuclear protein Ran OS=Carassiu...  44.8    3e-04 
+
+Sequences not found previously or not previously below threshold:
+
+  sp|E2QXH7|HORM2_CANLF HORMA domain-containing protein 2 OS=Cani...  148     7e-42
+  sp|A6QQY4|HORM2_BOVIN HORMA domain-containing protein 2 OS=Bos ...  148     1e-41
+  sp|Q8N7B1|HORM2_HUMAN HORMA domain-containing protein 2 OS=Homo...  133     3e-36
+  sp|Q2KIY6|HORM1_BOVIN HORMA domain-containing protein 1 OS=Bos ...  108     3e-26
+  sp|Q4R8B9|HORM1_MACFA HORMA domain-containing protein 1 OS=Maca...  107     1e-25
+  sp|Q86X24|HORM1_HUMAN HORMA domain-containing protein 1 OS=Homo...  106     3e-25
+  sp|E2IUK4|HORM1_PIG HORMA domain-containing protein 1 OS=Sus sc...  102     5e-24
+  sp|D3ZWE7|HORM1_RAT HORMA domain-containing protein 1 OS=Rattus...  101     2e-23
+  sp|Q9D5T7|HORM1_MOUSE HORMA domain-containing protein 1 OS=Mus ...  101     2e-23
+  sp|E2RSQ2|HORM1_CANLF HORMA domain-containing protein 1 OS=Cani...  100     3e-23
+  sp|Q5M7C8|HORM1_XENLA HORMA domain-containing protein 1 OS=Xeno...  99.5    6e-23
+  sp|A2BF66|HORM1_DANRE HORMA domain-containing protein 1 OS=Dani...  88.7    4e-19
+  sp|Q76CY8|PAIR2_ORYSJ Meiosis-specific protein PAIR2 OS=Oryza s...  58.6    1e-08
+  sp|P20050|HOP1_YEAST Meiosis-specific protein HOP1 OS=Saccharom...  48.2    3e-05
+  sp|Q9P4E9|GSP1_CANAW GTP-binding nuclear protein GSP1/Ran OS=Ca...  45.5    1e-04
+  sp|P32836|GSP2_YEAST GTP-binding nuclear protein GSP2/CNR2 OS=S...  44.0    4e-04
+  sp|Q6FR65|GSP1_CANGA GTP-binding nuclear protein GSP1/Ran OS=Ca...  43.6    5e-04
+  sp|P32835|GSP1_YEAST GTP-binding nuclear protein GSP1/CNR1 OS=S...  43.6    6e-04
+
+
+> sp|Q2KIP7|MD2L2_BOVIN Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Bos taurus OX=9913 GN=MAD2L2 PE=2 SV=1
+Length=211
+
+ Score = 292 bits (748),  Expect = 9e-100, Method: Composition-based stats.
+ Identities = 207/210 (99%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLL ISSDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLPISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKSS  211
+
+
+> sp|D3Z8D9|MD2L2_RAT Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Rattus norvegicus OX=10116 GN=Mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 290 bits (741),  Expect = 1e-98, Method: Composition-based stats.
+ Identities = 206/210 (98%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSI+SDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSINSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKNS  211
+
+
+> sp|Q9D752|MD2L2_MOUSE Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Mus musculus OX=10090 GN=Mad2l2 PE=1 SV=2
+Length=211
+
+ Score = 290 bits (741),  Expect = 1e-98, Method: Composition-based stats.
+ Identities = 206/210 (98%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSI+SDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSINSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHK S
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKNS  211
+
+
+> sp|Q9UI95|MD2L2_HUMAN Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Homo sapiens OX=9606 GN=MAD2L2 PE=1 SV=2
+Length=211
+
+ Score = 285 bits (730),  Expect = 7e-97, Method: Composition-based stats.
+ Identities = 209/210 (99%), Positives = 209/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHKGS
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+
+
+> sp|Q568H3|MD2L2_DANRE Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Danio rerio OX=7955 GN=mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 284 bits (727),  Expect = 2e-96, Method: Composition-based stats.
+ Identities = 177/209 (85%), Positives = 198/209 (95%), Gaps = 0/209 (0%)
+
+Query  3    TLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ  62
+            TLTRQDLNFGQVVAD+LCEFLEVA+HLILYVR++YP GIFQKR+KYNVPVQMSCHP+LNQ
+Sbjct  3    TLTRQDLNFGQVVADILCEFLEVAIHLILYVRDIYPSGIFQKRQKYNVPVQMSCHPQLNQ  62
+
+Query  63   YIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQL  122
+            YIQDTLHCVKPL+EKN+ EKVVVVI++KEH PVE+FVFEI+QPPLL+ISS++LLSHVEQL
+Sbjct  63   YIQDTLHCVKPLIEKNEAEKVVVVIMNKEHHPVERFVFEISQPPLLAISSETLLSHVEQL  122
+
+Query  123  LAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMH  182
+            L A ILKISVCDAVLD NPPGCTFTVLVHTREAATRNMEK+QVIKDFPWI+ADEQ+VHM 
+Sbjct  123  LRAMILKISVCDAVLDSNPPGCTFTVLVHTREAATRNMEKVQVIKDFPWIVADEQEVHME  182
+
+Query  183  DPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            + +LIPLKTMTSDILKMQLYVEE+  K S
+Sbjct  183  EAKLIPLKTMTSDILKMQLYVEEKTQKSS  211
+
+
+> sp|Q4KWZ6|MD2L2_CHICK Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Gallus gallus OX=9031 GN=MAD2L2 PE=1 SV=1
+Length=211
+
+ Score = 281 bits (718),  Expect = 4e-95, Method: Composition-based stats.
+ Identities = 202/210 (96%), Positives = 207/210 (99%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVADVL EFLEVAVHLILYVREVYP+GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADVLSEFLEVAVHLILYVREVYPIGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            QYIQDTLHCVKPLLEKNDVEKVVVVILDKEH PVE+FVFEITQPPLLSISS+SLLSHVEQ
+Sbjct  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHHPVERFVFEITQPPLLSISSESLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+            HDPRLIPLKTMTSDILKMQLYVEERAHKG+
+Sbjct  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGT  211
+
+
+> sp|Q8QFR4|MD2L2_XENLA Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Xenopus laevis OX=8355 GN=mad2l2 PE=1 SV=1
+Length=211
+
+ Score = 278 bits (710),  Expect = 5e-94, Method: Composition-based stats.
+ Identities = 195/210 (93%), Positives = 203/210 (97%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVAD+LCEFLEVAVHLILYVREVYP GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADILCEFLEVAVHLILYVREVYPTGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            +YIQDTLHCVKPL+EKNDVEKVVVVILDKEH PVE+FVFEI QPPLLSISSDSLLSHVEQ
+Sbjct  62   RYIQDTLHCVKPLIEKNDVEKVVVVILDKEHHPVERFVFEIAQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFT+LVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTLLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+             +PRLIPLKTMTSDILKMQLYVEERA K +
+Sbjct  182  QEPRLIPLKTMTSDILKMQLYVEERAQKST  211
+
+
+> sp|Q28H85|MD2L2_XENTR Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Xenopus tropicalis OX=8364 GN=mad2l2 PE=2 SV=1
+Length=211
+
+ Score = 277 bits (709),  Expect = 1e-93, Method: Composition-based stats.
+ Identities = 195/210 (93%), Positives = 204/210 (97%), Gaps = 0/210 (0%)
+
+Query  2    TTLTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELN  61
+            TTLTRQDLNFGQVVAD+LCEFLEVAVHLILYVREVYP+GIFQKRKKYNVPVQMSCHPELN
+Sbjct  2    TTLTRQDLNFGQVVADILCEFLEVAVHLILYVREVYPIGIFQKRKKYNVPVQMSCHPELN  61
+
+Query  62   QYIQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQ  121
+            +YIQDTLHCVKPL+EKNDVEKVVVVILDKEH PVE+FVFEI QPPLLSISSDSLLSHVEQ
+Sbjct  62   RYIQDTLHCVKPLIEKNDVEKVVVVILDKEHHPVERFVFEIAQPPLLSISSDSLLSHVEQ  121
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+            LL AFILKISVCDAVLD+NPPGCTFT+LVHTREAATRNMEKIQVIKDFPWILADEQDVHM
+Sbjct  122  LLRAFILKISVCDAVLDNNPPGCTFTLLVHTREAATRNMEKIQVIKDFPWILADEQDVHM  181
+
+Query  182  HDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+             +PRLIPLKTMTSDILKMQLYVEERA K +
+Sbjct  182  QEPRLIPLKTMTSDILKMQLYVEERAQKST  211
+
+
+> sp|Q9LU93|MAD2_ARATH Mitotic spindle checkpoint protein MAD2 
+OS=Arabidopsis thaliana OX=3702 GN=MAD2 PE=1 SV=1
+Length=209
+
+ Score = 221 bits (562),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 46/195 (24%), Positives = 85/195 (44%), Gaps = 15/195 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A ++ EF   A + ILY R VYP   F K KKY +P+ +     +  ++ +    +   L
+Sbjct  18   AAIVSEFFCYAANSILYNRAVYPEESFVKVKKYGLPMLLIEDESVKSFMSNLTSQISEWL  77
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLL---SISSDSLLSHVEQLLAAFILKIS  131
+            E   +++VV+VI+ K    V E++ F I     +    +S +     + + + A + +++
+Sbjct  78   EAGKLQRVVLVIMSKATGEVLERWNFRIETDNEVVDKGVSREKSDKEIMREIQAIMRQVA  137
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+                 L      C F VL +T            V   F WI +D +   + +P+++ L  
+Sbjct  138  SSVTYLPCLDETCVFDVLAYTD---------TDVAVPFTWIESDPK--LIANPQMVKLHG  186
+
+Query  192  MTSDILKMQLYVEER  206
+              + I K+   V  +
+Sbjct  187  FDTKIHKVDTLVSYK  201
+
+
+> sp|Q9XFH3|MAD2_MAIZE Mitotic spindle checkpoint protein MAD2 
+OS=Zea mays OX=4577 GN=MAD2 PE=2 SV=1
+Length=208
+
+ Score = 215 bits (548),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 44/195 (23%), Positives = 83/195 (43%), Gaps = 15/195 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A ++ EF   A + ILY R VYP   F K KKY + + ++    +  +I      +   L
+Sbjct  17   AAIVSEFFGYAANSILYNRAVYPEESFSKVKKYGLTMLLTQDEGVKNFIASLTSQLSEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLLSIS---SDSLLSHVEQLLAAFILKIS  131
+            E   ++++V+VI+ K    V E++ F I     +       +     + + + A + +I+
+Sbjct  77   EAGKLQRIVLVIMSKATSEVLERWNFNIVTDAEVVEKGAIKEKSDKEIMREIQAIMRQIA  136
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+             C   L      C F VL +T            V     W+ +D +   + +P+++ L +
+Sbjct  137  SCITYLPCLDEPCVFDVLAYTD---------TDVDAPGTWVESDAK--LIDNPQMVKLHS  185
+
+Query  192  MTSDILKMQLYVEER  206
+              + I K+   V  +
+Sbjct  186  FDTKIHKVDTLVSYK  200
+
+
+> sp|Q556Y9|MD2L1_DICDI Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Dictyostelium discoideum OX=44689 GN=mad2l1-1 
+PE=3 SV=1
+Length=203
+
+ Score = 215 bits (548),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 46/196 (23%), Positives = 90/196 (46%), Gaps = 14/196 (7%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+             +++ EF   +++ IL+ R +YP   F +  KY +P+ ++    L  Y+ + L  +   L
+Sbjct  17   TEIVTEFFSYSINTILFQRGLYPPESFTRVAKYGLPILVTNDQSLKDYLDNVLKQLSEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQ--PPLLSISSDSLLSHVEQLLAAFILKISV  132
+               DV+K+V+VI D   + V E++VF++T   P             +   + A I +I+ 
+Sbjct  77   LSGDVQKLVLVITDIVTKEVLERWVFDVTTDIPKEGEAPRQKPEKEIMNEIQAIIRQITA  136
+
+Query  133  CDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKTM  192
+                L   P  CTF +LV+T +          +     W  +D +   + + + + L++ 
+Sbjct  137  SVTFLPLLPNACTFDLLVYTSK---------DLAVPQKWEESDPK--FITNSQQVKLRSF  185
+
+Query  193  TSDILKMQLYVEERAH  208
+            T+ I K++  V  +  
+Sbjct  186  TTTIHKVESMVAYKIS  201
+
+
+> sp|Q9Z1B5|MD2L1_MOUSE Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Mus musculus OX=10090 GN=Mad2l1 PE=1 SV=2
+Length=205
+
+ Score = 214 bits (544),  Expect = 8e-69, Method: Composition-based stats.
+ Identities = 44/196 (22%), Positives = 90/196 (46%), Gaps = 15/196 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A+++ EF    ++ ILY R +YP   F + +KY + +  +  PEL +Y+ + +  +K  L
+Sbjct  17   AEIVAEFFSFGINSILYQRGIYPSETFTRVQKYGLTLLTTTDPELIKYLNNVVEQLKEWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLLS---ISSDSLLSHVEQLLAAFILKIS  131
+             K  V+K+VVVI + E   V E++ F+I          +  +     ++  + + I +I+
+Sbjct  77   YKCSVQKLVVVISNIESGEVLERWQFDIECDKTAKEEGVRREKSQKAIQDEIRSVIRQIT  136
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+                 L      C+F +L++T +          ++    W  +  Q   + +   + L++
+Sbjct  137  ATVTFLPLLEVSCSFDLLIYTDK---------DLVVPEKWEESGPQ--FITNCEEVRLRS  185
+
+Query  192  MTSDILKMQLYVEERA  207
+             T+ I K+   V  + 
+Sbjct  186  FTTTIHKVNSMVAYKT  201
+
+
+> sp|O14417|MAD2_SCHPO Mitotic spindle checkpoint component mad2 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 
+GN=mad2 PE=1 SV=1
+Length=203
+
+ Score = 213 bits (543),  Expect = 1e-68, Method: Composition-based stats.
+ Identities = 43/198 (22%), Positives = 91/198 (46%), Gaps = 16/198 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            + ++ EF E AV+ IL+ R +YP   F+  +KY + + +S   E+  YI+  +  +   +
+Sbjct  16   SKLVSEFFEYAVNSILFQRGIYPAEDFKVVRKYGLNMLVSVDEEVKTYIRKIVSQLHKWM  75
+
+Query  76   EKNDVEKVVVVILDK-EHRPVEKFVFEI----TQPPLLSISSDSLLSHVEQLLAAFILKI  130
+                ++K+++VI  K     +E++ F +    T     +I +      V++ + A I +I
+Sbjct  76   FAKKIQKLILVITSKCSGEDLERWQFNVEMVDTADQFQNIGNKEDELRVQKEIQALIRQI  135
+
+Query  131  SVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLK  190
+            +     L      CTF VLV+  + +    +         W+ +D +   + D   + L+
+Sbjct  136  TATVTFLPQLEEQCTFNVLVYADKDSEVPTD---------WVDSDPR--ILRDAEQVQLR  184
+
+Query  191  TMTSDILKMQLYVEERAH  208
+            + ++ + K+   V  R +
+Sbjct  185  SFSTSMHKIDCQVAYRVN  202
+
+
+> sp|Q94FL5|REV7_ARATH DNA polymerase zeta processivity subunit 
+OS=Arabidopsis thaliana OX=3702 GN=REV7 PE=2 SV=1
+Length=215
+
+ Score = 213 bits (543),  Expect = 1e-68, Method: Composition-based stats.
+ Identities = 66/202 (33%), Positives = 110/202 (54%), Gaps = 7/202 (3%)
+
+Query  4    LTRQDLNFGQVVADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQY  63
+            ++R+D N    V   L +F+EVA+ +I+Y++  YP   F++R+  NV VQ + HPEL  Y
+Sbjct  1    MSRKDDNQSGEVGRTLVDFMEVAITMIVYLKGFYPSAAFERRRYMNVVVQRARHPELRDY  60
+
+Query  64   IQDTLHCVKPLLEKNDVEKVVVVILDKEHRPVEKFVFEITQPPLLSISSDSLLSHVEQLL  123
+            I      + P +EK  VE+V VV   +++ PVE+F+F+IT  P  S ++      +E  L
+Sbjct  61   IHSAASGLLPFIEKGLVERVAVVFFSEDNVPVERFIFKITIKP--SCAALVEEGQLEFAL  118
+
+Query  124  AAFILKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHD  183
+             +F++K+SV  +++   P  C + V  + R        K   +    WI  D +    + 
+Sbjct  119  RSFLIKLSVSKSLVKPLPLNCRWEVTAYLRSLPQVGSSKEAEL----WIPTDTKQWQ-NP  173
+
+Query  184  PRLIPLKTMTSDILKMQLYVEE  205
+            P L P+K++ S+ L +QLY+E 
+Sbjct  174  PVLTPVKSLNSEPLCLQLYLEH  195
+
+
+> sp|Q13257|MD2L1_HUMAN Mitotic spindle assembly checkpoint protein 
+MAD2A OS=Homo sapiens OX=9606 GN=MAD2L1 PE=1 SV=1
+Length=205
+
+ Score = 208 bits (528),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 44/195 (23%), Positives = 90/195 (46%), Gaps = 15/195 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            A+++ EF    ++ ILY R +YP   F + +KY + + ++   EL +Y+ + +  +K  L
+Sbjct  17   AEIVAEFFSFGINSILYQRGIYPSETFTRVQKYGLTLLVTTDLELIKYLNNVVEQLKDWL  76
+
+Query  76   EKNDVEKVVVVILDKEHRPV-EKFVFEITQPPLL---SISSDSLLSHVEQLLAAFILKIS  131
+             K  V+K+VVVI + E   V E++ F+I         S   +     ++  + + I +I+
+Sbjct  77   YKCSVQKLVVVISNIESGEVLERWQFDIECDKTAKDDSAPREKSQKAIQDEIRSVIRQIT  136
+
+Query  132  VCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKT  191
+                 L      C+F +L++T +          ++    W  +  Q   + +   + L++
+Sbjct  137  ATVTFLPLLEVSCSFDLLIYTDK---------DLVVPEKWEESGPQ--FITNSEEVRLRS  185
+
+Query  192  MTSDILKMQLYVEER  206
+             T+ I K+   V  +
+Sbjct  186  FTTTIHKVNSMVAYK  200
+
+
+> sp|P40958|MAD2_YEAST Mitotic spindle checkpoint component MAD2 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=MAD2 PE=1 SV=1
+Length=196
+
+ Score = 206 bits (523),  Expect = 1e-65, Method: Composition-based stats.
+ Identities = 51/196 (26%), Positives = 83/196 (42%), Gaps = 16/196 (8%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+               + EF E +++ ILY R VYP   F   KKY++ +  +   EL  YI+  L  V   L
+Sbjct  11   TRTVTEFFEYSINSILYQRGVYPAEDFVTVKKYDLTLLKTHDDELKDYIRKILLQVHRWL  70
+
+Query  76   EKNDVEKVVVVILDKEHRP-VEKFVFEITQPPLLSISSDS--LLSHVEQLLAAFILKISV  132
+                  ++V+ I+DK+    VE++ F +      S   D    L+  +  + A I +I+ 
+Sbjct  71   LGGKCNQLVLCIVDKDEGEVVERWSFNVQHISGNSNGQDDVVDLNTTQSQIRALIRQITS  130
+
+Query  133  CDAVLDHN--PPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLK  190
+                L       G TFTVL +T   A   +E            AD     + D  ++  K
+Sbjct  131  SVTFLPELTKEGGYTFTVLAYTDADAKVPLEW-----------ADSNSKEIPDGEVVQFK  179
+
+Query  191  TMTSDILKMQLYVEER  206
+            T +++  K+   V  +
+Sbjct  180  TFSTNDHKVGAQVSYK  195
+
+
+> sp|Q59VQ3|MAD2_CANAL Spindle assembly checkpoint component MAD2 
+OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 
+GN=MAD2 PE=3 SV=1
+Length=214
+
+ Score = 205 bits (522),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 40/203 (20%), Positives = 89/203 (44%), Gaps = 19/203 (9%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+            + ++C++ E A++ ILY R +YP   F   KKY++P+ ++   ++ +YI + +  +K  +
+Sbjct  17   SKIVCDYFEFALNSILYQRGIYPQEDFVTVKKYDLPMVINDDYDVQKYINNIMKQIKKWI  76
+
+Query  76   EKNDVEKVVVVILDKEH-RPVEKFVFEITQPPLLSISSD---------SLLSHVEQLLAA  125
+              + + K ++VI+ K +   +E++ F I        + +              +++ +  
+Sbjct  77   YGSLMSKFIIVIVSKTNLENIERWEFNIETKDQEETTENGDGDGDGVGKSRQEIQKEIRT  136
+
+Query  126  FILKISVCDAVLDHN--PPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHD  183
+             I +I+   + L         TF VLV+T    +  +E      D   +  D  D     
+Sbjct  137  IIRQITSSVSYLPVLKDDDEYTFNVLVYTDPNTSVPIEWCDTQGDGKVLDGDNVDN----  192
+
+Query  184  PRLIPLKTMTSDILKMQLYVEER  206
+               +   + ++DI ++   V  +
+Sbjct  193  ---VKFTSFSTDIHQVGTSVSYK  212
+
+
+> sp|Q0E7J8|REV7_SCHPO DNA polymerase zeta processivity subunit 
+OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 
+GN=rev7 PE=3 SV=1
+Length=213
+
+ Score = 202 bits (514),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 52/201 (26%), Positives = 95/201 (47%), Gaps = 12/201 (6%)
+
+Query  17   DVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLLE  76
+            D+  EFL V++H ILY R +YP  +F K +KYN  V  S HP L +YI++ +      L+
+Sbjct  14   DIFGEFLLVSIHCILYARRLYPQDLFIKARKYNTIVWQSRHPILCEYIEEVVQSCIEELQ  73
+
+Query  77   KNDVEKVVVVILDKEHRPVEKFVFEITQPPLL-------SISSDSLLSH--VEQLLAAFI  127
+               V +V + I++KE R  E++VF     P++        IS++   +   VE + A+ I
+Sbjct  74   TGSVHQVALSIINKEQREEERYVFSTDSIPIIPDFLLEKQISTNEPFTDAYVEYMRASLI  133
+
+Query  128  LKISVCDAVLDHNPPGCTFTVLVHTREAATRNMEKIQVIKDFPWILADEQDVHMHDPRLI  187
+              +++ +  L      CT+T+ V  ++   R  +  +          D           I
+Sbjct  134  QLLNITNG-LPLIEQECTWTLRVTLKDGFPRPKQWEEWFLPPQARETDATRQF--KGITI  190
+
+Query  188  PLKTMTSDILKMQLYVEERAH  208
+            P++ +    +  +++VE+  +
+Sbjct  191  PVRNVDIGPMMTEIWVEKYTN  211
+
+
+> sp|Q5SQP1|HORM2_MOUSE HORMA domain-containing protein 2 OS=Mus 
+musculus OX=10090 GN=Hormad2 PE=1 SV=1
+Length=306
+
+ Score = 176 bits (445),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 31/213 (15%), Positives = 74/213 (35%), Gaps = 29/213 (14%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            V+ +     +  I Y+R ++P   ++ R+  ++ +++    +      +I   +      
+Sbjct  34   VVKKLFATCISCITYLRGLFPESSYRDRRLDDLSLKILREDKKCPGSLHIIKWIQGCFDA  93
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPPL--------LSISSDSLLSHVEQ  121
+            LEK  +   V+ +      P +     +F F+ T+            S  S +    +++
+Sbjct  94   LEKRYLHMAVLTLYTNPKEPEKVTEIYQFRFKYTKKGTTMDFDSSSTSFESGTDSEDIKK  153
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADE  176
+              +  I ++ +    L   P     T+ +H     T         K  V   F       
+Sbjct  154  ACSLLIRQLYILMQNLGPLPNDVILTMKLHYYNSVTPHDYQPPGFKEAVNSHFLLFEG--  211
+
+Query  177  QDVHMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+                  +P  + + +++S    M++ V   A +
+Sbjct  212  ------EPVSLRMGSVSSGFHSMKVKVTTEATR  238
+
+
+> sp|P38927|REV7_YEAST DNA polymerase zeta processivity subunit 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=REV7 PE=1 SV=1
+Length=245
+
+ Score = 148 bits (372),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 43/209 (21%), Positives = 84/209 (40%), Gaps = 27/209 (13%)
+
+Query  22   FLEVAVHLILYVREVYPVGIF--QKRKKYNVP--VQMSCHPELNQYIQDTLHCVKPLLEK  77
+            +L+  ++LIL+ R VYP   F     + +N+P  V ++ HP L  YI++ +  V   L  
+Sbjct  12   YLKCYINLILFYRNVYPPQSFDYTTYQSFNLPQFVPINRHPALIDYIEELILDVLSKL--  69
+
+Query  78   NDVEKVVVVILDKEHRP-VEKFVFEITQPPLLSISSD-SLLSHVEQLLAAFILKISVCDA  135
+              V +  + I++K++   +EK+V + ++   +         + V     + +  + +   
+Sbjct  70   THVYRFSICIINKKNDLCIEKYVLDFSELQHVDKDDQIITETEVFDEFRSSLNSLIMHLE  129
+
+Query  136  VLD-HNPPGCTFTVLVHTREA-----ATRNM------EKIQVIKDFPWI-------LADE  176
+             L   N    TF  +++  E        RN       EK ++ +D  W+       L D 
+Sbjct  130  KLPKVNDDTITFEAVINAIELELGHKLDRNRRVDSLEEKAEIERDSNWVKCQEDENLPDN  189
+
+Query  177  QDVHMHDPRLIPLKTMTSDILKMQLYVEE  205
+                    +L  L       L +  + E+
+Sbjct  190  NGFQPPKIKLTSLVGSDVGPLIIHQFSEK  218
+
+
+> sp|E2QXH7|HORM2_CANLF HORMA domain-containing protein 2 OS=Canis 
+lupus familiaris OX=9615 GN=HORMAD2 PE=3 SV=1
+Length=306
+
+ Score = 148 bits (373),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 29/217 (13%), Positives = 71/217 (33%), Gaps = 31/217 (14%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            ++ +    ++  I Y+R ++P   + +R   ++ +++    +      +I   +      
+Sbjct  34   MVKKLFATSISCITYLRGLFPESSYGERHLDDLSLKILREDKKCPGSLHIIKWIQGCFDA  93
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPPLL----------SISSDSLLSHV  119
+            LEK  +   V+ +      P +     +F F+ T+              S  S +    +
+Sbjct  94   LEKKYLHMAVLTLYTNPKEPEKVTEIYQFKFKYTKEGATMDFDSYSSSASFESGTNSEDI  153
+
+Query  120  EQLLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILA  174
+            ++     I K+ +    L   P     T+ +H     T         K  V         
+Sbjct  154  KKASILLIRKLYILMQNLGPLPNDVILTMKLHYYNAVTPHDYQPPGFKEGVNSHLLLFEG  213
+
+Query  175  DEQDVHMHDPRLIPLKTMTSDILKMQLYVEERAHKGS  211
+                    +P  + +  +++    M++ V     + S
+Sbjct  214  --------EPVNLQVGLVSTGFHSMKVKVTTEVTRVS  242
+
+
+> sp|A6QQY4|HORM2_BOVIN HORMA domain-containing protein 2 OS=Bos 
+taurus OX=9913 GN=HORMAD2 PE=2 SV=1
+Length=306
+
+ Score = 148 bits (372),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 33/227 (15%), Positives = 76/227 (33%), Gaps = 29/227 (13%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            ++ +    ++  I Y+R ++P   + +R   ++ +++    +      +I   +      
+Sbjct  34   MVKKLFATSISCITYLRGLFPESSYGERHLDDLSLKILREDKKCPGSLHIIKWIQGCFDA  93
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPP--------LLSISSDSLLSHVEQ  121
+            LEK  +   V+ +      P +     +F F+ T+            S  S +    +++
+Sbjct  94   LEKRYLRMAVLTLYTNPKEPEKVTEIYQFKFKYTKEGATMDFDSSNTSFKSGTNSEDIKK  153
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADE  176
+                 I K+ +    L   P     T+ +H     T         K  V           
+Sbjct  154  ASVLLIRKLYMLMQNLGPLPNDVILTMTLHYYNAVTPNDYQPPGFKEGVSSHLLLFEG--  211
+
+Query  177  QDVHMHDPRLIPLKTMTSDILKMQLYVEERAHKGSGSGSGSGSGSGS  223
+                  +P  + +  +++    M++ V   A + S   S     SG+
+Sbjct  212  ------EPVNLQVGMVSTGFHSMKVKVTTEATRVSDLESSLFQESGT  252
+
+
+> sp|Q8N7B1|HORM2_HUMAN HORMA domain-containing protein 2 OS=Homo 
+sapiens OX=9606 GN=HORMAD2 PE=1 SV=2
+Length=307
+
+ Score = 133 bits (335),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 30/216 (14%), Positives = 72/216 (33%), Gaps = 31/216 (14%)
+
+Query  17   DVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKP  73
+             ++ +    ++  I Y+R ++P   + +R   ++ +++    +      +I   +     
+Sbjct  33   KMVKKLFATSISCITYLRGLFPESSYGERHLDDLSLKILREDKKCPGSLHIIRWIQGCFD  92
+
+Query  74   LLEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPPLL----------SISSDSLLSH  118
+             LEK  +   V+ +        +     +F F+ T+              S  S +    
+Sbjct  93   ALEKRYLRMAVLTLYTDPMGSEKVTEMYQFKFKYTKEGATMDFDSHSSSTSFESGTNNED  152
+
+Query  119  VEQLLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWIL  173
+            +++     I K+ +    L+  P     T+ +H     T         K  V   F    
+Sbjct  153  IKKASVLLIRKLYILMQDLEPLPNNVVLTMKLHYYNAVTPHDYQPLGFKEGVNSHFLLFD  212
+
+Query  174  ADEQDVHMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+                     +P  + +  +++    M++ V   A K
+Sbjct  213  --------KEPINVQVGFVSTGFHSMKVKVMTEATK  240
+
+
+> sp|Q54S00|MD2L2_DICDI Mitotic spindle assembly checkpoint protein 
+MAD2B OS=Dictyostelium discoideum OX=44689 GN=mad2l2 PE=3 
+SV=1
+Length=332
+
+ Score = 120 bits (300),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 38/89 (43%), Positives = 59/89 (66%), Gaps = 0/89 (0%)
+
+Query  16   ADVLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQYIQDTLHCVKPLL  75
+             D + EFLE + H ILY+R VYP  +F K  KY++PV +S    L +YI +++  +KP  
+Sbjct  7    CDCIGEFLETSFHCILYIRGVYPSCLFSKSIKYDIPVPISRSDLLTRYISNSIDSLKPHF  66
+
+Query  76   EKNDVEKVVVVILDKEHRPVEKFVFEITQ  104
+             K+ +EK+ + IL+K  +P+EKF+FEI+ 
+Sbjct  67   LKDTIEKISLTILNKYDKPIEKFIFEISS  95
+
+
+> sp|Q2KIY6|HORM1_BOVIN HORMA domain-containing protein 1 OS=Bos 
+taurus OX=9913 GN=HORMAD1 PE=2 SV=2
+Length=393
+
+ Score = 108 bits (270),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 33/221 (15%), Positives = 68/221 (31%), Gaps = 32/221 (14%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            ++   L V+V  I Y+R ++P   +  R   ++ V++    +       +   +      
+Sbjct  29   LVKRLLAVSVSCITYLRGIFPECAYGTRYLDDLCVKILREDKNCPGSTQLVKWMLGCYDA  88
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEIT--------QPPLLSISSDSLLSHVEQ  121
+            L K  +  VV+ +      P       +F F+ T             S   +   +  ++
+Sbjct  89   LHKKYLRMVVLAVYTNPEDPQTISECYQFKFKYTSNGPVMDFTSKNQSNEPNMSSADTKK  148
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADE  176
+                 I KI +    L   P     T+ +      T         K            D 
+Sbjct  149  ASILLIRKIYILMQNLGPLPNDVCLTMKLFYYDEVTPPDYQPPGFK----------DGDC  198
+
+Query  177  QDV-HMHDPRLIPLKTMTSDILKMQLYVEERAHKGSGSGSG  216
+            + V    +P  + +  + +     ++ V     +    GSG
+Sbjct  199  EGVIFEGEPMYLNVGEVPTPFHTFKVKVTTERERMENIGSG  239
+
+
+> sp|Q4R8B9|HORM1_MACFA HORMA domain-containing protein 1 OS=Macaca 
+fascicularis OX=9541 GN=HORMAD1 PE=2 SV=1
+Length=394
+
+ Score = 107 bits (266),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 31/214 (14%), Positives = 67/214 (31%), Gaps = 32/214 (15%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            ++   L V+V  I Y+R ++P   +  R   ++ V++    +       +   +      
+Sbjct  29   LVKRLLAVSVSCITYLRGIFPECAYGTRYLDDLCVKILREDKNCPGSTQLVKWMLGCYDA  88
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPP--------LLSISSDSLLSHVEQ  121
+            L+K  +  VV+ +      P       +F F+ T             S  S    +  ++
+Sbjct  89   LQKKYLRMVVLAVYTNPEDPQTISECYQFKFKYTNNGPLMDFISKNQSNESSMSSTDTKK  148
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADE  176
+                 I KI +    L   P     T+ +      T         K            D 
+Sbjct  149  ASILLIRKIYILMQNLGPLPNDVCLTMKLFYYDEVTPPDYQPPGFK----------DGDC  198
+
+Query  177  QDV-HMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+            + V    +P  + +  +++     ++ V     +
+Sbjct  199  EGVIFEGEPMYLNVGEVSTPFHIFKVKVTTERER  232
+
+
+> sp|Q86X24|HORM1_HUMAN HORMA domain-containing protein 1 OS=Homo 
+sapiens OX=9606 GN=HORMAD1 PE=2 SV=1
+Length=394
+
+ Score = 106 bits (263),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 32/214 (15%), Positives = 68/214 (32%), Gaps = 32/214 (15%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            ++   L V+V  I Y+R ++P   +  R   ++ V++    +       +   +      
+Sbjct  29   LVKRLLAVSVSCITYLRGIFPECAYGTRYLDDLCVKILREDKNCPGSTQLVKWMLGCYDA  88
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPP--------LLSISSDSLLSHVEQ  121
+            L+K  +  VV+ +      P       +F F+ T             S  S  L +  ++
+Sbjct  89   LQKKYLRMVVLAVYTNPEDPQTISECYQFKFKYTNNGPLMDFISKNQSNESSMLSTDTKK  148
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADE  176
+                 I KI +    L   P     T+ +      T         K            D 
+Sbjct  149  ASILLIRKIYILMQNLGPLPNDVCLTMKLFYYDEVTPPDYQPPGFK----------DGDC  198
+
+Query  177  QDV-HMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+            + V    +P  + +  +++     ++ V     +
+Sbjct  199  EGVIFEGEPMYLNVGEVSTPFHIFKVKVTTERER  232
+
+
+> sp|E2IUK4|HORM1_PIG HORMA domain-containing protein 1 OS=Sus 
+scrofa OX=9823 GN=HORMAD1 PE=2 SV=1
+Length=394
+
+ Score = 102 bits (254),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 33/221 (15%), Positives = 68/221 (31%), Gaps = 32/221 (14%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            ++   L V+V  I Y+R ++P   +  R   ++ V++    +       +   +      
+Sbjct  29   LVKRLLAVSVSCITYLRGIFPECAYGTRYLDDLCVKILREDKNCPGSTQLVKWMLGCYDA  88
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPP--------LLSISSDSLLSHVEQ  121
+            L+K  +  VV+ +      P       +F F+ T             S  S    +  ++
+Sbjct  89   LQKKYLRMVVLAVYTNPEDPQTISECYQFKFKYTSNGPIMDFISKNQSSESSMSSADTKK  148
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADE  176
+                 I KI +    L   P     T+ +      T         K            D 
+Sbjct  149  ASILLIRKIYILMQNLGPLPNDVCLTMKLFYYDEVTPPDYQPPGFK----------DGDC  198
+
+Query  177  QDV-HMHDPRLIPLKTMTSDILKMQLYVEERAHKGSGSGSG  216
+            + V    +P  + +  + +     ++ V     +     SG
+Sbjct  199  EGVIFEGEPMYLNVGEVPTPFHTFKVKVTTEKERMENIYSG  239
+
+
+> sp|D3ZWE7|HORM1_RAT HORMA domain-containing protein 1 OS=Rattus 
+norvegicus OX=10116 GN=Hormad1 PE=1 SV=1
+Length=392
+
+ Score = 101 bits (251),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 31/213 (15%), Positives = 67/213 (31%), Gaps = 32/213 (15%)
+
+Query  19   LCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPLL  75
+            +   L V+V  I Y+R ++P   +  R   ++ V++    +       +   +      L
+Sbjct  31   VKRLLAVSVSCITYLRGIFPERAYGTRYLDDLCVKILKEDKNCPGSSQLVKWMLGCYDAL  90
+
+Query  76   EKNDVEKVVVVILDKEHRPVE-----KFVFEITQPP--------LLSISSDSLLSHVEQL  122
+            +K  +  +++ +      P       +F F+ T+            +  S +  +  ++ 
+Sbjct  91   QKKYLRMIILAVYTNPEDPQTISECYQFKFKYTKNGPIMDFISKNQNNKSSTTSADTKKA  150
+
+Query  123  LAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADEQ  177
+                I KI V    L   P     T+ +      T         K            D +
+Sbjct  151  SILLIRKIYVLMQNLGPLPNDVCLTMKLFYYDEVTPPDYQPPGFK----------DGDCE  200
+
+Query  178  DV-HMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+             V    DP  + +  + +     +L V     +
+Sbjct  201  GVIFDGDPTYLNVGEVPTPFHTFRLKVTTEKER  233
+
+
+> sp|Q9D5T7|HORM1_MOUSE HORMA domain-containing protein 1 OS=Mus 
+musculus OX=10090 GN=Hormad1 PE=1 SV=1
+Length=392
+
+ Score = 101 bits (250),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 31/213 (15%), Positives = 67/213 (31%), Gaps = 32/213 (15%)
+
+Query  19   LCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPLL  75
+            +   L V+V  I Y+R ++P   +  R   ++ V++    +       +   +      L
+Sbjct  31   VKRLLAVSVSCITYLRGIFPERAYGTRYLDDLCVKILKEDKNCPGSSQLVKWMLGCYDAL  90
+
+Query  76   EKNDVEKVVVVILDKEHRPVE-----KFVFEITQPP--------LLSISSDSLLSHVEQL  122
+            +K  +  +++ +      P       +F F+ T+            +  S +  +  ++ 
+Sbjct  91   QKKYLRMIILAVYTNPGDPQTISECYQFKFKYTKNGPIMDFISKNQNNKSSTTSADTKKA  150
+
+Query  123  LAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADEQ  177
+                I KI V    L   P     T+ +      T         K            D +
+Sbjct  151  SILLIRKIYVLMQNLGPLPNDVCLTMKLFYYDEVTPPDYQPPGFK----------DGDCE  200
+
+Query  178  DV-HMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+             V    DP  + +  + +     +L V     +
+Sbjct  201  GVIFDGDPTYLNVGEVPTPFHTFRLKVTTEKER  233
+
+
+> sp|E2RSQ2|HORM1_CANLF HORMA domain-containing protein 1 OS=Canis 
+lupus familiaris OX=9615 GN=HORMAD1 PE=3 SV=1
+Length=395
+
+ Score = 100 bits (249),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 30/214 (14%), Positives = 66/214 (31%), Gaps = 32/214 (15%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            ++   L V+V  I Y+R ++P   +  R   ++ V++    +       +   +      
+Sbjct  29   LVKRLLAVSVSCITYLRGIFPECAYGTRYLDDLCVKILREDKNCPGSTQLVKWMLGCYDA  88
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQPPLL--------SISSDSLLSHVEQ  121
+            L+K  +  VV+ +      P       +F F+      +        S  S    +  ++
+Sbjct  89   LQKKYLRMVVLAVYTNPEDPQTISECYQFKFKYASNGPVMDFISKNQSSESSMSSADTKK  148
+
+Query  122  LLAAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADE  176
+                 I KI +    L   P     T+ +      T         K            D 
+Sbjct  149  ASILLIRKIYILMQNLGPLPNDVCLTMKLFYYDEVTPPDYQPPGFK----------DGDC  198
+
+Query  177  QDV-HMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+            + V    +P  + +  + +     ++ V     +
+Sbjct  199  EGVIFEGEPMYLNVGEVPTPFHTFKVKVTTEKER  232
+
+
+> sp|Q5M7C8|HORM1_XENLA HORMA domain-containing protein 1 OS=Xenopus 
+laevis OX=8355 GN=hormad1 PE=2 SV=1
+Length=386
+
+ Score = 99.5 bits (246),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 30/211 (14%), Positives = 70/211 (33%), Gaps = 28/211 (13%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPELNQ---YIQDTLHCVKPL  74
+            ++   L V+V  I Y+R ++P   +  R   ++ V++    +       +   +      
+Sbjct  29   LVKRLLAVSVSCITYLRGLFPEYAYGTRYLDDICVKILREDKSCPGSTQLVKWMLGCYDA  88
+
+Query  75   LEKNDVEKVVVVILDKEHRPVE-----KFVFEITQP-PLLSISSDSLL-----SHVEQLL  123
+            L+K  +  V++ I      P       +F F+ T   P++   S++       S  ++  
+Sbjct  89   LQKKYLRMVMLAIYTDPEDPQTVTECYQFKFKYTASGPVMDFVSNNSNSVSTCSDAKKTS  148
+
+Query  124  AAFILKISVCDAVLDHNPPGCTFTVLVH-----TREAATRNMEKIQVIKDFPWILADEQD  178
+               I K+ +    L   P     T+ +      T         K             E  
+Sbjct  149  ILLIRKLYILMQNLGPLPNDVCLTMKLFYYDEVTPADYQPPGFKEG---------TCEGL  199
+
+Query  179  VHMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+            +   +P  + +  + +    +++ V     +
+Sbjct  200  MFEGEPMYLNVGEVATPFHVLKVKVTTEKER  230
+
+
+> sp|A2BF66|HORM1_DANRE HORMA domain-containing protein 1 OS=Danio 
+rerio OX=7955 GN=hormad1 PE=2 SV=1
+Length=356
+
+ Score = 88.7 bits (218),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 27/212 (13%), Positives = 71/212 (33%), Gaps = 29/212 (14%)
+
+Query  18   VLCEFLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSCHPEL--NQYIQDTLHCVKPLL  75
+            ++ + L +A+  I Y+R ++    + ++    + V +         Q I   L      L
+Sbjct  29   LVKKLLAIAISSITYLRGLFSEKAYGRKYVGELKVYILREDSCPGAQQIVHWLQGCFDAL  88
+
+Query  76   EKNDVEKVVVVIL---DKEHRPVEKFVFEI---TQPPLLSISSDSLLS-------HVEQL  122
+            ++  +  V++ I    D   +  E + F+I    + P +   S +  S       + ++ 
+Sbjct  89   QRRYLRMVLLSIYCDPDNPQKVTECYQFKIKYTEKGPQMDFESKNGQSLTKMACDNTQKS  148
+
+Query  123  LAAFILKISVCDAVLDHNPPGCTFTV-LVH----TREAATRNMEKIQVIKDFPWILADEQ  177
+                + K+ +    L   P      + L++    T +       K               
+Sbjct  149  SMLLVRKLYMLMQNLGPLPDDVCLNMKLLYYDEVTPQEYQPPGFKEDDNG---------T  199
+
+Query  178  DVHMHDPRLIPLKTMTSDILKMQLYVEERAHK  209
+             +   +P  + +  + +    +++ V     +
+Sbjct  200  LMFEREPVNLTMGEVVTPFHSIKMNVTTEKKR  231
+
+
+> sp|Q76CY8|PAIR2_ORYSJ Meiosis-specific protein PAIR2 OS=Oryza 
+sativa subsp. japonica OX=39947 GN=PAIR2 PE=2 SV=1
+Length=610
+
+ Score = 58.6 bits (140),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 34/213 (16%), Positives = 76/213 (36%), Gaps = 38/213 (18%)
+
+Query  22   FLEVAVHLILYVREVYPVGIFQKRKKYNVPVQMSC----HPELNQYIQDTLHCVKPLLEK  77
+             L +A++ I Y+R ++P   F  +    + +++        E  + I      V   L+K
+Sbjct  24   LLRIAIYNISYIRGLFPEKYFNDKSVPALEMKIKKLMPMDTESRRLIDWMEKGVYDALQK  83
+
+Query  78   NDVEKVVVVILDKEHRP-VEKFVFEI------------------TQPPLLSISSDSLLSH  118
+              ++ ++  I +KE  P +E++ F                    ++    +  S++    
+Sbjct  84   KYLKTLLFCICEKEEGPMIEEYAFSFSYPNTSGDEVAMNLSRTGSKKNSATFKSNAAEVT  143
+
+Query  119  VEQLLAA---FILKISVCDAVLDHNPPGCTFTV-LVH----TREAATRNMEKIQVIKDFP  170
+             +Q+ ++    I  +      LD  P   T  + L++    T E       K        
+Sbjct  144  PDQMRSSACKMIRTLVSLMRTLDQMPEERTILMKLLYYDDVTPEDYEPPFFKCCA-----  198
+
+Query  171  WILADEQDVHMHDPRLIPLKTMTSDILKMQLYV  203
+                +  ++   +P  + +  + S  L + L V
+Sbjct  199  --DNEAINIWNKNPLKMEVGNVNSKHLVLALKV  229
+
+
+> sp|Q9YGC0|RAN_SALSA GTP-binding nuclear protein Ran OS=Salmo 
+salar OX=8030 GN=ran PE=2 SV=1
+Length=215
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  164  ARKLIGDPNLEFVAMPALAPP  184
+
+
+> sp|P52301|RAN_XENLA GTP-binding nuclear protein Ran OS=Xenopus 
+laevis OX=8355 GN=ran PE=1 SV=2
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62828|RAN_RAT GTP-binding nuclear protein Ran OS=Rattus norvegicus 
+OX=10116 GN=Ran PE=1 SV=3
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q5R556|RAN_PONAB GTP-binding nuclear protein Ran OS=Pongo 
+abelii OX=9601 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62827|RAN_MOUSE GTP-binding nuclear protein Ran OS=Mus musculus 
+OX=10090 GN=Ran PE=1 SV=3
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q4R4M9|RAN_MACFA GTP-binding nuclear protein Ran OS=Macaca 
+fascicularis OX=9541 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62826|RAN_HUMAN GTP-binding nuclear protein Ran OS=Homo sapiens 
+OX=9606 GN=RAN PE=1 SV=3
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P42558|RAN_CHICK GTP-binding nuclear protein Ran OS=Gallus 
+gallus OX=9031 GN=RAN PE=2 SV=1
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|P62825|RAN_CANLF GTP-binding nuclear protein Ran OS=Canis 
+lupus familiaris OX=9615 GN=RAN PE=1 SV=3
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q3T054|RAN_BOVIN GTP-binding nuclear protein Ran OS=Bos taurus 
+OX=9913 GN=RAN PE=2 SV=3
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q8K586|RANT_RAT GTP-binding nuclear protein Ran, testis-specific 
+isoform OS=Rattus norvegicus OX=10116 GN=Rasl2-9 PE=2 
+SV=1
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|Q61820|RANT_MOUSE GTP-binding nuclear protein Ran, testis-specific 
+isoform OS=Mus musculus OX=10090 GN=Rasl2-9 PE=2 SV=1
+Length=216
+
+ Score = 50.2 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/21 (90%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFVAMPALAPP
+Sbjct  165  ARKLIGDPNLEFVAMPALAPP  185
+
+
+> sp|O17915|RAN_CAEEL GTP-binding nuclear protein ran-1 OS=Caenorhabditis 
+elegans OX=6239 GN=ran-1 PE=1 SV=1
+Length=215
+
+ Score = 49.4 bits (116),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+GDPNLEFVAMPALAPP
+Sbjct  164  ARKLLGDPNLEFVAMPALAPP  184
+
+
+> sp|P38542|RAN_BRUMA GTP-binding nuclear protein Ran OS=Brugia 
+malayi OX=6279 GN=Bm1_44725 PE=2 SV=2
+Length=215
+
+ Score = 49.4 bits (116),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 19/21 (90%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+GDPNLEFVAMPALAPP
+Sbjct  164  ARKLLGDPNLEFVAMPALAPP  184
+
+
+> sp|Q9VZ23|RAN_DROME GTP-binding nuclear protein Ran OS=Drosophila 
+melanogaster OX=7227 GN=Ran PE=1 SV=1
+Length=216
+
+ Score = 49.4 bits (116),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 17/21 (81%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+GDPNLEFVAMPAL PP
+Sbjct  165  ARKLVGDPNLEFVAMPALLPP  185
+
+
+> sp|Q6GL85|RAN_XENTR GTP-binding nuclear protein Ran OS=Xenopus 
+tropicalis OX=8364 GN=ran PE=2 SV=1
+Length=216
+
+ Score = 49.0 bits (115),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPN EFVAMPALAPP
+Sbjct  165  ARKLIGDPNFEFVAMPALAPP  185
+
+
+> sp|P79735|RAN_DANRE GTP-binding nuclear protein Ran OS=Danio 
+rerio OX=7955 GN=ran PE=2 SV=1
+Length=215
+
+ Score = 48.2 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFV MPALAPP
+Sbjct  164  ARKLIGDPNLEFVEMPALAPP  184
+
+
+> sp|P38544|RAN_ONCVO GTP-binding nuclear protein Ran OS=Onchocerca 
+volvulus OX=6282 GN=ran-1 PE=2 SV=1
+Length=215
+
+ Score = 47.9 bits (112),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/20 (90%), Positives = 19/20 (95%), Gaps = 0/20 (0%)
+
+Query  231  SKLIGDPNLEFVAMPALAPP  250
+             KL+GDPNLEFVAMPALAPP
+Sbjct  165  RKLLGDPNLEFVAMPALAPP  184
+
+
+> sp|P28748|SPI1_SCHPO GTP-binding nuclear protein spi1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=spi1 
+PE=1 SV=1
+Length=216
+
+ Score = 47.9 bits (112),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 16/21 (76%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+G+PNLEFVA PALAPP
+Sbjct  164  ARKLVGNPNLEFVASPALAPP  184
+
+
+> sp|P20050|HOP1_YEAST Meiosis-specific protein HOP1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HOP1 
+PE=1 SV=2
+Length=605
+
+ Score = 48.2 bits (113),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 30/238 (13%), Positives = 71/238 (30%), Gaps = 48/238 (20%)
+
+Query  17   DVLCEFLEVAVHLILYVREVYPVGIFQKRK--------KYN-VPVQMSCHPELNQYIQDT  67
+             +L   L ++   + ++R ++P  IF  ++         YN      +   ++   I+  
+Sbjct  24   KLLQTMLTMSFGCLAFLRGLFPDDIFVDQRFVPEKVEKNYNKQNTSQNNSIKIKTLIRGK  83
+
+Query  68   LHC---VKPLLEKNDVEKVVV---------VILDKEHRPVEKFVFEIT------------  103
+                  +   LEK   + + +         + L+     +E ++F               
+Sbjct  84   SAQADLLLDWLEKGVFKSIRLKCLKALSLGIFLEDPTDLLENYIFSFDYDEENNVNINVN  143
+
+Query  104  -------QPPLLSISSDSLLSHVEQLLAAFILKISVCDAVLDHNPPGCTFTVLV----HT  152
+                          +    L    +++   + +  +    L+  P     T+ +    + 
+Sbjct  144  LSGNKKGSKNADPENETISLLDSRRMVQQLMRRFIIITQSLEPLPQKKFLTMRLMFNDNV  203
+
+Query  153  REAATRNMEKIQVIKDFPWILADEQDVHMHDPRLIPLKTMTSDILKMQLYVEERAHKG  210
+             E     + K     D    L    ++   D   I + T+ +   K+ L V   A   
+Sbjct  204  DEDYQPELFKDATF-DKRATLKVPTNL---DNDAIDVGTLNTKHHKVALSVLSAATSS  257
+
+
+> sp|Q9P4E9|GSP1_CANAW GTP-binding nuclear protein GSP1/Ran OS=Candida 
+albicans (strain WO-1) OX=294748 GN=GSP1 PE=3 SV=2
+Length=214
+
+ Score = 45.5 bits (106),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/21 (71%), Positives = 17/21 (81%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL+G+P LEFVA PALAPP
+Sbjct  162  ARKLVGNPQLEFVASPALAPP  182
+
+
+> sp|Q7ZZX9|RAN_CARAU GTP-binding nuclear protein Ran OS=Carassius 
+auratus OX=7957 GN=ran PE=2 SV=1
+Length=215
+
+ Score = 44.8 bits (104),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/21 (81%), Positives = 17/21 (81%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KLIGDPNLEFV M ALAPP
+Sbjct  164  ARKLIGDPNLEFVEMSALAPP  184
+
+
+> sp|P32836|GSP2_YEAST GTP-binding nuclear protein GSP2/CNR2 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=GSP2 PE=1 SV=1
+Length=220
+
+ Score = 44.0 bits (102),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 17/30 (57%), Positives = 21/30 (70%), Gaps = 2/30 (7%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPPASR--EEIM  257
+              KL G+P LEFVA PALAPP  +  E++M
+Sbjct  168  ARKLAGNPQLEFVASPALAPPEVQVDEQLM  197
+
+
+> sp|Q6FR65|GSP1_CANGA GTP-binding nuclear protein GSP1/Ran OS=Candida 
+glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 
+0622 / NRRL Y-65) OX=284593 GN=GSP1 PE=3 SV=1
+Length=214
+
+ Score = 43.6 bits (101),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/21 (71%), Positives = 16/21 (76%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL G+P LEFVA PALAPP
+Sbjct  162  ARKLAGNPQLEFVASPALAPP  182
+
+
+> sp|P32835|GSP1_YEAST GTP-binding nuclear protein GSP1/CNR1 OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=GSP1 PE=1 SV=1
+Length=219
+
+ Score = 43.6 bits (101),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/21 (71%), Positives = 16/21 (76%), Gaps = 0/21 (0%)
+
+Query  230  GSKLIGDPNLEFVAMPALAPP  250
+              KL G+P LEFVA PALAPP
+Sbjct  167  ARKLAGNPQLEFVASPALAPP  187
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.316    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0388    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19865725000
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

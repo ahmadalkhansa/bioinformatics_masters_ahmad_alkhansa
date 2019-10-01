@@ -1,0 +1,1380 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 4YFB.A
+
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|Q3KD51|PVDQ_PSEPF Acyl-homoserine lactone acylase PvdQ OS=Ps...  127     5e-33
+  sp|Q88IU8|PVDQ_PSEPK Acyl-homoserine lactone acylase PvdQ OS=Ps...  122     1e-31
+  sp|Q48KB0|PVDQ_PSE14 Acyl-homoserine lactone acylase PvdQ OS=Ps...  119     2e-30
+  sp|Q884D2|PVDQ_PSESM Acyl-homoserine lactone acylase PvdQ OS=Ps...  117     1e-29
+  sp|Q4ZV08|PVDQ_PSEU2 Acyl-homoserine lactone acylase PvdQ OS=Ps...  114     2e-28
+  sp|Q4KCM5|PVDQ_PSEF5 Acyl-homoserine lactone acylase PvdQ OS=Ps...  112     4e-28
+  sp|P29958|AAC_ACTUT Aculeacin-A acylase OS=Actinoplanes utahens...  107     5e-26
+  sp|Q9I194|PVDQ_PSEAE Acyl-homoserine lactone acylase PvdQ OS=Ps...  102     2e-24
+  sp|Q9I4U2|QUIP_PSEAE Acyl-homoserine lactone acylase QuiP OS=Ps...  45.4    1e-04
+  sp|Q3KH00|QUIP_PSEPF Acyl-homoserine lactone acylase QuiP OS=Ps...  42.7    8e-04
+  sp|Q4ZPM1|QUIP_PSEU2 Acyl-homoserine lactone acylase QuiP OS=Ps...  42.7    9e-04
+  sp|Q88NU6|QUIP_PSEPK Acyl-homoserine lactone acylase QuiP OS=Ps...  40.8    0.004
+  sp|Q4KH86|QUIP_PSEF5 Acyl-homoserine lactone acylase QuiP OS=Ps...  40.0    0.007
+  sp|Q48LS4|QUIP_PSE14 Acyl-homoserine lactone acylase QuiP OS=Ps...  39.7    0.010
+
+
+> sp|Q3KD51|PVDQ_PSEPF Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+fluorescens (strain Pf0-1) OX=205922 GN=pvdQ PE=3 
+SV=1
+Length=778
+
+ Score = 127 bits (318),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 75/168 (45%), Positives = 101/168 (60%), Gaps = 7/168 (4%)
+
+Query  11   AEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLVY  70
+            A+IRRT  GVPHI+A N    G+G GY  AQDNLC +A+  +T  GERSR+  G  QL  
+Sbjct  34   ADIRRTGFGVPHIRAENERGLGFGIGYAYAQDNLCLLANEIVTVNGERSRYF-GPEQL--  90
+
+Query  71   NSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGSA  130
+              T+    N  SD F + + + +AV+    AQPA++  +VEG+AAGYNRY+ E +  G  
+Sbjct  91   --TVEERENRISDVFFQWLNTPQAVNAFWQAQPAEVRDLVEGYAAGYNRYLAERRQQGLP  148
+
+Query  131  HAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAKA  178
+               C+ E WV+ I A D+ +      + GG   FAEA+A+A PPQA A
+Sbjct  149  Q-QCQGE-WVRDIAAEDLVKLTRRLLVEGGVGQFAEALASATPPQAMA  194
+
+
+> sp|Q88IU8|PVDQ_PSEPK Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=pvdQ PE=3 SV=1
+Length=772
+
+ Score = 122 bits (307),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 71/165 (43%), Positives = 94/165 (57%), Gaps = 6/165 (4%)
+
+Query  10   SAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLV  69
+            SA+IR T  GVPHI A +    GYG GY  AQDNLC +A+  LT  GERSR+ G   Q  
+Sbjct  36   SAQIRYTRYGVPHIVAKDERGLGYGVGYAYAQDNLCLLANEVLTVSGERSRYFGAKGQ--  93
+
+Query  70   YNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGS  129
+               TL +  N+ SD F   + S  AVD  + AQPA +  ++ G+A+GYNR + E +  G 
+Sbjct  94   ---TLEQRDNLASDLFFTWLNSPAAVDAFLQAQPASVQALLAGYASGYNRALVERRRQG-  149
+
+Query  130  AHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPP  174
+              A C    WV+PI+++D+ +        GG   F EA+A AQPP
+Sbjct  150  LPAECGDGEWVRPISSQDLVKLTRRLLAEGGVGQFVEALAGAQPP  194
+
+
+> sp|Q48KB0|PVDQ_PSE14 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+savastanoi pv. phaseolicola (strain 1448A / Race 
+6) OX=264730 GN=pvdQ PE=3 SV=1
+Length=779
+
+ Score = 119 bits (299),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 70/173 (40%), Positives = 96/173 (55%), Gaps = 7/173 (4%)
+
+Query  5    DGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGG  64
+            D     AEIRRT  GVPHI A N    GYG GY  AQDNLC +A+  +T  GERSR+ G 
+Sbjct  30   DNQAARAEIRRTGFGVPHIVAANERGLGYGIGYAYAQDNLCLLANEVVTVNGERSRYFGP  89
+
+Query  65   SAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREA  124
+                   +TL +  N+ SD   + + + EA+     AQP ++ Q+++G+ AGYNR + E 
+Sbjct  90   D-----KATLEQRSNMASDLLFKWLNTPEALADFWKAQPPEIRQLMQGYVAGYNRSLDEQ  144
+
+Query  125  KAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+            K  G     C ++ WV+PI+  D+ R      + GG   F EA A A+PP A+
+Sbjct  145  KTKGLPR-PCAAD-WVRPISTDDLLRLTRRLLVEGGVGQFTEAFAGAKPPSAQ  195
+
+
+> sp|Q884D2|PVDQ_PSESM Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+syringae pv. tomato (strain ATCC BAA-871 / DC3000) 
+OX=223283 GN=pvdQ PE=3 SV=1
+Length=773
+
+ Score = 117 bits (293),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 66/167 (40%), Positives = 93/167 (56%), Gaps = 7/167 (4%)
+
+Query  11   AEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLVY  70
+            AEIRRT  GVPHI A +    GYG GY  AQDNLC +A+  +T  GERSR+ G       
+Sbjct  34   AEIRRTGFGVPHIVADDERGLGYGIGYAYAQDNLCLLANEVVTVNGERSRYFGPD-----  88
+
+Query  71   NSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGSA  130
+             +TL +  N+ SD   + + + +A+     AQPA++  +++G+ AGYNR + E    G  
+Sbjct  89   KATLEQRNNMASDLLFKWLNTPQALADFWKAQPAEIRHLMQGYVAGYNRSLAEQTTQGLP  148
+
+Query  131  HAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+               C +E WV+PI+  D+ R      + GG   F EA A A+PP  +
+Sbjct  149  Q-PCAAE-WVRPISTDDLVRLTRRLLVEGGVGQFTEAFAGAKPPSTQ  193
+
+
+> sp|Q4ZV08|PVDQ_PSEU2 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+syringae pv. syringae (strain B728a) OX=205918 GN=pvdQ 
+PE=3 SV=1
+Length=779
+
+ Score = 114 bits (284),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 67/164 (41%), Positives = 93/164 (57%), Gaps = 7/164 (4%)
+
+Query  11   AEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLVY  70
+            AEIRRT  GVPHI A N    GYG GY  AQDNLC +A+  +T  G+RSR+ G       
+Sbjct  36   AEIRRTGFGVPHIVAANERGLGYGIGYAYAQDNLCLLANEVVTVNGQRSRYFGPD-----  90
+
+Query  71   NSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGSA  130
+             +TL +  N+ SD   + + + +A+     AQP ++ Q+++G+ AGYNR + E    G  
+Sbjct  91   KATLEQRNNMASDLLFQWLNTPQALADFWNAQPREIRQLMQGYVAGYNRSLAEQTTQGLP  150
+
+Query  131  HAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPP  174
+               C +E WV+PI+  D+ R      + GG   FAEA+A A PP
+Sbjct  151  Q-PCAAE-WVRPISTDDLLRLTRRLLVEGGVGQFAEALAGATPP  192
+
+
+> sp|Q4KCM5|PVDQ_PSEF5 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+fluorescens (strain ATCC BAA-477 / NRRL B-23932 
+/ Pf-5) OX=220664 GN=pvdQ PE=3 SV=1
+Length=777
+
+ Score = 112 bits (281),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 66/168 (39%), Positives = 92/168 (55%), Gaps = 7/168 (4%)
+
+Query  11   AEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLVY  70
+            AEIRRT+ GVPHI+A +    GYG GY  AQDNLC MA+  LT   +RS++ G   Q   
+Sbjct  34   AEIRRTSFGVPHIRADDERGLGYGIGYAYAQDNLCLMANEVLTVNAQRSQYFGAEGQ---  90
+
+Query  71   NSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGSA  130
+              TL +  N+ SD F   + + +AV     AQ   + + ++G+  GYNR + E +  G  
+Sbjct  91   --TLEQRDNLSSDLFFSWLNTPQAVAAFWQAQTPAMRERMQGYVEGYNRQLAERQVQGLP  148
+
+Query  131  HAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAKA  178
+               CR + WV+P+   D+ +      + GG   FAEA+A A PP A A
+Sbjct  149  E-QCRGD-WVRPLATSDLVKLTRRLLVEGGAGQFAEALAGATPPGATA  194
+
+
+> sp|P29958|AAC_ACTUT Aculeacin-A acylase OS=Actinoplanes utahensis 
+OX=1869 GN=aac PE=1 SV=1
+Length=786
+
+ Score = 107 bits (266),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 63/180 (35%), Positives = 91/180 (51%), Gaps = 26/180 (14%)
+
+Query  9    YSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQL  68
+            Y+A IRR + GVPHI A ++GS G+G GYVQA+DN+C +A+S +T  GERSR  G +   
+Sbjct  37   YAALIRRASYGVPHITADDFGSLGFGVGYVQAEDNICVIAESVVTANGERSRWFGATG--  94
+
+Query  69   VYNSTLGRPRNIDSDFFHRHVISDEAVDRTMA------------AQPAKLLQMVEGFAAG  116
+                    P + D     R   S +A+D  +A            A    +   + GF AG
+Sbjct  95   --------PDDADV----RTTSSTQAIDDRVAERLLEGPRDGVRAPCDDVRDQMRGFVAG  142
+
+Query  117  YNRYVREAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQA  176
+            YN ++R          ACR +AWV+P++  D+WR  + + +  G     + I  A PP A
+Sbjct  143  YNHFLRRTGVHRLTDPACRGKAWVRPLSEIDLWRTSWDSMVRAGSGALLDGIVAATPPTA  202
+
+
+> sp|Q9I194|PVDQ_PSEAE Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=pvdQ PE=1 SV=1
+Length=762
+
+ Score = 102 bits (254),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 60/168 (36%), Positives = 93/168 (55%), Gaps = 8/168 (5%)
+
+Query  10   SAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLV  69
+            +A+IR T  GVPHI+A +    GYG GY  A+DN C +A+  +T RGER+R+ G   +  
+Sbjct  32   AADIRWTAYGVPHIRAKDERGLGYGIGYAYARDNACLLAEEIVTARGERARYFGSEGK--  89
+
+Query  70   YNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGS  129
+               +     N+ SD F+  +   EA+     AQ   + Q++EG+AAG+NR++REA    +
+Sbjct  90   ---SSAELDNLPSDIFYAWLNQPEALQAFWQAQTPAVRQLLEGYAAGFNRFLREADGKTT  146
+
+Query  130  AHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+               +C  + W++ I   D+ R      + GG   FA+A+  A PP A+
+Sbjct  147  ---SCLGQPWLRAIATDDLLRLTRRLLVEGGVGQFADALVAAAPPGAE  191
+
+
+> sp|Q9I4U2|QUIP_PSEAE Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=quiP PE=1 SV=1
+Length=847
+
+ Score = 45.4 bits (106),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 36/137 (26%), Positives = 55/137 (40%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  IRR  +G+P I+ G +  A +  GYV A D L  M    L  +G  +  +G  
+Sbjct  51   GLAQNVSIRRNALGMPLIETGTFHDALFALGYVHASDRLSQMVSLRLLAQGRLAEMVG--  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+                       P  ++ D F R V   +A +        +L +  E +A G N Y+   R
+Sbjct  109  -----------PGALEIDRFMRTVNLRQAAEIQYRNASPRLQRFFEVYARGVNAYLYRYR  157
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A +  R E W
+Sbjct  158  DKLPMDLAQSGYRPEYW  174
+
+
+> sp|Q3KH00|QUIP_PSEPF Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+fluorescens (strain Pf0-1) OX=205922 GN=quiP PE=3 
+SV=1
+Length=816
+
+ Score = 42.7 bits (99),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 35/137 (26%), Positives = 58/137 (42%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++ ++  A +  GYV A D +  M    L  +G R   + GS
+Sbjct  48   GLAQNVSVRRNAMGMPLIESNSFHDALFALGYVHASDRINQMVTLRLLAQG-RLAEMSGS  106
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            + L            D+D + R V   ++      A   +L +  E +A G N Y+    
+Sbjct  107  SML------------DADRYMRAVNLKKSAGELYKASSPRLKRFFEVYARGVNAYLFRYA  154
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +   G  A +  + E W
+Sbjct  155  DKLPGDLASSGYKPEYW  171
+
+
+> sp|Q4ZPM1|QUIP_PSEU2 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+syringae pv. syringae (strain B728a) OX=205918 GN=quiP 
+PE=3 SV=1
+Length=824
+
+ Score = 42.7 bits (99),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 37/138 (27%), Positives = 57/138 (41%), Gaps = 18/138 (13%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++ ++  A +  GYV A D +  M    L  +G  S   G  
+Sbjct  49   GLAQNVSVRRNNMGMPLIESSSYHDALFTLGYVHAGDRISQMLGMRLLAQGRLSEMAGAD  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHV-ISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---  121
+            A             +D D   R V +   A D   AA P +L +  + +A G N Y+   
+Sbjct  109  A-------------LDVDRLMRSVNLKQNASDLYNAASP-RLKRFFDVYARGVNAYLFRY  154
+
+Query  122  REAKAGGSAHAACRSEAW  139
+            R+      A +  + E W
+Sbjct  155  RDKLPADIASSGYKPEYW  172
+
+
+> sp|Q88NU6|QUIP_PSEPK Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=quiP PE=3 SV=1
+Length=813
+
+ Score = 40.8 bits (94),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 37/137 (27%), Positives = 55/137 (40%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG P I++ ++  A +  GYV A D +  M    L  +G R   L GS
+Sbjct  48   GLAQNVSVRRNAMGAPLIESSSFHDALFSLGYVHAGDRIEQMVAMRLLAQG-RLAELAGS  106
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+              L            D D   R     ++  +  A    +L +  E +A G N Y+   R
+Sbjct  107  EAL------------DIDRLMRAANLKQSAAQQYADASPRLKRFFEVYARGVNAYLFRYR  154
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +    G A +  R E W
+Sbjct  155  DKLPAGLASSGYRPEYW  171
+
+
+> sp|Q4KH86|QUIP_PSEF5 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+fluorescens (strain ATCC BAA-477 / NRRL B-23932 
+/ Pf-5) OX=220664 GN=quiP PE=3 SV=1
+Length=809
+
+ Score = 40.0 bits (92),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 27/116 (23%), Positives = 48/116 (41%), Gaps = 13/116 (11%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  +GVP I++ ++  A +  GYV A D +  M    L  +G  +   G  
+Sbjct  48   GLAQNVSVRRNAVGVPLIESSSFHDALFTLGYVHASDRIGQMVTLHLLAQGRLAEMSGAD  107
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV  121
+            A             ++ D   R +   ++ D    A   ++ +  E +A G N Y+
+Sbjct  108  A-------------LEVDRLMRAINLKKSADELYKASSPRIKRFFEVYARGVNAYL  150
+
+
+> sp|Q48LS4|QUIP_PSE14 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+savastanoi pv. phaseolicola (strain 1448A / Race 
+6) OX=264730 GN=quiP PE=3 SV=1
+Length=824
+
+ Score = 39.7 bits (91),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 35/138 (25%), Positives = 56/138 (41%), Gaps = 18/138 (13%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++  +  A +  GY+ A D +  M    L  +G  S   G  
+Sbjct  49   GLAQNVSVRRNNMGMPLIESSTYHDALFTLGYIHAGDRIGQMLGMRLLAQGRLSEMAGAD  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHV-ISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---  121
+            A             ++ D   R V +   A D   AA P +L +  + +A G N Y+   
+Sbjct  109  A-------------LEVDRLMRSVNLKQNASDLYNAASP-RLKRFFDVYARGVNAYLFRY  154
+
+Query  122  REAKAGGSAHAACRSEAW  139
+            R+      A +  + E W
+Sbjct  155  RDKLPADVASSGYKPEYW  172
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.131    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9506922580
+Results from round 2
+
+
+Query= 4YFB.A
+
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q884D2|PVDQ_PSESM Acyl-homoserine lactone acylase PvdQ OS=Ps...  249     1e-77
+  sp|Q3KD51|PVDQ_PSEPF Acyl-homoserine lactone acylase PvdQ OS=Ps...  245     6e-76
+  sp|Q4KCM5|PVDQ_PSEF5 Acyl-homoserine lactone acylase PvdQ OS=Ps...  238     2e-73
+  sp|Q48KB0|PVDQ_PSE14 Acyl-homoserine lactone acylase PvdQ OS=Ps...  229     4e-70
+  sp|Q4ZV08|PVDQ_PSEU2 Acyl-homoserine lactone acylase PvdQ OS=Ps...  223     4e-68
+  sp|Q88IU8|PVDQ_PSEPK Acyl-homoserine lactone acylase PvdQ OS=Ps...  222     2e-67
+  sp|Q9I194|PVDQ_PSEAE Acyl-homoserine lactone acylase PvdQ OS=Ps...  198     1e-58
+  sp|P29958|AAC_ACTUT Aculeacin-A acylase OS=Actinoplanes utahens...  183     3e-53
+  sp|Q9I4U2|QUIP_PSEAE Acyl-homoserine lactone acylase QuiP OS=Ps...  146     7e-40
+  sp|Q4ZPM1|QUIP_PSEU2 Acyl-homoserine lactone acylase QuiP OS=Ps...  145     2e-39
+  sp|Q3KH00|QUIP_PSEPF Acyl-homoserine lactone acylase QuiP OS=Ps...  143     1e-38
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q48LS4|QUIP_PSE14 Acyl-homoserine lactone acylase QuiP OS=Ps...  141     4e-38
+  sp|Q87XP3|QUIP_PSESM Acyl-homoserine lactone acylase QuiP OS=Ps...  136     4e-36
+  sp|Q4KH86|QUIP_PSEF5 Acyl-homoserine lactone acylase QuiP OS=Ps...  135     6e-36
+  sp|Q88NU6|QUIP_PSEPK Acyl-homoserine lactone acylase QuiP OS=Ps...  131     2e-34
+  sp|P15558|PAC2_PSES3 Penicillin acylase 2 proenzyme OS=Pseudomo...  73.7    2e-14
+  sp|P07941|PAC_KLUCR Penicillin G acylase OS=Kluyvera cryocresce...  64.4    3e-11
+  sp|P06875|PAC_ECOLX Penicillin G acylase OS=Escherichia coli OX...  62.9    1e-10
+  sp|P07662|G7AC_PSEU7 Glutaryl-7-aminocephalosporanic-acid acyla...  60.2    8e-10
+  sp|Q9L5D6|G7AC_BREDI Glutaryl-7-aminocephalosporanic-acid acyla...  60.2    8e-10
+  sp|Q60136|PAC_BACME Penicillin G acylase OS=Bacillus megaterium...  55.9    2e-08
+  sp|P31956|PAC_ARTVI Penicillin G acylase OS=Arthrobacter viscos...  55.6    3e-08
+
+
+> sp|Q884D2|PVDQ_PSESM Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+syringae pv. tomato (strain ATCC BAA-871 / DC3000) 
+OX=223283 GN=pvdQ PE=3 SV=1
+Length=773
+
+ Score = 249 bits (635),  Expect = 1e-77, Method: Composition-based stats.
+ Identities = 66/170 (39%), Positives = 93/170 (55%), Gaps = 7/170 (4%)
+
+Query  8    TYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQ  67
+               AEIRRT  GVPHI A +    GYG GY  AQDNLC +A+  +T  GERSR+ G    
+Sbjct  31   AAGAEIRRTGFGVPHIVADDERGLGYGIGYAYAQDNLCLLANEVVTVNGERSRYFGPD--  88
+
+Query  68   LVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAG  127
+                +TL +  N+ SD   + + + +A+     AQPA++  +++G+ AGYNR + E    
+Sbjct  89   ---KATLEQRNNMASDLLFKWLNTPQALADFWKAQPAEIRHLMQGYVAGYNRSLAEQTTQ  145
+
+Query  128  GSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+            G     C +E WV+PI+  D+ R      + GG   F EA A A+PP  +
+Sbjct  146  GLPQ-PCAAE-WVRPISTDDLVRLTRRLLVEGGVGQFTEAFAGAKPPSTQ  193
+
+
+> sp|Q3KD51|PVDQ_PSEPF Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+fluorescens (strain Pf0-1) OX=205922 GN=pvdQ PE=3 
+SV=1
+Length=778
+
+ Score = 245 bits (624),  Expect = 6e-76, Method: Composition-based stats.
+ Identities = 73/168 (43%), Positives = 99/168 (59%), Gaps = 7/168 (4%)
+
+Query  11   AEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLVY  70
+            A+IRRT  GVPHI+A N    G+G GY  AQDNLC +A+  +T  GERSR+ G       
+Sbjct  34   ADIRRTGFGVPHIRAENERGLGFGIGYAYAQDNLCLLANEIVTVNGERSRYFGPE-----  88
+
+Query  71   NSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGSA  130
+              T+    N  SD F + + + +AV+    AQPA++  +VEG+AAGYNRY+ E +  G  
+Sbjct  89   QLTVEERENRISDVFFQWLNTPQAVNAFWQAQPAEVRDLVEGYAAGYNRYLAERRQQGLP  148
+
+Query  131  HAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAKA  178
+               C+ E WV+ I A D+ +      + GG   FAEA+A+A PPQA A
+Sbjct  149  Q-QCQGE-WVRDIAAEDLVKLTRRLLVEGGVGQFAEALASATPPQAMA  194
+
+
+> sp|Q4KCM5|PVDQ_PSEF5 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+fluorescens (strain ATCC BAA-477 / NRRL B-23932 
+/ Pf-5) OX=220664 GN=pvdQ PE=3 SV=1
+Length=777
+
+ Score = 238 bits (606),  Expect = 2e-73, Method: Composition-based stats.
+ Identities = 69/182 (38%), Positives = 95/182 (52%), Gaps = 11/182 (6%)
+
+Query  1    SGGGDGSTY----SAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRG  56
+            SGG           AEIRRT+ GVPHI+A +    GYG GY  AQDNLC MA+  LT   
+Sbjct  20   SGGAHALAQPEQTRAEIRRTSFGVPHIRADDERGLGYGIGYAYAQDNLCLMANEVLTVNA  79
+
+Query  57   ERSRHLGGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAG  116
+            +RS++ G   Q     TL +  N+ SD F   + + +AV     AQ   + + ++G+  G
+Sbjct  80   QRSQYFGAEGQ-----TLEQRDNLSSDLFFSWLNTPQAVAAFWQAQTPAMRERMQGYVEG  134
+
+Query  117  YNRYVREAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQA  176
+            YNR + E +  G     CR + WV+P+   D+ +      + GG   FAEA+A A PP A
+Sbjct  135  YNRQLAERQVQGLPE-QCRGD-WVRPLATSDLVKLTRRLLVEGGAGQFAEALAGATPPGA  192
+
+Query  177  KA  178
+             A
+Sbjct  193  TA  194
+
+
+> sp|Q48KB0|PVDQ_PSE14 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+savastanoi pv. phaseolicola (strain 1448A / Race 
+6) OX=264730 GN=pvdQ PE=3 SV=1
+Length=779
+
+ Score = 229 bits (583),  Expect = 4e-70, Method: Composition-based stats.
+ Identities = 70/175 (40%), Positives = 96/175 (55%), Gaps = 7/175 (4%)
+
+Query  3    GGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHL  62
+              D     AEIRRT  GVPHI A N    GYG GY  AQDNLC +A+  +T  GERSR+ 
+Sbjct  28   AADNQAARAEIRRTGFGVPHIVAANERGLGYGIGYAYAQDNLCLLANEVVTVNGERSRYF  87
+
+Query  63   GGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVR  122
+            G        +TL +  N+ SD   + + + EA+     AQP ++ Q+++G+ AGYNR + 
+Sbjct  88   GPD-----KATLEQRSNMASDLLFKWLNTPEALADFWKAQPPEIRQLMQGYVAGYNRSLD  142
+
+Query  123  EAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+            E K  G     C ++ WV+PI+  D+ R      + GG   F EA A A+PP A+
+Sbjct  143  EQKTKGLPR-PCAAD-WVRPISTDDLLRLTRRLLVEGGVGQFTEAFAGAKPPSAQ  195
+
+
+> sp|Q4ZV08|PVDQ_PSEU2 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+syringae pv. syringae (strain B728a) OX=205918 GN=pvdQ 
+PE=3 SV=1
+Length=779
+
+ Score = 223 bits (569),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 67/172 (39%), Positives = 94/172 (55%), Gaps = 7/172 (4%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+                 AEIRRT  GVPHI A N    GYG GY  AQDNLC +A+  +T  G+RSR+ G  
+Sbjct  31   NQAARAEIRRTGFGVPHIVAANERGLGYGIGYAYAQDNLCLLANEVVTVNGQRSRYFGPD  90
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAK  125
+                  +TL +  N+ SD   + + + +A+     AQP ++ Q+++G+ AGYNR + E  
+Sbjct  91   -----KATLEQRNNMASDLLFQWLNTPQALADFWNAQPREIRQLMQGYVAGYNRSLAEQT  145
+
+Query  126  AGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+              G     C +E WV+PI+  D+ R      + GG   FAEA+A A PP  +
+Sbjct  146  TQGLPQ-PCAAE-WVRPISTDDLLRLTRRLLVEGGVGQFAEALAGATPPAQQ  195
+
+
+> sp|Q88IU8|PVDQ_PSEPK Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=pvdQ PE=3 SV=1
+Length=772
+
+ Score = 222 bits (565),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 71/167 (43%), Positives = 94/167 (56%), Gaps = 6/167 (4%)
+
+Query  9    YSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQL  68
+             SA+IR T  GVPHI A +    GYG GY  AQDNLC +A+  LT  GERSR+ G   Q 
+Sbjct  35   ASAQIRYTRYGVPHIVAKDERGLGYGVGYAYAQDNLCLLANEVLTVSGERSRYFGAKGQ-  93
+
+Query  69   VYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGG  128
+                TL +  N+ SD F   + S  AVD  + AQPA +  ++ G+A+GYNR + E +  G
+Sbjct  94   ----TLEQRDNLASDLFFTWLNSPAAVDAFLQAQPASVQALLAGYASGYNRALVERRRQG  149
+
+Query  129  SAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQ  175
+               A C    WV+PI+++D+ +        GG   F EA+A AQPP 
+Sbjct  150  LP-AECGDGEWVRPISSQDLVKLTRRLLAEGGVGQFVEALAGAQPPT  195
+
+
+> sp|Q9I194|PVDQ_PSEAE Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=pvdQ PE=1 SV=1
+Length=762
+
+ Score = 198 bits (502),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 60/168 (36%), Positives = 93/168 (55%), Gaps = 8/168 (5%)
+
+Query  10   SAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLV  69
+            +A+IR T  GVPHI+A +    GYG GY  A+DN C +A+  +T RGER+R+ G   +  
+Sbjct  32   AADIRWTAYGVPHIRAKDERGLGYGIGYAYARDNACLLAEEIVTARGERARYFGSEGK--  89
+
+Query  70   YNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGS  129
+               +     N+ SD F+  +   EA+     AQ   + Q++EG+AAG+NR++REA    +
+Sbjct  90   ---SSAELDNLPSDIFYAWLNQPEALQAFWQAQTPAVRQLLEGYAAGFNRFLREADGKTT  146
+
+Query  130  AHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+               +C  + W++ I   D+ R      + GG   FA+A+  A PP A+
+Sbjct  147  ---SCLGQPWLRAIATDDLLRLTRRLLVEGGVGQFADALVAAAPPGAE  191
+
+
+> sp|P29958|AAC_ACTUT Aculeacin-A acylase OS=Actinoplanes utahensis 
+OX=1869 GN=aac PE=1 SV=1
+Length=786
+
+ Score = 183 bits (465),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 60/176 (34%), Positives = 88/176 (50%), Gaps = 2/176 (1%)
+
+Query  1    SGGGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSR  60
+            SG      Y+A IRR + GVPHI A ++GS G+G GYVQA+DN+C +A+S +T  GERSR
+Sbjct  29   SGREHDGGYAALIRRASYGVPHITADDFGSLGFGVGYVQAEDNICVIAESVVTANGERSR  88
+
+Query  61   HLGGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRY  120
+              G +     +           D     ++  E     + A    +   + GF AGYN +
+Sbjct  89   WFGATGPDDADVRTTSSTQAIDDRVAERLL--EGPRDGVRAPCDDVRDQMRGFVAGYNHF  146
+
+Query  121  VREAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQA  176
+            +R          ACR +AWV+P++  D+WR  + + +  G     + I  A PP A
+Sbjct  147  LRRTGVHRLTDPACRGKAWVRPLSEIDLWRTSWDSMVRAGSGALLDGIVAATPPTA  202
+
+
+> sp|Q9I4U2|QUIP_PSEAE Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=quiP PE=1 SV=1
+Length=847
+
+ Score = 146 bits (369),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 36/137 (26%), Positives = 55/137 (40%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  IRR  +G+P I+ G +  A +  GYV A D L  M    L  +G  +  +G  
+Sbjct  51   GLAQNVSIRRNALGMPLIETGTFHDALFALGYVHASDRLSQMVSLRLLAQGRLAEMVG--  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+                       P  ++ D F R V   +A +        +L +  E +A G N Y+   R
+Sbjct  109  -----------PGALEIDRFMRTVNLRQAAEIQYRNASPRLQRFFEVYARGVNAYLYRYR  157
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A +  R E W
+Sbjct  158  DKLPMDLAQSGYRPEYW  174
+
+
+> sp|Q4ZPM1|QUIP_PSEU2 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+syringae pv. syringae (strain B728a) OX=205918 GN=quiP 
+PE=3 SV=1
+Length=824
+
+ Score = 145 bits (365),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 33/137 (24%), Positives = 53/137 (39%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++ ++  A +  GYV A D +  M    L  +G  S   G  
+Sbjct  49   GLAQNVSVRRNNMGMPLIESSSYHDALFTLGYVHAGDRISQMLGMRLLAQGRLSEMAGAD  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             +D D   R V   +       A   +L +  + +A G N Y+   R
+Sbjct  109  A-------------LDVDRLMRSVNLKQNASDLYNAASPRLKRFFDVYARGVNAYLFRYR  155
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A +  + E W
+Sbjct  156  DKLPADIASSGYKPEYW  172
+
+
+> sp|Q3KH00|QUIP_PSEPF Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+fluorescens (strain Pf0-1) OX=205922 GN=quiP PE=3 
+SV=1
+Length=816
+
+ Score = 143 bits (360),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 33/137 (24%), Positives = 56/137 (41%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++ ++  A +  GYV A D +  M    L  +G  +   G S
+Sbjct  48   GLAQNVSVRRNAMGMPLIESNSFHDALFALGYVHASDRINQMVTLRLLAQGRLAEMSGSS  107
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+                          +D+D + R V   ++      A   +L +  E +A G N Y+    
+Sbjct  108  M-------------LDADRYMRAVNLKKSAGELYKASSPRLKRFFEVYARGVNAYLFRYA  154
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +   G  A +  + E W
+Sbjct  155  DKLPGDLASSGYKPEYW  171
+
+
+> sp|Q48LS4|QUIP_PSE14 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+savastanoi pv. phaseolicola (strain 1448A / Race 
+6) OX=264730 GN=quiP PE=3 SV=1
+Length=824
+
+ Score = 141 bits (355),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 31/137 (23%), Positives = 52/137 (38%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++  +  A +  GY+ A D +  M    L  +G  S   G  
+Sbjct  49   GLAQNVSVRRNNMGMPLIESSTYHDALFTLGYIHAGDRIGQMLGMRLLAQGRLSEMAGAD  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             ++ D   R V   +       A   +L +  + +A G N Y+   R
+Sbjct  109  A-------------LEVDRLMRSVNLKQNASDLYNAASPRLKRFFDVYARGVNAYLFRYR  155
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A +  + E W
+Sbjct  156  DKLPADVASSGYKPEYW  172
+
+
+> sp|Q87XP3|QUIP_PSESM Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+syringae pv. tomato (strain ATCC BAA-871 / DC3000) 
+OX=223283 GN=quiP PE=3 SV=1
+Length=824
+
+ Score = 136 bits (341),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 33/137 (24%), Positives = 50/137 (36%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++  +  A +  GYV A D +  M    L  +G  S   G  
+Sbjct  49   GLAQNVSVRRNNMGMPLIESSTYHDALFTLGYVHAGDRIGQMLGMRLLAQGRLSEVAGAD  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             ++ D   R V           A   +L +  + +A G N Y+   R
+Sbjct  109  A-------------LEVDRLMRSVNLKRNASDLYNAASPRLKRFFDVYARGVNAYLFRYR  155
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A A    E W
+Sbjct  156  DKLPADVARAGYTPEYW  172
+
+
+> sp|Q4KH86|QUIP_PSEF5 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+fluorescens (strain ATCC BAA-477 / NRRL B-23932 
+/ Pf-5) OX=220664 GN=quiP PE=3 SV=1
+Length=809
+
+ Score = 135 bits (339),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 31/137 (23%), Positives = 53/137 (39%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  +GVP I++ ++  A +  GYV A D +  M    L  +G  +   G  
+Sbjct  48   GLAQNVSVRRNAVGVPLIESSSFHDALFTLGYVHASDRIGQMVTLHLLAQGRLAEMSGAD  107
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             ++ D   R +   ++ D    A   ++ +  E +A G N Y+   R
+Sbjct  108  A-------------LEVDRLMRAINLKKSADELYKASSPRIKRFFEVYARGVNAYLFRYR  154
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A      E W
+Sbjct  155  DKLPPDLAAQGYTPEYW  171
+
+
+> sp|Q88NU6|QUIP_PSEPK Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=quiP PE=3 SV=1
+Length=813
+
+ Score = 131 bits (328),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 34/137 (25%), Positives = 54/137 (39%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG P I++ ++  A +  GYV A D +  M    L  +G  +   G  
+Sbjct  48   GLAQNVSVRRNAMGAPLIESSSFHDALFSLGYVHAGDRIEQMVAMRLLAQGRLAELAGSE  107
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             +D D   R     ++  +  A    +L +  E +A G N Y+   R
+Sbjct  108  A-------------LDIDRLMRAANLKQSAAQQYADASPRLKRFFEVYARGVNAYLFRYR  154
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +    G A +  R E W
+Sbjct  155  DKLPAGLASSGYRPEYW  171
+
+
+> sp|P15558|PAC2_PSES3 Penicillin acylase 2 proenzyme OS=Pseudomonas 
+sp. (strain SE83) OX=309 GN=acyII PE=1 SV=2
+Length=774
+
+ Score = 73.7 bits (179),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 35/153 (23%), Positives = 56/153 (37%), Gaps = 16/153 (10%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G +    ++R   G+PHIKA     A    G+V AQD L  M  +     G  +  LG  
+Sbjct  27   GLSAPVRVQRDGWGIPHIKASGEADAYRALGFVHAQDRLFQMELTRRKALGRAAEWLGAE  86
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAK  125
+            A              ++D   R +  ++   R   A  A+   M+  + AG N ++    
+Sbjct  87   A-------------AEADILVRRLGMEKVCRRDFEALGAEAKDMLRAYVAGVNAFLASGA  133
+
+Query  126  AGGSAHA--ACRSEAWVQPITARDVWRRIYAAN  156
+                 +       E W +P  +  V RR+    
+Sbjct  134  PLPIEYGLLGAEPEPW-EPWHSIAVMRRLGLLM  165
+
+
+> sp|P07941|PAC_KLUCR Penicillin G acylase OS=Kluyvera cryocrescens 
+OX=580 GN=pac PE=1 SV=1
+Length=844
+
+ Score = 64.4 bits (155),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 30/136 (22%), Positives = 54/136 (40%), Gaps = 20/136 (15%)
+
+Query  11   AEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLVY  70
+             +I R   G+PHI A +     YG+GYV AQD L  M  +  + +G  S  LG       
+Sbjct  33   VKIVRDEYGMPHIYADDTYRLFYGYGYVVAQDRLFQMEMARRSTQGTVSEVLG-------  85
+
+Query  71   NSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREA------  124
+                     +  D   R     +++   +A+  A+   +++G+A G N ++ +       
+Sbjct  86   ------KAFVSFDKDIRQNYWPDSIRAQIASLSAEDKSILQGYADGMNAWIDKVNASPDK  139
+
+Query  125  -KAGGSAHAACRSEAW  139
+                  +    + + W
+Sbjct  140  LLPQQFSTFGFKPKHW  155
+
+
+> sp|P06875|PAC_ECOLX Penicillin G acylase OS=Escherichia coli 
+OX=562 GN=pac PE=1 SV=2
+Length=846
+
+ Score = 62.9 bits (151),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 31/143 (22%), Positives = 55/143 (38%), Gaps = 20/143 (14%)
+
+Query  4    GDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLG  63
+             + S+   +I R   G+PHI A +     YG+GYV AQD L  M  +  + +G  +  LG
+Sbjct  26   AEQSSSEIKIVRDEYGMPHIYANDTWHLFYGYGYVVAQDRLFQMEMARRSTQGTVAEVLG  85
+
+Query  64   GSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVRE  123
+                            +  D   R     +A+   +AA   + + +++G+A G N ++ +
+Sbjct  86   -------------KDFVKFDKDIRRNYWPDAIRAQIAALSPEDMSILQGYADGMNAWIDK  132
+
+Query  124  A-------KAGGSAHAACRSEAW  139
+                                + W
+Sbjct  133  VNTNPETLLPKQFNTFGFTPKRW  155
+
+
+> sp|P07662|G7AC_PSEU7 Glutaryl-7-aminocephalosporanic-acid acylase 
+OS=Pseudomonas sp. (strain SY-77) OX=269086 PE=1 SV=2
+Length=720
+
+ Score = 60.2 bits (144),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 35/166 (21%), Positives = 57/166 (34%), Gaps = 24/166 (14%)
+
+Query  12   EIRRTTMGVPHIKAGNWGSAGYGFGYVQAQ---DNLCTMADSFLTYRGERSRHLGGSAQL  68
+            EI     GVPHI   +  SA YG+G+ QA+   DN+  +       RG+ + + G   + 
+Sbjct  48   EILWDGYGVPHIYGVDAPSAFYGYGWAQARSHGDNILRLYGE---ARGKGAEYWGPDYEQ  104
+
+Query  69   VYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGG  128
+                 L                  E   +  A Q       ++ FAAG N Y  +     
+Sbjct  105  TTVWLLTN-------------GVPERAQQWYAQQSPDFRANLDAFAAGINAY-AQQNPDD  150
+
+Query  129  SAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPP  174
+             +    +    V P++  DV    +        ++    +    PP
+Sbjct  151  ISPEVRQ----VLPVSGADVVAHAHRLMNFLYVASPGRTLGEGDPP  192
+
+
+> sp|Q9L5D6|G7AC_BREDI Glutaryl-7-aminocephalosporanic-acid acylase 
+OS=Brevundimonas diminuta OX=293 PE=1 SV=1
+Length=720
+
+ Score = 60.2 bits (144),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 35/166 (21%), Positives = 57/166 (34%), Gaps = 24/166 (14%)
+
+Query  12   EIRRTTMGVPHIKAGNWGSAGYGFGYVQAQ---DNLCTMADSFLTYRGERSRHLGGSAQL  68
+            EI     GVPHI   +  SA YG+G+ QA+   DN+  +       RG+ + + G   + 
+Sbjct  48   EILWDGYGVPHIYGVDAPSAFYGYGWAQARSHGDNILRLYGE---ARGKGAEYWGPDYEQ  104
+
+Query  69   VYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGG  128
+                 L                  E   +  A Q       ++ FAAG N Y  +     
+Sbjct  105  TTVWLLTN-------------GVPERAQQWYAQQSPDFRANLDAFAAGINAY-AQQNPDD  150
+
+Query  129  SAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPP  174
+             +    +    V P++  DV    +        ++    +    PP
+Sbjct  151  ISPEVRQ----VLPVSGADVVAHAHRLMNFLYVASPGRTLGEGDPP  192
+
+
+> sp|Q60136|PAC_BACME Penicillin G acylase OS=Bacillus megaterium 
+OX=1404 GN=pac PE=3 SV=1
+Length=802
+
+ Score = 55.9 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/152 (18%), Positives = 48/152 (32%), Gaps = 15/152 (10%)
+
+Query  3    GGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHL  62
+             G+      ++ R   GVPH+ A N       +GYV A+D L  +        G  S   
+Sbjct  24   AGEDKNEGVKVVRDNFGVPHLYAKNKKDLYEAYGYVMAKDRLFQLEMFRRGNEGTVSEIF  83
+
+Query  63   GGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVR  122
+            G     +      R         + +    + +D         + +  EG +   N  ++
+Sbjct  84   GED--YLSKDEQSRRDG------YSNKEIKKMIDGLDRQPKELIAKFAEGISRYVNEALK  135
+
+Query  123  ---EAKAGGSAHAACRSEAWVQPITARDVWRR  151
+               +  +          + W    T+ DV R 
+Sbjct  136  DPDDKLSKEFHEYQFLPQKW----TSTDVVRV  163
+
+
+> sp|P31956|PAC_ARTVI Penicillin G acylase OS=Arthrobacter viscosus 
+OX=1673 GN=pac PE=1 SV=1
+Length=802
+
+ Score = 55.6 bits (132),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 27/152 (18%), Positives = 48/152 (32%), Gaps = 15/152 (10%)
+
+Query  3    GGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHL  62
+             G+      ++ R   GVPH+ A N       +GYV A+D L  +        G  S   
+Sbjct  24   AGEDKNEGVKVVRDNFGVPHLYAKNKKDLYEAYGYVMAKDRLFQLEMFRRGNEGTVSEIF  83
+
+Query  63   GGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVR  122
+            G     +      R         + +    + +D         + +  EG +   N  ++
+Sbjct  84   GED--YLSKDEQSRRDG------YSNKEIKKMIDGLDRQPRELIAKFAEGISRYVNEALK  135
+
+Query  123  ---EAKAGGSAHAACRSEAWVQPITARDVWRR  151
+               +  +          + W    T+ DV R 
+Sbjct  136  DPDDKLSKEFHEYQFLPQKW----TSTDVVRV  163
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.126    0.337    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0386    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9506922580
+Results from round 3
+
+
+Query= 4YFB.A
+
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q884D2|PVDQ_PSESM Acyl-homoserine lactone acylase PvdQ OS=Ps...  227     2e-69
+  sp|Q3KD51|PVDQ_PSEPF Acyl-homoserine lactone acylase PvdQ OS=Ps...  222     2e-67
+  sp|Q4KCM5|PVDQ_PSEF5 Acyl-homoserine lactone acylase PvdQ OS=Ps...  215     4e-65
+  sp|Q48KB0|PVDQ_PSE14 Acyl-homoserine lactone acylase PvdQ OS=Ps...  208     3e-62
+  sp|Q4ZV08|PVDQ_PSEU2 Acyl-homoserine lactone acylase PvdQ OS=Ps...  201     6e-60
+  sp|Q88IU8|PVDQ_PSEPK Acyl-homoserine lactone acylase PvdQ OS=Ps...  198     2e-58
+  sp|P29958|AAC_ACTUT Aculeacin-A acylase OS=Actinoplanes utahens...  194     4e-57
+  sp|Q9I194|PVDQ_PSEAE Acyl-homoserine lactone acylase PvdQ OS=Ps...  180     6e-52
+  sp|Q4ZPM1|QUIP_PSEU2 Acyl-homoserine lactone acylase QuiP OS=Ps...  143     9e-39
+  sp|Q3KH00|QUIP_PSEPF Acyl-homoserine lactone acylase QuiP OS=Ps...  140     7e-38
+  sp|P06875|PAC_ECOLX Penicillin G acylase OS=Escherichia coli OX...  140     8e-38
+  sp|P07662|G7AC_PSEU7 Glutaryl-7-aminocephalosporanic-acid acyla...  140     9e-38
+  sp|Q4KH86|QUIP_PSEF5 Acyl-homoserine lactone acylase QuiP OS=Ps...  140     9e-38
+  sp|Q48LS4|QUIP_PSE14 Acyl-homoserine lactone acylase QuiP OS=Ps...  140     9e-38
+  sp|Q9L5D6|G7AC_BREDI Glutaryl-7-aminocephalosporanic-acid acyla...  140     1e-37
+  sp|Q9I4U2|QUIP_PSEAE Acyl-homoserine lactone acylase QuiP OS=Ps...  140     1e-37
+  sp|Q60136|PAC_BACME Penicillin G acylase OS=Bacillus megaterium...  138     8e-37
+  sp|P31956|PAC_ARTVI Penicillin G acylase OS=Arthrobacter viscos...  137     1e-36
+  sp|Q87XP3|QUIP_PSESM Acyl-homoserine lactone acylase QuiP OS=Ps...  137     2e-36
+  sp|P15558|PAC2_PSES3 Penicillin acylase 2 proenzyme OS=Pseudomo...  133     3e-35
+  sp|P07941|PAC_KLUCR Penicillin G acylase OS=Kluyvera cryocresce...  133     3e-35
+  sp|Q88NU6|QUIP_PSEPK Acyl-homoserine lactone acylase QuiP OS=Ps...  132     5e-35
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|Q884D2|PVDQ_PSESM Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+syringae pv. tomato (strain ATCC BAA-871 / DC3000) 
+OX=223283 GN=pvdQ PE=3 SV=1
+Length=773
+
+ Score = 227 bits (579),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 66/175 (38%), Positives = 94/175 (54%), Gaps = 7/175 (4%)
+
+Query  3    GGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHL  62
+              +     AEIRRT  GVPHI A +    GYG GY  AQDNLC +A+  +T  GERSR+ 
+Sbjct  26   AHEQKAAGAEIRRTGFGVPHIVADDERGLGYGIGYAYAQDNLCLLANEVVTVNGERSRYF  85
+
+Query  63   GGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVR  122
+            G        +TL +  N+ SD   + + + +A+     AQPA++  +++G+ AGYNR + 
+Sbjct  86   GPD-----KATLEQRNNMASDLLFKWLNTPQALADFWKAQPAEIRHLMQGYVAGYNRSLA  140
+
+Query  123  EAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+            E    G     C +E WV+PI+  D+ R      + GG   F EA A A+PP  +
+Sbjct  141  EQTTQGLPQ-PCAAE-WVRPISTDDLVRLTRRLLVEGGVGQFTEAFAGAKPPSTQ  193
+
+
+> sp|Q3KD51|PVDQ_PSEPF Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+fluorescens (strain Pf0-1) OX=205922 GN=pvdQ PE=3 
+SV=1
+Length=778
+
+ Score = 222 bits (565),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 73/169 (43%), Positives = 99/169 (59%), Gaps = 7/169 (4%)
+
+Query  10   SAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLV  69
+             A+IRRT  GVPHI+A N    G+G GY  AQDNLC +A+  +T  GERSR+ G      
+Sbjct  33   GADIRRTGFGVPHIRAENERGLGFGIGYAYAQDNLCLLANEIVTVNGERSRYFGPE----  88
+
+Query  70   YNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGS  129
+               T+    N  SD F + + + +AV+    AQPA++  +VEG+AAGYNRY+ E +  G 
+Sbjct  89   -QLTVEERENRISDVFFQWLNTPQAVNAFWQAQPAEVRDLVEGYAAGYNRYLAERRQQGL  147
+
+Query  130  AHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAKA  178
+                C+ E WV+ I A D+ +      + GG   FAEA+A+A PPQA A
+Sbjct  148  PQ-QCQGE-WVRDIAAEDLVKLTRRLLVEGGVGQFAEALASATPPQAMA  194
+
+
+> sp|Q4KCM5|PVDQ_PSEF5 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+fluorescens (strain ATCC BAA-477 / NRRL B-23932 
+/ Pf-5) OX=220664 GN=pvdQ PE=3 SV=1
+Length=777
+
+ Score = 215 bits (548),  Expect = 4e-65, Method: Composition-based stats.
+ Identities = 69/182 (38%), Positives = 95/182 (52%), Gaps = 11/182 (6%)
+
+Query  1    SGGGDGSTYS----AEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRG  56
+            SGG           AEIRRT+ GVPHI+A +    GYG GY  AQDNLC MA+  LT   
+Sbjct  20   SGGAHALAQPEQTRAEIRRTSFGVPHIRADDERGLGYGIGYAYAQDNLCLMANEVLTVNA  79
+
+Query  57   ERSRHLGGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAG  116
+            +RS++ G   Q     TL +  N+ SD F   + + +AV     AQ   + + ++G+  G
+Sbjct  80   QRSQYFGAEGQ-----TLEQRDNLSSDLFFSWLNTPQAVAAFWQAQTPAMRERMQGYVEG  134
+
+Query  117  YNRYVREAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQA  176
+            YNR + E +  G     CR + WV+P+   D+ +      + GG   FAEA+A A PP A
+Sbjct  135  YNRQLAERQVQGLPE-QCRGD-WVRPLATSDLVKLTRRLLVEGGAGQFAEALAGATPPGA  192
+
+Query  177  KA  178
+             A
+Sbjct  193  TA  194
+
+
+> sp|Q48KB0|PVDQ_PSE14 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+savastanoi pv. phaseolicola (strain 1448A / Race 
+6) OX=264730 GN=pvdQ PE=3 SV=1
+Length=779
+
+ Score = 208 bits (528),  Expect = 3e-62, Method: Composition-based stats.
+ Identities = 70/175 (40%), Positives = 96/175 (55%), Gaps = 7/175 (4%)
+
+Query  3    GGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHL  62
+              D     AEIRRT  GVPHI A N    GYG GY  AQDNLC +A+  +T  GERSR+ 
+Sbjct  28   AADNQAARAEIRRTGFGVPHIVAANERGLGYGIGYAYAQDNLCLLANEVVTVNGERSRYF  87
+
+Query  63   GGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVR  122
+            G        +TL +  N+ SD   + + + EA+     AQP ++ Q+++G+ AGYNR + 
+Sbjct  88   GPD-----KATLEQRSNMASDLLFKWLNTPEALADFWKAQPPEIRQLMQGYVAGYNRSLD  142
+
+Query  123  EAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+            E K  G     C ++ WV+PI+  D+ R      + GG   F EA A A+PP A+
+Sbjct  143  EQKTKGLPR-PCAAD-WVRPISTDDLLRLTRRLLVEGGVGQFTEAFAGAKPPSAQ  195
+
+
+> sp|Q4ZV08|PVDQ_PSEU2 Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+syringae pv. syringae (strain B728a) OX=205918 GN=pvdQ 
+PE=3 SV=1
+Length=779
+
+ Score = 201 bits (512),  Expect = 6e-60, Method: Composition-based stats.
+ Identities = 67/172 (39%), Positives = 94/172 (55%), Gaps = 7/172 (4%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+                 AEIRRT  GVPHI A N    GYG GY  AQDNLC +A+  +T  G+RSR+ G  
+Sbjct  31   NQAARAEIRRTGFGVPHIVAANERGLGYGIGYAYAQDNLCLLANEVVTVNGQRSRYFGPD  90
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAK  125
+                  +TL +  N+ SD   + + + +A+     AQP ++ Q+++G+ AGYNR + E  
+Sbjct  91   -----KATLEQRNNMASDLLFQWLNTPQALADFWNAQPREIRQLMQGYVAGYNRSLAEQT  145
+
+Query  126  AGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+              G     C +E WV+PI+  D+ R      + GG   FAEA+A A PP  +
+Sbjct  146  TQGLPQ-PCAAE-WVRPISTDDLLRLTRRLLVEGGVGQFAEALAGATPPAQQ  195
+
+
+> sp|Q88IU8|PVDQ_PSEPK Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=pvdQ PE=3 SV=1
+Length=772
+
+ Score = 198 bits (502),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 71/167 (43%), Positives = 94/167 (56%), Gaps = 6/167 (4%)
+
+Query  9    YSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQL  68
+             SA+IR T  GVPHI A +    GYG GY  AQDNLC +A+  LT  GERSR+ G   Q 
+Sbjct  35   ASAQIRYTRYGVPHIVAKDERGLGYGVGYAYAQDNLCLLANEVLTVSGERSRYFGAKGQ-  93
+
+Query  69   VYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGG  128
+                TL +  N+ SD F   + S  AVD  + AQPA +  ++ G+A+GYNR + E +  G
+Sbjct  94   ----TLEQRDNLASDLFFTWLNSPAAVDAFLQAQPASVQALLAGYASGYNRALVERRRQG  149
+
+Query  129  SAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQ  175
+               A C    WV+PI+++D+ +        GG   F EA+A AQPP 
+Sbjct  150  LP-AECGDGEWVRPISSQDLVKLTRRLLAEGGVGQFVEALAGAQPPT  195
+
+
+> sp|P29958|AAC_ACTUT Aculeacin-A acylase OS=Actinoplanes utahensis 
+OX=1869 GN=aac PE=1 SV=1
+Length=786
+
+ Score = 194 bits (493),  Expect = 4e-57, Method: Composition-based stats.
+ Identities = 60/176 (34%), Positives = 88/176 (50%), Gaps = 2/176 (1%)
+
+Query  1    SGGGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSR  60
+            SG      Y+A IRR + GVPHI A ++GS G+G GYVQA+DN+C +A+S +T  GERSR
+Sbjct  29   SGREHDGGYAALIRRASYGVPHITADDFGSLGFGVGYVQAEDNICVIAESVVTANGERSR  88
+
+Query  61   HLGGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRY  120
+              G +     +           D     ++  E     + A    +   + GF AGYN +
+Sbjct  89   WFGATGPDDADVRTTSSTQAIDDRVAERLL--EGPRDGVRAPCDDVRDQMRGFVAGYNHF  146
+
+Query  121  VREAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQA  176
+            +R          ACR +AWV+P++  D+WR  + + +  G     + I  A PP A
+Sbjct  147  LRRTGVHRLTDPACRGKAWVRPLSEIDLWRTSWDSMVRAGSGALLDGIVAATPPTA  202
+
+
+> sp|Q9I194|PVDQ_PSEAE Acyl-homoserine lactone acylase PvdQ OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=pvdQ PE=1 SV=1
+Length=762
+
+ Score = 180 bits (455),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 60/168 (36%), Positives = 93/168 (55%), Gaps = 8/168 (5%)
+
+Query  10   SAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLV  69
+            +A+IR T  GVPHI+A +    GYG GY  A+DN C +A+  +T RGER+R+ G   +  
+Sbjct  32   AADIRWTAYGVPHIRAKDERGLGYGIGYAYARDNACLLAEEIVTARGERARYFGSEGK--  89
+
+Query  70   YNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGGS  129
+               +     N+ SD F+  +   EA+     AQ   + Q++EG+AAG+NR++REA    +
+Sbjct  90   ---SSAELDNLPSDIFYAWLNQPEALQAFWQAQTPAVRQLLEGYAAGFNRFLREADGKTT  146
+
+Query  130  AHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPPQAK  177
+            +   C  + W++ I   D+ R      + GG   FA+A+  A PP A+
+Sbjct  147  S---CLGQPWLRAIATDDLLRLTRRLLVEGGVGQFADALVAAAPPGAE  191
+
+
+> sp|Q4ZPM1|QUIP_PSEU2 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+syringae pv. syringae (strain B728a) OX=205918 GN=quiP 
+PE=3 SV=1
+Length=824
+
+ Score = 143 bits (360),  Expect = 9e-39, Method: Composition-based stats.
+ Identities = 33/137 (24%), Positives = 53/137 (39%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++ ++  A +  GYV A D +  M    L  +G  S   G  
+Sbjct  49   GLAQNVSVRRNNMGMPLIESSSYHDALFTLGYVHAGDRISQMLGMRLLAQGRLSEMAGAD  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             +D D   R V   +       A   +L +  + +A G N Y+   R
+Sbjct  109  A-------------LDVDRLMRSVNLKQNASDLYNAASPRLKRFFDVYARGVNAYLFRYR  155
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A +  + E W
+Sbjct  156  DKLPADIASSGYKPEYW  172
+
+
+> sp|Q3KH00|QUIP_PSEPF Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+fluorescens (strain Pf0-1) OX=205922 GN=quiP PE=3 
+SV=1
+Length=816
+
+ Score = 140 bits (353),  Expect = 7e-38, Method: Composition-based stats.
+ Identities = 39/168 (23%), Positives = 66/168 (39%), Gaps = 21/168 (13%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++ ++  A +  GYV A D +  M    L  +G  +   G S
+Sbjct  48   GLAQNVSVRRNAMGMPLIESNSFHDALFALGYVHASDRINQMVTLRLLAQGRLAEMSGSS  107
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+                          +D+D + R V   ++      A   +L +  E +A G N Y+    
+Sbjct  108  M-------------LDADRYMRAVNLKKSAGELYKASSPRLKRFFEVYARGVNAYLFRYA  154
+
+Query  123  EAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIAN  170
+            +   G  A +  + E W    +A      I+        +N  E IA+
+Sbjct  155  DKLPGDLASSGYKPEYWKPEDSA-----LIFCLLNFSQSANLPEEIAS  197
+
+
+> sp|P06875|PAC_ECOLX Penicillin G acylase OS=Escherichia coli 
+OX=562 GN=pac PE=1 SV=2
+Length=846
+
+ Score = 140 bits (353),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 31/143 (22%), Positives = 55/143 (38%), Gaps = 20/143 (14%)
+
+Query  4    GDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLG  63
+             + S+   +I R   G+PHI A +     YG+GYV AQD L  M  +  + +G  +  LG
+Sbjct  26   AEQSSSEIKIVRDEYGMPHIYANDTWHLFYGYGYVVAQDRLFQMEMARRSTQGTVAEVLG  85
+
+Query  64   GSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVRE  123
+                            +  D   R     +A+   +AA   + + +++G+A G N ++ +
+Sbjct  86   -------------KDFVKFDKDIRRNYWPDAIRAQIAALSPEDMSILQGYADGMNAWIDK  132
+
+Query  124  A-------KAGGSAHAACRSEAW  139
+                                + W
+Sbjct  133  VNTNPETLLPKQFNTFGFTPKRW  155
+
+
+> sp|P07662|G7AC_PSEU7 Glutaryl-7-aminocephalosporanic-acid acylase 
+OS=Pseudomonas sp. (strain SY-77) OX=269086 PE=1 SV=2
+Length=720
+
+ Score = 140 bits (352),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 35/166 (21%), Positives = 57/166 (34%), Gaps = 24/166 (14%)
+
+Query  12   EIRRTTMGVPHIKAGNWGSAGYGFGYVQAQ---DNLCTMADSFLTYRGERSRHLGGSAQL  68
+            EI     GVPHI   +  SA YG+G+ QA+   DN+  +       RG+ + + G   + 
+Sbjct  48   EILWDGYGVPHIYGVDAPSAFYGYGWAQARSHGDNILRLYGE---ARGKGAEYWGPDYEQ  104
+
+Query  69   VYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGG  128
+                 L                  E   +  A Q       ++ FAAG N Y  +     
+Sbjct  105  TTVWLLTN-------------GVPERAQQWYAQQSPDFRANLDAFAAGINAY-AQQNPDD  150
+
+Query  129  SAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPP  174
+             +    +    V P++  DV    +        ++    +    PP
+Sbjct  151  ISPEVRQ----VLPVSGADVVAHAHRLMNFLYVASPGRTLGEGDPP  192
+
+
+> sp|Q4KH86|QUIP_PSEF5 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+fluorescens (strain ATCC BAA-477 / NRRL B-23932 
+/ Pf-5) OX=220664 GN=quiP PE=3 SV=1
+Length=809
+
+ Score = 140 bits (353),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 37/166 (22%), Positives = 62/166 (37%), Gaps = 21/166 (13%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  +GVP I++ ++  A +  GYV A D +  M    L  +G  +   G  
+Sbjct  48   GLAQNVSVRRNAVGVPLIESSSFHDALFTLGYVHASDRIGQMVTLHLLAQGRLAEMSGAD  107
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             ++ D   R +   ++ D    A   ++ +  E +A G N Y+   R
+Sbjct  108  A-------------LEVDRLMRAINLKKSADELYKASSPRIKRFFEVYARGVNAYLFRYR  154
+
+Query  123  EAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAI  168
+            +      A      E W    +A      I+     G  +N  E I
+Sbjct  155  DKLPPDLAAQGYTPEYWKAEDSA-----LIFCLLNFGQSANLQEEI  195
+
+
+> sp|Q48LS4|QUIP_PSE14 Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+savastanoi pv. phaseolicola (strain 1448A / Race 
+6) OX=264730 GN=quiP PE=3 SV=1
+Length=824
+
+ Score = 140 bits (353),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 31/137 (23%), Positives = 52/137 (38%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++  +  A +  GY+ A D +  M    L  +G  S   G  
+Sbjct  49   GLAQNVSVRRNNMGMPLIESSTYHDALFTLGYIHAGDRIGQMLGMRLLAQGRLSEMAGAD  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             ++ D   R V   +       A   +L +  + +A G N Y+   R
+Sbjct  109  A-------------LEVDRLMRSVNLKQNASDLYNAASPRLKRFFDVYARGVNAYLFRYR  155
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A +  + E W
+Sbjct  156  DKLPADVASSGYKPEYW  172
+
+
+> sp|Q9L5D6|G7AC_BREDI Glutaryl-7-aminocephalosporanic-acid acylase 
+OS=Brevundimonas diminuta OX=293 PE=1 SV=1
+Length=720
+
+ Score = 140 bits (352),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 35/166 (21%), Positives = 57/166 (34%), Gaps = 24/166 (14%)
+
+Query  12   EIRRTTMGVPHIKAGNWGSAGYGFGYVQAQ---DNLCTMADSFLTYRGERSRHLGGSAQL  68
+            EI     GVPHI   +  SA YG+G+ QA+   DN+  +       RG+ + + G   + 
+Sbjct  48   EILWDGYGVPHIYGVDAPSAFYGYGWAQARSHGDNILRLYGE---ARGKGAEYWGPDYEQ  104
+
+Query  69   VYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAKAGG  128
+                 L                  E   +  A Q       ++ FAAG N Y  +     
+Sbjct  105  TTVWLLTN-------------GVPERAQQWYAQQSPDFRANLDAFAAGINAY-AQQNPDD  150
+
+Query  129  SAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQPP  174
+             +    +    V P++  DV    +        ++    +    PP
+Sbjct  151  ISPEVRQ----VLPVSGADVVAHAHRLMNFLYVASPGRTLGEGDPP  192
+
+
+> sp|Q9I4U2|QUIP_PSEAE Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 
+GN=quiP PE=1 SV=1
+Length=847
+
+ Score = 140 bits (352),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 43/170 (25%), Positives = 66/170 (39%), Gaps = 21/170 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  IRR  +G+P I+ G +  A +  GYV A D L  M    L  +G  +  +G  
+Sbjct  51   GLAQNVSIRRNALGMPLIETGTFHDALFALGYVHASDRLSQMVSLRLLAQGRLAEMVGPG  110
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             ++ D F R V   +A +        +L +  E +A G N Y+   R
+Sbjct  111  A-------------LEIDRFMRTVNLRQAAEIQYRNASPRLQRFFEVYARGVNAYLYRYR  157
+
+Query  123  EAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGYSNFAEAIANAQ  172
+            +      A +  R E W    +A      ++A    G   N  E IA+  
+Sbjct  158  DKLPMDLAQSGYRPEYWKPEDSA-----LVFALLNFGLAVNLQEEIASLT  202
+
+
+> sp|Q60136|PAC_BACME Penicillin G acylase OS=Bacillus megaterium 
+OX=1404 GN=pac PE=3 SV=1
+Length=802
+
+ Score = 138 bits (346),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 27/152 (18%), Positives = 47/152 (31%), Gaps = 15/152 (10%)
+
+Query  3    GGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHL  62
+             G+      ++ R   GVPH+ A N       +GYV A+D L  +        G  S   
+Sbjct  24   AGEDKNEGVKVVRDNFGVPHLYAKNKKDLYEAYGYVMAKDRLFQLEMFRRGNEGTVSEIF  83
+
+Query  63   GGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV-  121
+            G     +      R         + +    + +D         + +  EG +   N  + 
+Sbjct  84   GED--YLSKDEQSRRDG------YSNKEIKKMIDGLDRQPKELIAKFAEGISRYVNEALK  135
+
+Query  122  --REAKAGGSAHAACRSEAWVQPITARDVWRR  151
+               +  +          + W    T+ DV R 
+Sbjct  136  DPDDKLSKEFHEYQFLPQKW----TSTDVVRV  163
+
+
+> sp|P31956|PAC_ARTVI Penicillin G acylase OS=Arthrobacter viscosus 
+OX=1673 GN=pac PE=1 SV=1
+Length=802
+
+ Score = 137 bits (344),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 27/162 (17%), Positives = 48/162 (30%), Gaps = 15/162 (9%)
+
+Query  3    GGDGSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHL  62
+             G+      ++ R   GVPH+ A N       +GYV A+D L  +        G  S   
+Sbjct  24   AGEDKNEGVKVVRDNFGVPHLYAKNKKDLYEAYGYVMAKDRLFQLEMFRRGNEGTVSEIF  83
+
+Query  63   GGSAQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV-  121
+            G     +      R         + +    + +D         + +  EG +   N  + 
+Sbjct  84   GED--YLSKDEQSRRDG------YSNKEIKKMIDGLDRQPRELIAKFAEGISRYVNEALK  135
+
+Query  122  --REAKAGGSAHAACRSEAWVQPITARDVWRRIYAANLAGGY  161
+               +  +          + W    T+ DV R    +      
+Sbjct  136  DPDDKLSKEFHEYQFLPQKW----TSTDVVRVYMVSMTYLWI  173
+
+
+> sp|Q87XP3|QUIP_PSESM Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+syringae pv. tomato (strain ATCC BAA-871 / DC3000) 
+OX=223283 GN=quiP PE=3 SV=1
+Length=824
+
+ Score = 137 bits (344),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 33/137 (24%), Positives = 50/137 (36%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG+P I++  +  A +  GYV A D +  M    L  +G  S   G  
+Sbjct  49   GLAQNVSVRRNNMGMPLIESSTYHDALFTLGYVHAGDRIGQMLGMRLLAQGRLSEVAGAD  108
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             ++ D   R V           A   +L +  + +A G N Y+   R
+Sbjct  109  A-------------LEVDRLMRSVNLKRNASDLYNAASPRLKRFFDVYARGVNAYLFRYR  155
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +      A A    E W
+Sbjct  156  DKLPADVARAGYTPEYW  172
+
+
+> sp|P15558|PAC2_PSES3 Penicillin acylase 2 proenzyme OS=Pseudomonas 
+sp. (strain SE83) OX=309 GN=acyII PE=1 SV=2
+Length=774
+
+ Score = 133 bits (335),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 35/153 (23%), Positives = 56/153 (37%), Gaps = 16/153 (10%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G +    ++R   G+PHIKA     A    G+V AQD L  M  +     G  +  LG  
+Sbjct  27   GLSAPVRVQRDGWGIPHIKASGEADAYRALGFVHAQDRLFQMELTRRKALGRAAEWLGAE  86
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREAK  125
+            A              ++D   R +  ++   R   A  A+   M+  + AG N ++    
+Sbjct  87   A-------------AEADILVRRLGMEKVCRRDFEALGAEAKDMLRAYVAGVNAFLASGA  133
+
+Query  126  AGGSAHA--ACRSEAWVQPITARDVWRRIYAAN  156
+                 +       E W +P  +  V RR+    
+Sbjct  134  PLPIEYGLLGAEPEPW-EPWHSIAVMRRLGLLM  165
+
+
+> sp|P07941|PAC_KLUCR Penicillin G acylase OS=Kluyvera cryocrescens 
+OX=580 GN=pac PE=1 SV=1
+Length=844
+
+ Score = 133 bits (334),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 30/137 (22%), Positives = 54/137 (39%), Gaps = 20/137 (15%)
+
+Query  10   SAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGSAQLV  69
+              +I R   G+PHI A +     YG+GYV AQD L  M  +  + +G  S  LG      
+Sbjct  32   EVKIVRDEYGMPHIYADDTYRLFYGYGYVVAQDRLFQMEMARRSTQGTVSEVLG------  85
+
+Query  70   YNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYVREA-----  124
+                      +  D   R     +++   +A+  A+   +++G+A G N ++ +      
+Sbjct  86   -------KAFVSFDKDIRQNYWPDSIRAQIASLSAEDKSILQGYADGMNAWIDKVNASPD  138
+
+Query  125  --KAGGSAHAACRSEAW  139
+                   +    + + W
+Sbjct  139  KLLPQQFSTFGFKPKHW  155
+
+
+> sp|Q88NU6|QUIP_PSEPK Acyl-homoserine lactone acylase QuiP OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 
+/ KT2440) OX=160488 GN=quiP PE=3 SV=1
+Length=813
+
+ Score = 132 bits (332),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 34/137 (25%), Positives = 54/137 (39%), Gaps = 16/137 (12%)
+
+Query  6    GSTYSAEIRRTTMGVPHIKAGNWGSAGYGFGYVQAQDNLCTMADSFLTYRGERSRHLGGS  65
+            G   +  +RR  MG P I++ ++  A +  GYV A D +  M    L  +G  +   G  
+Sbjct  48   GLAQNVSVRRNAMGAPLIESSSFHDALFSLGYVHAGDRIEQMVAMRLLAQGRLAELAGSE  107
+
+Query  66   AQLVYNSTLGRPRNIDSDFFHRHVISDEAVDRTMAAQPAKLLQMVEGFAAGYNRYV---R  122
+            A             +D D   R     ++  +  A    +L +  E +A G N Y+   R
+Sbjct  108  A-------------LDIDRLMRAANLKQSAAQQYADASPRLKRFFEVYARGVNAYLFRYR  154
+
+Query  123  EAKAGGSAHAACRSEAW  139
+            +    G A +  R E W
+Sbjct  155  DKLPAGLASSGYRPEYW  171
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.123    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0376    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9506922580
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

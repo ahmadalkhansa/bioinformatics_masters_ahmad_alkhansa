@@ -1,0 +1,555 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 5C17.A
+
+Length=209
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P62224|MERB_CLOBU Alkylmercury lyase OS=Clostridium butyricu...  97.4    8e-24
+  sp|P16172|MERB_BACCE Alkylmercury lyase OS=Bacillus cereus OX=1...  97.4    8e-24
+  sp|Q8CU52|MERB_STAES Alkylmercury lyase OS=Staphylococcus epide...  87.0    6e-20
+  sp|P08653|MERB_STAAU Alkylmercury lyase OS=Staphylococcus aureu...  86.3    1e-19
+  sp|P77072|MERB_ECOLX Alkylmercury lyase OS=Escherichia coli OX=...  79.0    6e-17
+  sp|P08664|MERB_SERMA Alkylmercury lyase OS=Serratia marcescens ...  79.0    6e-17
+  sp|Q91UN2|MERB_RHIML Alkylmercury lyase OS=Rhizobium meliloti O...  79.0    6e-17
+  sp|P62225|MERB_KLEPN Alkylmercury lyase OS=Klebsiella pneumonia...  79.0    6e-17
+  sp|Q8G9P0|MERB_PSEPU Alkylmercury lyase OS=Pseudomonas putida O...  75.5    1e-15
+  sp|P30342|MERB_STRLI Alkylmercury lyase OS=Streptomyces lividan...  72.4    2e-14
+
+
+> sp|P62224|MERB_CLOBU Alkylmercury lyase OS=Clostridium butyricum 
+OX=1492 GN=merB PE=3 SV=1
+Length=218
+
+ Score = 97.4 bits (241),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 54/177 (31%), Positives = 90/177 (51%), Gaps = 6/177 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   +  G++VT   +   TG   K V+ V K+L     +  +   ++VG LGL++
+Sbjct  28   LFRPLLQMLAGGESVTIEDMATTTG---KPVEEVKKVLQSLPSVEIDEQGRVVG-LGLTL  83
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+            IPT +   + G+ L+AWCA+ TL     +   V+I S C  TGEPI + V    +    P
+Sbjct  84   IPTPHHFTVDGKQLYAWCALDTLIFPALIGRSVNIESPCHSTGEPIRLNVEPDHIVSVEP  143
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFG  201
+             + V+  V  D  +      C ++H+FSS   A  W ++HP   G+++++E A   G
+Sbjct  144  STAVVSIVTPDDMSSIRTAFCNEVHFFSSPNAAEDWLDQHPG--GKVLSVEDAFELG  198
+
+
+> sp|P16172|MERB_BACCE Alkylmercury lyase OS=Bacillus cereus OX=1396 
+GN=merB1 PE=3 SV=2
+Length=218
+
+ Score = 97.4 bits (241),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 54/177 (31%), Positives = 90/177 (51%), Gaps = 6/177 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   +  G++VT   +   TG   K V+ V K+L     +  +   ++VG LGL++
+Sbjct  28   LFRPLLQMLAGGESVTIEDMATTTG---KPVEEVKKVLQSLPSVEIDEQGRVVG-LGLTL  83
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+            IPT +   + G+ L+AWCA+ TL     +   V+I S C  TGEPI + V    +    P
+Sbjct  84   IPTPHHFTVDGKQLYAWCALDTLIFPALIGRSVNIESPCHSTGEPIRLNVEPDHIVSVEP  143
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFG  201
+             + V+  V  D  +      C ++H+FSS   A  W ++HP   G+++++E A   G
+Sbjct  144  STAVVSIVTPDDMSSIRTAFCNEVHFFSSPNAAEDWLDQHPG--GKVLSVEDAFELG  198
+
+
+> sp|Q8CU52|MERB_STAES Alkylmercury lyase OS=Staphylococcus epidermidis 
+(strain ATCC 12228) OX=176280 GN=merB PE=3 SV=1
+Length=216
+
+ Score = 87.0 bits (214),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 49/180 (27%), Positives = 86/180 (48%), Gaps = 6/180 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   + +G  V    +  +TG   K V+ V ++L     +  +   ++VG  GL++
+Sbjct  26   LFRPLLKMLAEGDPVPVEDIAAETG---KPVEEVKQVLQTLPSVELDEQGRVVG-YGLTL  81
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+            +PT ++  + G+ L+AWCA+ TL     +   V I S C  TG+ + +TV   ++    P
+Sbjct  82   VPTPHRFEVDGKQLYAWCALDTLMFPALIGRTVHIASPCHGTGKSVRLTVEPDRVVSVEP  141
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFGNEL  204
+             + V+  V  D  A      C  +H+FSS   A  W  +HP  +  ++ +E A   G  L
+Sbjct  142  STAVVSIVTPDEMASVRSAFCNNVHFFSSPSAAQDWLNQHP--ESSVLPVEDAFELGRHL  199
+
+
+> sp|P08653|MERB_STAAU Alkylmercury lyase OS=Staphylococcus aureus 
+OX=1280 GN=merB PE=3 SV=1
+Length=216
+
+ Score = 86.3 bits (212),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 49/180 (27%), Positives = 85/180 (47%), Gaps = 6/180 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   + +G  V    +  +TG   K V+ V ++L     +  +   ++VG  GL++
+Sbjct  26   LFRPLLKMLAEGDPVPVEDIAAETG---KPVEEVKQVLQTLPSVELDEQGRVVG-YGLTL  81
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+             PT ++  + G+ L+AWCA+ TL     +   V I S C  TG+ + +TV   ++    P
+Sbjct  82   FPTPHRFEVDGKQLYAWCALDTLMFPALIGRTVHIASPCHGTGKSVRLTVEPDRVVSVEP  141
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFGNEL  204
+             + V+  V  D  A      C  +H+FSS   A  W  +HP  +  ++ +E A   G  L
+Sbjct  142  STAVVSIVTPDEMASVRSAFCNDVHFFSSPSAAQDWLNQHP--ESSVLPVEDAFELGRHL  199
+
+
+> sp|P77072|MERB_ECOLX Alkylmercury lyase OS=Escherichia coli OX=562 
+GN=merB PE=1 SV=1
+Length=212
+
+ Score = 79.0 bits (193),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 52/187 (28%), Positives = 85/187 (45%), Gaps = 9/187 (5%)
+
+Query  23   VPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGL  82
+            VP+LR     +  G+ V+ ++L    GI     + V  +L Q      + D  I+G  GL
+Sbjct  25   VPLLR----ELAKGRPVSRTTL---AGILDWPAERVAAVLEQATSTEYDKDGNIIG-YGL  76
+
+Query  83   SIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKT  142
+            ++  T+    +  R L+AWCA+ TL     +     + S CA TG P+ +TV   ++   
+Sbjct  77   TLRETSYVFEIDDRRLYAWCALDTLIFPALIGRTARVSSHCAATGAPVSLTVSPSEIQAV  136
+
+Query  143  TPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQG-EIMTLEQALSFG  201
+             P    +  V     A      C  +H+F+SV  A  W  +H  L+G  I+++ +A   G
+Sbjct  137  EPAGMAVSLVLPQEAADVRQSFCCHVHFFASVPTAEDWASKHQGLEGLAIVSVHEAFGLG  196
+
+Query  202  NELKKFL  208
+             E  + L
+Sbjct  197  QEFNRHL  203
+
+
+> sp|P08664|MERB_SERMA Alkylmercury lyase OS=Serratia marcescens 
+OX=615 GN=merB PE=3 SV=1
+Length=212
+
+ Score = 79.0 bits (193),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 52/187 (28%), Positives = 85/187 (45%), Gaps = 9/187 (5%)
+
+Query  23   VPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGL  82
+            VP+LR     +  G+ V+ ++L    GI     + V  +L Q      + D  I+G  GL
+Sbjct  25   VPLLR----ELAKGRPVSRTTL---AGILDWPAERVAAVLEQATSTEYDKDGNIIG-YGL  76
+
+Query  83   SIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKT  142
+            ++  T+    +  R L+AWCA+ TL     +     + S CA TG P+ +TV   ++   
+Sbjct  77   TLRETSYVFEIDDRRLYAWCALDTLIFPALIGRTARVSSHCAATGAPVSLTVSPSEIQAV  136
+
+Query  143  TPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQG-EIMTLEQALSFG  201
+             P    +  V     A      C  +H+F+SV  A  W  +H  L+G  I+++ +A   G
+Sbjct  137  EPAGMAVSLVLPQEAADVRQSFCCHVHFFASVPTAEDWASKHQGLEGLAIVSVHEAFGLG  196
+
+Query  202  NELKKFL  208
+             E  + L
+Sbjct  197  QEFNRHL  203
+
+
+> sp|Q91UN2|MERB_RHIML Alkylmercury lyase OS=Rhizobium meliloti 
+OX=382 GN=merB PE=3 SV=1
+Length=212
+
+ Score = 79.0 bits (193),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 52/187 (28%), Positives = 85/187 (45%), Gaps = 9/187 (5%)
+
+Query  23   VPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGL  82
+            VP+LR     +  G+ V+ ++L    GI     + V  +L Q      + D  I+G  GL
+Sbjct  25   VPLLR----ELAKGRPVSRTTL---AGILDWPAERVAAVLEQATSTEYDKDGNIIG-YGL  76
+
+Query  83   SIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKT  142
+            ++  T+    +  R L+AWCA+ TL     +     + S CA TG P+ +TV   ++   
+Sbjct  77   TLRETSYVFEIDDRRLYAWCALDTLIFPALIGRTARVSSHCAATGAPVSLTVSPSEIQAV  136
+
+Query  143  TPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQG-EIMTLEQALSFG  201
+             P    +  V     A      C  +H+F+SV  A  W  +H  L+G  I+++ +A   G
+Sbjct  137  EPAGMAVSLVLPQEAADVRQSFCCHVHFFASVPTAEDWASKHQGLEGLAIVSVHEAFGLG  196
+
+Query  202  NELKKFL  208
+             E  + L
+Sbjct  197  QEFNRHL  203
+
+
+> sp|P62225|MERB_KLEPN Alkylmercury lyase OS=Klebsiella pneumoniae 
+OX=573 GN=merB PE=3 SV=1
+Length=212
+
+ Score = 79.0 bits (193),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 52/187 (28%), Positives = 85/187 (45%), Gaps = 9/187 (5%)
+
+Query  23   VPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGL  82
+            VP+LR     +  G+ V+ ++L    GI     + V  +L Q      + D  I+G  GL
+Sbjct  25   VPLLR----ELAKGRPVSRTTL---AGILDWPAERVAAVLEQATSTEYDKDGNIIG-YGL  76
+
+Query  83   SIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKT  142
+            ++  T+    +  R L+AWCA+ TL     +     + S CA TG P+ +TV   ++   
+Sbjct  77   TLRETSYVFEIDDRRLYAWCALDTLIFPALIGRTARVSSHCAATGAPVSLTVSPSEIQAV  136
+
+Query  143  TPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQG-EIMTLEQALSFG  201
+             P    +  V     A      C  +H+F+SV  A  W  +H  L+G  I+++ +A   G
+Sbjct  137  EPAGMAVSLVLPQEAADVRQSFCCHVHFFASVPTAEDWASKHQGLEGLAIVSVHEAFGLG  196
+
+Query  202  NELKKFL  208
+             E  + L
+Sbjct  197  QEFNRHL  203
+
+
+> sp|Q8G9P0|MERB_PSEPU Alkylmercury lyase OS=Pseudomonas putida 
+OX=303 GN=merB PE=3 SV=1
+Length=212
+
+ Score = 75.5 bits (184),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 48/184 (26%), Positives = 86/184 (47%), Gaps = 6/184 (3%)
+
+Query  19   PKESVPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVG  78
+            P+E   +  T+   +  G+ V+  +L    G + + V +V++     +    +    I+G
+Sbjct  20   PEEFATLFVTLLRQLVMGRPVSREALGTALGWSGQRVATVLEPAPGTEY---DEQGNIIG  76
+
+Query  79   ALGLSIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGK  138
+             LGL++  T +   + GR L+ WCA+ TL     +     + SRC  TG PI +TV    
+Sbjct  77   -LGLTLRETPHVFEVDGRRLYTWCALDTLMFPALIGKTARVTSRCVATGRPITLTVAPEA  135
+
+Query  139  LAKTTPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQAL  198
+            + +  P  T++  +  D+        C  +H+F+S   AN W   HP +  E++ +E A 
+Sbjct  136  VLQVEPAETMVSLLTPDASPDIRCSFCCHVHFFASPSVANAWASTHPGI--ELVPVENAF  193
+
+Query  199  SFGN  202
+              G+
+Sbjct  194  GLGH  197
+
+
+> sp|P30342|MERB_STRLI Alkylmercury lyase OS=Streptomyces lividans 
+OX=1916 GN=merB PE=3 SV=1
+Length=215
+
+ Score = 72.4 bits (176),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 48/184 (26%), Positives = 81/184 (44%), Gaps = 6/184 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   +  G+ VT   +   T    +T   V + LA       +   +I G+ GL+ 
+Sbjct  28   LWRPLLQLLAQGRPVTVEQIAQATD---RTPDQVREALAANPDTEYDERGRITGS-GLTQ  83
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+             PT +   + G+ L+ WCA+ TL     L     + S C  TG P+ +TV   ++    P
+Sbjct  84   NPTPHHFEVDGQQLYTWCALDTLIFPAILGRPAHVTSPCHATGTPVRLTVEPDQVTSVEP  143
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFGNEL  204
+             + V+  V  D+ A      C Q+H+F++ +    W EEHP     ++ +  A   G  L
+Sbjct  144  ATAVVSIVTPDAPASIRTAFCNQVHFFATPDAGKGWLEEHPV--ATVLPVADAYQLGRPL  201
+
+Query  205  KKFL  208
+             + L
+Sbjct  202  TEAL  205
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13260103104
+Results from round 2
+
+
+Query= 5C17.A
+
+Length=209
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P16172|MERB_BACCE Alkylmercury lyase OS=Bacillus cereus OX=1...  272     2e-92
+  sp|P62224|MERB_CLOBU Alkylmercury lyase OS=Clostridium butyricu...  272     3e-92
+  sp|Q8CU52|MERB_STAES Alkylmercury lyase OS=Staphylococcus epide...  271     4e-92
+  sp|P08653|MERB_STAAU Alkylmercury lyase OS=Staphylococcus aureu...  269     2e-91
+  sp|Q8G9P0|MERB_PSEPU Alkylmercury lyase OS=Pseudomonas putida O...  263     4e-89
+  sp|P08664|MERB_SERMA Alkylmercury lyase OS=Serratia marcescens ...  260     7e-88
+  sp|Q91UN2|MERB_RHIML Alkylmercury lyase OS=Rhizobium meliloti O...  260     7e-88
+  sp|P62225|MERB_KLEPN Alkylmercury lyase OS=Klebsiella pneumonia...  260     7e-88
+  sp|P77072|MERB_ECOLX Alkylmercury lyase OS=Escherichia coli OX=...  260     8e-88
+  sp|P30342|MERB_STRLI Alkylmercury lyase OS=Streptomyces lividan...  258     5e-87
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P16172|MERB_BACCE Alkylmercury lyase OS=Bacillus cereus OX=1396 
+GN=merB1 PE=3 SV=2
+Length=218
+
+ Score = 272 bits (695),  Expect = 2e-92, Method: Composition-based stats.
+ Identities = 54/178 (30%), Positives = 90/178 (51%), Gaps = 6/178 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   +  G++VT   +   TG   K V+ V K+L     +  +   ++VG LGL++
+Sbjct  28   LFRPLLQMLAGGESVTIEDMATTTG---KPVEEVKKVLQSLPSVEIDEQGRVVG-LGLTL  83
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+            IPT +   + G+ L+AWCA+ TL     +   V+I S C  TGEPI + V    +    P
+Sbjct  84   IPTPHHFTVDGKQLYAWCALDTLIFPALIGRSVNIESPCHSTGEPIRLNVEPDHIVSVEP  143
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFGN  202
+             + V+  V  D  +      C ++H+FSS   A  W ++HP   G+++++E A   G 
+Sbjct  144  STAVVSIVTPDDMSSIRTAFCNEVHFFSSPNAAEDWLDQHPG--GKVLSVEDAFELGR  199
+
+
+> sp|P62224|MERB_CLOBU Alkylmercury lyase OS=Clostridium butyricum 
+OX=1492 GN=merB PE=3 SV=1
+Length=218
+
+ Score = 272 bits (694),  Expect = 3e-92, Method: Composition-based stats.
+ Identities = 54/178 (30%), Positives = 90/178 (51%), Gaps = 6/178 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   +  G++VT   +   TG   K V+ V K+L     +  +   ++VG LGL++
+Sbjct  28   LFRPLLQMLAGGESVTIEDMATTTG---KPVEEVKKVLQSLPSVEIDEQGRVVG-LGLTL  83
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+            IPT +   + G+ L+AWCA+ TL     +   V+I S C  TGEPI + V    +    P
+Sbjct  84   IPTPHHFTVDGKQLYAWCALDTLIFPALIGRSVNIESPCHSTGEPIRLNVEPDHIVSVEP  143
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFGN  202
+             + V+  V  D  +      C ++H+FSS   A  W ++HP   G+++++E A   G 
+Sbjct  144  STAVVSIVTPDDMSSIRTAFCNEVHFFSSPNAAEDWLDQHPG--GKVLSVEDAFELGR  199
+
+
+> sp|Q8CU52|MERB_STAES Alkylmercury lyase OS=Staphylococcus epidermidis 
+(strain ATCC 12228) OX=176280 GN=merB PE=3 SV=1
+Length=216
+
+ Score = 271 bits (693),  Expect = 4e-92, Method: Composition-based stats.
+ Identities = 49/180 (27%), Positives = 86/180 (48%), Gaps = 6/180 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   + +G  V    +  +TG   K V+ V ++L     +  +   ++VG  GL++
+Sbjct  26   LFRPLLKMLAEGDPVPVEDIAAETG---KPVEEVKQVLQTLPSVELDEQGRVVG-YGLTL  81
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+            +PT ++  + G+ L+AWCA+ TL     +   V I S C  TG+ + +TV   ++    P
+Sbjct  82   VPTPHRFEVDGKQLYAWCALDTLMFPALIGRTVHIASPCHGTGKSVRLTVEPDRVVSVEP  141
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFGNEL  204
+             + V+  V  D  A      C  +H+FSS   A  W  +HP  +  ++ +E A   G  L
+Sbjct  142  STAVVSIVTPDEMASVRSAFCNNVHFFSSPSAAQDWLNQHP--ESSVLPVEDAFELGRHL  199
+
+
+> sp|P08653|MERB_STAAU Alkylmercury lyase OS=Staphylococcus aureus 
+OX=1280 GN=merB PE=3 SV=1
+Length=216
+
+ Score = 269 bits (688),  Expect = 2e-91, Method: Composition-based stats.
+ Identities = 49/180 (27%), Positives = 85/180 (47%), Gaps = 6/180 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   + +G  V    +  +TG   K V+ V ++L     +  +   ++VG  GL++
+Sbjct  26   LFRPLLKMLAEGDPVPVEDIAAETG---KPVEEVKQVLQTLPSVELDEQGRVVG-YGLTL  81
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+             PT ++  + G+ L+AWCA+ TL     +   V I S C  TG+ + +TV   ++    P
+Sbjct  82   FPTPHRFEVDGKQLYAWCALDTLMFPALIGRTVHIASPCHGTGKSVRLTVEPDRVVSVEP  141
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFGNEL  204
+             + V+  V  D  A      C  +H+FSS   A  W  +HP  +  ++ +E A   G  L
+Sbjct  142  STAVVSIVTPDEMASVRSAFCNDVHFFSSPSAAQDWLNQHP--ESSVLPVEDAFELGRHL  199
+
+
+> sp|Q8G9P0|MERB_PSEPU Alkylmercury lyase OS=Pseudomonas putida 
+OX=303 GN=merB PE=3 SV=1
+Length=212
+
+ Score = 263 bits (673),  Expect = 4e-89, Method: Composition-based stats.
+ Identities = 48/184 (26%), Positives = 85/184 (46%), Gaps = 6/184 (3%)
+
+Query  19   PKESVPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVG  78
+            P+E   +  T+   +  G+ V+  +L    G + + V +V++          +    I+G
+Sbjct  20   PEEFATLFVTLLRQLVMGRPVSREALGTALGWSGQRVATVLEPAPG---TEYDEQGNIIG  76
+
+Query  79   ALGLSIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGK  138
+             LGL++  T +   + GR L+ WCA+ TL     +     + SRC  TG PI +TV    
+Sbjct  77   -LGLTLRETPHVFEVDGRRLYTWCALDTLMFPALIGKTARVTSRCVATGRPITLTVAPEA  135
+
+Query  139  LAKTTPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQAL  198
+            + +  P  T++  +  D+        C  +H+F+S   AN W   HP +  E++ +E A 
+Sbjct  136  VLQVEPAETMVSLLTPDASPDIRCSFCCHVHFFASPSVANAWASTHPGI--ELVPVENAF  193
+
+Query  199  SFGN  202
+              G+
+Sbjct  194  GLGH  197
+
+
+> sp|P08664|MERB_SERMA Alkylmercury lyase OS=Serratia marcescens 
+OX=615 GN=merB PE=3 SV=1
+Length=212
+
+ Score = 260 bits (665),  Expect = 7e-88, Method: Composition-based stats.
+ Identities = 49/188 (26%), Positives = 84/188 (45%), Gaps = 5/188 (3%)
+
+Query  22   SVPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALG  81
+            +  +L  +   +  G+ V+ ++L    GI     + V  +L Q      + D  I+G  G
+Sbjct  20   TADLLVPLLRELAKGRPVSRTTLA---GILDWPAERVAAVLEQATSTEYDKDGNIIG-YG  75
+
+Query  82   LSIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAK  141
+            L++  T+    +  R L+AWCA+ TL     +     + S CA TG P+ +TV   ++  
+Sbjct  76   LTLRETSYVFEIDDRRLYAWCALDTLIFPALIGRTARVSSHCAATGAPVSLTVSPSEIQA  135
+
+Query  142  TTPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQG-EIMTLEQALSF  200
+              P    +  V     A      C  +H+F+SV  A  W  +H  L+G  I+++ +A   
+Sbjct  136  VEPAGMAVSLVLPQEAADVRQSFCCHVHFFASVPTAEDWASKHQGLEGLAIVSVHEAFGL  195
+
+Query  201  GNELKKFL  208
+            G E  + L
+Sbjct  196  GQEFNRHL  203
+
+
+> sp|Q91UN2|MERB_RHIML Alkylmercury lyase OS=Rhizobium meliloti 
+OX=382 GN=merB PE=3 SV=1
+Length=212
+
+ Score = 260 bits (665),  Expect = 7e-88, Method: Composition-based stats.
+ Identities = 49/188 (26%), Positives = 84/188 (45%), Gaps = 5/188 (3%)
+
+Query  22   SVPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALG  81
+            +  +L  +   +  G+ V+ ++L    GI     + V  +L Q      + D  I+G  G
+Sbjct  20   TADLLVPLLRELAKGRPVSRTTLA---GILDWPAERVAAVLEQATSTEYDKDGNIIG-YG  75
+
+Query  82   LSIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAK  141
+            L++  T+    +  R L+AWCA+ TL     +     + S CA TG P+ +TV   ++  
+Sbjct  76   LTLRETSYVFEIDDRRLYAWCALDTLIFPALIGRTARVSSHCAATGAPVSLTVSPSEIQA  135
+
+Query  142  TTPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQG-EIMTLEQALSF  200
+              P    +  V     A      C  +H+F+SV  A  W  +H  L+G  I+++ +A   
+Sbjct  136  VEPAGMAVSLVLPQEAADVRQSFCCHVHFFASVPTAEDWASKHQGLEGLAIVSVHEAFGL  195
+
+Query  201  GNELKKFL  208
+            G E  + L
+Sbjct  196  GQEFNRHL  203
+
+
+> sp|P62225|MERB_KLEPN Alkylmercury lyase OS=Klebsiella pneumoniae 
+OX=573 GN=merB PE=3 SV=1
+Length=212
+
+ Score = 260 bits (665),  Expect = 7e-88, Method: Composition-based stats.
+ Identities = 49/188 (26%), Positives = 84/188 (45%), Gaps = 5/188 (3%)
+
+Query  22   SVPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALG  81
+            +  +L  +   +  G+ V+ ++L    GI     + V  +L Q      + D  I+G  G
+Sbjct  20   TADLLVPLLRELAKGRPVSRTTLA---GILDWPAERVAAVLEQATSTEYDKDGNIIG-YG  75
+
+Query  82   LSIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAK  141
+            L++  T+    +  R L+AWCA+ TL     +     + S CA TG P+ +TV   ++  
+Sbjct  76   LTLRETSYVFEIDDRRLYAWCALDTLIFPALIGRTARVSSHCAATGAPVSLTVSPSEIQA  135
+
+Query  142  TTPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQG-EIMTLEQALSF  200
+              P    +  V     A      C  +H+F+SV  A  W  +H  L+G  I+++ +A   
+Sbjct  136  VEPAGMAVSLVLPQEAADVRQSFCCHVHFFASVPTAEDWASKHQGLEGLAIVSVHEAFGL  195
+
+Query  201  GNELKKFL  208
+            G E  + L
+Sbjct  196  GQEFNRHL  203
+
+
+> sp|P77072|MERB_ECOLX Alkylmercury lyase OS=Escherichia coli OX=562 
+GN=merB PE=1 SV=1
+Length=212
+
+ Score = 260 bits (665),  Expect = 8e-88, Method: Composition-based stats.
+ Identities = 49/188 (26%), Positives = 84/188 (45%), Gaps = 5/188 (3%)
+
+Query  22   SVPILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALG  81
+            +  +L  +   +  G+ V+ ++L    GI     + V  +L Q      + D  I+G  G
+Sbjct  20   TADLLVPLLRELAKGRPVSRTTLA---GILDWPAERVAAVLEQATSTEYDKDGNIIG-YG  75
+
+Query  82   LSIIPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAK  141
+            L++  T+    +  R L+AWCA+ TL     +     + S CA TG P+ +TV   ++  
+Sbjct  76   LTLRETSYVFEIDDRRLYAWCALDTLIFPALIGRTARVSSHCAATGAPVSLTVSPSEIQA  135
+
+Query  142  TTPDSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQG-EIMTLEQALSF  200
+              P    +  V     A      C  +H+F+SV  A  W  +H  L+G  I+++ +A   
+Sbjct  136  VEPAGMAVSLVLPQEAADVRQSFCCHVHFFASVPTAEDWASKHQGLEGLAIVSVHEAFGL  195
+
+Query  201  GNELKKFL  208
+            G E  + L
+Sbjct  196  GQEFNRHL  203
+
+
+> sp|P30342|MERB_STRLI Alkylmercury lyase OS=Streptomyces lividans 
+OX=1916 GN=merB PE=3 SV=1
+Length=215
+
+ Score = 258 bits (659),  Expect = 5e-87, Method: Composition-based stats.
+ Identities = 48/184 (26%), Positives = 81/184 (44%), Gaps = 6/184 (3%)
+
+Query  25   ILRTIFFSIRDGQAVTESSLINQTGINTKTVQSVVKILAQRQMIVREADQKIVGALGLSI  84
+            + R +   +  G+ VT   +   T    +T   V + LA       +   +I G+ GL+ 
+Sbjct  28   LWRPLLQLLAQGRPVTVEQIAQAT---DRTPDQVREALAANPDTEYDERGRITGS-GLTQ  83
+
+Query  85   IPTTNQIHLGGRTLFAWCAISTLELSTALVADVDIHSRCAYTGEPIEVTVRNGKLAKTTP  144
+             PT +   + G+ L+ WCA+ TL     L     + S C  TG P+ +TV   ++    P
+Sbjct  84   NPTPHHFEVDGQQLYTWCALDTLIFPAILGRPAHVTSPCHATGTPVRLTVEPDQVTSVEP  143
+
+Query  145  DSTVIWTVPFDSEAPWAGGTCKQIHYFSSVEHANKWKEEHPKLQGEIMTLEQALSFGNEL  204
+             + V+  V  D+ A      C Q+H+F++ +    W EEHP     ++ +  A   G  L
+Sbjct  144  ATAVVSIVTPDAPASIRTAFCNQVHFFATPDAGKGWLEEHPV--ATVLPVADAYQLGRPL  201
+
+Query  205  KKFL  208
+             + L
+Sbjct  202  TEAL  205
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.128    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13260103104
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

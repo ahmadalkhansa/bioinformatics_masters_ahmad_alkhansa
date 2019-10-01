@@ -1,0 +1,223 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= d1xaka_
+
+Length=68
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P59635|NS7A_CVHSA Protein 7a OS=Human SARS coronavirus OX=69...  147     1e-46
+  sp|Q3I5J0|NS7A_BCRP3 Protein 7a OS=Bat coronavirus Rp3/2004 OX=...  146     1e-46
+  sp|Q3LZX7|NS7A_BCHK3 Protein 7a OS=Bat coronavirus HKU3 OX=4427...  145     3e-46
+  sp|Q0Q470|NS7A_BC279 Protein 7a OS=Bat coronavirus 279/2005 OX=...  143     4e-45
+
+
+> sp|P59635|NS7A_CVHSA Protein 7a OS=Human SARS coronavirus OX=694009 
+GN=7a PE=1 SV=1
+Length=122
+
+ Score = 147 bits (370),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  60
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  74
+
+Query  61  YQLRARSV  68
+           YQLRARSV
+Sbjct  75  YQLRARSV  82
+
+
+> sp|Q3I5J0|NS7A_BCRP3 Protein 7a OS=Bat coronavirus Rp3/2004 OX=349344 
+GN=7a PE=3 SV=1
+Length=122
+
+ Score = 146 bits (369),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  60
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  74
+
+Query  61  YQLRARSV  68
+           YQLRARSV
+Sbjct  75  YQLRARSV  82
+
+
+> sp|Q3LZX7|NS7A_BCHK3 Protein 7a OS=Bat coronavirus HKU3 OX=442736 
+GN=7a PE=3 SV=1
+Length=122
+
+ Score = 145 bits (367),  Expect = 3e-46, Method: Compositional matrix adjust.
+ Identities = 66/68 (97%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  60
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTC+STHFAFACADGTRHT
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHT  74
+
+Query  61  YQLRARSV  68
+           YQLRARSV
+Sbjct  75  YQLRARSV  82
+
+
+> sp|Q0Q470|NS7A_BC279 Protein 7a OS=Bat coronavirus 279/2005 OX=389167 
+GN=7a PE=3 SV=1
+Length=122
+
+ Score = 143 bits (360),  Expect = 4e-45, Method: Compositional matrix adjust.
+ Identities = 65/67 (97%), Positives = 66/67 (99%), Gaps = 0/67 (0%)
+
+Query  2   ELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY  61
+           ELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTC STHFAFACADGTRHTY
+Sbjct  16  ELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY  75
+
+Query  62  QLRARSV  68
+           QLRARSV
+Sbjct  76  QLRARSV  82
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5013267700
+Results from round 2
+
+
+Query= d1xaka_
+
+Length=68
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P59635|NS7A_CVHSA Protein 7a OS=Human SARS coronavirus OX=69...  143     3e-45
+  sp|Q3LZX7|NS7A_BCHK3 Protein 7a OS=Bat coronavirus HKU3 OX=4427...  142     8e-45
+  sp|Q3I5J0|NS7A_BCRP3 Protein 7a OS=Bat coronavirus Rp3/2004 OX=...  142     1e-44
+  sp|Q0Q470|NS7A_BC279 Protein 7a OS=Bat coronavirus 279/2005 OX=...  139     1e-43
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P59635|NS7A_CVHSA Protein 7a OS=Human SARS coronavirus OX=694009 
+GN=7a PE=1 SV=1
+Length=122
+
+ Score = 143 bits (361),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  60
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  74
+
+Query  61  YQLRARSV  68
+           YQLRARSV
+Sbjct  75  YQLRARSV  82
+
+
+> sp|Q3LZX7|NS7A_BCHK3 Protein 7a OS=Bat coronavirus HKU3 OX=442736 
+GN=7a PE=3 SV=1
+Length=122
+
+ Score = 142 bits (358),  Expect = 8e-45, Method: Composition-based stats.
+ Identities = 66/68 (97%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  60
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTC+STHFAFACADGTRHT
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHT  74
+
+Query  61  YQLRARSV  68
+           YQLRARSV
+Sbjct  75  YQLRARSV  82
+
+
+> sp|Q3I5J0|NS7A_BCRP3 Protein 7a OS=Bat coronavirus Rp3/2004 OX=349344 
+GN=7a PE=3 SV=1
+Length=122
+
+ Score = 142 bits (357),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   CELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  60
+           CELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT
+Sbjct  15  CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHT  74
+
+Query  61  YQLRARSV  68
+           YQLRARSV
+Sbjct  75  YQLRARSV  82
+
+
+> sp|Q0Q470|NS7A_BC279 Protein 7a OS=Bat coronavirus 279/2005 OX=389167 
+GN=7a PE=3 SV=1
+Length=122
+
+ Score = 139 bits (350),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 65/67 (97%), Positives = 66/67 (99%), Gaps = 0/67 (0%)
+
+Query  2   ELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY  61
+           ELYHYQECVRGTTV+LKEPCPSGTYEGNSPFHPLADNKFALTC STHFAFACADGTRHTY
+Sbjct  16  ELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY  75
+
+Query  62  QLRARSV  68
+           QLRARSV
+Sbjct  76  QLRARSV  82
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.141    0.494    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5013267700
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 13, 2019  2:29 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

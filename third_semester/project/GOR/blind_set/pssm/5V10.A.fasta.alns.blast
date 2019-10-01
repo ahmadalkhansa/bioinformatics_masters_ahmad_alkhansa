@@ -1,0 +1,2818 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 5V10.A
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P0A8Z6|YBGC_SHIFL Acyl-CoA thioester hydrolase YbgC OS=Shige...  115     2e-32
+  sp|P0A8Z3|YBGC_ECOLI Acyl-CoA thioester hydrolase YbgC OS=Esche...  115     2e-32
+  sp|P0A8Z4|YBGC_ECOL6 Acyl-CoA thioester hydrolase YbgC OS=Esche...  115     2e-32
+  sp|P0A8Z5|YBGC_ECO57 Acyl-CoA thioester hydrolase YbgC OS=Esche...  115     2e-32
+  sp|P44679|YBGC_HAEIN Acyl-CoA thioesterase YbgC OS=Haemophilus ...  109     3e-30
+  sp|P94842|YBGC_HELPY Acyl-CoA thioesterase YbgC OS=Helicobacter...  65.5    4e-13
+  sp|Q9ZLX8|YBGC_HELPJ Acyl-CoA thioesterase YbgC OS=Helicobacter...  65.5    4e-13
+  sp|O67466|Y1494_AQUAE Putative esterase aq_1494 OS=Aquifex aeol...  61.2    1e-11
+  sp|Q55116|Y410_SYNY3 Putative esterase sll0410 OS=Synechocystis...  56.6    1e-09
+  sp|Q45061|YNEP_BACSU Putative acyl-CoA thioesterase YneP OS=Bac...  49.7    4e-07
+  sp|Q8DLK3|DNCH_THEEB 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  48.5    1e-06
+  sp|A3PAP1|DNCH_PROM0 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  46.6    7e-06
+  sp|Q55777|DNCH_SYNY3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  45.8    1e-05
+  sp|Q31D08|DNCH_PROM9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  45.1    3e-05
+  sp|A2BNW8|DNCH_PROMS 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  42.7    2e-04
+  sp|Q3MG63|DNCH_ANAVT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  42.7    2e-04
+  sp|A8G2H9|DNCH_PROM2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  42.4    2e-04
+  sp|P77712|FADM_ECOLI Long-chain acyl-CoA thioesterase FadM OS=E...  42.0    3e-04
+  sp|Q5MZI3|DNCH_SYNP6 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  42.0    3e-04
+  sp|Q31ME5|DNCH_SYNE7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  42.0    3e-04
+  sp|Q46HJ9|DNCH_PROMT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  41.2    7e-04
+  sp|Q3AGW5|DNCH_SYNSC 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  40.4    0.001
+
+
+> sp|P0A8Z6|YBGC_SHIFL Acyl-CoA thioester hydrolase YbgC OS=Shigella 
+flexneri OX=623 GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 115 bits (287),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 58/128 (45%), Positives = 81/128 (63%), Gaps = 1/128 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAF  140
+            P+++ A F
+Sbjct  125  PKSIVAEF  132
+
+
+> sp|P0A8Z3|YBGC_ECOLI Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli (strain K12) OX=83333 GN=ybgC PE=1 SV=1
+Length=134
+
+ Score = 115 bits (287),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 58/128 (45%), Positives = 81/128 (63%), Gaps = 1/128 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAF  140
+            P+++ A F
+Sbjct  125  PKSIVAEF  132
+
+
+> sp|P0A8Z4|YBGC_ECOL6 Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 115 bits (287),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 58/128 (45%), Positives = 81/128 (63%), Gaps = 1/128 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAF  140
+            P+++ A F
+Sbjct  125  PKSIVAEF  132
+
+
+> sp|P0A8Z5|YBGC_ECO57 Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli O157:H7 OX=83334 GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 115 bits (287),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 58/128 (45%), Positives = 81/128 (63%), Gaps = 1/128 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAF  140
+            P+++ A F
+Sbjct  125  PKSIVAEF  132
+
+
+> sp|P44679|YBGC_HAEIN Acyl-CoA thioesterase YbgC OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=ybgC PE=1 SV=1
+Length=136
+
+ Score = 109 bits (272),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 59/124 (48%), Positives = 79/124 (64%), Gaps = 3/124 (2%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEARYHAP  76
+            RVYYEDTDAGG+VY+  YL F ERARTE LR L F Q  L+ +  L FVV +    Y   
+Sbjct  11   RVYYEDTDAGGVVYHARYLHFFERARTEYLRTLNFTQQTLLEEQQLAFVVKTLAIDYCVA  70
+
+Query  77   AKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIPETL  136
+            AKLDD L+V  EV E+  A++ F Q++ R  ++++L +    VACV    +KP A P+ +
+Sbjct  71   AKLDDLLMVETEVSEVKGATILFEQRLMR--NTLMLSKATVKVACVDLGKMKPVAFPKEV  128
+
+Query  137  RAAF  140
+            +AAF
+Sbjct  129  KAAF  132
+
+
+> sp|P94842|YBGC_HELPY Acyl-CoA thioesterase YbgC OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=ybgC PE=1 
+SV=2
+Length=133
+
+ Score = 65.5 bits (158),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 44/130 (34%), Positives = 67/130 (52%), Gaps = 12/130 (9%)
+
+Query  16   RFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLV-GDNLLFVVHSAEARYH  74
+            R RVYYEDTD+ G+VY+ NYLK+ ERAR+E      F Q+ L   +  +FV+ S +A + 
+Sbjct  2    RCRVYYEDTDSEGVVYHANYLKYCERARSE----FFFKQNVLPENEEGVFVIRSIKADFF  57
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLV-------ACVRADTL  127
+             PA L   L +  +++EL +  +   Q++    ++ L     F V         V   T 
+Sbjct  58   TPASLGQVLEIRTQIKELRKVFVVLFQEIYCIQNASLEPMKPFKVFASEIKFGFVNRSTY  117
+
+Query  128  KPRAIPETLR  137
+             P AIP+  +
+Sbjct  118  SPIAIPKLFK  127
+
+
+> sp|Q9ZLX8|YBGC_HELPJ Acyl-CoA thioesterase YbgC OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=ybgC PE=3 SV=1
+Length=133
+
+ Score = 65.5 bits (158),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 44/130 (34%), Positives = 67/130 (52%), Gaps = 12/130 (9%)
+
+Query  16   RFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLV-GDNLLFVVHSAEARYH  74
+            R RVYYEDTD+ G+VY+ NYLK+ ERAR+E      F Q+ L   +  +FV+ S +A + 
+Sbjct  2    RCRVYYEDTDSEGVVYHANYLKYCERARSE----FFFKQNVLPENEEGVFVIRSIKADFF  57
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLV-------ACVRADTL  127
+             PA L   L +  +++EL +  +   Q++    ++ L     F V         V   T 
+Sbjct  58   TPASLGQVLEIRTQIKELRKVFVVLFQEIYCIQNASLEPMKPFKVFASEIKFGFVNRSTY  117
+
+Query  128  KPRAIPETLR  137
+             P AIP+  +
+Sbjct  118  SPIAIPKLFK  127
+
+
+> sp|O67466|Y1494_AQUAE Putative esterase aq_1494 OS=Aquifex aeolicus 
+(strain VF5) OX=224324 GN=aq_1494 PE=1 SV=1
+Length=128
+
+ Score = 61.2 bits (147),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 37/99 (37%), Positives = 53/99 (54%), Gaps = 0/99 (0%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEA  71
+            PF  R RV + +TDA GIV++ NY ++ E AR E LR+ GF  S++    L  V+ +A  
+Sbjct  2    PFIYRRRVQFYETDAQGIVHHSNYFRYFEEARGEFLRSKGFPYSKMRDMGLEVVLLNAYC  61
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSV  110
+             Y  P   DD   V   +EEL+R +  F   V +   +V
+Sbjct  62   EYKKPLFYDDVFEVHLNLEELSRFTFTFSYIVFKEDIAV  100
+
+
+> sp|Q55116|Y410_SYNY3 Putative esterase sll0410 OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=sll0410 PE=3 
+SV=1
+Length=166
+
+ Score = 56.6 bits (135),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/93 (31%), Positives = 50/93 (54%), Gaps = 0/93 (0%)
+
+Query  11   KPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAE  70
+            K F+   RV    TD GG+V++  YL ++E AR E LR++G   + LV       V S  
+Sbjct  31   KWFEIMVRVQPHHTDYGGVVWHGTYLTWLETARVECLRSIGVDFADLVKLGCDLPVVSLA  90
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQV  103
+             RYH   +L    ++  +++E+ +  L+++ Q+
+Sbjct  91   LRYHRAIRLGQTAVIKVQMQEIQKVRLEWQNQI  123
+
+
+> sp|Q45061|YNEP_BACSU Putative acyl-CoA thioesterase YneP OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yneP PE=3 SV=2
+Length=138
+
+ Score = 49.7 bits (117),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 37/136 (27%), Positives = 57/136 (42%), Gaps = 8/136 (6%)
+
+Query  14   QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARY  73
+            ++   V Y +TD  GIVY+ NYL +ME  RT  ++ LGF  S +    +L  V      Y
+Sbjct  5    KKEIEVRYAETDQMGIVYHANYLVWMEVGRTALIKDLGFLYSDMEKKGVLSPVVDINISY  64
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIP  133
+              P    +  +V   +E+ N     +   +   +   L  +      CV  ++ KP    
+Sbjct  65   KKPLHYGETAVVHTWIEDYNGFKTVYGYHIYNPAGE-LSIKATSSHICVDKESFKPIQ--  121
+
+Query  134  ETLRAAFAGSPDSFSA  149
+               R AF   PD  +A
+Sbjct  122  --FRKAF---PDWHTA  132
+
+
+> sp|Q8DLK3|DNCH_THEEB 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=tll0488 
+PE=3 SV=1
+Length=146
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 34/132 (26%), Positives = 62/132 (47%), Gaps = 4/132 (3%)
+
+Query  19   VYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFV-VHSAEARYHAPA  77
+            V++ DTDA G+VY+ N L+F   A  + L  LG    Q   ++ L V +  A+ R+  P 
+Sbjct  13   VHFADTDAAGVVYFANLLRFCHEAYEDALAQLGVDLRQFFSNSGLIVPITEAQIRFLKPL  72
+
+Query  78   KLDDELLVSAEVEELNRASLKFRQQV-RRASDSVLLCEGRFLVACVRADTLKPRAIPETL  136
+               D L V+ + + L+ +  +    +     D V + + + +  C++    +   IP+ L
+Sbjct  73   YCGDRLRVTIDPQRLDTSRFQLTYTLYNEGGDRVAIAQTQHM--CLQLPHRQRVPIPDPL  130
+
+Query  137  RAAFAGSPDSFS  148
+             A    +P+  S
+Sbjct  131  PAWLKSAPEEAS  142
+
+
+> sp|A3PAP1|DNCH_PROM0 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=P9301_01931 
+PE=3 SV=1
+Length=150
+
+ Score = 46.6 bits (109),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 29/132 (22%), Positives = 57/132 (43%), Gaps = 8/132 (6%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFVVHSAEA  71
+            +V + D D+ G++++ N LK+   A  E +   G   + +  D       ++F + + EA
+Sbjct  12   KVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPCNDIFPDFSIRKSQIIFPIVNCEA  71
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             ++AP K+ D L V     ++N    +      +  + V   EG+ +   +  D+     
+Sbjct  72   NFNAPIKIGDLLKVKIAPHKINTHLFQVNSFFIKNGNKV--AEGKIIHCSLDVDSRNKIE  129
+
+Query  132  IPETLRAAFAGS  143
+            IP+ L      S
+Sbjct  130  IPDQLERWIEAS  141
+
+
+> sp|Q55777|DNCH_SYNY3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=slr0204 
+PE=1 SV=1
+Length=138
+
+ Score = 45.8 bits (107),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 54/126 (43%), Gaps = 3/126 (2%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRA--LGFAQSQLVGDNLLFVVHSAEARYHA  75
+            +VY  DTD  G+VY+  +L+    A    L +  L       VGD  L +VH A   + A
+Sbjct  9    QVYLADTDGAGVVYFNQFLQMCHEAYESWLSSEHLSLQNIISVGDFALPLVH-ASIDFFA  67
+
+Query  76   PAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIPET  135
+            PA   D LLV+  + + +        ++ +A  + LL   +    C+     K   +P+ 
+Sbjct  68   PAHCGDRLLVNLTITQASAHRFCCDYEISQAESAQLLARAQTHHVCIALPERKKAPLPQP  127
+
+Query  136  LRAAFA  141
+             + A  
+Sbjct  128  WQTAIC  133
+
+
+> sp|Q31D08|DNCH_PROM9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=PMT9312_0175 
+PE=3 SV=1
+Length=150
+
+ Score = 45.1 bits (105),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 29/132 (22%), Positives = 55/132 (42%), Gaps = 8/132 (6%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFVVHSAEA  71
+            +V + D D+ G++++ N LK+   A  E +   G     +  D       ++F + + EA
+Sbjct  12   KVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPYQDIFPDFSIRKSQIIFPIVNCEA  71
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             Y AP K+ D L V     ++N    +      +  + V   EG+ +   +  D+     
+Sbjct  72   NYLAPIKIGDLLKVKIYPHKINPHLFRVNSFFMKNGNKV--AEGKIIHCSLDVDSRNKIE  129
+
+Query  132  IPETLRAAFAGS  143
+            +P+ L      S
+Sbjct  130  LPDQLERWIEAS  141
+
+
+> sp|A2BNW8|DNCH_PROMS 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=A9601_01911 
+PE=3 SV=1
+Length=150
+
+ Score = 42.7 bits (99),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 28/132 (21%), Positives = 55/132 (42%), Gaps = 8/132 (6%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFVVHSAEA  71
+            +V + D D+ G++++ N LK+   A  E +   G     +  D       ++F + + EA
+Sbjct  12   KVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPSQDIFPDFSIRKSQIIFPIVNCEA  71
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             + AP K+ D L V     ++N    +      +  + V   EG+ +   +  D+     
+Sbjct  72   NFLAPIKIGDLLKVKIVPHKINTHLFQVNSFFIKNGNKV--AEGKIIHCSLDIDSRDKIE  129
+
+Query  132  IPETLRAAFAGS  143
+            +P+ L      S
+Sbjct  130  LPDQLERWIEAS  141
+
+
+> sp|Q3MG63|DNCH_ANAVT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=Ava_0397 PE=3 SV=1
+Length=148
+
+ Score = 42.7 bits (99),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 26/116 (22%), Positives = 52/116 (45%), Gaps = 3/116 (3%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAE  70
+            PF     ++++DTDA G+VY+ N L          LR  G +  +   + N+ F +  A 
+Sbjct  2    PFTYHRTIHFQDTDAAGVVYFANILSICHEGYEASLRTSGISLKEFFTNPNMAFPIVHAS  61
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADT  126
+              +  P    D++++S   +++     +   ++  A   VL+ +      C+ A+T
+Sbjct  62   VDFLRPLFCGDQVIISLVPQKIGAEKFEINYEIYLA--DVLVAKAVTRHVCIDANT  115
+
+
+> sp|A8G2H9|DNCH_PROM2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=P9215_01911 
+PE=3 SV=1
+Length=150
+
+ Score = 42.4 bits (98),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 28/132 (21%), Positives = 55/132 (42%), Gaps = 8/132 (6%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFVVHSAEA  71
+            +V + D D+ G++++ N LK+   A  E +   G     +  D       ++F + + EA
+Sbjct  12   KVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPYKDIFPDFSIRKSQIVFPIVNCEA  71
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             + AP K+ D L V     ++N    +      +  + V   EG+ +   +  D+     
+Sbjct  72   NFLAPIKIGDFLKVKIAPHKINTHLFQVNSFFIKNGNKV--AEGKIIHCSLDIDSRNKIE  129
+
+Query  132  IPETLRAAFAGS  143
+            +P+ L      S
+Sbjct  130  LPDQLERWIEAS  141
+
+
+> sp|P77712|FADM_ECOLI Long-chain acyl-CoA thioesterase FadM OS=Escherichia 
+coli (strain K12) OX=83333 GN=fadM PE=1 SV=1
+Length=132
+
+ Score = 42.0 bits (97),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 28/103 (27%), Positives = 48/103 (47%), Gaps = 1/103 (1%)
+
+Query  35   YLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARYHAPAKLDDELLVSAEVEELNR  94
+            YL+F+E AR + L      Q  +   N+ FVV +    Y  PA L D L +++++++LN 
+Sbjct  23   YLEFLEEARWDGLENSDSFQ-WMTAHNIAFVVVNININYRRPAVLSDLLTITSQLQQLNG  81
+
+Query  95   ASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIPETLR  137
+             S    Q +    +  ++ +      C+   T K  A+   LR
+Sbjct  82   KSGILSQVITLEPEGQVVADALITFVCIDLKTQKALALEGELR  124
+
+
+> sp|Q5MZI3|DNCH_SYNP6 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) 
+OX=269084 GN=syc2347_c PE=3 SV=1
+Length=136
+
+ Score = 42.0 bits (97),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 36/136 (26%), Positives = 57/136 (42%), Gaps = 8/136 (6%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN---LLFVVHSA  69
+            FQ+  R  + DTDA G+VY+   L     A    + ALG        D    +L +VH A
+Sbjct  6    FQRVIR--FGDTDAAGVVYFAQLLSICHEAYEAAIAALGIELRSFFSDRGSVILPIVH-A  62
+
+Query  70   EARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKP  129
+            E  Y  P    D L +  +   L R   +FR   R + +   +   + +  C+ + T + 
+Sbjct  63   EIDYQRPTYCGDRLEIELQATALGRD--RFRVDYRLSHNHQPVATAQTIHLCLESQTRQR  120
+
+Query  130  RAIPETLRAAFAGSPD  145
+              +PE L+     + D
+Sbjct  121  SPLPERLQDWLQITAD  136
+
+
+> sp|Q31ME5|DNCH_SYNE7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus elongatus (strain PCC 7942) OX=1140 GN=Synpcc7942_1744 
+PE=3 SV=1
+Length=136
+
+ Score = 42.0 bits (97),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 36/136 (26%), Positives = 57/136 (42%), Gaps = 8/136 (6%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN---LLFVVHSA  69
+            FQ+  R  + DTDA G+VY+   L     A    + ALG        D    +L +VH A
+Sbjct  6    FQRVIR--FGDTDAAGVVYFAQLLSICHEAYEAAIAALGIELRSFFSDRGSVILPIVH-A  62
+
+Query  70   EARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKP  129
+            E  Y  P    D L +  +   L R   +FR   R + +   +   + +  C+ + T + 
+Sbjct  63   EIDYQRPTYCGDRLEIELQATALGRD--RFRVDYRLSHNHQPVATAQTIHLCLESQTRQR  120
+
+Query  130  RAIPETLRAAFAGSPD  145
+              +PE L+     + D
+Sbjct  121  SPLPERLQDWLQITAD  136
+
+
+> sp|Q46HJ9|DNCH_PROMT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 GN=PMN2A_1541 
+PE=3 SV=1
+Length=155
+
+ Score = 41.2 bits (95),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 25/101 (25%), Positives = 45/101 (45%), Gaps = 10/101 (10%)
+
+Query  19   VYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN---------LLFVVHSA  69
+            V + +TDA G+V+++   ++      E L   G A   +   N          L VVH  
+Sbjct  21   VRFGETDAAGVVHFLELFRWCHETWEESLEKYGIALKDIFPTNEINTSQLDIALPVVH-C  79
+
+Query  70   EARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSV  110
+            EA Y  P  + D + +  E E++N +S   R + ++  + +
+Sbjct  80   EANYFQPLYVGDTINIELETEKINESSFVLRFKFKKNGEQI  120
+
+
+> sp|Q3AGW5|DNCH_SYNSC 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=Syncc9605_2435 
+PE=3 SV=1
+Length=149
+
+ Score = 40.4 bits (93),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 42/92 (46%), Gaps = 8/92 (9%)
+
+Query  19   VYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-------LLFVVHSAEA  71
+            V + DTDA G++++   L +  +A  E L   G     +            L +VH   A
+Sbjct  13   VRFSDTDAAGVMHFQQLLGWCHQAWEESLERYGLTAGSVFPGGRREQPSVALPIVH-CHA  71
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQV  103
+             Y AP ++ D+LL+  + E L+ +S     QV
+Sbjct  72   DYRAPVQVGDKLLIRLKPERLDPSSFVVNSQV  103
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6225529024
+Results from round 2
+
+
+Query= 5V10.A
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q31D08|DNCH_PROM9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  161     2e-50
+  sp|A8G2H9|DNCH_PROM2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  157     5e-49
+  sp|A3PAP1|DNCH_PROM0 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  157     6e-49
+  sp|Q8DLK3|DNCH_THEEB 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  156     1e-48
+  sp|A2BNW8|DNCH_PROMS 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  155     5e-48
+  sp|P0A8Z6|YBGC_SHIFL Acyl-CoA thioester hydrolase YbgC OS=Shige...  154     9e-48
+  sp|P0A8Z3|YBGC_ECOLI Acyl-CoA thioester hydrolase YbgC OS=Esche...  154     9e-48
+  sp|P0A8Z4|YBGC_ECOL6 Acyl-CoA thioester hydrolase YbgC OS=Esche...  154     9e-48
+  sp|P0A8Z5|YBGC_ECO57 Acyl-CoA thioester hydrolase YbgC OS=Esche...  154     9e-48
+  sp|Q55777|DNCH_SYNY3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  148     1e-45
+  sp|Q5MZI3|DNCH_SYNP6 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  146     8e-45
+  sp|Q31ME5|DNCH_SYNE7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  146     8e-45
+  sp|Q3MG63|DNCH_ANAVT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  146     1e-44
+  sp|P44679|YBGC_HAEIN Acyl-CoA thioesterase YbgC OS=Haemophilus ...  145     1e-44
+  sp|Q45061|YNEP_BACSU Putative acyl-CoA thioesterase YneP OS=Bac...  142     5e-43
+  sp|Q3AGW5|DNCH_SYNSC 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  139     1e-41
+  sp|Q46HJ9|DNCH_PROMT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  135     5e-40
+  sp|O67466|Y1494_AQUAE Putative esterase aq_1494 OS=Aquifex aeol...  128     1e-37
+  sp|P94842|YBGC_HELPY Acyl-CoA thioesterase YbgC OS=Helicobacter...  123     6e-36
+  sp|Q9ZLX8|YBGC_HELPJ Acyl-CoA thioesterase YbgC OS=Helicobacter...  123     6e-36
+  sp|Q55116|Y410_SYNY3 Putative esterase sll0410 OS=Synechocystis...  122     9e-35
+  sp|P77712|FADM_ECOLI Long-chain acyl-CoA thioesterase FadM OS=E...  112     2e-31
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8YU89|DNCH_NOSS1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  140     3e-42
+  sp|Q7V3A9|DNCH_PROMP 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  137     4e-41
+  sp|A2BUF0|DNCH_PROM5 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  131     1e-38
+  sp|B2IZ83|DNCH_NOSP7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  130     2e-38
+  sp|A2C002|DNCH_PROM1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  127     4e-37
+  sp|Q3AVZ5|DNCH_SYNS9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  127     4e-37
+  sp|B0JQL4|DNCH_MICAN 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  126     5e-37
+  sp|B1WZN0|DNCH_CYAA5 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  126     5e-37
+  sp|B7JXS8|DNCH_CYAP8 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  126     6e-37
+  sp|A5GP76|DNCH_SYNPW 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  126     9e-37
+  sp|A2CDA0|DNCH_PROM3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  126     1e-36
+  sp|Q7V4A7|DNCH_PROMM 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  126     1e-36
+  sp|Q0I6T4|DNCH_SYNS3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  125     3e-36
+  sp|Q7U3X6|DNCH_SYNPX 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  125     4e-36
+  sp|A5GWA0|DNCH_SYNR3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  120     1e-34
+  sp|Q10XE8|DNCH_TRIEI 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  118     7e-34
+  sp|B7KDA3|DNCH_CYAP7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  118     1e-33
+  sp|B0CEN8|DNCH_ACAM1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  117     2e-33
+  sp|Q7VE16|DNCH_PROMA 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  116     9e-33
+  sp|B1XL26|DNCH_SYNP2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  114     5e-32
+  sp|A9BD34|DNCH_PROM4 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  111     8e-31
+  sp|F4HX80|ALT4_ARATH Acyl-acyl carrier protein thioesterase ATL...  75.1    2e-16
+  sp|Q8W583|ALT3_ARATH Acyl-acyl carrier protein thioesterase ATL...  72.8    2e-15
+  sp|Q9C7I8|ALT2_ARATH Acyl-acyl carrier protein thioesterase ATL...  72.4    3e-15
+  sp|Q9C7I5|ALT1_ARATH Acyl-acyl carrier protein thioesterase ATL...  69.3    4e-14
+  sp|P56653|4HBT_PSEUC 4-hydroxybenzoyl-CoA thioesterase OS=Pseud...  62.7    5e-12
+
+
+> sp|Q31D08|DNCH_PROM9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=PMT9312_0175 
+PE=3 SV=1
+Length=150
+
+ Score = 161 bits (407),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 29/138 (21%), Positives = 56/138 (41%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFV  65
+                + +V + D D+ G++++ N LK+   A  E +   G     +  D       ++F 
+Sbjct  6    WLILQKKVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPYQDIFPDFSIRKSQIIFP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            + + EA Y AP K+ D L V     ++N    +      +  + V   EG+ +   +  D
+Sbjct  66   IVNCEANYLAPIKIGDLLKVKIYPHKINPHLFRVNSFFMKNGNKV--AEGKIIHCSLDVD  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            +     +P+ L      S
+Sbjct  124  SRNKIELPDQLERWIEAS  141
+
+
+> sp|A8G2H9|DNCH_PROM2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=P9215_01911 
+PE=3 SV=1
+Length=150
+
+ Score = 157 bits (397),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 28/138 (20%), Positives = 56/138 (41%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFV  65
+                + +V + D D+ G++++ N LK+   A  E +   G     +  D       ++F 
+Sbjct  6    WLILQRKVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPYKDIFPDFSIRKSQIVFP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            + + EA + AP K+ D L V     ++N    +      +  + V   EG+ +   +  D
+Sbjct  66   IVNCEANFLAPIKIGDFLKVKIAPHKINTHLFQVNSFFIKNGNKV--AEGKIIHCSLDID  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            +     +P+ L      S
+Sbjct  124  SRNKIELPDQLERWIEAS  141
+
+
+> sp|A3PAP1|DNCH_PROM0 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=P9301_01931 
+PE=3 SV=1
+Length=150
+
+ Score = 157 bits (397),  Expect = 6e-49, Method: Composition-based stats.
+ Identities = 29/138 (21%), Positives = 58/138 (42%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFV  65
+                + +V + D D+ G++++ N LK+   A  E +   G   + +  D       ++F 
+Sbjct  6    WLILQKKVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPCNDIFPDFSIRKSQIIFP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            + + EA ++AP K+ D L V     ++N    +      +  + V   EG+ +   +  D
+Sbjct  66   IVNCEANFNAPIKIGDLLKVKIAPHKINTHLFQVNSFFIKNGNKV--AEGKIIHCSLDVD  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            +     IP+ L      S
+Sbjct  124  SRNKIEIPDQLERWIEAS  141
+
+
+> sp|Q8DLK3|DNCH_THEEB 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=tll0488 
+PE=3 SV=1
+Length=146
+
+ Score = 156 bits (394),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 31/135 (23%), Positives = 58/135 (43%), Gaps = 2/135 (1%)
+
+Query  15   QRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEARY  73
+             +  V++ DTDA G+VY+ N L+F   A  + L  LG    Q   +  L+  +  A+ R+
+Sbjct  9    YQRTVHFADTDAAGVVYFANLLRFCHEAYEDALAQLGVDLRQFFSNSGLIVPITEAQIRF  68
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIP  133
+              P    D L V+ + + L+ +  +    +        +   +    C++    +   IP
+Sbjct  69   LKPLYCGDRLRVTIDPQRLDTSRFQLTYTLYNEGGDR-VAIAQTQHMCLQLPHRQRVPIP  127
+
+Query  134  ETLRAAFAGSPDSFS  148
+            + L A    +P+  S
+Sbjct  128  DPLPAWLKSAPEEAS  142
+
+
+> sp|A2BNW8|DNCH_PROMS 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=A9601_01911 
+PE=3 SV=1
+Length=150
+
+ Score = 155 bits (391),  Expect = 5e-48, Method: Composition-based stats.
+ Identities = 28/138 (20%), Positives = 56/138 (41%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFV  65
+                + +V + D D+ G++++ N LK+   A  E +   G     +  D       ++F 
+Sbjct  6    WLILQKKVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPSQDIFPDFSIRKSQIIFP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            + + EA + AP K+ D L V     ++N    +      +  + V   EG+ +   +  D
+Sbjct  66   IVNCEANFLAPIKIGDLLKVKIVPHKINTHLFQVNSFFIKNGNKV--AEGKIIHCSLDID  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            +     +P+ L      S
+Sbjct  124  SRDKIELPDQLERWIEAS  141
+
+
+> sp|P0A8Z6|YBGC_SHIFL Acyl-CoA thioester hydrolase YbgC OS=Shigella 
+flexneri OX=623 GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 154 bits (388),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAFA  141
+            P+++ A F 
+Sbjct  125  PKSIVAEFK  133
+
+
+> sp|P0A8Z3|YBGC_ECOLI Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli (strain K12) OX=83333 GN=ybgC PE=1 SV=1
+Length=134
+
+ Score = 154 bits (388),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAFA  141
+            P+++ A F 
+Sbjct  125  PKSIVAEFK  133
+
+
+> sp|P0A8Z4|YBGC_ECOL6 Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 154 bits (388),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAFA  141
+            P+++ A F 
+Sbjct  125  PKSIVAEFK  133
+
+
+> sp|P0A8Z5|YBGC_ECO57 Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli O157:H7 OX=83334 GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 154 bits (388),  Expect = 9e-48, Method: Composition-based stats.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAFA  141
+            P+++ A F 
+Sbjct  125  PKSIVAEFK  133
+
+
+> sp|Q55777|DNCH_SYNY3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=slr0204 
+PE=1 SV=1
+Length=138
+
+ Score = 148 bits (374),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 27/130 (21%), Positives = 51/130 (39%), Gaps = 1/130 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEA  71
+            F    +VY  DTD  G+VY+  +L+    A    L +   +   ++        +  A  
+Sbjct  4    FTYERQVYLADTDGAGVVYFNQFLQMCHEAYESWLSSEHLSLQNIISVGDFALPLVHASI  63
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             + APA   D LLV+  + + +        ++ +A  + LL   +    C+     K   
+Sbjct  64   DFFAPAHCGDRLLVNLTITQASAHRFCCDYEISQAESAQLLARAQTHHVCIALPERKKAP  123
+
+Query  132  IPETLRAAFA  141
+            +P+  + A  
+Sbjct  124  LPQPWQTAIC  133
+
+
+> sp|Q5MZI3|DNCH_SYNP6 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) 
+OX=269084 GN=syc2347_c PE=3 SV=1
+Length=136
+
+ Score = 146 bits (369),  Expect = 8e-45, Method: Composition-based stats.
+ Identities = 28/135 (21%), Positives = 54/135 (40%), Gaps = 4/135 (3%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN--LLFVVHSAE  70
+            +Q +  + + DTDA G+VY+   L     A    + ALG        D   ++  +  AE
+Sbjct  4    YQFQRVIRFGDTDAAGVVYFAQLLSICHEAYEAAIAALGIELRSFFSDRGSVILPIVHAE  63
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPR  130
+              Y  P    D L +  +   L R   +   ++  + +   +   + +  C+ + T +  
+Sbjct  64   IDYQRPTYCGDRLEIELQATALGRDRFRVDYRL--SHNHQPVATAQTIHLCLESQTRQRS  121
+
+Query  131  AIPETLRAAFAGSPD  145
+             +PE L+     + D
+Sbjct  122  PLPERLQDWLQITAD  136
+
+
+> sp|Q31ME5|DNCH_SYNE7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus elongatus (strain PCC 7942) OX=1140 GN=Synpcc7942_1744 
+PE=3 SV=1
+Length=136
+
+ Score = 146 bits (369),  Expect = 8e-45, Method: Composition-based stats.
+ Identities = 28/135 (21%), Positives = 54/135 (40%), Gaps = 4/135 (3%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN--LLFVVHSAE  70
+            +Q +  + + DTDA G+VY+   L     A    + ALG        D   ++  +  AE
+Sbjct  4    YQFQRVIRFGDTDAAGVVYFAQLLSICHEAYEAAIAALGIELRSFFSDRGSVILPIVHAE  63
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPR  130
+              Y  P    D L +  +   L R   +   ++  + +   +   + +  C+ + T +  
+Sbjct  64   IDYQRPTYCGDRLEIELQATALGRDRFRVDYRL--SHNHQPVATAQTIHLCLESQTRQRS  121
+
+Query  131  AIPETLRAAFAGSPD  145
+             +PE L+     + D
+Sbjct  122  PLPERLQDWLQITAD  136
+
+
+> sp|Q3MG63|DNCH_ANAVT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=Ava_0397 PE=3 SV=1
+Length=148
+
+ Score = 146 bits (368),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 27/132 (20%), Positives = 56/132 (42%), Gaps = 3/132 (2%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAE  70
+            PF     ++++DTDA G+VY+ N L          LR  G +  +   + N+ F +  A 
+Sbjct  2    PFTYHRTIHFQDTDAAGVVYFANILSICHEGYEASLRTSGISLKEFFTNPNMAFPIVHAS  61
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPR  130
+              +  P    D++++S   +++     +   ++  A   VL+ +      C+ A+T   +
+Sbjct  62   VDFLRPLFCGDQVIISLVPQKIGAEKFEINYEIYLAD--VLVAKAVTRHVCIDANTRSKQ  119
+
+Query  131  AIPETLRAAFAG  142
+             +   +     G
+Sbjct  120  ELSTEIIQWLDG  131
+
+
+> sp|P44679|YBGC_HAEIN Acyl-CoA thioesterase YbgC OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=ybgC PE=1 SV=1
+Length=136
+
+ Score = 145 bits (367),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 60/129 (47%), Positives = 80/129 (62%), Gaps = 3/129 (2%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEA  71
+            F    RVYYEDTDAGG+VY+  YL F ERARTE LR L F Q  L+ +  L FVV +   
+Sbjct  6    FSFPVRVYYEDTDAGGVVYHARYLHFFERARTEYLRTLNFTQQTLLEEQQLAFVVKTLAI  65
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             Y   AKLDD L+V  EV E+  A++ F Q++ R  ++++L +    VACV    +KP A
+Sbjct  66   DYCVAAKLDDLLMVETEVSEVKGATILFEQRLMR--NTLMLSKATVKVACVDLGKMKPVA  123
+
+Query  132  IPETLRAAF  140
+             P+ ++AAF
+Sbjct  124  FPKEVKAAF  132
+
+
+> sp|Q45061|YNEP_BACSU Putative acyl-CoA thioesterase YneP OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yneP PE=3 SV=2
+Length=138
+
+ Score = 142 bits (357),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 37/136 (27%), Positives = 57/136 (42%), Gaps = 8/136 (6%)
+
+Query  14   QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARY  73
+            ++   V Y +TD  GIVY+ NYL +ME  RT  ++ LGF  S +    +L  V      Y
+Sbjct  5    KKEIEVRYAETDQMGIVYHANYLVWMEVGRTALIKDLGFLYSDMEKKGVLSPVVDINISY  64
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIP  133
+              P    +  +V   +E+ N     +   +   +   L  +      CV  ++ KP    
+Sbjct  65   KKPLHYGETAVVHTWIEDYNGFKTVYGYHIYNPAGE-LSIKATSSHICVDKESFKPI---  120
+
+Query  134  ETLRAAFAGSPDSFSA  149
+               R AF   PD  +A
+Sbjct  121  -QFRKAF---PDWHTA  132
+
+
+> sp|Q8YU89|DNCH_NOSS1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=alr2465 PE=3 SV=1
+Length=148
+
+ Score = 140 bits (352),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 25/132 (19%), Positives = 54/132 (41%), Gaps = 3/132 (2%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAE  70
+            PF     + ++DTDA G+VY+ N L          LR  G +  +   + ++ F +  A 
+Sbjct  2    PFTYHRTINFQDTDAAGVVYFANILSICHEGYEASLRTSGISLKEFFTNPSMAFPIVHAS  61
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPR  130
+              +  P     ++++S   +++     +   ++  A   VL+ +      C+ A+T   +
+Sbjct  62   VDFLRPLFCGAQVIISLVPQKIGAEKFEINYEIYLAD--VLVAKAVTRHVCIDANTRSKQ  119
+
+Query  131  AIPETLRAAFAG  142
+             +   +     G
+Sbjct  120  ELSMEIIQWLDG  131
+
+
+> sp|Q3AGW5|DNCH_SYNSC 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=Syncc9605_2435 
+PE=3 SV=1
+Length=149
+
+ Score = 139 bits (349),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 29/138 (21%), Positives = 56/138 (41%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN------LLFV  65
+              +    V + DTDA G++++   L +  +A  E L   G     +          +   
+Sbjct  6    WLELSRTVRFSDTDAAGVMHFQQLLGWCHQAWEESLERYGLTAGSVFPGGRREQPSVALP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            +    A Y AP ++ D+LL+  + E L+ +S     QV    +  L+  G      + A+
+Sbjct  66   IVHCHADYRAPVQVGDKLLIRLKPERLDPSSFVVNSQVLL--NEQLVASGCLRHVAIDAN  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            + +  A+P+ +      S
+Sbjct  124  SRRRCALPDGVDRWLEAS  141
+
+
+> sp|Q7V3A9|DNCH_PROMP 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=PMM0173 PE=3 SV=1
+Length=150
+
+ Score = 137 bits (346),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 23/138 (17%), Positives = 57/138 (41%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NLLFV  65
+                + +V + D D+ G++++ N L++   +  E +   G     +  D       ++  
+Sbjct  6    WLILKRKVRFGDCDSAGVIHFHNLLRWAHESWEESIDIYGIPHQDIFPDSNSHKNQIICP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            + + EA + +P K+ D L +    +++N    +      +  D + + EG+ +   +  D
+Sbjct  66   IVNCEANFLSPIKIGDLLSIKIFPKKINNHLFQVNTFFLK--DEINVAEGKIIHCSLDVD  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            +     +P+ L      S
+Sbjct  124  SKLKVKLPDQLERWIEAS  141
+
+
+> sp|Q46HJ9|DNCH_PROMT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 GN=PMN2A_1541 
+PE=3 SV=1
+Length=155
+
+ Score = 135 bits (339),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 27/145 (19%), Positives = 55/145 (38%), Gaps = 10/145 (7%)
+
+Query  11   KPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN--------L  62
+            +    +  V + +TDA G+V+++   ++      E L   G A   +   N        +
+Sbjct  13   EWLCLKRTVRFGETDAAGVVHFLELFRWCHETWEESLEKYGIALKDIFPTNEINTSQLDI  72
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+               V   EA Y  P  + D + +  E E++N +S   R + ++  +   +         +
+Sbjct  73   ALPVVHCEANYFQPLYVGDTINIELETEKINESSFVLRFKFKKNGEQ--IGSTNIKHVSI  130
+
+Query  123  RADTLKPRAIPETLRAAFAGSPDSF  147
+               T K  A+ + +      S  +F
+Sbjct  131  NPITRKKCALSKQINLWLHESSSNF  155
+
+
+> sp|A2BUF0|DNCH_PROM5 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=P9515_02021 
+PE=3 SV=1
+Length=150
+
+ Score = 131 bits (329),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 22/138 (16%), Positives = 56/138 (41%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVG------DNLLFV  65
+                + +V + D D+ G++++ N L++   +  E +   G +   +        +  +  
+Sbjct  6    WLILKRKVRFGDCDSAGVIHFHNLLRWAHESWEESIDIYGISHQVIFPSCHSHENQNILP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            + + EA +  P KL D L V    ++++    +      +  D + + EG+ +   +  +
+Sbjct  66   IVNCEANFLLPIKLGDLLTVKIFPKKISNHLFQVNTLFLK--DEIKVAEGKIIHCSLDMN  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            +     +P+ L      S
+Sbjct  124  SKLKVKLPDQLERWIEAS  141
+
+
+> sp|B2IZ83|DNCH_NOSP7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=Npun_F6457 PE=3 SV=1
+Length=148
+
+ Score = 130 bits (328),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 26/130 (20%), Positives = 52/130 (40%), Gaps = 3/130 (2%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEA  71
+            F     V ++DTDA G+VY+ N L     A  E L A          + ++ F +  A  
+Sbjct  3    FTYNRTVRFQDTDAAGVVYFANVLGICHEAYEESLEASSINLKDFFTNPSVAFPIVHASV  62
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             +  P  + D+LL+S   +++     +   +       V++ +      C+ A +   + 
+Sbjct  63   DFLRPMFVGDKLLISLIPQKIGVEKFEITYE--VTVAEVVVAKAITRHVCIDASSRSKQE  120
+
+Query  132  IPETLRAAFA  141
+            +P+ +     
+Sbjct  121  LPDEIVQWLE  130
+
+
+> sp|O67466|Y1494_AQUAE Putative esterase aq_1494 OS=Aquifex aeolicus 
+(strain VF5) OX=224324 GN=aq_1494 PE=1 SV=1
+Length=128
+
+ Score = 128 bits (321),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 41/125 (33%), Positives = 62/125 (50%), Gaps = 4/125 (3%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEA  71
+            PF  R RV + +TDA GIV++ NY ++ E AR E LR+ GF  S++    L  V+ +A  
+Sbjct  2    PFIYRRRVQFYETDAQGIVHHSNYFRYFEEARGEFLRSKGFPYSKMRDMGLEVVLLNAYC  61
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             Y  P   DD   V   +EEL+R +  F   V +   +V   +       V+    K  +
+Sbjct  62   EYKKPLFYDDVFEVHLNLEELSRFTFTFSYIVFKEDIAV--AKANTKHCMVKNG--KIVS  117
+
+Query  132  IPETL  136
+            IP+ +
+Sbjct  118  IPKEV  122
+
+
+> sp|A2C002|DNCH_PROM1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain NATL1A) OX=167555 GN=NATL1_02481 
+PE=3 SV=1
+Length=150
+
+ Score = 127 bits (319),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 23/148 (16%), Positives = 53/148 (36%), Gaps = 10/148 (7%)
+
+Query  4    MRAQHGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD---  60
+            M  ++  +       V + +TDA G+V++V   ++      E L   G    ++      
+Sbjct  1    MEKRNPREWLCLNRTVRFGETDAAGVVHFVELFRWCHETWEESLEKFGIVLKEIFPSTQI  60
+
+Query  61   -----NLLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEG  115
+                 ++   V   EA Y  P  + D + +    E++N +S     + ++  +   +   
+Sbjct  61   NTSQLDVALPVVHCEANYFQPLYVGDTINIELYPEKINESSFVLLFKFKKNGEQ--IGTT  118
+
+Query  116  RFLVACVRADTLKPRAIPETLRAAFAGS  143
+                  +   T +  A+ + +      S
+Sbjct  119  NIKHVSINPITREKCALSKQINLWLHES  146
+
+
+> sp|Q3AVZ5|DNCH_SYNS9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=Syncc9902_2116 
+PE=3 SV=1
+Length=149
+
+ Score = 127 bits (318),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 20/138 (14%), Positives = 51/138 (37%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN------LLFV  65
+              +    V + DTDA G++++ + L +  +A  + L   G     +          +   
+Sbjct  6    WLEIPRTVRFSDTDAAGVMHFQHLLGWCHQAWEDSLEQFGIPVGAVFPGGRSDQPSVALP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            +    A + AP  + D  ++    + ++    +   ++    ++  +  G      + A 
+Sbjct  66   IVHCHADFRAPMYVGDAAVIHLLPKRIDPGCFEVVSEISL--NTQKVASGCLQHLAIDAV  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            T +  ++PE +      S
+Sbjct  124  TRQRCSLPEPIERWIEAS  141
+
+
+> sp|B0JQL4|DNCH_MICAN 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Microcystis aeruginosa (strain NIES-843) OX=449447 GN=MAE_08510 
+PE=3 SV=1
+Length=138
+
+ Score = 126 bits (317),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 25/127 (20%), Positives = 50/127 (39%), Gaps = 3/127 (2%)
+
+Query  15   QRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEARY  73
+                +Y  DTDA G+VY+ + L     A    L   G        D+ +   +  AE ++
+Sbjct  3    YERLIYLADTDAAGVVYFAHLLSICHEAYEFSLAQFGINIKDFFKDSPVALPITQAEIQF  62
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIP  133
+              P    D + +   V  L+    + + ++  A   +++ + +    C+     K   +P
+Sbjct  63   FRPLFCGDRIQIDFTVRSLSENEFQLQYKIYLAE--IMVAKAKTRHVCIAPTARKRIPLP  120
+
+Query  134  ETLRAAF  140
+            E+L+   
+Sbjct  121  ESLKHWL  127
+
+
+> sp|B1WZN0|DNCH_CYAA5 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Cyanothece sp. (strain ATCC 51142) OX=43989 GN=cce_1832 PE=3 
+SV=1
+Length=137
+
+ Score = 126 bits (317),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 20/134 (15%), Positives = 50/134 (37%), Gaps = 2/134 (1%)
+
+Query  14   QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEAR  72
+                 +++ DTDA G+VY+  +L     A    L+  G         + +   +  A+  
+Sbjct  2    TYNRTIHFSDTDAAGVVYFAAFLSICHEAYENSLQVAGIDLKTFFTSSDIAIPIVHADID  61
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASD-SVLLCEGRFLVACVRADTLKPRA  131
+            ++ P    D + ++    +LN    + + QV   ++   L+ +       +     +  +
+Sbjct  62   FYQPLFCGDRIQINLTPTQLNETEFEIKYQVFNENNLDKLIAKATTKHVSINPKIRQRTS  121
+
+Query  132  IPETLRAAFAGSPD  145
+            +  ++      + D
+Sbjct  122  LSLSITQWLRSNQD  135
+
+
+> sp|B7JXS8|DNCH_CYAP8 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Cyanothece sp. (strain PCC 8801) OX=41431 GN=PCC8801_1849 
+PE=3 SV=1
+Length=138
+
+ Score = 126 bits (317),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 27/134 (20%), Positives = 50/134 (37%), Gaps = 2/134 (1%)
+
+Query  15   QRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEARY  73
+                +   DTDA G+VY+ + L     A    L A G        D  ++  +  AE  +
+Sbjct  4    YTRTIRLSDTDAAGVVYFASLLSICHEAYEASLEASGIDLKSFFRDSEVVIPIVHAEIDF  63
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRR-ASDSVLLCEGRFLVACVRADTLKPRAI  132
+              P    D ++++    +L     +   QV   A  S L+ + +     +   T +   +
+Sbjct  64   FRPLYSGDRIIITLTTLQLKDTEFEITYQVGLVAPQSSLIAKAKTRHVAINPQTRQRTPL  123
+
+Query  133  PETLRAAFAGSPDS  146
+             E+L      + +S
+Sbjct  124  SESLMQWLKSTENS  137
+
+
+> sp|A5GP76|DNCH_SYNPW 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=SynWH7803_2315 
+PE=3 SV=1
+Length=153
+
+ Score = 126 bits (317),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 24/140 (17%), Positives = 49/140 (35%), Gaps = 10/140 (7%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------NLL  63
+              +   +V + DTDA G++++   L++   A  E L   G     +            + 
+Sbjct  8    WLKLTKKVRFGDTDAAGVMHFHQLLRWCHEAWEESLERYGLEAQAVFPGCRGQEQWPAIA  67
+
+Query  64   FVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVR  123
+              V    A +  P    D+L +    + L+ +S +   +       V    G      + 
+Sbjct  68   LPVVHCRADFLRPVHGGDQLSLHLTPQRLDPSSFEVHHRFLLEQQDV--AHGWIRHVAIS  125
+
+Query  124  ADTLKPRAIPETLRAAFAGS  143
+             +T +  A+P+ +      S
+Sbjct  126  TETRRRSALPDAIERWLEAS  145
+
+
+> sp|A2CDA0|DNCH_PROM3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 GN=P9303_27301 
+PE=3 SV=1
+Length=151
+
+ Score = 126 bits (316),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 26/140 (19%), Positives = 47/140 (34%), Gaps = 10/140 (7%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------NLL  63
+                R  V + DTDA G++++    ++   A  E L   G   +++            + 
+Sbjct  6    WLLLRRVVRFGDTDAAGVMHFHQLFRWCHEAWEESLEQYGLTPAEIFPGSRKSEVTPEVA  65
+
+Query  64   FVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVR  123
+              +   +A +  P    D L +    E LN  S +   + R      +          + 
+Sbjct  66   LPIIHCQADFRRPIHSGDALAMELRPERLNPNSFQVHFEFRCEE--QIAAHALIRHLAIN  123
+
+Query  124  ADTLKPRAIPETLRAAFAGS  143
+            A T    A+PE +      S
+Sbjct  124  AKTRHRCALPEGIDRWLEAS  143
+
+
+> sp|Q7V4A7|DNCH_PROMM 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 GN=PMT_2055 
+PE=1 SV=1
+Length=151
+
+ Score = 126 bits (316),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 25/140 (18%), Positives = 47/140 (34%), Gaps = 10/140 (7%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------NLL  63
+                R  V + DTDA G++++    ++   +  E L + G   + +            + 
+Sbjct  6    WLLLRRVVRFGDTDAAGVMHFHQLFRWCHESWEESLESYGLNPADIFPGSRKSEVTPEVA  65
+
+Query  64   FVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVR  123
+              +   +A +  P    D L +    E LN  S +   + R      +          + 
+Sbjct  66   LPIIHCQADFRRPIHTGDALAMELRPERLNPNSFQVHFEFRCEE--QIAAHALIRHLAIN  123
+
+Query  124  ADTLKPRAIPETLRAAFAGS  143
+            A T    A+PE +      S
+Sbjct  124  AQTRHRCALPEGIDRWLEAS  143
+
+
+> sp|Q0I6T4|DNCH_SYNS3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain CC9311) OX=64471 GN=sync_2650 PE=3 
+SV=1
+Length=152
+
+ Score = 125 bits (313),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 27/140 (19%), Positives = 53/140 (38%), Gaps = 10/140 (7%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------NLL  63
+              Q +  V + +TDA G+V++    ++   A  E L   G A + +            + 
+Sbjct  7    WLQLQRNVRFGETDAAGVVHFYQLFRWCHEAWEESLARYGIAAAAIFPGCRDICQVPTVA  66
+
+Query  64   FVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVR  123
+              V   EA +  P    D+L +  E + LN    + + + +     V    G      + 
+Sbjct  67   LPVVHCEADFQRPVHGGDDLRILLEPQRLNPGCFEVKYRFQLEDMDV--ARGLIRHLAIE  124
+
+Query  124  ADTLKPRAIPETLRAAFAGS  143
+            +++ +  A+PE +      S
+Sbjct  125  SESRRRCALPEPIDLWLEAS  144
+
+
+> sp|Q7U3X6|DNCH_SYNPX 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=SYNW2301 PE=3 
+SV=1
+Length=152
+
+ Score = 125 bits (313),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 56/141 (40%), Gaps = 10/141 (7%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------NLL  63
+              +   +V++ DTDA G++++   L++   A  E L   G A   +            + 
+Sbjct  7    WLKLERQVHFGDTDAAGVMHFHQLLRWCHEAWEESLERYGIAAGSVFPGCRGQQRWPAVA  66
+
+Query  64   FVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVR  123
+              V   +A +  P    D L V  + + L+    + R +     D+ ++  G      + 
+Sbjct  67   LPVVHCQADFKRPVHGSDRLQVHLKPQRLDPGCFEVRSEFHL--DATVMACGLVRHLAIH  124
+
+Query  124  ADTLKPRAIPETLRAAFAGSP  144
+            +D+ +  A+PET+      S 
+Sbjct  125  SDSRERCALPETVDLWLEASA  145
+
+
+> sp|P94842|YBGC_HELPY Acyl-CoA thioesterase YbgC OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=ybgC PE=1 
+SV=2
+Length=133
+
+ Score = 123 bits (310),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 44/135 (33%), Positives = 67/135 (50%), Gaps = 12/135 (9%)
+
+Query  16   RFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLV-GDNLLFVVHSAEARYH  74
+            R RVYYEDTD+ G+VY+ NYLK+ ERAR+E      F Q+ L   +  +FV+ S +A + 
+Sbjct  2    RCRVYYEDTDSEGVVYHANYLKYCERARSE----FFFKQNVLPENEEGVFVIRSIKADFF  57
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLV-------ACVRADTL  127
+             PA L   L +  +++EL +  +   Q++    ++ L     F V         V   T 
+Sbjct  58   TPASLGQVLEIRTQIKELRKVFVVLFQEIYCIQNASLEPMKPFKVFASEIKFGFVNRSTY  117
+
+Query  128  KPRAIPETLRAAFAG  142
+             P AIP+  +     
+Sbjct  118  SPIAIPKLFKELLNA  132
+
+
+> sp|Q9ZLX8|YBGC_HELPJ Acyl-CoA thioesterase YbgC OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=ybgC PE=3 SV=1
+Length=133
+
+ Score = 123 bits (310),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 44/135 (33%), Positives = 68/135 (50%), Gaps = 12/135 (9%)
+
+Query  16   RFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLV-GDNLLFVVHSAEARYH  74
+            R RVYYEDTD+ G+VY+ NYLK+ ERAR+E      F Q+ L   +  +FV+ S +A + 
+Sbjct  2    RCRVYYEDTDSEGVVYHANYLKYCERARSE----FFFKQNVLPENEEGVFVIRSIKADFF  57
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLV-------ACVRADTL  127
+             PA L   L +  +++EL +  +   Q++    ++ L     F V         V   T 
+Sbjct  58   TPASLGQVLEIRTQIKELRKVFVVLFQEIYCIQNASLEPMKPFKVFASEIKFGFVNRSTY  117
+
+Query  128  KPRAIPETLRAAFAG  142
+             P AIP+  +   + 
+Sbjct  118  SPIAIPKLFKELLSA  132
+
+
+> sp|Q55116|Y410_SYNY3 Putative esterase sll0410 OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=sll0410 PE=3 
+SV=1
+Length=166
+
+ Score = 122 bits (305),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 31/118 (26%), Positives = 55/118 (47%), Gaps = 0/118 (0%)
+
+Query  11   KPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAE  70
+            K F+   RV    TD GG+V++  YL ++E AR E LR++G   + LV       V S  
+Sbjct  31   KWFEIMVRVQPHHTDYGGVVWHGTYLTWLETARVECLRSIGVDFADLVKLGCDLPVVSLA  90
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLK  128
+             RYH   +L    ++  +++E+ +  L+++ Q+           G+  +  +     K
+Sbjct  91   LRYHRAIRLGQTAVIKVQMQEIQKVRLEWQNQIVCLETGEPCVTGKITLVAIDPAKGK  148
+
+
+> sp|A5GWA0|DNCH_SYNR3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain RCC307) OX=316278 GN=SynRCC307_2256 
+PE=3 SV=1
+Length=131
+
+ Score = 120 bits (301),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 26/129 (20%), Positives = 49/129 (38%), Gaps = 7/129 (5%)
+
+Query  20   YYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-----NLLFVVHSAEARYH  74
+             + +TDA G++++   L++   A  E L   G   + L        NLL  +    A + 
+Sbjct  2    RFGETDAAGVLHFQQLLRWCHEAYEESLERFGLEPATLFPTPGQQLNLLLPITHCSADFL  61
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIPE  134
+            AP    D L ++   + L+  + +       A     +  G     C+ A   +   +PE
+Sbjct  62   APLICGDPLAIALTPQWLDPTAFEVAYSFSSAG--RPVARGLTRHQCIAAADRRRAPLPE  119
+
+Query  135  TLRAAFAGS  143
+             ++     S
+Sbjct  120  GVQRWLQAS  128
+
+
+> sp|Q10XE8|DNCH_TRIEI 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=Tery_4064 
+PE=3 SV=1
+Length=138
+
+ Score = 118 bits (297),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 25/130 (19%), Positives = 44/130 (34%), Gaps = 2/130 (2%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEA  71
+            F  R  V+++DTDA G+VY+VN L     A    L A          +  +   +  A  
+Sbjct  3    FYYRRIVHFQDTDAAGVVYFVNVLAICHEAYEASLAAFDINLKVFFSNQEIAIPIIHANV  62
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVR-RASDSVLLCEGRFLVACVRADTLKPR  130
+             +  P    DEL +    +       +   QV  +               C+   +   +
+Sbjct  63   DFRRPMFCGDELTIELMPKTWGDDEFEISYQVFLKEVGKKWAARASTKHVCIHPQSKSRQ  122
+
+Query  131  AIPETLRAAF  140
+             + + +R   
+Sbjct  123  KLSDEIRRWL  132
+
+
+> sp|B7KDA3|DNCH_CYAP7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Cyanothece sp. (strain PCC 7424) OX=65393 GN=PCC7424_0457 
+PE=3 SV=1
+Length=143
+
+ Score = 118 bits (296),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 21/130 (16%), Positives = 42/130 (32%), Gaps = 2/130 (2%)
+
+Query  14   QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEAR  72
+                 V   DTDA G+VY+   L     A    L        +   D      +   E  
+Sbjct  3    IYYRTVRLGDTDAAGVVYFATALSICHEAYEASLEQAYINLRKFFNDPEQAIPIVHGEID  62
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRR-ASDSVLLCEGRFLVACVRADTLKPRA  131
+            +  P    ++L +     +L  +  +   Q+ + +S+            C+   + +   
+Sbjct  63   FFRPLFCGEKLEIHLLARQLKDSEFEIEYQIFKGSSEGEKAARALTRHVCINPISRQRSR  122
+
+Query  132  IPETLRAAFA  141
+            +P+ +    A
+Sbjct  123  LPDLMVQWLA  132
+
+
+> sp|B0CEN8|DNCH_ACAM1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Acaryochloris marina (strain MBIC 11017) OX=329726 GN=AM1_3146 
+PE=3 SV=1
+Length=137
+
+ Score = 117 bits (294),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 22/129 (17%), Positives = 45/129 (35%), Gaps = 2/129 (2%)
+
+Query  15   QRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEARY  73
+                V  +DTDA G+VY+ + L     A  + L   G        + +    +  A+  +
+Sbjct  2    YTRTVRLQDTDAAGVVYFTSALDICHEAFEDSLMGAGIDIRTFFSNPDTATPIIHADIDF  61
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRR-ASDSVLLCEGRFLVACVRADTLKPRAI  132
+              P+   D+L +     +L     + R  +        L+ +      C+     + + +
+Sbjct  62   LKPSFCGDQLTLQLSTHQLAEDEFEVRYNITAVNKGERLIAKATIRHVCINPINRQRQPL  121
+
+Query  133  PETLRAAFA  141
+            P+ L     
+Sbjct  122  PKELVTWIQ  130
+
+
+> sp|Q7VE16|DNCH_PROMA 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=Pro_0198 PE=3 SV=1
+Length=155
+
+ Score = 116 bits (290),  Expect = 9e-33, Method: Composition-based stats.
+ Identities = 27/148 (18%), Positives = 56/148 (38%), Gaps = 10/148 (7%)
+
+Query  4    MRAQHGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVG----  59
+            M+++        +  V + DTDA G++++   L++   A  E L   G     +      
+Sbjct  1    MQSKTLQNWLHLQRIVRFGDTDAAGVIHFHQLLRWSHEAWEESLDRYGLKAVDVFPSSLG  60
+
+Query  60   ----DNLLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEG  115
+                 ++   +   EA +  P  + D+L V      LN  S + +   +R   +V +   
+Sbjct  61   ISTSTSVALPIVHCEADFFLPIGIGDKLNVQLVPVRLNIGSFEVQFTFQRREQNVAV--A  118
+
+Query  116  RFLVACVRADTLKPRAIPETLRAAFAGS  143
+                  + +D+ +   +PE +      S
+Sbjct  119  LVRHRSIDSDSRRLCDLPEGIDRWLEAS  146
+
+
+> sp|B1XL26|DNCH_SYNP2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) OX=32049 
+GN=SYNPCC7002_A1284 PE=3 SV=1
+Length=146
+
+ Score = 114 bits (285),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 24/137 (18%), Positives = 45/137 (33%), Gaps = 5/137 (4%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEA  71
+            +  R  ++  DTDA G+VY+   L     A    L   G   S L+ +  +   +  +  
+Sbjct  3    YAYRRTIHLADTDAAGVVYFAQLLHICHEAYEICLIGNGMDWSGLLREGTVALPIVHSAI  62
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRA----SDSVLLCEGRFLVACVRADTL  127
+             +  P    D L +    E  N    K   ++ +          L         +   T 
+Sbjct  63   DFLRPITWGDRLDIQLYPELENSRQFKISYRIFKENQDSPPESPLATALTRHVAINPRTR  122
+
+Query  128  KPRAIPETLRAAFAGSP  144
+            +  ++P  +      +P
+Sbjct  123  QRCSLPPVVETWLRNAP  139
+
+
+> sp|P77712|FADM_ECOLI Long-chain acyl-CoA thioesterase FadM OS=Escherichia 
+coli (strain K12) OX=83333 GN=fadM PE=1 SV=1
+Length=132
+
+ Score = 112 bits (280),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 31/128 (24%), Positives = 54/128 (42%), Gaps = 1/128 (1%)
+
+Query  14   QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARY  73
+            Q + +V     D    V    YL+F+E AR + L     +   +   N+ FVV +    Y
+Sbjct  2    QTQIKVRGYHLDVYQHVNNARYLEFLEEARWDGLENSD-SFQWMTAHNIAFVVVNININY  60
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIP  133
+              PA L D L +++++++LN  S    Q +    +  ++ +      C+   T K  A+ 
+Sbjct  61   RRPAVLSDLLTITSQLQQLNGKSGILSQVITLEPEGQVVADALITFVCIDLKTQKALALE  120
+
+Query  134  ETLRAAFA  141
+              LR    
+Sbjct  121  GELREKLE  128
+
+
+> sp|A9BD34|DNCH_PROM4 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 GN=P9211_01911 
+PE=3 SV=1
+Length=151
+
+ Score = 111 bits (277),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 18/140 (13%), Positives = 51/140 (36%), Gaps = 10/140 (7%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------NLL  63
+                   V + +TD+ G++++   L++   +  E L   G   + +  +         + 
+Sbjct  10   WLYLERIVRFGETDSAGVIHFYQLLRWCHESWEESLERYGLKAADVFPNILNKEKQPLVA  69
+
+Query  64   FVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVR  123
+              +   EA +  P +  D + +    ++++  S +   + +R  + V   +       + 
+Sbjct  70   LPIIHCEADFWKPLQTGDHISIELLPKKISAGSFQVTFKFKRGDNYV--AQALIQHQAIN  127
+
+Query  124  ADTLKPRAIPETLRAAFAGS  143
+            + T     +   + +  A S
+Sbjct  128  SQTRSCCELSTKINSWLAES  147
+
+
+> sp|F4HX80|ALT4_ARATH Acyl-acyl carrier protein thioesterase ATL4, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ALT4 PE=2 
+SV=1
+Length=188
+
+ Score = 75.1 bits (183),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 24/136 (18%), Positives = 52/136 (38%), Gaps = 5/136 (4%)
+
+Query  9    GGKPF----QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLF  64
+            GGK      +   +V   + D  G+V    Y  + +    E L ++G    ++       
+Sbjct  44   GGKEMSEFHEVELKVRDYELDQFGVVNNAVYANYCQHGMHEFLESIGINCDEVARSGEAL  103
+
+Query  65   VVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRA  124
+             +      + AP +  D+ +V   +   + A + F   + +  +  ++ E +  V  +  
+Sbjct  104  AISELTMNFLAPLRSGDKFVVKVNISRTSAARIYFDHSILKLPNQEVILEAKATVVWLDN  163
+
+Query  125  DTLKPRAIPETLRAAF  140
+                P  IP ++R+ F
+Sbjct  164  KHR-PVRIPSSIRSKF  178
+
+
+> sp|Q8W583|ALT3_ARATH Acyl-acyl carrier protein thioesterase ATL3, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ALT3 PE=2 
+SV=1
+Length=190
+
+ Score = 72.8 bits (177),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 21/127 (17%), Positives = 53/127 (42%), Gaps = 1/127 (1%)
+
+Query  14   QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARY  73
+            +   +V   + D  G+V    Y  + +  R E L ++G    ++        +     ++
+Sbjct  55   EVELKVRDYELDQFGVVNNAVYANYCQHGRHEFLESIGINCDEVARSGEALAISELTMKF  114
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIP  133
+             +P +  D+ +V A +   + A + F   + +  +   + E + +   +  +  +P  IP
+Sbjct  115  LSPLRSGDKFVVKARISGTSAARIYFDHFIFKLPNQEPILEAKGIAVWLD-NKYRPVRIP  173
+
+Query  134  ETLRAAF  140
+             ++R+ F
+Sbjct  174  SSIRSKF  180
+
+
+> sp|Q9C7I8|ALT2_ARATH Acyl-acyl carrier protein thioesterase ATL2, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ALT2 PE=2 
+SV=1
+Length=188
+
+ Score = 72.4 bits (176),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 21/138 (15%), Positives = 54/138 (39%), Gaps = 2/138 (1%)
+
+Query  4    MRAQHG-GKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNL  62
+            +R   G G   +   +V   + D  G+V    Y  + +  R E + ++G   +++     
+Sbjct  42   LRGSTGIGGFHEIELKVRDYELDQFGVVNNAVYANYCQHGRHEFMDSIGINCNEVSRSGG  101
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+               +     ++ AP +     +V   +  ++   + F Q + +  +   + E +     +
+Sbjct  102  ALAIPELTIKFLAPLRSGCRFVVKTRISGISLVRIYFEQFIFKLPNQEPILEAKGTAVWL  161
+
+Query  123  RADTLKPRAIPETLRAAF  140
+              +  +P  +P  +R+ F
+Sbjct  162  D-NKYRPTRVPSHVRSYF  178
+
+
+> sp|Q9C7I5|ALT1_ARATH Acyl-acyl carrier protein thioesterase ATL1, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ALT1 PE=1 
+SV=1
+Length=189
+
+ Score = 69.3 bits (168),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 23/138 (17%), Positives = 52/138 (38%), Gaps = 5/138 (4%)
+
+Query  7    QHGGKPF----QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNL  62
+            Q GGK      +   +V   + D  G+V    Y  + +  + E +  +G    ++     
+Sbjct  42   QQGGKGMNGVHEIELKVRDYELDQFGVVNNAVYANYCQHGQHEFMETIGINCDEVSRSGE  101
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+               V     ++ AP +   + +V   +   +   + F Q + +  +   + E + +   +
+Sbjct  102  ALAVSELTIKFLAPLRSGCKFVVKTRISGTSMTRIYFEQFIFKLPNQEPILEAKGMAVWL  161
+
+Query  123  RADTLKPRAIPETLRAAF  140
+                 +P  IP  +R+ F
+Sbjct  162  D-KRYRPVCIPSYIRSNF  178
+
+
+> sp|P56653|4HBT_PSEUC 4-hydroxybenzoyl-CoA thioesterase OS=Pseudomonas 
+sp. (strain CBS-3) OX=72586 PE=1 SV=1
+Length=141
+
+ Score = 62.7 bits (151),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 27/124 (22%), Positives = 49/124 (40%), Gaps = 8/124 (6%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFA--QSQLVGDNLL-FVVHSAEARYH  74
+            R+ + D D  GIV++ NY ++++ A        G    +  +V   ++   + S  A + 
+Sbjct  10   RIEFGDCDPAGIVWFPNYHRWLDAASRNYFIKCGLPPWRQTVVERGIVGTPIVSCNASFV  69
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRR---ASDSVLLCEGRFLVACV--RADTLKP  129
+              A  DD L +   ++E  R S   R  V R     D  L+     +        + L+ 
+Sbjct  70   CTASYDDVLTIETCIKEWRRKSFVQRHSVSRTTPGGDVQLVMRADEIRVFAMNDGERLRA  129
+
+Query  130  RAIP  133
+              +P
+Sbjct  130  IEVP  133
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6225529024
+Results from round 3
+
+
+Query= 5V10.A
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q46HJ9|DNCH_PROMT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  184     2e-59
+  sp|Q31D08|DNCH_PROM9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  182     5e-59
+  sp|Q3AGW5|DNCH_SYNSC 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  182     6e-59
+  sp|A2C002|DNCH_PROM1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  181     2e-58
+  sp|A8G2H9|DNCH_PROM2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  180     3e-58
+  sp|A2CDA0|DNCH_PROM3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  180     3e-58
+  sp|Q7V4A7|DNCH_PROMM 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  180     5e-58
+  sp|A3PAP1|DNCH_PROM0 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  179     1e-57
+  sp|A2BNW8|DNCH_PROMS 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  178     3e-57
+  sp|Q0I6T4|DNCH_SYNS3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  175     3e-56
+  sp|Q7VE16|DNCH_PROMA 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  175     4e-56
+  sp|Q3AVZ5|DNCH_SYNS9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  175     4e-56
+  sp|A5GP76|DNCH_SYNPW 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  175     5e-56
+  sp|Q7V3A9|DNCH_PROMP 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  174     9e-56
+  sp|Q7U3X6|DNCH_SYNPX 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  173     2e-55
+  sp|B1WZN0|DNCH_CYAA5 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  171     1e-54
+  sp|Q3MG63|DNCH_ANAVT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  170     4e-54
+  sp|B7JXS8|DNCH_CYAP8 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  169     5e-54
+  sp|A2BUF0|DNCH_PROM5 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  168     2e-53
+  sp|Q8DLK3|DNCH_THEEB 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  168     3e-53
+  sp|A9BD34|DNCH_PROM4 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  166     2e-52
+  sp|B1XL26|DNCH_SYNP2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  163     1e-51
+  sp|B2IZ83|DNCH_NOSP7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  163     1e-51
+  sp|Q8YU89|DNCH_NOSS1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  163     2e-51
+  sp|B7KDA3|DNCH_CYAP7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  162     4e-51
+  sp|Q10XE8|DNCH_TRIEI 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  162     4e-51
+  sp|B0JQL4|DNCH_MICAN 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  161     9e-51
+  sp|Q5MZI3|DNCH_SYNP6 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  161     1e-50
+  sp|Q31ME5|DNCH_SYNE7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  161     1e-50
+  sp|A5GWA0|DNCH_SYNR3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  160     3e-50
+  sp|B0CEN8|DNCH_ACAM1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  158     2e-49
+  sp|Q55777|DNCH_SYNY3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase OS...  154     6e-48
+  sp|F4HX80|ALT4_ARATH Acyl-acyl carrier protein thioesterase ATL...  143     7e-43
+  sp|Q8W583|ALT3_ARATH Acyl-acyl carrier protein thioesterase ATL...  143     7e-43
+  sp|Q9C7I8|ALT2_ARATH Acyl-acyl carrier protein thioesterase ATL...  143     9e-43
+  sp|Q9C7I5|ALT1_ARATH Acyl-acyl carrier protein thioesterase ATL...  140     8e-42
+  sp|P0A8Z6|YBGC_SHIFL Acyl-CoA thioester hydrolase YbgC OS=Shige...  138     1e-41
+  sp|P0A8Z3|YBGC_ECOLI Acyl-CoA thioester hydrolase YbgC OS=Esche...  138     1e-41
+  sp|P0A8Z4|YBGC_ECOL6 Acyl-CoA thioester hydrolase YbgC OS=Esche...  138     1e-41
+  sp|P0A8Z5|YBGC_ECO57 Acyl-CoA thioester hydrolase YbgC OS=Esche...  138     1e-41
+  sp|O67466|Y1494_AQUAE Putative esterase aq_1494 OS=Aquifex aeol...  132     2e-39
+  sp|Q55116|Y410_SYNY3 Putative esterase sll0410 OS=Synechocystis...  131     1e-38
+  sp|P44679|YBGC_HAEIN Acyl-CoA thioesterase YbgC OS=Haemophilus ...  130     2e-38
+  sp|P77712|FADM_ECOLI Long-chain acyl-CoA thioesterase FadM OS=E...  130     2e-38
+  sp|Q45061|YNEP_BACSU Putative acyl-CoA thioesterase YneP OS=Bac...  129     5e-38
+  sp|P94842|YBGC_HELPY Acyl-CoA thioesterase YbgC OS=Helicobacter...  113     9e-32
+  sp|Q9ZLX8|YBGC_HELPJ Acyl-CoA thioesterase YbgC OS=Helicobacter...  112     2e-31
+  sp|P56653|4HBT_PSEUC 4-hydroxybenzoyl-CoA thioesterase OS=Pseud...  105     1e-28
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q80ZW2|THEM6_MOUSE Protein THEM6 OS=Mus musculus OX=10090 GN...  49.1    1e-06
+  sp|Q6NRK8|THEM6_XENLA Protein THEM6 OS=Xenopus laevis OX=8355 G...  48.7    2e-06
+  sp|Q5XIE1|THEM6_RAT Protein THEM6 OS=Rattus norvegicus OX=10116...  47.6    4e-06
+  sp|B0JZP3|THEM6_DANRE Protein THEM6 OS=Danio rerio OX=7955 GN=t...  45.3    4e-05
+  sp|A6H707|THEM6_BOVIN Protein THEM6 OS=Bos taurus OX=9913 GN=TH...  44.9    6e-05
+  sp|B0BLZ5|THEM6_XENTR Protein THEM6 OS=Xenopus tropicalis OX=83...  44.1    9e-05
+  sp|P11469|YSMA_BACSU Uncharacterized protein YsmA OS=Bacillus s...  43.0    1e-04
+  sp|Q8WUY1|THEM6_HUMAN Protein THEM6 OS=Homo sapiens OX=9606 GN=...  39.9    0.003
+
+
+> sp|Q46HJ9|DNCH_PROMT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain NATL2A) OX=59920 GN=PMN2A_1541 
+PE=3 SV=1
+Length=155
+
+ Score = 184 bits (467),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 27/152 (18%), Positives = 58/152 (38%), Gaps = 10/152 (7%)
+
+Query  4    MRAQHGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN--  61
+            +  ++  +    +  V + +TDA G+V+++   ++      E L   G A   +   N  
+Sbjct  6    LDKRNPREWLCLKRTVRFGETDAAGVVHFLELFRWCHETWEESLEKYGIALKDIFPTNEI  65
+
+Query  62   ------LLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEG  115
+                  +   V   EA Y  P  + D + +  E E++N +S   R + ++  +   +   
+Sbjct  66   NTSQLDIALPVVHCEANYFQPLYVGDTINIELETEKINESSFVLRFKFKKNGEQ--IGST  123
+
+Query  116  RFLVACVRADTLKPRAIPETLRAAFAGSPDSF  147
+                  +   T K  A+ + +      S  +F
+Sbjct  124  NIKHVSINPITRKKCALSKQINLWLHESSSNF  155
+
+
+> sp|Q31D08|DNCH_PROM9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9312) OX=74546 GN=PMT9312_0175 
+PE=3 SV=1
+Length=150
+
+ Score = 182 bits (463),  Expect = 5e-59, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 56/141 (40%), Gaps = 8/141 (6%)
+
+Query  9    GGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NL  62
+                   + +V + D D+ G++++ N LK+   A  E +   G     +  D       +
+Sbjct  3    PSDWLILQKKVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPYQDIFPDFSIRKSQI  62
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+            +F + + EA Y AP K+ D L V     ++N    +      +  +   + EG+ +   +
+Sbjct  63   IFPIVNCEANYLAPIKIGDLLKVKIYPHKINPHLFRVNSFFMKNGNK--VAEGKIIHCSL  120
+
+Query  123  RADTLKPRAIPETLRAAFAGS  143
+              D+     +P+ L      S
+Sbjct  121  DVDSRNKIELPDQLERWIEAS  141
+
+
+> sp|Q3AGW5|DNCH_SYNSC 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain CC9605) OX=110662 GN=Syncc9605_2435 
+PE=3 SV=1
+Length=149
+
+ Score = 182 bits (463),  Expect = 6e-59, Method: Composition-based stats.
+ Identities = 29/139 (21%), Positives = 56/139 (40%), Gaps = 8/139 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN------LLFV  65
+              +    V + DTDA G++++   L +  +A  E L   G     +          +   
+Sbjct  6    WLELSRTVRFSDTDAAGVMHFQQLLGWCHQAWEESLERYGLTAGSVFPGGRREQPSVALP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            +    A Y AP ++ D+LL+  + E L+ +S     QV    +  L+  G      + A+
+Sbjct  66   IVHCHADYRAPVQVGDKLLIRLKPERLDPSSFVVNSQVLL--NEQLVASGCLRHVAIDAN  123
+
+Query  126  TLKPRAIPETLRAAFAGSP  144
+            + +  A+P+ +      S 
+Sbjct  124  SRRRCALPDGVDRWLEASS  142
+
+
+> sp|A2C002|DNCH_PROM1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain NATL1A) OX=167555 GN=NATL1_02481 
+PE=3 SV=1
+Length=150
+
+ Score = 181 bits (460),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 24/152 (16%), Positives = 55/152 (36%), Gaps = 10/152 (7%)
+
+Query  4    MRAQHGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD---  60
+            M  ++  +       V + +TDA G+V++V   ++      E L   G    ++      
+Sbjct  1    MEKRNPREWLCLNRTVRFGETDAAGVVHFVELFRWCHETWEESLEKFGIVLKEIFPSTQI  60
+
+Query  61   -----NLLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEG  115
+                 ++   V   EA Y  P  + D + +    E++N +S     + ++  +   +   
+Sbjct  61   NTSQLDVALPVVHCEANYFQPLYVGDTINIELYPEKINESSFVLLFKFKKNGEQ--IGTT  118
+
+Query  116  RFLVACVRADTLKPRAIPETLRAAFAGSPDSF  147
+                  +   T +  A+ + +      S  +F
+Sbjct  119  NIKHVSINPITREKCALSKQINLWLHESGLNF  150
+
+
+> sp|A8G2H9|DNCH_PROM2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=P9215_01911 
+PE=3 SV=1
+Length=150
+
+ Score = 180 bits (458),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 27/141 (19%), Positives = 56/141 (40%), Gaps = 8/141 (6%)
+
+Query  9    GGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NL  62
+                   + +V + D D+ G++++ N LK+   A  E +   G     +  D       +
+Sbjct  3    PADWLILQRKVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPYKDIFPDFSIRKSQI  62
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+            +F + + EA + AP K+ D L V     ++N    +      +  +   + EG+ +   +
+Sbjct  63   VFPIVNCEANFLAPIKIGDFLKVKIAPHKINTHLFQVNSFFIKNGNK--VAEGKIIHCSL  120
+
+Query  123  RADTLKPRAIPETLRAAFAGS  143
+              D+     +P+ L      S
+Sbjct  121  DIDSRNKIELPDQLERWIEAS  141
+
+
+> sp|A2CDA0|DNCH_PROM3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9303) OX=59922 GN=P9303_27301 
+PE=3 SV=1
+Length=151
+
+ Score = 180 bits (458),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 26/144 (18%), Positives = 48/144 (33%), Gaps = 10/144 (7%)
+
+Query  8    HGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-------  60
+            +       R  V + DTDA G++++    ++   A  E L   G   +++          
+Sbjct  2    NPENWLLLRRVVRFGDTDAAGVMHFHQLFRWCHEAWEESLEQYGLTPAEIFPGSRKSEVT  61
+
+Query  61   -NLLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLV  119
+              +   +   +A +  P    D L +    E LN  S +   + R      +        
+Sbjct  62   PEVALPIIHCQADFRRPIHSGDALAMELRPERLNPNSFQVHFEFRCE--EQIAAHALIRH  119
+
+Query  120  ACVRADTLKPRAIPETLRAAFAGS  143
+              + A T    A+PE +      S
+Sbjct  120  LAINAKTRHRCALPEGIDRWLEAS  143
+
+
+> sp|Q7V4A7|DNCH_PROMM 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9313) OX=74547 GN=PMT_2055 
+PE=1 SV=1
+Length=151
+
+ Score = 180 bits (457),  Expect = 5e-58, Method: Composition-based stats.
+ Identities = 25/144 (17%), Positives = 48/144 (33%), Gaps = 10/144 (7%)
+
+Query  8    HGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-------  60
+            +       R  V + DTDA G++++    ++   +  E L + G   + +          
+Sbjct  2    NPENWLLLRRVVRFGDTDAAGVMHFHQLFRWCHESWEESLESYGLNPADIFPGSRKSEVT  61
+
+Query  61   -NLLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLV  119
+              +   +   +A +  P    D L +    E LN  S +   + R      +        
+Sbjct  62   PEVALPIIHCQADFRRPIHTGDALAMELRPERLNPNSFQVHFEFRCE--EQIAAHALIRH  119
+
+Query  120  ACVRADTLKPRAIPETLRAAFAGS  143
+              + A T    A+PE +      S
+Sbjct  120  LAINAQTRHRCALPEGIDRWLEAS  143
+
+
+> sp|A3PAP1|DNCH_PROM0 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9301) OX=167546 GN=P9301_01931 
+PE=3 SV=1
+Length=150
+
+ Score = 179 bits (454),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 58/141 (41%), Gaps = 8/141 (6%)
+
+Query  9    GGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NL  62
+                   + +V + D D+ G++++ N LK+   A  E +   G   + +  D       +
+Sbjct  3    PSDWLILQKKVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPCNDIFPDFSIRKSQI  62
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+            +F + + EA ++AP K+ D L V     ++N    +      +  +   + EG+ +   +
+Sbjct  63   IFPIVNCEANFNAPIKIGDLLKVKIAPHKINTHLFQVNSFFIKNGNK--VAEGKIIHCSL  120
+
+Query  123  RADTLKPRAIPETLRAAFAGS  143
+              D+     IP+ L      S
+Sbjct  121  DVDSRNKIEIPDQLERWIEAS  141
+
+
+> sp|A2BNW8|DNCH_PROMS 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain AS9601) OX=146891 GN=A9601_01911 
+PE=3 SV=1
+Length=150
+
+ Score = 178 bits (452),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 27/141 (19%), Positives = 56/141 (40%), Gaps = 8/141 (6%)
+
+Query  9    GGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NL  62
+                   + +V + D D+ G++++ N LK+   A  E +   G     +  D       +
+Sbjct  3    PADWLILQKKVRFGDCDSAGVIHFHNLLKWSHEAWEESIEIYGIPSQDIFPDFSIRKSQI  62
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+            +F + + EA + AP K+ D L V     ++N    +      +  +   + EG+ +   +
+Sbjct  63   IFPIVNCEANFLAPIKIGDLLKVKIVPHKINTHLFQVNSFFIKNGNK--VAEGKIIHCSL  120
+
+Query  123  RADTLKPRAIPETLRAAFAGS  143
+              D+     +P+ L      S
+Sbjct  121  DIDSRDKIELPDQLERWIEAS  141
+
+
+> sp|Q0I6T4|DNCH_SYNS3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain CC9311) OX=64471 GN=sync_2650 PE=3 
+SV=1
+Length=152
+
+ Score = 175 bits (445),  Expect = 3e-56, Method: Composition-based stats.
+ Identities = 26/140 (19%), Positives = 53/140 (38%), Gaps = 10/140 (7%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------NLL  63
+              Q +  V + +TDA G+V++    ++   A  E L   G A + +            + 
+Sbjct  7    WLQLQRNVRFGETDAAGVVHFYQLFRWCHEAWEESLARYGIAAAAIFPGCRDICQVPTVA  66
+
+Query  64   FVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVR  123
+              V   EA +  P    D+L +  E + LN    + + + +       +  G      + 
+Sbjct  67   LPVVHCEADFQRPVHGGDDLRILLEPQRLNPGCFEVKYRFQLEDMD--VARGLIRHLAIE  124
+
+Query  124  ADTLKPRAIPETLRAAFAGS  143
+            +++ +  A+PE +      S
+Sbjct  125  SESRRRCALPEPIDLWLEAS  144
+
+
+> sp|Q7VE16|DNCH_PROMA 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain SARG / CCMP1375 / SS120) 
+OX=167539 GN=Pro_0198 PE=3 SV=1
+Length=155
+
+ Score = 175 bits (445),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 26/149 (17%), Positives = 54/149 (36%), Gaps = 10/149 (7%)
+
+Query  4    MRAQHGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD---  60
+            M+++        +  V + DTDA G++++   L++   A  E L   G     +      
+Sbjct  1    MQSKTLQNWLHLQRIVRFGDTDAAGVIHFHQLLRWSHEAWEESLDRYGLKAVDVFPSSLG  60
+
+Query  61   -----NLLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEG  115
+                 ++   +   EA +  P  + D+L V      LN  S + +   +R      +   
+Sbjct  61   ISTSTSVALPIVHCEADFFLPIGIGDKLNVQLVPVRLNIGSFEVQFTFQRR--EQNVAVA  118
+
+Query  116  RFLVACVRADTLKPRAIPETLRAAFAGSP  144
+                  + +D+ +   +PE +      S 
+Sbjct  119  LVRHRSIDSDSRRLCDLPEGIDRWLEASS  147
+
+
+> sp|Q3AVZ5|DNCH_SYNS9 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain CC9902) OX=316279 GN=Syncc9902_2116 
+PE=3 SV=1
+Length=149
+
+ Score = 175 bits (444),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 20/138 (14%), Positives = 51/138 (37%), Gaps = 8/138 (6%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN------LLFV  65
+              +    V + DTDA G++++ + L +  +A  + L   G     +          +   
+Sbjct  6    WLEIPRTVRFSDTDAAGVMHFQHLLGWCHQAWEDSLEQFGIPVGAVFPGGRSDQPSVALP  65
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            +    A + AP  + D  ++    + ++    +   ++    ++  +  G      + A 
+Sbjct  66   IVHCHADFRAPMYVGDAAVIHLLPKRIDPGCFEVVSEISL--NTQKVASGCLQHLAIDAV  123
+
+Query  126  TLKPRAIPETLRAAFAGS  143
+            T +  ++PE +      S
+Sbjct  124  TRQRCSLPEPIERWIEAS  141
+
+
+> sp|A5GP76|DNCH_SYNPW 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain WH7803) OX=32051 GN=SynWH7803_2315 
+PE=3 SV=1
+Length=153
+
+ Score = 175 bits (444),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 23/140 (16%), Positives = 49/140 (35%), Gaps = 10/140 (7%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------NLL  63
+              +   +V + DTDA G++++   L++   A  E L   G     +            + 
+Sbjct  8    WLKLTKKVRFGDTDAAGVMHFHQLLRWCHEAWEESLERYGLEAQAVFPGCRGQEQWPAIA  67
+
+Query  64   FVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVR  123
+              V    A +  P    D+L +    + L+ +S +   +         +  G      + 
+Sbjct  68   LPVVHCRADFLRPVHGGDQLSLHLTPQRLDPSSFEVHHRFLLE--QQDVAHGWIRHVAIS  125
+
+Query  124  ADTLKPRAIPETLRAAFAGS  143
+             +T +  A+P+ +      S
+Sbjct  126  TETRRRSALPDAIERWLEAS  145
+
+
+> sp|Q7V3A9|DNCH_PROMP 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus subsp. pastoris (strain CCMP1986 
+/ NIES-2087 / MED4) OX=59919 GN=PMM0173 PE=3 SV=1
+Length=150
+
+ Score = 174 bits (442),  Expect = 9e-56, Method: Composition-based stats.
+ Identities = 23/141 (16%), Positives = 57/141 (40%), Gaps = 8/141 (6%)
+
+Query  9    GGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD------NL  62
+                   + +V + D D+ G++++ N L++   +  E +   G     +  D       +
+Sbjct  3    PKNWLILKRKVRFGDCDSAGVIHFHNLLRWAHESWEESIDIYGIPHQDIFPDSNSHKNQI  62
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+            +  + + EA + +P K+ D L +    +++N    +      +  D + + EG+ +   +
+Sbjct  63   ICPIVNCEANFLSPIKIGDLLSIKIFPKKINNHLFQVNTFFLK--DEINVAEGKIIHCSL  120
+
+Query  123  RADTLKPRAIPETLRAAFAGS  143
+              D+     +P+ L      S
+Sbjct  121  DVDSKLKVKLPDQLERWIEAS  141
+
+
+> sp|Q7U3X6|DNCH_SYNPX 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain WH8102) OX=84588 GN=SYNW2301 PE=3 
+SV=1
+Length=152
+
+ Score = 173 bits (440),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 28/145 (19%), Positives = 56/145 (39%), Gaps = 10/145 (7%)
+
+Query  8    HGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-------  60
+                  +   +V++ DTDA G++++   L++   A  E L   G A   +          
+Sbjct  3    SPDHWLKLERQVHFGDTDAAGVMHFHQLLRWCHEAWEESLERYGIAAGSVFPGCRGQQRW  62
+
+Query  61   -NLLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLV  119
+              +   V   +A +  P    D L V  + + L+    + R +     D+ ++  G    
+Sbjct  63   PAVALPVVHCQADFKRPVHGSDRLQVHLKPQRLDPGCFEVRSEFHL--DATVMACGLVRH  120
+
+Query  120  ACVRADTLKPRAIPETLRAAFAGSP  144
+              + +D+ +  A+PET+      S 
+Sbjct  121  LAIHSDSRERCALPETVDLWLEASA  145
+
+
+> sp|B1WZN0|DNCH_CYAA5 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Cyanothece sp. (strain ATCC 51142) OX=43989 GN=cce_1832 PE=3 
+SV=1
+Length=137
+
+ Score = 171 bits (433),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 20/135 (15%), Positives = 50/135 (37%), Gaps = 2/135 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLV-GDNLLFVVHSAEA  71
+                  +++ DTDA G+VY+  +L     A    L+  G          ++   +  A+ 
+Sbjct  1    MTYNRTIHFSDTDAAGVVYFAAFLSICHEAYENSLQVAGIDLKTFFTSSDIAIPIVHADI  60
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASD-SVLLCEGRFLVACVRADTLKPR  130
+             ++ P    D + ++    +LN    + + QV   ++   L+ +       +     +  
+Sbjct  61   DFYQPLFCGDRIQINLTPTQLNETEFEIKYQVFNENNLDKLIAKATTKHVSINPKIRQRT  120
+
+Query  131  AIPETLRAAFAGSPD  145
+            ++  ++      + D
+Sbjct  121  SLSLSITQWLRSNQD  135
+
+
+> sp|Q3MG63|DNCH_ANAVT 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Anabaena variabilis (strain ATCC 29413 / PCC 7937) OX=240292 
+GN=Ava_0397 PE=3 SV=1
+Length=148
+
+ Score = 170 bits (431),  Expect = 4e-54, Method: Composition-based stats.
+ Identities = 27/132 (20%), Positives = 56/132 (42%), Gaps = 3/132 (2%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAE  70
+            PF     ++++DTDA G+VY+ N L          LR  G +  +   + N+ F +  A 
+Sbjct  2    PFTYHRTIHFQDTDAAGVVYFANILSICHEGYEASLRTSGISLKEFFTNPNMAFPIVHAS  61
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPR  130
+              +  P    D++++S   +++     +   ++  A   VL+ +      C+ A+T   +
+Sbjct  62   VDFLRPLFCGDQVIISLVPQKIGAEKFEINYEIYLAD--VLVAKAVTRHVCIDANTRSKQ  119
+
+Query  131  AIPETLRAAFAG  142
+             +   +     G
+Sbjct  120  ELSTEIIQWLDG  131
+
+
+> sp|B7JXS8|DNCH_CYAP8 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Cyanothece sp. (strain PCC 8801) OX=41431 GN=PCC8801_1849 
+PE=3 SV=1
+Length=138
+
+ Score = 169 bits (429),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 27/134 (20%), Positives = 50/134 (37%), Gaps = 2/134 (1%)
+
+Query  15   QRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEARY  73
+                +   DTDA G+VY+ + L     A    L A G        D  ++  +  AE  +
+Sbjct  4    YTRTIRLSDTDAAGVVYFASLLSICHEAYEASLEASGIDLKSFFRDSEVVIPIVHAEIDF  63
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRR-ASDSVLLCEGRFLVACVRADTLKPRAI  132
+              P    D ++++    +L     +   QV   A  S L+ + +     +   T +   +
+Sbjct  64   FRPLYSGDRIIITLTTLQLKDTEFEITYQVGLVAPQSSLIAKAKTRHVAINPQTRQRTPL  123
+
+Query  133  PETLRAAFAGSPDS  146
+             E+L      + +S
+Sbjct  124  SESLMQWLKSTENS  137
+
+
+> sp|A2BUF0|DNCH_PROM5 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9515) OX=167542 GN=P9515_02021 
+PE=3 SV=1
+Length=150
+
+ Score = 168 bits (427),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 22/142 (15%), Positives = 57/142 (40%), Gaps = 8/142 (6%)
+
+Query  8    HGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVG------DN  61
+            +       + +V + D D+ G++++ N L++   +  E +   G +   +        + 
+Sbjct  2    NPHSWLILKRKVRFGDCDSAGVIHFHNLLRWAHESWEESIDIYGISHQVIFPSCHSHENQ  61
+
+Query  62   LLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVAC  121
+             +  + + EA +  P KL D L V    ++++    +      +  D + + EG+ +   
+Sbjct  62   NILPIVNCEANFLLPIKLGDLLTVKIFPKKISNHLFQVNTLFLK--DEIKVAEGKIIHCS  119
+
+Query  122  VRADTLKPRAIPETLRAAFAGS  143
+            +  ++     +P+ L      S
+Sbjct  120  LDMNSKLKVKLPDQLERWIEAS  141
+
+
+> sp|Q8DLK3|DNCH_THEEB 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Thermosynechococcus elongatus (strain BP-1) OX=197221 GN=tll0488 
+PE=3 SV=1
+Length=146
+
+ Score = 168 bits (426),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 31/135 (23%), Positives = 58/135 (43%), Gaps = 2/135 (1%)
+
+Query  15   QRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEARY  73
+             +  V++ DTDA G+VY+ N L+F   A  + L  LG    Q   +  L+  +  A+ R+
+Sbjct  9    YQRTVHFADTDAAGVVYFANLLRFCHEAYEDALAQLGVDLRQFFSNSGLIVPITEAQIRF  68
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIP  133
+              P    D L V+ + + L+ +  +    +        +   +    C++    +   IP
+Sbjct  69   LKPLYCGDRLRVTIDPQRLDTSRFQLTYTLYNEGGDR-VAIAQTQHMCLQLPHRQRVPIP  127
+
+Query  134  ETLRAAFAGSPDSFS  148
+            + L A    +P+  S
+Sbjct  128  DPLPAWLKSAPEEAS  142
+
+
+> sp|A9BD34|DNCH_PROM4 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Prochlorococcus marinus (strain MIT 9211) OX=93059 GN=P9211_01911 
+PE=3 SV=1
+Length=151
+
+ Score = 166 bits (420),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 17/143 (12%), Positives = 51/143 (36%), Gaps = 10/143 (7%)
+
+Query  9    GGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--------  60
+                      V + +TD+ G++++   L++   +  E L   G   + +  +        
+Sbjct  7    PADWLYLERIVRFGETDSAGVIHFYQLLRWCHESWEESLERYGLKAADVFPNILNKEKQP  66
+
+Query  61   NLLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVA  120
+             +   +   EA +  P +  D + +    ++++  S +   + +R  +   + +      
+Sbjct  67   LVALPIIHCEADFWKPLQTGDHISIELLPKKISAGSFQVTFKFKRGDNY--VAQALIQHQ  124
+
+Query  121  CVRADTLKPRAIPETLRAAFAGS  143
+             + + T     +   + +  A S
+Sbjct  125  AINSQTRSCCELSTKINSWLAES  147
+
+
+> sp|B1XL26|DNCH_SYNP2 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) OX=32049 
+GN=SYNPCC7002_A1284 PE=3 SV=1
+Length=146
+
+ Score = 163 bits (414),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 24/137 (18%), Positives = 45/137 (33%), Gaps = 5/137 (4%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEA  71
+            +  R  ++  DTDA G+VY+   L     A    L   G   S L+ +  +   +  +  
+Sbjct  3    YAYRRTIHLADTDAAGVVYFAQLLHICHEAYEICLIGNGMDWSGLLREGTVALPIVHSAI  62
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRA----SDSVLLCEGRFLVACVRADTL  127
+             +  P    D L +    E  N    K   ++ +          L         +   T 
+Sbjct  63   DFLRPITWGDRLDIQLYPELENSRQFKISYRIFKENQDSPPESPLATALTRHVAINPRTR  122
+
+Query  128  KPRAIPETLRAAFAGSP  144
+            +  ++P  +      +P
+Sbjct  123  QRCSLPPVVETWLRNAP  139
+
+
+> sp|B2IZ83|DNCH_NOSP7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=63737 
+GN=Npun_F6457 PE=3 SV=1
+Length=148
+
+ Score = 163 bits (414),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 26/132 (20%), Positives = 53/132 (40%), Gaps = 3/132 (2%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEA  71
+            F     V ++DTDA G+VY+ N L     A  E L A          + ++ F +  A  
+Sbjct  3    FTYNRTVRFQDTDAAGVVYFANVLGICHEAYEESLEASSINLKDFFTNPSVAFPIVHASV  62
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             +  P  + D+LL+S   +++     +   +       V++ +      C+ A +   + 
+Sbjct  63   DFLRPMFVGDKLLISLIPQKIGVEKFEITYE--VTVAEVVVAKAITRHVCIDASSRSKQE  120
+
+Query  132  IPETLRAAFAGS  143
+            +P+ +      +
+Sbjct  121  LPDEIVQWLETN  132
+
+
+> sp|Q8YU89|DNCH_NOSS1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 
+GN=alr2465 PE=3 SV=1
+Length=148
+
+ Score = 163 bits (413),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 25/132 (19%), Positives = 54/132 (41%), Gaps = 3/132 (2%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAE  70
+            PF     + ++DTDA G+VY+ N L          LR  G +  +   + ++ F +  A 
+Sbjct  2    PFTYHRTINFQDTDAAGVVYFANILSICHEGYEASLRTSGISLKEFFTNPSMAFPIVHAS  61
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPR  130
+              +  P     ++++S   +++     +   ++  A   VL+ +      C+ A+T   +
+Sbjct  62   VDFLRPLFCGAQVIISLVPQKIGAEKFEINYEIYLAD--VLVAKAVTRHVCIDANTRSKQ  119
+
+Query  131  AIPETLRAAFAG  142
+             +   +     G
+Sbjct  120  ELSMEIIQWLDG  131
+
+
+> sp|B7KDA3|DNCH_CYAP7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Cyanothece sp. (strain PCC 7424) OX=65393 GN=PCC7424_0457 
+PE=3 SV=1
+Length=143
+
+ Score = 162 bits (411),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 21/131 (16%), Positives = 41/131 (31%), Gaps = 2/131 (2%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEA  71
+                  V   DTDA G+VY+   L     A    L        +   D      +   E 
+Sbjct  2    MIYYRTVRLGDTDAAGVVYFATALSICHEAYEASLEQAYINLRKFFNDPEQAIPIVHGEI  61
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRA-SDSVLLCEGRFLVACVRADTLKPR  130
+             +  P    ++L +     +L  +  +   Q+ +  S+            C+   + +  
+Sbjct  62   DFFRPLFCGEKLEIHLLARQLKDSEFEIEYQIFKGSSEGEKAARALTRHVCINPISRQRS  121
+
+Query  131  AIPETLRAAFA  141
+             +P+ +    A
+Sbjct  122  RLPDLMVQWLA  132
+
+
+> sp|Q10XE8|DNCH_TRIEI 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Trichodesmium erythraeum (strain IMS101) OX=203124 GN=Tery_4064 
+PE=3 SV=1
+Length=138
+
+ Score = 162 bits (410),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 25/130 (19%), Positives = 44/130 (34%), Gaps = 2/130 (2%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEA  71
+            F  R  V+++DTDA G+VY+VN L     A    L A          +  +   +  A  
+Sbjct  3    FYYRRIVHFQDTDAAGVVYFVNVLAICHEAYEASLAAFDINLKVFFSNQEIAIPIIHANV  62
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVR-RASDSVLLCEGRFLVACVRADTLKPR  130
+             +  P    DEL +    +       +   QV  +               C+   +   +
+Sbjct  63   DFRRPMFCGDELTIELMPKTWGDDEFEISYQVFLKEVGKKWAARASTKHVCIHPQSKSRQ  122
+
+Query  131  AIPETLRAAF  140
+             + + +R   
+Sbjct  123  KLSDEIRRWL  132
+
+
+> sp|B0JQL4|DNCH_MICAN 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Microcystis aeruginosa (strain NIES-843) OX=449447 GN=MAE_08510 
+PE=3 SV=1
+Length=138
+
+ Score = 161 bits (408),  Expect = 9e-51, Method: Composition-based stats.
+ Identities = 25/129 (19%), Positives = 50/129 (39%), Gaps = 3/129 (2%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEA  71
+                  +Y  DTDA G+VY+ + L     A    L   G        D+ +   +  AE 
+Sbjct  1    MPYERLIYLADTDAAGVVYFAHLLSICHEAYEFSLAQFGINIKDFFKDSPVALPITQAEI  60
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+            ++  P    D + +   V  L+    + + ++  A   +++ + +    C+     K   
+Sbjct  61   QFFRPLFCGDRIQIDFTVRSLSENEFQLQYKIYLA--EIMVAKAKTRHVCIAPTARKRIP  118
+
+Query  132  IPETLRAAF  140
+            +PE+L+   
+Sbjct  119  LPESLKHWL  127
+
+
+> sp|Q5MZI3|DNCH_SYNP6 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) 
+OX=269084 GN=syc2347_c PE=3 SV=1
+Length=136
+
+ Score = 161 bits (407),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 28/135 (21%), Positives = 54/135 (40%), Gaps = 4/135 (3%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--NLLFVVHSAE  70
+            +Q +  + + DTDA G+VY+   L     A    + ALG        D  +++  +  AE
+Sbjct  4    YQFQRVIRFGDTDAAGVVYFAQLLSICHEAYEAAIAALGIELRSFFSDRGSVILPIVHAE  63
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPR  130
+              Y  P    D L +  +   L R   +   ++    +   +   + +  C+ + T +  
+Sbjct  64   IDYQRPTYCGDRLEIELQATALGRDRFRVDYRLS--HNHQPVATAQTIHLCLESQTRQRS  121
+
+Query  131  AIPETLRAAFAGSPD  145
+             +PE L+     + D
+Sbjct  122  PLPERLQDWLQITAD  136
+
+
+> sp|Q31ME5|DNCH_SYNE7 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus elongatus (strain PCC 7942) OX=1140 GN=Synpcc7942_1744 
+PE=3 SV=1
+Length=136
+
+ Score = 161 bits (407),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 28/135 (21%), Positives = 54/135 (40%), Gaps = 4/135 (3%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD--NLLFVVHSAE  70
+            +Q +  + + DTDA G+VY+   L     A    + ALG        D  +++  +  AE
+Sbjct  4    YQFQRVIRFGDTDAAGVVYFAQLLSICHEAYEAAIAALGIELRSFFSDRGSVILPIVHAE  63
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPR  130
+              Y  P    D L +  +   L R   +   ++    +   +   + +  C+ + T +  
+Sbjct  64   IDYQRPTYCGDRLEIELQATALGRDRFRVDYRLS--HNHQPVATAQTIHLCLESQTRQRS  121
+
+Query  131  AIPETLRAAFAGSPD  145
+             +PE L+     + D
+Sbjct  122  PLPERLQDWLQITAD  136
+
+
+> sp|A5GWA0|DNCH_SYNR3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechococcus sp. (strain RCC307) OX=316278 GN=SynRCC307_2256 
+PE=3 SV=1
+Length=131
+
+ Score = 160 bits (404),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 26/129 (20%), Positives = 49/129 (38%), Gaps = 7/129 (5%)
+
+Query  20   YYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-----NLLFVVHSAEARYH  74
+             + +TDA G++++   L++   A  E L   G   + L        NLL  +    A + 
+Sbjct  2    RFGETDAAGVLHFQQLLRWCHEAYEESLERFGLEPATLFPTPGQQLNLLLPITHCSADFL  61
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIPE  134
+            AP    D L ++   + L+  + +       A     +  G     C+ A   +   +PE
+Sbjct  62   APLICGDPLAIALTPQWLDPTAFEVAYSFSSAG--RPVARGLTRHQCIAAADRRRAPLPE  119
+
+Query  135  TLRAAFAGS  143
+             ++     S
+Sbjct  120  GVQRWLQAS  128
+
+
+> sp|B0CEN8|DNCH_ACAM1 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Acaryochloris marina (strain MBIC 11017) OX=329726 GN=AM1_3146 
+PE=3 SV=1
+Length=137
+
+ Score = 158 bits (399),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 22/129 (17%), Positives = 45/129 (35%), Gaps = 2/129 (2%)
+
+Query  15   QRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSAEARY  73
+                V  +DTDA G+VY+ + L     A  + L   G        + +    +  A+  +
+Sbjct  2    YTRTVRLQDTDAAGVVYFTSALDICHEAFEDSLMGAGIDIRTFFSNPDTATPIIHADIDF  61
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRR-ASDSVLLCEGRFLVACVRADTLKPRAI  132
+              P+   D+L +     +L     + R  +        L+ +      C+     + + +
+Sbjct  62   LKPSFCGDQLTLQLSTHQLAEDEFEVRYNITAVNKGERLIAKATIRHVCINPINRQRQPL  121
+
+Query  133  PETLRAAFA  141
+            P+ L     
+Sbjct  122  PKELVTWIQ  130
+
+
+> sp|Q55777|DNCH_SYNY3 1,4-dihydroxy-2-naphthoyl-CoA hydrolase 
+OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=slr0204 
+PE=1 SV=1
+Length=138
+
+ Score = 154 bits (390),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 27/130 (21%), Positives = 51/130 (39%), Gaps = 1/130 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN-LLFVVHSAEA  71
+            F    +VY  DTD  G+VY+  +L+    A    L +   +   ++        +  A  
+Sbjct  4    FTYERQVYLADTDGAGVVYFNQFLQMCHEAYESWLSSEHLSLQNIISVGDFALPLVHASI  63
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             + APA   D LLV+  + + +        ++ +A  + LL   +    C+     K   
+Sbjct  64   DFFAPAHCGDRLLVNLTITQASAHRFCCDYEISQAESAQLLARAQTHHVCIALPERKKAP  123
+
+Query  132  IPETLRAAFA  141
+            +P+  + A  
+Sbjct  124  LPQPWQTAIC  133
+
+
+> sp|F4HX80|ALT4_ARATH Acyl-acyl carrier protein thioesterase ATL4, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ALT4 PE=2 
+SV=1
+Length=188
+
+ Score = 143 bits (360),  Expect = 7e-43, Method: Composition-based stats.
+ Identities = 21/135 (16%), Positives = 51/135 (38%), Gaps = 1/135 (1%)
+
+Query  6    AQHGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFV  65
+             +   +  +   +V   + D  G+V    Y  + +    E L ++G    ++        
+Sbjct  45   GKEMSEFHEVELKVRDYELDQFGVVNNAVYANYCQHGMHEFLESIGINCDEVARSGEALA  104
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            +      + AP +  D+ +V   +   + A + F   + +  +  ++ E +  V  +   
+Sbjct  105  ISELTMNFLAPLRSGDKFVVKVNISRTSAARIYFDHSILKLPNQEVILEAKATVVWLDNK  164
+
+Query  126  TLKPRAIPETLRAAF  140
+               P  IP ++R+ F
+Sbjct  165  HR-PVRIPSSIRSKF  178
+
+
+> sp|Q8W583|ALT3_ARATH Acyl-acyl carrier protein thioesterase ATL3, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ALT3 PE=2 
+SV=1
+Length=190
+
+ Score = 143 bits (361),  Expect = 7e-43, Method: Composition-based stats.
+ Identities = 21/135 (16%), Positives = 55/135 (41%), Gaps = 1/135 (1%)
+
+Query  6    AQHGGKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFV  65
+             +   +  +   +V   + D  G+V    Y  + +  R E L ++G    ++        
+Sbjct  47   GKGMSEFHEVELKVRDYELDQFGVVNNAVYANYCQHGRHEFLESIGINCDEVARSGEALA  106
+
+Query  66   VHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRAD  125
+            +     ++ +P +  D+ +V A +   + A + F   + +  +   + E + +   +  +
+Sbjct  107  ISELTMKFLSPLRSGDKFVVKARISGTSAARIYFDHFIFKLPNQEPILEAKGIAVWLD-N  165
+
+Query  126  TLKPRAIPETLRAAF  140
+              +P  IP ++R+ F
+Sbjct  166  KYRPVRIPSSIRSKF  180
+
+
+> sp|Q9C7I8|ALT2_ARATH Acyl-acyl carrier protein thioesterase ATL2, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ALT2 PE=2 
+SV=1
+Length=188
+
+ Score = 143 bits (360),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 21/138 (15%), Positives = 54/138 (39%), Gaps = 2/138 (1%)
+
+Query  4    MRAQHG-GKPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNL  62
+            +R   G G   +   +V   + D  G+V    Y  + +  R E + ++G   +++     
+Sbjct  42   LRGSTGIGGFHEIELKVRDYELDQFGVVNNAVYANYCQHGRHEFMDSIGINCNEVSRSGG  101
+
+Query  63   LFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACV  122
+               +     ++ AP +     +V   +  ++   + F Q + +  +   + E +     +
+Sbjct  102  ALAIPELTIKFLAPLRSGCRFVVKTRISGISLVRIYFEQFIFKLPNQEPILEAKGTAVWL  161
+
+Query  123  RADTLKPRAIPETLRAAF  140
+              +  +P  +P  +R+ F
+Sbjct  162  D-NKYRPTRVPSHVRSYF  178
+
+
+> sp|Q9C7I5|ALT1_ARATH Acyl-acyl carrier protein thioesterase ATL1, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ALT1 PE=1 
+SV=1
+Length=189
+
+ Score = 140 bits (353),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 23/139 (17%), Positives = 52/139 (37%), Gaps = 5/139 (4%)
+
+Query  6    AQHGGKPF----QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDN  61
+             Q GGK      +   +V   + D  G+V    Y  + +  + E +  +G    ++    
+Sbjct  41   KQQGGKGMNGVHEIELKVRDYELDQFGVVNNAVYANYCQHGQHEFMETIGINCDEVSRSG  100
+
+Query  62   LLFVVHSAEARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVAC  121
+                V     ++ AP +   + +V   +   +   + F Q + +  +   + E + +   
+Sbjct  101  EALAVSELTIKFLAPLRSGCKFVVKTRISGTSMTRIYFEQFIFKLPNQEPILEAKGMAVW  160
+
+Query  122  VRADTLKPRAIPETLRAAF  140
+            +     +P  IP  +R+ F
+Sbjct  161  LD-KRYRPVCIPSYIRSNF  178
+
+
+> sp|P0A8Z6|YBGC_SHIFL Acyl-CoA thioester hydrolase YbgC OS=Shigella 
+flexneri OX=623 GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 138 bits (348),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAFA  141
+            P+++ A F 
+Sbjct  125  PKSIVAEFK  133
+
+
+> sp|P0A8Z3|YBGC_ECOLI Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli (strain K12) OX=83333 GN=ybgC PE=1 SV=1
+Length=134
+
+ Score = 138 bits (348),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAFA  141
+            P+++ A F 
+Sbjct  125  PKSIVAEFK  133
+
+
+> sp|P0A8Z4|YBGC_ECOL6 Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 
+GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 138 bits (348),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAFA  141
+            P+++ A F 
+Sbjct  125  PKSIVAEFK  133
+
+
+> sp|P0A8Z5|YBGC_ECO57 Acyl-CoA thioester hydrolase YbgC OS=Escherichia 
+coli O157:H7 OX=83334 GN=ybgC PE=3 SV=1
+Length=134
+
+ Score = 138 bits (348),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 58/129 (45%), Positives = 81/129 (63%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F+   RVYYEDTDAGG+VY+ +Y+ F ERARTE LR   F+Q  L+ + + FVV      
+Sbjct  6    FRWPVRVYYEDTDAGGVVYHASYVAFYERARTEMLRHHHFSQQALMAERVAFVVRKMTVE  65
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y+APA+LDD L +  E+  +   SL F Q++  A ++ LL E   LV CV    +KPRA+
+Sbjct  66   YYAPARLDDMLEIQTEITSMRGTSLVFTQRIVNAENT-LLNEAEVLVVCVDPLKMKPRAL  124
+
+Query  133  PETLRAAFA  141
+            P+++ A F 
+Sbjct  125  PKSIVAEFK  133
+
+
+> sp|O67466|Y1494_AQUAE Putative esterase aq_1494 OS=Aquifex aeolicus 
+(strain VF5) OX=224324 GN=aq_1494 PE=1 SV=1
+Length=128
+
+ Score = 132 bits (332),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 40/130 (31%), Positives = 61/130 (47%), Gaps = 4/130 (3%)
+
+Query  12   PFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEA  71
+            PF  R RV + +TDA GIV++ NY ++ E AR E LR+ GF  S++    L  V+ +A  
+Sbjct  2    PFIYRRRVQFYETDAQGIVHHSNYFRYFEEARGEFLRSKGFPYSKMRDMGLEVVLLNAYC  61
+
+Query  72   RYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRA  131
+             Y  P   DD   V   +EEL+R +  F   V +    + + +       V     K  +
+Sbjct  62   EYKKPLFYDDVFEVHLNLEELSRFTFTFSYIVFKED--IAVAKANTKHCMV--KNGKIVS  117
+
+Query  132  IPETLRAAFA  141
+            IP+ +     
+Sbjct  118  IPKEVLEVLK  127
+
+
+> sp|Q55116|Y410_SYNY3 Putative esterase sll0410 OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=sll0410 PE=3 
+SV=1
+Length=166
+
+ Score = 131 bits (330),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 33/131 (25%), Positives = 60/131 (46%), Gaps = 1/131 (1%)
+
+Query  11   KPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAE  70
+            K F+   RV    TD GG+V++  YL ++E AR E LR++G   + LV       V S  
+Sbjct  31   KWFEIMVRVQPHHTDYGGVVWHGTYLTWLETARVECLRSIGVDFADLVKLGCDLPVVSLA  90
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKP-  129
+             RYH   +L    ++  +++E+ +  L+++ Q+           G+  +  +     K  
+Sbjct  91   LRYHRAIRLGQTAVIKVQMQEIQKVRLEWQNQIVCLETGEPCVTGKITLVAIDPAKGKIM  150
+
+Query  130  RAIPETLRAAF  140
+            R +P  ++   
+Sbjct  151  RRLPPVVQEHL  161
+
+
+> sp|P44679|YBGC_HAEIN Acyl-CoA thioesterase YbgC OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=ybgC PE=1 SV=1
+Length=136
+
+ Score = 130 bits (327),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 60/132 (45%), Positives = 80/132 (61%), Gaps = 3/132 (2%)
+
+Query  11   KPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGD-NLLFVVHSA  69
+              F    RVYYEDTDAGG+VY+  YL F ERARTE LR L F Q  L+ +  L FVV + 
+Sbjct  4    NGFSFPVRVYYEDTDAGGVVYHARYLHFFERARTEYLRTLNFTQQTLLEEQQLAFVVKTL  63
+
+Query  70   EARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKP  129
+               Y   AKLDD L+V  EV E+  A++ F Q++ R  ++++L +    VACV    +KP
+Sbjct  64   AIDYCVAAKLDDLLMVETEVSEVKGATILFEQRLMR--NTLMLSKATVKVACVDLGKMKP  121
+
+Query  130  RAIPETLRAAFA  141
+             A P+ ++AAF 
+Sbjct  122  VAFPKEVKAAFH  133
+
+
+> sp|P77712|FADM_ECOLI Long-chain acyl-CoA thioesterase FadM OS=Escherichia 
+coli (strain K12) OX=83333 GN=fadM PE=1 SV=1
+Length=132
+
+ Score = 130 bits (326),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 31/129 (24%), Positives = 54/129 (42%), Gaps = 1/129 (1%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+             Q + +V     D    V    YL+F+E AR + L     +   +   N+ FVV +    
+Sbjct  1    MQTQIKVRGYHLDVYQHVNNARYLEFLEEARWDGLENSD-SFQWMTAHNIAFVVVNININ  59
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y  PA L D L +++++++LN  S    Q +    +  ++ +      C+   T K  A+
+Sbjct  60   YRRPAVLSDLLTITSQLQQLNGKSGILSQVITLEPEGQVVADALITFVCIDLKTQKALAL  119
+
+Query  133  PETLRAAFA  141
+               LR    
+Sbjct  120  EGELREKLE  128
+
+
+> sp|Q45061|YNEP_BACSU Putative acyl-CoA thioesterase YneP OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=yneP PE=3 SV=2
+Length=138
+
+ Score = 129 bits (324),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 37/136 (27%), Positives = 56/136 (41%), Gaps = 8/136 (6%)
+
+Query  14   QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARY  73
+            ++   V Y +TD  GIVY+ NYL +ME  RT  ++ LGF  S +    +L  V      Y
+Sbjct  5    KKEIEVRYAETDQMGIVYHANYLVWMEVGRTALIKDLGFLYSDMEKKGVLSPVVDINISY  64
+
+Query  74   HAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAIP  133
+              P    +  +V   +E+ N     +   +       L  +      CV  ++ KP    
+Sbjct  65   KKPLHYGETAVVHTWIEDYNGFKTVYGYHIYN-PAGELSIKATSSHICVDKESFKPI---  120
+
+Query  134  ETLRAAFAGSPDSFSA  149
+               R AF   PD  +A
+Sbjct  121  -QFRKAF---PDWHTA  132
+
+
+> sp|P94842|YBGC_HELPY Acyl-CoA thioesterase YbgC OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=ybgC PE=1 
+SV=2
+Length=133
+
+ Score = 113 bits (282),  Expect = 9e-32, Method: Composition-based stats.
+ Identities = 42/135 (31%), Positives = 65/135 (48%), Gaps = 12/135 (9%)
+
+Query  16   RFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNL-LFVVHSAEARYH  74
+            R RVYYEDTD+ G+VY+ NYLK+ ERAR+E      F Q+ L  +   +FV+ S +A + 
+Sbjct  2    RCRVYYEDTDSEGVVYHANYLKYCERARSEFF----FKQNVLPENEEGVFVIRSIKADFF  57
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGR-------FLVACVRADTL  127
+             PA L   L +  +++EL +  +   Q++    ++ L                 V   T 
+Sbjct  58   TPASLGQVLEIRTQIKELRKVFVVLFQEIYCIQNASLEPMKPFKVFASEIKFGFVNRSTY  117
+
+Query  128  KPRAIPETLRAAFAG  142
+             P AIP+  +     
+Sbjct  118  SPIAIPKLFKELLNA  132
+
+
+> sp|Q9ZLX8|YBGC_HELPJ Acyl-CoA thioesterase YbgC OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=ybgC PE=3 SV=1
+Length=133
+
+ Score = 112 bits (280),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 42/135 (31%), Positives = 66/135 (49%), Gaps = 12/135 (9%)
+
+Query  16   RFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNL-LFVVHSAEARYH  74
+            R RVYYEDTD+ G+VY+ NYLK+ ERAR+E      F Q+ L  +   +FV+ S +A + 
+Sbjct  2    RCRVYYEDTDSEGVVYHANYLKYCERARSEFF----FKQNVLPENEEGVFVIRSIKADFF  57
+
+Query  75   APAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGR-------FLVACVRADTL  127
+             PA L   L +  +++EL +  +   Q++    ++ L                 V   T 
+Sbjct  58   TPASLGQVLEIRTQIKELRKVFVVLFQEIYCIQNASLEPMKPFKVFASEIKFGFVNRSTY  117
+
+Query  128  KPRAIPETLRAAFAG  142
+             P AIP+  +   + 
+Sbjct  118  SPIAIPKLFKELLSA  132
+
+
+> sp|P56653|4HBT_PSEUC 4-hydroxybenzoyl-CoA thioesterase OS=Pseudomonas 
+sp. (strain CBS-3) OX=72586 PE=1 SV=1
+Length=141
+
+ Score = 105 bits (263),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 27/128 (21%), Positives = 50/128 (39%), Gaps = 8/128 (6%)
+
+Query  14   QQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFA--QSQLVGDNLL-FVVHSAE  70
+              + R+ + D D  GIV++ NY ++++ A        G    +  +V   ++   + S  
+Sbjct  6    TMQQRIEFGDCDPAGIVWFPNYHRWLDAASRNYFIKCGLPPWRQTVVERGIVGTPIVSCN  65
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRR---ASDSVLLCEGRFLVACV--RAD  125
+            A +   A  DD L +   ++E  R S   R  V R     D  L+     +        +
+Sbjct  66   ASFVCTASYDDVLTIETCIKEWRRKSFVQRHSVSRTTPGGDVQLVMRADEIRVFAMNDGE  125
+
+Query  126  TLKPRAIP  133
+             L+   +P
+Sbjct  126  RLRAIEVP  133
+
+
+> sp|Q80ZW2|THEM6_MOUSE Protein THEM6 OS=Mus musculus OX=10090 
+GN=Them6 PE=1 SV=1
+Length=207
+
+ Score = 49.1 bits (116),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 25/142 (18%), Positives = 46/142 (32%), Gaps = 16/142 (11%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARYHAPA  77
+            RV   D D    +    YL+  + AR   L   G     L   N   V+ ++ ARY    
+Sbjct  53   RVLPSDLDLLLHMNNARYLREADVARAAHLTRCGV-LGALRDLNAHTVLAASCARYRRSL  111
+
+Query  78   KLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLC-------------EGRFLVACVRA  124
+            +L +   V   ++  +  +     +     D  +               +      C   
+Sbjct  112  RLFEPFEVHTRLQGWDDRAFYLEARFVSLRDGFVCALLRFRQHVLGTSPDRVVQHLC--K  169
+
+Query  125  DTLKPRAIPETLRAAFAGSPDS  146
+              ++P  +PE L+   + +  S
+Sbjct  170  RRVEPPELPEDLKHWISYNETS  191
+
+
+> sp|Q6NRK8|THEM6_XENLA Protein THEM6 OS=Xenopus laevis OX=8355 
+GN=them6 PE=2 SV=1
+Length=207
+
+ Score = 48.7 bits (115),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 19/147 (13%), Positives = 37/147 (25%), Gaps = 12/147 (8%)
+
+Query  11   KPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAE  70
+            K       V   D D    +    YL+  + AR       G     +       V+    
+Sbjct  45   KEHSYSGIVLPHDLDFLFHMNNSRYLREADFARFAHFTRSGL-FQAMHSLGSSMVMAGCT  103
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFL-VA-------CV  122
+             RY    +L +   +   +   +  +    Q+     D  +                  V
+Sbjct  104  IRYRRSLRLWETFEIRTRLLCWDDKAFYVEQRFVALKDDFVSAVLMSRQHVIGNSPDKVV  163
+
+Query  123  RADTLKPR---AIPETLRAAFAGSPDS  146
+            ++   +       PE +      +  S
+Sbjct  164  QSMCKRKVESPEYPEEVVHWIKYNDSS  190
+
+
+> sp|Q5XIE1|THEM6_RAT Protein THEM6 OS=Rattus norvegicus OX=10116 
+GN=Them6 PE=2 SV=1
+Length=207
+
+ Score = 47.6 bits (112),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 23/136 (17%), Positives = 41/136 (30%), Gaps = 16/136 (12%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARYHAPA  77
+            RV   D D    +    YL+  + AR   L   G     L       V+ ++ ARY    
+Sbjct  53   RVLPSDLDLLLHMNNARYLREADVARAAHLTRCGV-LGALRDLGAHTVLAASCARYRRSL  111
+
+Query  78   KLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLC-------------EGRFLVACVRA  124
+            +L +   V   +   +  +     +     D  +               +      C   
+Sbjct  112  RLFEPFEVHTRLLGWDDRAFYLEARFVSLRDGFVCALLRFRQHVLGTSPDRVVQHLC--K  169
+
+Query  125  DTLKPRAIPETLRAAF  140
+              ++P  +PE L+   
+Sbjct  170  RRVEPPELPEDLKHWI  185
+
+
+> sp|B0JZP3|THEM6_DANRE Protein THEM6 OS=Danio rerio OX=7955 GN=them6 
+PE=2 SV=1
+Length=202
+
+ Score = 45.3 bits (106),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 18/96 (19%), Positives = 29/96 (30%), Gaps = 1/96 (1%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARYHAPA  77
+            RV   D D    +    YL+  + AR      +G             VV +   RY    
+Sbjct  49   RVLLHDMDFMCHMNNARYLRECDFARFAHGTRIGL-FMAARALKATMVVGATTIRYRRSL  107
+
+Query  78   KLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLC  113
+             L +   +   +   +  S    Q+    SD  +  
+Sbjct  108  ALGEGFELRTRIVSWDEKSFYLEQRFVSKSDGFISA  143
+
+
+> sp|A6H707|THEM6_BOVIN Protein THEM6 OS=Bos taurus OX=9913 GN=THEM6 
+PE=2 SV=1
+Length=208
+
+ Score = 44.9 bits (105),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 25/142 (18%), Positives = 43/142 (30%), Gaps = 16/142 (11%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARYHAPA  77
+            RV   D D    +    YL+  + AR   L   G     L       V+ ++ ARY    
+Sbjct  53   RVLPSDLDLLLHMNNARYLREADVARIAHLTRCGV-LEALRALGARAVLAASCARYRRSL  111
+
+Query  78   KLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLC-------------EGRFLVACVRA  124
+            +L +   V   +   +  +     +     D  +               E      C   
+Sbjct  112  RLFEPFEVRTRLLGWDDRAFYVEARFISLRDGFVCALLRSRQHVLGTSPERVVQHLC--K  169
+
+Query  125  DTLKPRAIPETLRAAFAGSPDS  146
+              ++P  +P  L+   A +  S
+Sbjct  170  RRVEPPELPADLQHWIAYNEAS  191
+
+
+> sp|B0BLZ5|THEM6_XENTR Protein THEM6 OS=Xenopus tropicalis OX=8364 
+GN=them6 PE=2 SV=1
+Length=206
+
+ Score = 44.1 bits (103),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 18/142 (13%), Positives = 36/142 (25%), Gaps = 12/142 (8%)
+
+Query  11   KPFQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAE  70
+            K       V   D D    +    YL+  + AR       G     +       V+  + 
+Sbjct  44   KEHCYGGIVLPHDLDFLFHMNNSRYLREADFARFAHFTRSGL-FQAVRYLGAGMVMAGST  102
+
+Query  71   ARYHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFL-VA-------CV  122
+             RY    +L +   +   +   +  +    Q+     D  +                  V
+Sbjct  103  IRYRRSLRLLETFEIRTRLLCWDDKAFYVEQRFVAPKDDFVCAVLLSRQHVIGNSPDKVV  162
+
+Query  123  RADTLKPR---AIPETLRAAFA  141
+            ++   +       PE +     
+Sbjct  163  QSMCKRKVESPEYPEEVAHWIK  184
+
+
+> sp|P11469|YSMA_BACSU Uncharacterized protein YsmA OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=ysmA PE=4 SV=1
+Length=147
+
+ Score = 43.0 bits (100),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/123 (16%), Positives = 41/123 (33%), Gaps = 4/123 (3%)
+
+Query  13   FQQRFRVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEAR  72
+            F  +  V + +TD  G +  V    + E  R    + L            + VV S +  
+Sbjct  20   FFNKVSVRFSETDMFGHMNNVTPFIYFEEVRISYFKKLNMMSE---NKQTMTVVASQQCD  76
+
+Query  73   YHAPAKLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLCEGRFLVACVRADTLKPRAI  132
+            Y       +EL +  +   +  +SL     +    +      G  ++  V  ++ K  + 
+Sbjct  77   YLRQVMPYEELRIYVKTSAVGSSSLTLHY-LGENLEGEPCFTGAVVMVQVSKESGKAVSW  135
+
+Query  133  PET  135
+             + 
+Sbjct  136  TDE  138
+
+
+> sp|Q8WUY1|THEM6_HUMAN Protein THEM6 OS=Homo sapiens OX=9606 GN=THEM6 
+PE=1 SV=2
+Length=208
+
+ Score = 39.9 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 22/136 (16%), Positives = 40/136 (29%), Gaps = 16/136 (12%)
+
+Query  18   RVYYEDTDAGGIVYYVNYLKFMERARTERLRALGFAQSQLVGDNLLFVVHSAEARYHAPA  77
+            RV   D D    +    YL+  + AR   L   G     L       V+ ++ AR+    
+Sbjct  53   RVLPSDLDLLLHMNNARYLREADFARVAHLTRCGV-LGALRELRAHTVLAASCARHRRSL  111
+
+Query  78   KLDDELLVSAEVEELNRASLKFRQQVRRASDSVLLC-------------EGRFLVACVRA  124
+            +L +   V   +   +  +     +     D  +               E      C   
+Sbjct  112  RLLEPFEVRTRLLGWDDRAFYLEARFVSLRDGFVCALLRFRQHLLGTSPERVVQHLC--Q  169
+
+Query  125  DTLKPRAIPETLRAAF  140
+              ++P  +P  L+   
+Sbjct  170  RRVEPPELPADLQHWI  185
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.152    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0464    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6225529024
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

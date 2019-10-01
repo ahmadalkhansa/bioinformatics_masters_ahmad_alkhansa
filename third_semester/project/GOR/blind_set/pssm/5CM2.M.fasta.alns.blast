@@ -1,0 +1,573 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           560,537 sequences; 201,466,755 total letters
+
+Results from round 1
+
+
+Query= 5CM2.M
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P53738|TR112_YEAST Multifunctional methyltransferase subunit...  142     2e-43
+  sp|Q09723|TR112_SCHPO Multifunctional methyltransferase subunit...  122     6e-36
+  sp|Q8X0S4|TR112_NEUCR Multifunctional methyltransferase subunit...  119     2e-34
+  sp|Q9DCG9|TR112_MOUSE Multifunctional methyltransferase subunit...  80.9    2e-19
+  sp|Q9C9R3|T112B_ARATH Multifunctional methyltransferase subunit...  78.2    2e-18
+  sp|Q2KIA2|TR112_BOVIN Multifunctional methyltransferase subunit...  77.8    3e-18
+  sp|Q9UI30|TR112_HUMAN Multifunctional methyltransferase subunit...  72.8    2e-16
+  sp|Q54N57|TR112_DICDI Multifunctional methyltransferase subunit...  68.6    1e-14
+  sp|Q8LFJ5|T112A_ARATH Multifunctional methyltransferase subunit...  62.8    2e-12
+  sp|O45241|TR112_CAEEL Multifunctional methyltransferase subunit...  57.0    3e-10
+  sp|Q9VP65|TR112_DROME Multifunctional methyltransferase subunit...  57.0    3e-10
+
+
+> sp|P53738|TR112_YEAST Multifunctional methyltransferase subunit 
+TRM112 OS=Saccharomyces cerevisiae (strain ATCC 204508 / 
+S288c) OX=559292 GN=TRM112 PE=1 SV=1
+Length=135
+
+ Score = 142 bits (358),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 67/135 (50%), Positives = 95/135 (70%), Gaps = 6/135 (4%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTF--SALEMVQQEA-EFDPEFLVSMLERIDWAALV  57
+            MKFLT+NF++C+ K C +S + FPL +  S  ++VQ E+ EF+PEFL+++++R+DW A++
+Sbjct  1    MKFLTTNFLKCSVKACDTSNDNFPLQYDGSKCQLVQDESIEFNPEFLLNIVDRVDWPAVL  60
+
+Query  58   KVANDLGNESLPDVKPEIDEPFAE---GNQGLLQELHSLLIETCIVEGTMKCENCGHTYF  114
+             VA +LGN +LP  KP       E    +  +L +LH+LL++T I EG MKC NCGH Y+
+Sbjct  61   TVAAELGNNALPPTKPSFPSSIQELTDDDMAILNDLHTLLLQTSIAEGEMKCRNCGHIYY  120
+
+Query  115  IKNSIPNFLLPPHLA  129
+            IKN IPN LLPPHL 
+Sbjct  121  IKNGIPNLLLPPHLV  135
+
+
+> sp|Q09723|TR112_SCHPO Multifunctional methyltransferase subunit 
+trm112 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=trm112 PE=3 SV=1
+Length=126
+
+ Score = 122 bits (307),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 60/124 (48%), Positives = 81/124 (65%), Gaps = 3/124 (2%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK LT+NF+ C++K+C SS  AFPL     ++  Q+ E  PEFL+ ++ RIDW AL+K  
+Sbjct  1    MKLLTANFLNCSNKKCTSSPEAFPLDVVDAKLAIQQLELKPEFLIGIMPRIDWNALLKTT  60
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+              LGN SLPD KP++     + ++ LL+ LH++L+ET I EG M C NCGH Y I   IP
+Sbjct  61   RQLGNYSLPDEKPDL---VDDSDEVLLKSLHNVLLETEITEGKMVCGNCGHVYPIFEGIP  117
+
+Query  121  NFLL  124
+            N LL
+Sbjct  118  NMLL  121
+
+
+> sp|Q8X0S4|TR112_NEUCR Multifunctional methyltransferase subunit 
+trm112 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=rmt-1 PE=3 
+SV=1
+Length=127
+
+ Score = 119 bits (297),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 56/129 (43%), Positives = 85/129 (66%), Gaps = 2/129 (2%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK +T NF+ CA K C SS ++FPL     E+ + + E +P+ L+++L RIDWAAL   +
+Sbjct  1    MKVMTLNFLTCAVKNCKSSNDSFPLHPKEAELAKDDIEINPQLLINVLPRIDWAALRTTS  60
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+             +LG  +LP+  P  ++   + ++ LL+ELH LL+ET ++EG + C +CGH Y +KN + 
+Sbjct  61   TELGFPTLPEQPPSPED--LQSDEALLKELHELLMETQMMEGKLVCGHCGHEYAVKNGVA  118
+
+Query  121  NFLLPPHLA  129
+            NFLLP HL 
+Sbjct  119  NFLLPSHLV  127
+
+
+> sp|Q9DCG9|TR112_MOUSE Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Mus musculus OX=10090 GN=Trmt112 PE=1 
+SV=1
+Length=125
+
+ Score = 80.9 bits (198),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 44/124 (35%), Positives = 71/124 (57%), Gaps = 6/124 (5%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK LT N +    +   + G  FPL   A E+     EF+PEF+  M+ +++WAALV+ A
+Sbjct  1    MKLLTHNLLSSHVRGVGTRG--FPLRLQATEVRINPVEFNPEFVARMIPKVEWAALVQAA  58
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+            + L   +L +V  E  E + E ++  L+++H +L+E  ++EGT++C   G  + I   IP
+Sbjct  59   DTL---NLAEVPKEPTEGY-EHDETFLRKMHHVLLEVDVLEGTLQCPESGRLFPISRGIP  114
+
+Query  121  NFLL  124
+            N LL
+Sbjct  115  NMLL  118
+
+
+> sp|Q9C9R3|T112B_ARATH Multifunctional methyltransferase subunit 
+TRM112 homolog B OS=Arabidopsis thaliana OX=3702 GN=TRM112B 
+PE=1 SV=1
+Length=124
+
+ Score = 78.2 bits (191),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 42/124 (34%), Positives = 63/124 (51%), Gaps = 5/124 (4%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            M+ +  N + C  K  V   N FPL   A ++  +E +F+P+FL  M  +IDW ALV  A
+Sbjct  1    MRLIVHNMLSCNIKGVV---NKFPLRIEAEKVTVKEVDFNPDFLRYMFAKIDWKALVDGA  57
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+              +    LPD  P  D    E ++  L++ H  L+E  + EG++ C   G  + +   IP
+Sbjct  58   RSMEYTELPDNAP--DTTTLESDETFLRKFHHALLELHLEEGSLVCPETGRKFSVSKGIP  115
+
+Query  121  NFLL  124
+            N LL
+Sbjct  116  NMLL  119
+
+
+> sp|Q2KIA2|TR112_BOVIN Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Bos taurus OX=9913 GN=TRMT112 PE=2 
+SV=1
+Length=125
+
+ Score = 77.8 bits (190),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 42/126 (33%), Positives = 68/126 (54%), Gaps = 10/126 (8%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            M+ LT N +    +     G  FPL   A E+     EF+P+F+V M+ +++WAAL++ A
+Sbjct  1    MRLLTHNLLSSHVRGVGPRG--FPLRLQATEVRINPVEFNPDFIVRMIPKVEWAALLEAA  58
+
+Query  61   NDLGNESLPDVKPEIDEPFA--EGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNS  118
+            + L    +P       EP    E N+  L+++H +L+E  ++EGT++C   G  + I   
+Sbjct  59   DHLHLIQVP------KEPIQGYEHNEEFLRKMHHVLLEVEVLEGTLQCPESGRVFPISRG  112
+
+Query  119  IPNFLL  124
+            IPN LL
+Sbjct  113  IPNMLL  118
+
+
+> sp|Q9UI30|TR112_HUMAN Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Homo sapiens OX=9606 GN=TRMT112 PE=1 
+SV=1
+Length=125
+
+ Score = 72.8 bits (177),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 41/124 (33%), Positives = 65/124 (52%), Gaps = 6/124 (5%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK LT N +    +   S G  FPL   A E+     EF+P F+  M+ +++W+A ++ A
+Sbjct  1    MKLLTHNLLSSHVRGVGSRG--FPLRLQATEVRICPVEFNPNFVARMIPKVEWSAFLEAA  58
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+            ++L    +P    E      E N+  L+ +H LL+E  ++EGT++C   G  + I   IP
+Sbjct  59   DNLRLIQVPKGPVE----GYEENEEFLRTMHHLLLEVEVIEGTLQCPESGRMFPISRGIP  114
+
+Query  121  NFLL  124
+            N LL
+Sbjct  115  NMLL  118
+
+
+> sp|Q54N57|TR112_DICDI Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Dictyostelium discoideum OX=44689 
+GN=DDB_G0285489 PE=3 SV=1
+Length=128
+
+ Score = 68.6 bits (166),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 38/125 (30%), Positives = 64/125 (51%), Gaps = 9/125 (7%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK LT N + C  KQC+  G  FPL   + E +  E EF+ EF  ++  ++DW  + +++
+Sbjct  1    MKILTHNMMACTKKQCM--GKGFPLKVESTEQIVLEQEFNYEFTKNIYPKLDWLGIAEIS  58
+
+Query  61   NDLGNESLPDVKPEIDE-PFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSI  119
+                     ++  ++D    +  ++  L+ LH+LL    ++ G++ C NC   Y I   I
+Sbjct  59   IKF------NIPIQLDTTKHSLEDEEFLKTLHNLLCNLKVITGSLTCPNCQRVYPIDKGI  112
+
+Query  120  PNFLL  124
+            PN LL
+Sbjct  113  PNMLL  117
+
+
+> sp|Q8LFJ5|T112A_ARATH Multifunctional methyltransferase subunit 
+TRM112 homolog A OS=Arabidopsis thaliana OX=3702 GN=TRM112A 
+PE=1 SV=1
+Length=124
+
+ Score = 62.8 bits (151),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 45/129 (35%), Positives = 70/129 (54%), Gaps = 15/129 (12%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            M+ +T N + C  K  V+SG  FPL   A  ++++E +F+P+F+  M  +I+W ALV+ A
+Sbjct  1    MRLITHNMLSCNIKG-VTSG--FPLRIEAGNVIEKEVDFNPDFIRHMFAKIEWKALVEGA  57
+
+Query  61   NDLGNESLPDVKPEI-----DEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFI  115
+              +G   LP+  P+      DEPF       L++LH  L+E  + EG + C   G  + +
+Sbjct  58   RSMGYAELPEESPDAAVLKSDEPF-------LKKLHHALLELHLEEGALVCPETGRKFPV  110
+
+Query  116  KNSIPNFLL  124
+               IPN LL
+Sbjct  111  NKGIPNMLL  119
+
+
+> sp|O45241|TR112_CAEEL Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Caenorhabditis elegans OX=6239 GN=C04H5.1 
+PE=3 SV=1
+Length=125
+
+ Score = 57.0 bits (136),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 35/124 (28%), Positives = 62/124 (50%), Gaps = 6/124 (5%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK    NF+     + V+ G  +PL     + V+++ EFD +  + ML+RI + AL+  A
+Sbjct  1    MKLFVHNFMSSRFLKNVTVG--YPLNLVVKQFVEKDIEFDRDNTIVMLDRIQYEALIVAA  58
+
+Query  61   NDLG-NESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSI  119
+              +  ++ +P  KP   E + E     L+  H LL+   +++G + C      + I++ I
+Sbjct  59   AAVNQSDRIPREKP---EKWDELTDEQLRVFHHLLMNIDVIDGELICPETKTVFPIRDGI  115
+
+Query  120  PNFL  123
+            PN L
+Sbjct  116  PNML  119
+
+
+> sp|Q9VP65|TR112_DROME Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Drosophila melanogaster OX=7227 GN=CG12975 
+PE=2 SV=1
+Length=124
+
+ Score = 57.0 bits (136),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 47/126 (37%), Positives = 70/126 (56%), Gaps = 9/126 (7%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK  T NF+   + + V  G    LT +  E+V  E+EF+P F+  +L ++DW+A+   A
+Sbjct  1    MKLSTYNFLTSVAIKGVKVGFPLKLTINKKEVV--ESEFNPTFVERILPKLDWSAVYGAA  58
+
+Query  61   NDLG-NESLPDVKPE-IDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNS  118
+                  E +P V+PE I E     N+ LLQ+LH LL E  ++EG ++C   G  + I + 
+Sbjct  59   QVAELTEDIPAVQPENIVE-----NELLLQKLHHLLFEIDVLEGQLECPETGRVFPISDG  113
+
+Query  119  IPNFLL  124
+            IPN LL
+Sbjct  114  IPNMLL  119
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5020276902
+Results from round 2
+
+
+Query= 5CM2.M
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P53738|TR112_YEAST Multifunctional methyltransferase subunit...  165     1e-52
+  sp|Q9DCG9|TR112_MOUSE Multifunctional methyltransferase subunit...  162     1e-51
+  sp|Q8X0S4|TR112_NEUCR Multifunctional methyltransferase subunit...  162     1e-51
+  sp|Q2KIA2|TR112_BOVIN Multifunctional methyltransferase subunit...  161     3e-51
+  sp|Q09723|TR112_SCHPO Multifunctional methyltransferase subunit...  161     3e-51
+  sp|Q9UI30|TR112_HUMAN Multifunctional methyltransferase subunit...  160     1e-50
+  sp|Q9C9R3|T112B_ARATH Multifunctional methyltransferase subunit...  160     1e-50
+  sp|Q54N57|TR112_DICDI Multifunctional methyltransferase subunit...  143     5e-44
+  sp|O45241|TR112_CAEEL Multifunctional methyltransferase subunit...  139     3e-42
+  sp|Q8LFJ5|T112A_ARATH Multifunctional methyltransferase subunit...  132     1e-39
+  sp|Q9VP65|TR112_DROME Multifunctional methyltransferase subunit...  118     3e-34
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P53738|TR112_YEAST Multifunctional methyltransferase subunit 
+TRM112 OS=Saccharomyces cerevisiae (strain ATCC 204508 / 
+S288c) OX=559292 GN=TRM112 PE=1 SV=1
+Length=135
+
+ Score = 165 bits (418),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 67/135 (50%), Positives = 94/135 (70%), Gaps = 6/135 (4%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTF--SALEMVQQE-AEFDPEFLVSMLERIDWAALV  57
+            MKFLT+NF++C+ K C +S + FPL +  S  ++VQ E  EF+PEFL+++++R+DW A++
+Sbjct  1    MKFLTTNFLKCSVKACDTSNDNFPLQYDGSKCQLVQDESIEFNPEFLLNIVDRVDWPAVL  60
+
+Query  58   KVANDLGNESLPDVKPEIDEPFAE---GNQGLLQELHSLLIETCIVEGTMKCENCGHTYF  114
+             VA +LGN +LP  KP       E    +  +L +LH+LL++T I EG MKC NCGH Y+
+Sbjct  61   TVAAELGNNALPPTKPSFPSSIQELTDDDMAILNDLHTLLLQTSIAEGEMKCRNCGHIYY  120
+
+Query  115  IKNSIPNFLLPPHLA  129
+            IKN IPN LLPPHL 
+Sbjct  121  IKNGIPNLLLPPHLV  135
+
+
+> sp|Q9DCG9|TR112_MOUSE Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Mus musculus OX=10090 GN=Trmt112 PE=1 
+SV=1
+Length=125
+
+ Score = 162 bits (410),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 42/124 (34%), Positives = 67/124 (54%), Gaps = 6/124 (5%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK LT N +    +   + G  FPL   A E+     EF+PEF+  M+ +++WAALV+ A
+Sbjct  1    MKLLTHNLLSSHVRGVGTRG--FPLRLQATEVRINPVEFNPEFVARMIPKVEWAALVQAA  58
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+            + L    +P    E      E ++  L+++H +L+E  ++EGT++C   G  + I   IP
+Sbjct  59   DTLNLAEVPKEPTE----GYEHDETFLRKMHHVLLEVDVLEGTLQCPESGRLFPISRGIP  114
+
+Query  121  NFLL  124
+            N LL
+Sbjct  115  NMLL  118
+
+
+> sp|Q8X0S4|TR112_NEUCR Multifunctional methyltransferase subunit 
+trm112 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A 
+/ CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=rmt-1 PE=3 
+SV=1
+Length=127
+
+ Score = 162 bits (410),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 56/129 (43%), Positives = 85/129 (66%), Gaps = 2/129 (2%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK +T NF+ CA K C SS ++FPL     E+ + + E +P+ L+++L RIDWAAL   +
+Sbjct  1    MKVMTLNFLTCAVKNCKSSNDSFPLHPKEAELAKDDIEINPQLLINVLPRIDWAALRTTS  60
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+             +LG  +LP+  P  ++   + ++ LL+ELH LL+ET ++EG + C +CGH Y +KN + 
+Sbjct  61   TELGFPTLPEQPPSPED--LQSDEALLKELHELLMETQMMEGKLVCGHCGHEYAVKNGVA  118
+
+Query  121  NFLLPPHLA  129
+            NFLLP HL 
+Sbjct  119  NFLLPSHLV  127
+
+
+> sp|Q2KIA2|TR112_BOVIN Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Bos taurus OX=9913 GN=TRMT112 PE=2 
+SV=1
+Length=125
+
+ Score = 161 bits (408),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 67/124 (54%), Gaps = 6/124 (5%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            M+ LT N +    +     G  FPL   A E+     EF+P+F+V M+ +++WAAL++ A
+Sbjct  1    MRLLTHNLLSSHVRGVGPRG--FPLRLQATEVRINPVEFNPDFIVRMIPKVEWAALLEAA  58
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+            + L    +P    +      E N+  L+++H +L+E  ++EGT++C   G  + I   IP
+Sbjct  59   DHLHLIQVPKEPIQ----GYEHNEEFLRKMHHVLLEVEVLEGTLQCPESGRVFPISRGIP  114
+
+Query  121  NFLL  124
+            N LL
+Sbjct  115  NMLL  118
+
+
+> sp|Q09723|TR112_SCHPO Multifunctional methyltransferase subunit 
+trm112 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+OX=284812 GN=trm112 PE=3 SV=1
+Length=126
+
+ Score = 161 bits (408),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 60/124 (48%), Positives = 81/124 (65%), Gaps = 3/124 (2%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK LT+NF+ C++K+C SS  AFPL     ++  Q+ E  PEFL+ ++ RIDW AL+K  
+Sbjct  1    MKLLTANFLNCSNKKCTSSPEAFPLDVVDAKLAIQQLELKPEFLIGIMPRIDWNALLKTT  60
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+              LGN SLPD KP++     + ++ LL+ LH++L+ET I EG M C NCGH Y I   IP
+Sbjct  61   RQLGNYSLPDEKPDL---VDDSDEVLLKSLHNVLLETEITEGKMVCGNCGHVYPIFEGIP  117
+
+Query  121  NFLL  124
+            N LL
+Sbjct  118  NMLL  121
+
+
+> sp|Q9UI30|TR112_HUMAN Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Homo sapiens OX=9606 GN=TRMT112 PE=1 
+SV=1
+Length=125
+
+ Score = 160 bits (404),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 41/124 (33%), Positives = 65/124 (52%), Gaps = 6/124 (5%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK LT N +    +   S G  FPL   A E+     EF+P F+  M+ +++W+A ++ A
+Sbjct  1    MKLLTHNLLSSHVRGVGSRG--FPLRLQATEVRICPVEFNPNFVARMIPKVEWSAFLEAA  58
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+            ++L    +P    E      E N+  L+ +H LL+E  ++EGT++C   G  + I   IP
+Sbjct  59   DNLRLIQVPKGPVE----GYEENEEFLRTMHHLLLEVEVIEGTLQCPESGRMFPISRGIP  114
+
+Query  121  NFLL  124
+            N LL
+Sbjct  115  NMLL  118
+
+
+> sp|Q9C9R3|T112B_ARATH Multifunctional methyltransferase subunit 
+TRM112 homolog B OS=Arabidopsis thaliana OX=3702 GN=TRM112B 
+PE=1 SV=1
+Length=124
+
+ Score = 160 bits (404),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 42/124 (34%), Positives = 63/124 (51%), Gaps = 5/124 (4%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            M+ +  N + C  K  V   N FPL   A ++  +E +F+P+FL  M  +IDW ALV  A
+Sbjct  1    MRLIVHNMLSCNIKGVV---NKFPLRIEAEKVTVKEVDFNPDFLRYMFAKIDWKALVDGA  57
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+              +    LPD  P  D    E ++  L++ H  L+E  + EG++ C   G  + +   IP
+Sbjct  58   RSMEYTELPDNAP--DTTTLESDETFLRKFHHALLELHLEEGSLVCPETGRKFSVSKGIP  115
+
+Query  121  NFLL  124
+            N LL
+Sbjct  116  NMLL  119
+
+
+> sp|Q54N57|TR112_DICDI Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Dictyostelium discoideum OX=44689 
+GN=DDB_G0285489 PE=3 SV=1
+Length=128
+
+ Score = 143 bits (360),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 38/125 (30%), Positives = 64/125 (51%), Gaps = 9/125 (7%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK LT N + C  KQC+  G  FPL   + E +  E EF+ EF  ++  ++DW  + +++
+Sbjct  1    MKILTHNMMACTKKQCM--GKGFPLKVESTEQIVLEQEFNYEFTKNIYPKLDWLGIAEIS  58
+
+Query  61   NDLGNESLPDVKPEIDE-PFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSI  119
+                     ++  ++D    +  ++  L+ LH+LL    ++ G++ C NC   Y I   I
+Sbjct  59   IKF------NIPIQLDTTKHSLEDEEFLKTLHNLLCNLKVITGSLTCPNCQRVYPIDKGI  112
+
+Query  120  PNFLL  124
+            PN LL
+Sbjct  113  PNMLL  117
+
+
+> sp|O45241|TR112_CAEEL Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Caenorhabditis elegans OX=6239 GN=C04H5.1 
+PE=3 SV=1
+Length=125
+
+ Score = 139 bits (349),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 35/124 (28%), Positives = 62/124 (50%), Gaps = 6/124 (5%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK    NF+     + V+ G  +PL     + V+++ EFD +  + ML+RI + AL+  A
+Sbjct  1    MKLFVHNFMSSRFLKNVTVG--YPLNLVVKQFVEKDIEFDRDNTIVMLDRIQYEALIVAA  58
+
+Query  61   NDLG-NESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSI  119
+              +  ++ +P  KP   E + E     L+  H LL+   +++G + C      + I++ I
+Sbjct  59   AAVNQSDRIPREKP---EKWDELTDEQLRVFHHLLMNIDVIDGELICPETKTVFPIRDGI  115
+
+Query  120  PNFL  123
+            PN L
+Sbjct  116  PNML  119
+
+
+> sp|Q8LFJ5|T112A_ARATH Multifunctional methyltransferase subunit 
+TRM112 homolog A OS=Arabidopsis thaliana OX=3702 GN=TRM112A 
+PE=1 SV=1
+Length=124
+
+ Score = 132 bits (331),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 40/124 (32%), Positives = 66/124 (53%), Gaps = 5/124 (4%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            M+ +T N + C  K   S    FPL   A  ++++E +F+P+F+  M  +I+W ALV+ A
+Sbjct  1    MRLITHNMLSCNIKGVTS---GFPLRIEAGNVIEKEVDFNPDFIRHMFAKIEWKALVEGA  57
+
+Query  61   NDLGNESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSIP  120
+              +G   LP+  P  D    + ++  L++LH  L+E  + EG + C   G  + +   IP
+Sbjct  58   RSMGYAELPEESP--DAAVLKSDEPFLKKLHHALLELHLEEGALVCPETGRKFPVNKGIP  115
+
+Query  121  NFLL  124
+            N LL
+Sbjct  116  NMLL  119
+
+
+> sp|Q9VP65|TR112_DROME Multifunctional methyltransferase subunit 
+TRM112-like protein OS=Drosophila melanogaster OX=7227 GN=CG12975 
+PE=2 SV=1
+Length=124
+
+ Score = 118 bits (295),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 45/125 (36%), Positives = 68/125 (54%), Gaps = 7/125 (6%)
+
+Query  1    MKFLTSNFVQCASKQCVSSGNAFPLTFSALEMVQQEAEFDPEFLVSMLERIDWAALVKVA  60
+            MK  T NF+   + + V  G    LT +  E+V  E+EF+P F+  +L ++DW+A+   A
+Sbjct  1    MKLSTYNFLTSVAIKGVKVGFPLKLTINKKEVV--ESEFNPTFVERILPKLDWSAVYGAA  58
+
+Query  61   NDLG-NESLPDVKPEIDEPFAEGNQGLLQELHSLLIETCIVEGTMKCENCGHTYFIKNSI  119
+                  E +P V+PE        N+ LLQ+LH LL E  ++EG ++C   G  + I + I
+Sbjct  59   QVAELTEDIPAVQPE----NIVENELLLQKLHHLLFEIDVLEGQLECPETGRVFPISDGI  114
+
+Query  120  PNFLL  124
+            PN LL
+Sbjct  115  PNMLL  119
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0411    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5020276902
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Sep 23, 2019  1:28 PM
+  Number of letters in database: 201,466,755
+  Number of sequences in database:  560,537
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
