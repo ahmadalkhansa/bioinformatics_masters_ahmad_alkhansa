@@ -1,0 +1,83 @@
+SHELL=/bin/bash
+
+# The 5 main directories are: blind_set GOR SVM profile
+# In the trainings directory, there are 4 training subdirectories
+# The data that are needed to be curated are in the data dir so
+# a variable for its path was created data_dir /blind_set trainings GOR SVM pssm align clean
+data_dir = ../data
+
+
+.PHONY:all
+all: input_file uniprot_sprot.fasta GOR SVM pssm align profile psiblast profile_extraction blind_builder
+
+
+
+pdb_fastas = $(shell ls blind_set/fasta/)
+pdb_pssm = $(pdb_fastas:.fasta=.pssm)
+
+# input file contains all the necessary parameters provided by the user
+input_file:
+	 cd ../bin/; python3 inputs.py
+
+uniprot_sprot.fasta:
+	cp $(db_dir)uniprot_sprot.fasta ./;\
+	makeblastdb -in uniprot_sprot.fasta -dbtype prot
+
+GOR:
+	mkdir -p GOR/{test0,test1,test2,test3,test4}; \
+	cd GOR; for tests in $$(ls); do mkdir $$tests/{predicted_files,modeling_results,evaluation}; done
+
+SVM:
+	mkdir -p SVM/{test0,test1,test2,test3,test4}; \
+	cd SVM; for tests in $$(ls); do mkdir $$tests/{predicted_files,modeling_results,evaluation}; done
+
+profile:
+	mkdir profile
+
+
+# profiles contain the pssm files and the alignment files. the subdirectories for the initial output of psiblast
+# are going to be pssm and align. The profile directory also contains profile_cur that is the directory of the
+# curated profiles from the pssm director
+
+pssm:
+	mkdir pssm
+
+align:
+	mkdir align
+
+# after creating the directories, I will run psiblast command which will be in this way
+# psiblast -query d3psma_.fa -db uniprot_sprot.fasta -evalue 0.01 -num_iterations 3
+#-out_ascii_pssm d3psma_.pssm -num_descriptions 10000 -num_alignments 10000 -
+#out d3psma_.alns.blast
+
+
+fasta_dir = $(data_dir)/fasta/
+db_dir = $(data_dir)/
+fastas = $(shell ls $(fasta_dir))
+
+output_pssm = $(fastas:.fasta=.pssm)
+
+psiblast: $(output_pssm)
+
+%.pssm: $(fasta_dir)%.fasta
+	psiblast -query $<\
+	 -db uniprot_sprot.fasta\
+	 -evalue 0.01\
+	 -num_iterations 3\
+	 -out_ascii_pssm pssm/$@\
+	 -num_descriptions 10000\
+	 -num_alignments 10000\
+	 -out align/$*.alns.blast
+
+# after this the python script is executed to extract profiles and create a file of pssm files with zero values
+profile_extraction:
+	 cd ../bin/; python3 profile_curator.py cv
+
+
+#blind_builder:
+#	cp ../../makfiles_proj/3_blind_builder; make -f 3_blind_builder
+
+.PHONY: clean
+
+clean:
+	rm -r blind_set trainings GOR SVM

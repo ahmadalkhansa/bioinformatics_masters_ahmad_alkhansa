@@ -1,0 +1,26 @@
+SHELL=/bin/bash
+
+.PHONY: all
+all: selected_psiblast selected_profile_extraction gor_train_predict
+
+selected_fastas = $(shell ls blind_set/fasta_selected/)
+selected_pssm = $(selected_fastas:.fasta=.pssm)
+
+selected_psiblast: $(selected_pssm)
+
+%.pssm: blind_set/fasta_selected/%.fasta
+	psiblast -query $<\
+	 -db uniprot_sprot.fasta\
+	 -evalue 0.01\
+	 -num_iterations 3\
+	 -out_ascii_pssm blind_set/pssm_selected/$@\
+	 -num_descriptions 10000\
+	 -num_alignments 10000\
+	 -out blind_set/align_selected/$*.alns.blast
+
+selected_profile_extraction:
+	cd ../bin/; python3 profile_curator.py selected
+
+# This script will train and predict all the cross blind and cross validation sets.
+gor_train_predict:
+	cd ../bin/; python3 gor_train_predict.py

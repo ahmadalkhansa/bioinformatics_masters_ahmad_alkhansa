@@ -1,0 +1,32 @@
+SHELL=/bin/bash
+
+.PHONY: all
+all: blind_set pur_blind_set profile_builder
+
+
+blind_set:
+	mkdir blind_set; \
+	cd blind_set; \
+	mkdir -p GOR/{predicted_files,modeling_results,evaluation}; \
+	mkdir -p SVM/{predicted_files,modeling_results,evaluation}; \
+	mkdir pdb; mkdir dssp
+	mkdir fasta/ ; \
+	mkdir profiles/ ; \
+	mkdir pssm/; \
+	mkdir align/; \
+	for i in $$(ls ../../data/fasta/); do (cat ../../data/fasta/$$i; echo) >> data.fasta; done; \
+	cp ../../../blind_set/tabularResults.csv ./; \
+	sed 's/"//g' tabularResults.csv > cur_tabularResults.csv; python ../../bin/extract_fasta_PDB.py cur_tabularResults.csv ./; \
+	makeblastdb -in data.fasta -dbtype prot; \
+	blastp -query PDBs.fasta -db data.fasta -evalue 0.01 -out pdb_hits_blast.tab -outfmt 6; \
+	python ../../bin/external_purifier.py pdb_hits_blast.tab PDBs.fasta purified_externally.fasta; \
+	blastclust -L 0.0 -S 30 -i purified_externally.fasta -o internal_red.clust; \
+	python ../../bin/res_opt_ext.py internal_red.clust > purified_ids.txt
+
+pur_blind_set:
+	cd blind_set; \
+	python ../../bin/fasta_ext.py purified_ids.txt PDBs.fasta fasta/
+
+profile_builder:
+	cp ../../makefiles_proj/4_blind_profile ./; make -f 4_blind_profile
+

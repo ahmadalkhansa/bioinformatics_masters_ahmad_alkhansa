@@ -1,0 +1,38 @@
+#I created a class that contains the paths toward the neccessary files and directories.
+#subject to update.
+
+class Path:
+#	window_size = input("enter window size: ")
+	fasta_dir = "../data/fasta/"
+	dssp_dir = "../data/dssp/"
+	cv_dir = "../data/cv/"
+	cv_ids_test0 = "../data/cv/test0"
+	cv_ids_test1 = "../data/cv/test1"
+	cv_ids_test2 = "../data/cv/test2"
+	cv_ids_test3 = "../data/cv/test3"
+	cv_ids_test4 = "../data/cv/test4"
+	uniprot_sprot = "../data/uniprot_sprot"
+	results_dir = "../results/"
+	profile_dir = "../results/profile/"
+	pssm_dir = "../results/pssm/"
+	gor_dir = "../results/GOR/"
+	svm_dir = "../results/SVM/"
+	blind_set_dir = "../results/blind_set/"
+	blind_gor_dir = "../results/blind_set/GOR/"
+	blind_svm_dir = "../results/blind_set/SVM/"
+	blind_report = "../results/blind_set/cur_tabularResults.csv"
+	blind_report_fasta = "../results/blind_set/PDBs.fasta"
+	blind_report_fasta_dir = "../results/blind_set/fasta/"
+	blind_profile_dir = "../results/blind_set/profiles/"
+	blind_pssm_dir = "../results/blind_set/pssm/"
+	blind_nominated_chids = "../results/blind_set/nominated_chids.txt"
+	blind_pdb_dir = "../results/blind_set/pdb/"
+	blind_dssp_dir = "../results/blind_set/dssp/"
+	blind_ss_sel_dir = "../results/blind_set/ss_selected/"
+	blind_fasta_sel_dir = "../results/blind_set/fasta_selected/"
+	blind_profile_selected_dir = "../results/blind_set/profile_selected/"
+	blind_pssm_selected_dir = "../results/blind_set/pssm_selected/"
+	training_ids_novalues = "../results/cvnohits.txt"
+#	training_ids_nohits = "../results/cv_ids_nohits.txt"
+	input_file = "../results/project_inputs.dic"
+

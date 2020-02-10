@@ -1,0 +1,38 @@
+SHELL=/bin/bash
+
+# I am going to try constructing the project directories using makefile
+# The main directory is gor_svm_proj
+# The subdirectories are data, results, doc and bin
+#mkdir to construct the tree
+
+
+#create a directory with a date to make sure that when experiment 
+#	repeated we don't get confused
+# the directories will be created in results and data directories
+
+#date
+project = eval_gor_svm_prj_last
+
+.PHONY: all
+all:
+	pwd
+	mkdir -p $(project)/data/; echo "enter the data source path"; read data_source; \
+	ls "$$data_source" | \
+	xargs -I{} cp -r "$$data_source"{} $(project)/data/
+	cp -r bin $(project)
+	mkdir -p $(project)/doc
+	mkdir -p $(project)/results/
+	cp makefiles_proj/2_results_builder $(project)/results
+	cd $(project)/results; $(MAKE) -f 2_results_builder
+	
+
+
+
+
+
+
+
+
+
+
+

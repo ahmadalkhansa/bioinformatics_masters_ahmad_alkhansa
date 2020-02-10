@@ -1,0 +1,40 @@
+SHELL=/bin/bash
+
+.PHONY: all
+#all: pdb_psiblast blind_profile_extraction blind_pdb_ids blind_pdb_download blind_dssp
+all: blind_pdb_download blind_dssp
+
+
+pdb_fastas = $(shell ls blind_set/fasta/)
+pdb_pssm = $(pdb_fastas:.fasta=.pssm)
+
+pdb_psiblast: $(pdb_pssm)
+
+%.pssm: blind_set/fasta/%.fasta
+	psiblast -query $<\
+	 -db uniprot_sprot.fasta\
+	 -evalue 0.01\
+	 -num_iterations 3\
+	 -out_ascii_pssm blind_set/pssm/$@\
+	 -num_descriptions 10000\
+	 -num_alignments 10000\
+	 -out blind_set/align/$*.alns.blast
+
+blind_profile_extraction:
+	 cd ../bin/; python3 profile_curator.py blind
+
+blind_pdb_ids:
+	cd ../bin/; python3 pdb_download.py
+
+blind_pdb_download:
+	for i in $$(cat blind_set/downloadingids.txt); do cd blind_set/pdb/; wget "http://www.rcsb.org/pdb/files/"$$i".pdb.gz"; \
+	gunzip $$i.pdb.gz; done
+
+blind_dssp:
+	for i in $$(ls blind_set/pdb/); do mkdssp -i blind_set/pdb/$$i -o blind_set/dssp/$${i:0:4}".dssp"; done
+
+blind_nominated_ids:
+	mkdir blind_set/{ss_selected,fasta_selected,align_selected,pssm_selected,profile_selected}; \
+	cd ../bin/; python sec_struct_fasta_extractor.py
+	cp ../../makefiles_proj/5_blind_selected_profile ./; make -f 5_blind_selected_profile
+
