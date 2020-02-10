@@ -1,5 +1,0 @@
-    New chain ID            Original chain ID
-
-5mx7-pdb-bundle1.pdb:
-           A                        A1
-           B                        B1

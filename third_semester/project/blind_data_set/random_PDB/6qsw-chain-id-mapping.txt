@@ -1,6 +1,0 @@
-    New chain ID            Original chain ID
-
-6qsw-pdb-bundle1.pdb:
-           A                       AAA
-           B                       BBB
-           C                       CCC
